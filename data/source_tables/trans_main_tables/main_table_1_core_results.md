@@ -1,0 +1,6 @@
+| method | all_success | low_memory_success | mid_memory_success | high_memory_success | delta_all_vs_official | delta_low_vs_official | manuscript_use |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Official | 0.6245 | 0.1383 | 0.4826 | 0.8886 | 0.0000 | 0.0000 | main baseline |
+| Oracle | 0.7142 | 0.2311 | 0.6103 | 0.9395 | 0.0897 | 0.0928 | headroom only, not a deployable method |
+| Guarded HGB | 0.6292 | 0.1345 | 0.4855 | 0.8971 | 0.0047 | -0.0038 | learned selector sanity check |
+| Pairwise rescue | 0.6330 | 0.1572 | 0.4931 | 0.8924 | 0.0085 | 0.0189 | deployable rescue result |

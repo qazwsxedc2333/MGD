@@ -1,0 +1,12520 @@
+| best_score | box_size | center_x | center_y | center_z | dataset | ligand_pdbqt | method | mol_id | n_poses | native_heavy_atoms | oracle_rmsd | oracle_success_2a | output_pdbqt | pdb_id | pose_heavy_atom_counts | receptor_pdbqt | returncode | runtime_sec | search_depth | status | stderr_tail | stdout_tail | subset_protocol | tag | thread | top_rmsd | top_score | top_success_2a |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| -6.3000 | 24.0000 | 31.3773 | 66.3831 | 7.7176 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1HWW_SWA/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1HWW_SWA | 10.0000 | 12.0000 | 3.5466 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HWW_SWA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1hww | 12,12,12,12,12,12,12,12,12,12 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1HWW_SWA/receptor.pdbqt | 0.0000 | 14.1950 | 8.0000 | ok | Failed to read file: /tmp/dep-25d15c.d
+Failed to read file: /tmp/dep-be6df5.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HWW_SWA/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.3      0.000      0.000
+   2         -5.9      1.837      4.250
+   3         -5.7      1.013      1.212
+   4         -5.6      2.190      2.859
+   5         -5.5      1.942      2.752
+   6         -5.1      1.896      2.765
+   7         -5.1      2.867      4.170
+   8         -5.1      1.685      2.306
+   9         -5.0      2.979      4.321
+  10         -4.9      4.605      5.685
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HWW_SWA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HWW_SWA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.410 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.5466 | -6.3000 | False |
+| -7.0000 | 24.0000 | 16.2287 | 17.4043 | 20.8774 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1N2V_BDI/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1N2V_BDI | 10.0000 | 15.0000 | 4.0240 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1N2V_BDI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1n2v | 15,15,15,15,15,15,15,15,15,15 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1N2V_BDI/receptor.pdbqt | 0.0000 | 14.1030 | 8.0000 | ok | Failed to read file: /tmp/dep-0aad70.d
+Failed to read file: /tmp/dep-529d59.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1N2V_BDI/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.0      0.000      0.000
+   2         -7.0      1.137      2.669
+   3         -7.0      1.701      3.400
+   4         -6.9      1.800      2.527
+   5         -6.9      0.462      2.476
+   6         -6.9      1.602      2.134
+   7         -6.5      1.607      3.027
+   8         -6.2      4.425      6.559
+   9         -6.1      1.269      2.852
+  10         -6.1      3.569      5.902
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1N2V_BDI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1N2V_BDI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.441 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.2358 | -7.0000 | False |
+| -10.7000 | 24.0000 | 19.8588 | -1.7400 | 16.8945 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1KZK_JE2/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1KZK_JE2 | 10.0000 | 41.0000 | 3.9320 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1KZK_JE2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1kzk | 41,41,41,41,41,41,41,41,41,41 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1KZK_JE2/receptor.pdbqt | 0.0000 | 14.9560 | 8.0000 | ok | Failed to read file: /tmp/dep-7e51ab.d
+Failed to read file: /tmp/dep-f4c4ba.d
+ |                          #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1KZK_JE2/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.7      0.000      0.000
+   2        -10.2      1.680      4.326
+   3         -9.9      1.222      1.924
+   4         -9.9      1.728      4.600
+   5         -9.7      2.488      9.968
+   6         -9.5      2.208     10.240
+   7         -9.4      2.679     10.302
+   8         -9.4      1.220      2.306
+   9         -9.4      2.079      8.628
+  10         -9.4      1.888      4.387
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1KZK_JE2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1KZK_JE2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.357 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.1835 | -10.7000 | False |
+| -11.6000 | 24.0000 | 20.7837 | 6.6803 | 2.9044 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1N46_PFA/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1N46_PFA | 10.0000 | 27.0000 | 4.6032 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1N46_PFA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1n46 | 27,27,27,27,27,27,27,27,27,27 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1N46_PFA/receptor.pdbqt | 0.0000 | 14.8220 | 8.0000 | ok | Failed to read file: /tmp/dep-2f09d1.d
+Failed to read file: /tmp/dep-06cd6d.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1N46_PFA/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -11.6      0.000      0.000
+   2        -11.4      0.227      1.681
+   3        -10.2      1.009      1.268
+   4        -10.0      1.005      2.100
+   5         -8.1      0.892      2.536
+   6         -7.7      0.879      1.947
+   7         -7.0      1.499      2.002
+   8         -6.9      1.225      2.184
+   9         -6.7      1.464      2.437
+  10         -6.1      1.556      2.906
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1N46_PFA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1N46_PFA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.413 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.6679 | -11.6000 | False |
+| -8.7000 | 24.0000 | 2.7242 | -0.9562 | 21.3385 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1YWR_LI9/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1YWR_LI9 | 10.0000 | 35.0000 | 5.2183 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1YWR_LI9/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1ywr | 35,35,35,35,35,35,35,35,35,35 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1YWR_LI9/receptor.pdbqt | 0.0000 | 14.8880 | 8.0000 | ok | Failed to read file: /tmp/dep-bc25e5.d
+Failed to read file: /tmp/dep-7a438f.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1YWR_LI9/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.7      0.000      0.000
+   2         -8.7      2.712      4.588
+   3         -8.6      3.060      6.626
+   4         -8.6      3.068      4.673
+   5         -8.5      3.773      7.444
+   6         -8.5      3.398      4.888
+   7         -8.5      3.145      4.790
+   8         -8.5      2.965      6.856
+   9         -8.4      3.435      5.027
+  10         -8.4      3.036      7.261
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1YWR_LI9/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1YWR_LI9/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.743 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.6879 | -8.7000 | False |
+| -10.3000 | 24.0000 | 16.6319 | -6.7009 | 14.4753 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1T40_ID5/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1T40_ID5 | 10.0000 | 28.0000 | 4.8076 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1T40_ID5/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1t40 | 28,28,28,28,28,28,28,28,28,28 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1T40_ID5/receptor.pdbqt | 0.0000 | 15.0280 | 8.0000 | ok | Failed to read file: /tmp/dep-167874.d
+Failed to read file: /tmp/dep-ae07a1.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1T40_ID5/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.3      0.000      0.000
+   2         -9.3      5.242      8.948
+   3         -8.7      1.534      2.579
+   4         -8.5      3.220      4.724
+   5         -8.4      1.872      2.916
+   6         -8.4      5.213      7.771
+   7         -8.2      1.944      3.279
+   8         -8.1      1.500      2.476
+   9         -8.0      2.891      4.414
+  10         -7.9      4.386      9.748
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1T40_ID5/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1T40_ID5/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.639 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.8076 | -10.3000 | False |
+| -9.2000 | 24.0000 | 10.5701 | 41.4784 | 32.4912 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1YGC_905/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1YGC_905 | 10.0000 | 38.0000 | 6.3898 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1YGC_905/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1ygc | 38,38,38,38,38,38,38,38,38,38 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1YGC_905/receptor.pdbqt | 0.0000 | 16.1410 | 8.0000 | ok | Failed to read file: /tmp/dep-cb175b.d
+Failed to read file: /tmp/dep-4efc78.d
+ |                          #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1YGC_905/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.2      0.000      0.000
+   2         -7.4      2.549      5.667
+   3         -7.2      3.183      7.127
+   4         -7.1      1.789      3.475
+   5         -6.8      4.005      7.913
+   6         -6.7      2.405      3.716
+   7         -6.5      3.144      7.638
+   8         -6.5      3.637      4.876
+   9         -6.5      3.456      7.522
+  10         -6.3      3.002      7.680
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1YGC_905/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1YGC_905/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 14.331 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.5766 | -9.2000 | False |
+| -8.1000 | 24.0000 | 33.1972 | -6.6337 | -10.5967 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1HWI_115/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1HWI_115 | 10.0000 | 30.0000 | 5.5814 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HWI_115/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1hwi | 30,30,30,30,30,30,30,30,30,30 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1HWI_115/receptor.pdbqt | 0.0000 | 14.1240 | 8.0000 | ok | Failed to read file: /tmp/dep-f916b0.d
+Failed to read file: /tmp/dep-2be9f4.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HWI_115/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.1      0.000      0.000
+   2         -8.0      1.203      1.598
+   3         -7.9      0.937      1.387
+   4         -7.8      1.256      1.543
+   5         -7.6      1.223      2.174
+   6         -7.6      1.073      1.724
+   7         -7.5      1.184      1.782
+   8         -7.4      1.816      3.273
+   9         -7.3      1.941      3.117
+  10         -7.2      3.920      6.834
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HWI_115/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HWI_115/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.564 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.5814 | -8.1000 | False |
+| -5.8000 | 24.0000 | 43.0799 | 75.6023 | 51.8394 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1W1P_GIO/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1W1P_GIO | 10.0000 | 11.0000 | 1.0967 | True | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1W1P_GIO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1w1p | 11,11,11,11,11,11,11,11,11,11 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1W1P_GIO/receptor.pdbqt | 0.0000 | 13.2400 | 8.0000 | ok | Failed to read file: /tmp/dep-675c09.d
+Failed to read file: /tmp/dep-0f7949.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1W1P_GIO/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.8      0.000      0.000
+   2         -5.5      1.435      1.759
+   3         -5.4      1.574      1.935
+   4         -5.3      9.999     10.828
+   5         -5.3      9.702     10.551
+   6         -5.2      2.423      3.524
+   7         -5.2      9.999     10.724
+   8         -5.2      1.660      3.266
+   9         -5.2     10.010     10.767
+  10         -5.2      9.731     10.884
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1W1P_GIO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1W1P_GIO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.208 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 10.9583 | -5.8000 | False |
+| -5.8000 | 24.0000 | 81.6208 | 75.0015 | 97.9635 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1N1M_A3M/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1N1M_A3M | 10.0000 | 12.0000 | 2.9710 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1N1M_A3M/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1n1m | 12,12,12,12,12,12,12,12,12,12 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1N1M_A3M/receptor.pdbqt | 0.0000 | 14.4320 | 8.0000 | ok | Failed to read file: /tmp/dep-99cf74.d
+Failed to read file: /tmp/dep-c88ced.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1N1M_A3M/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.8      0.000      0.000
+   2         -5.7      1.472      4.818
+   3         -5.5      1.404      1.754
+   4         -5.4      1.484      4.979
+   5         -5.4      1.334      1.501
+   6         -5.3      1.537      4.601
+   7         -5.3      1.605      1.968
+   8         -5.3      1.643      4.840
+   9         -5.3      1.519      1.701
+  10         -5.2      1.290      4.403
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1N1M_A3M/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1N1M_A3M/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.220 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.9710 | -5.8000 | False |
+| -9.2000 | 24.0000 | -9.5104 | 48.7035 | 38.0918 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1KE5_LS1/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1KE5_LS1 | 10.0000 | 23.0000 | 5.6688 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1KE5_LS1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1ke5 | 23,23,23,23,23,23,23,23,23,23 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1KE5_LS1/receptor.pdbqt | 0.0000 | 14.3980 | 8.0000 | ok | Failed to read file: /tmp/dep-acecb1.d
+Failed to read file: /tmp/dep-09d410.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1KE5_LS1/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.2      0.000      0.000
+   2         -9.2      0.656      1.198
+   3         -8.6      1.580      2.063
+   4         -8.6      1.682      2.028
+   5         -8.3      2.807      3.574
+   6         -8.3      6.237      7.005
+   7         -8.2      7.470      8.746
+   8         -8.2      7.156      8.331
+   9         -8.2      6.350      7.077
+  10         -8.1      2.794      3.425
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1KE5_LS1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1KE5_LS1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.354 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.8078 | -9.2000 | False |
+| -8.5000 | 24.0000 | 39.4785 | 112.7971 | 82.1133 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/2BM2_PM2/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 2BM2_PM2 | 10.0000 | 30.0000 | 4.3282 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/2BM2_PM2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 2bm2 | 30,30,30,30,30,30,30,30,30,30 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/2BM2_PM2/receptor.pdbqt | 0.0000 | 13.4980 | 8.0000 | ok | Failed to read file: /tmp/dep-adcb61.d
+Failed to read file: /tmp/dep-8531a4.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/2BM2_PM2/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.5      0.000      0.000
+   2         -7.9      2.737      5.258
+   3         -7.9      5.024      8.683
+   4         -7.9      1.577      2.433
+   5         -7.7      2.394      9.597
+   6         -7.7      1.015      1.128
+   7         -7.6      2.526      3.578
+   8         -7.6      4.986      6.857
+   9         -7.4      5.074      7.292
+  10         -7.4      1.322      1.837
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/2BM2_PM2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/2BM2_PM2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.710 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.3638 | -8.5000 | False |
+| -12.0000 | 24.0000 | 46.4473 | 18.0072 | 17.9191 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1OPK_P16/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1OPK_P16 | 10.0000 | 29.0000 | 3.3410 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1OPK_P16/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1opk | 29,29,29,29,29,29,29,29,29,29 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1OPK_P16/receptor.pdbqt | 0.0000 | 14.2710 | 8.0000 | ok | Failed to read file: /tmp/dep-86c8bb.d
+Failed to read file: /tmp/dep-70ca8f.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1OPK_P16/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -12.0      0.000      0.000
+   2        -11.8      0.364      1.745
+   3        -11.6      1.194      1.698
+   4        -11.5      1.232      2.435
+   5        -10.6      1.456      2.845
+   6        -10.5      1.695      3.255
+   7        -10.5      1.769      2.809
+   8        -10.3      1.414      2.209
+   9         -9.8      2.050      3.475
+  10         -9.7      1.969      2.931
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1OPK_P16/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1OPK_P16/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.344 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.4055 | -12.0000 | False |
+| -10.2000 | 24.0000 | 7.3346 | 6.8155 | 22.9755 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1LPZ_CMB/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1LPZ_CMB | 10.0000 | 32.0000 | 4.3464 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1LPZ_CMB/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1lpz | 32,32,32,32,32,32,32,32,32,32 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1LPZ_CMB/receptor.pdbqt | 0.0000 | 14.1760 | 8.0000 | ok | Failed to read file: /tmp/dep-3995df.d
+Failed to read file: /tmp/dep-c697e7.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1LPZ_CMB/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.2      0.000      0.000
+   2         -8.9      2.483      5.415
+   3         -8.4      3.261      5.842
+   4         -8.3      2.404      5.609
+   5         -8.2      3.575      8.274
+   6         -8.1      4.410      8.470
+   7         -8.1      2.910      6.311
+   8         -8.1      3.533      4.883
+   9         -8.1      3.164      5.318
+  10         -8.0      3.988      7.838
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1LPZ_CMB/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1LPZ_CMB/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.697 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.3464 | -10.2000 | False |
+| -13.7000 | 24.0000 | 26.1806 | 26.0608 | 40.3637 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1T46_STI/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1T46_STI | 10.0000 | 37.0000 | 7.0930 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1T46_STI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1t46 | 37,37,37,37,37,37,37,37,37,37 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1T46_STI/receptor.pdbqt | 0.0000 | 14.1460 | 8.0000 | ok | Failed to read file: /tmp/dep-f8c4eb.d
+Failed to read file: /tmp/dep-9ff4e2.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1T46_STI/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -13.7      0.000      0.000
+   2        -13.2      0.528      1.147
+   3        -12.6      1.157      1.802
+   4        -11.7      2.349     12.961
+   5        -11.1      2.409     13.205
+   6        -10.7      2.552     12.443
+   7        -10.7      6.376     13.011
+   8        -10.7      3.317     11.981
+   9        -10.6      2.441     12.622
+  10        -10.5      4.963     10.114
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1T46_STI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1T46_STI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.744 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.1149 | -13.7000 | False |
+| -8.2000 | 24.0000 | 22.6405 | 15.9048 | 32.5329 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1OWE_675/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1OWE_675 | 10.0000 | 22.0000 | 2.9317 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1OWE_675/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1owe | 22,22,22,22,22,22,22,22,22,22 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1OWE_675/receptor.pdbqt | 0.0000 | 14.1390 | 8.0000 | ok | Failed to read file: /tmp/dep-7b2b40.d
+Failed to read file: /tmp/dep-70efed.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1OWE_675/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.2      0.000      0.000
+   2         -8.2      0.308      1.271
+   3         -8.0      1.309      1.718
+   4         -7.9      1.587      1.949
+   5         -7.9      1.472      1.804
+   6         -7.8      2.132      2.408
+   7         -7.6      1.073      1.480
+   8         -7.6      8.868     11.214
+   9         -7.6      1.789      2.357
+  10         -7.5      1.742      2.181
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1OWE_675/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1OWE_675/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.285 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.3018 | -8.2000 | False |
+| -8.4000 | 24.0000 | 8.6364 | 33.1419 | -1.9029 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1R9O_FLP/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1R9O_FLP | 10.0000 | 18.0000 | 6.7159 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1R9O_FLP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1r9o | 18,18,18,18,18,18,18,18,18,18 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1R9O_FLP/receptor.pdbqt | 0.0000 | 14.1980 | 8.0000 | ok | Failed to read file: /tmp/dep-5d8409.d
+Failed to read file: /tmp/dep-ce48d0.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1R9O_FLP/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.4      0.000      0.000
+   2         -8.4      0.087      1.145
+   3         -8.0     12.213     13.990
+   4         -7.8     11.763     13.520
+   5         -7.8     11.868     13.654
+   6         -7.8      8.918     10.918
+   7         -7.8      9.308     11.397
+   8         -7.7      1.244      1.548
+   9         -7.7      1.477      2.157
+  10         -7.7      9.472     11.372
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1R9O_FLP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1R9O_FLP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.125 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 11.1711 | -8.4000 | False |
+| -7.9000 | 24.0000 | 73.5792 | 45.0840 | 50.0545 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1V48_HA1/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1V48_HA1 | 10.0000 | 22.0000 | 3.2331 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1V48_HA1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1v48 | 22,22,22,22,22,22,22,22,22,22 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1V48_HA1/receptor.pdbqt | 0.0000 | 14.2420 | 8.0000 | ok | Failed to read file: /tmp/dep-2e2c1b.d
+Failed to read file: /tmp/dep-6315cb.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1V48_HA1/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.9      0.000      0.000
+   2         -6.7      6.000      9.432
+   3         -6.6      3.106      4.615
+   4         -6.5      5.985      9.772
+   5         -6.4      3.982      6.821
+   6         -6.3      2.715      3.574
+   7         -6.3      4.327      6.010
+   8         -6.3      2.422      3.404
+   9         -6.3      6.296      9.803
+  10         -6.1      4.194      6.620
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1V48_HA1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1V48_HA1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.352 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.2331 | -7.9000 | False |
+| -10.1000 | 24.0000 | 48.8944 | 27.2430 | 13.0621 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1K3U_IAD/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1K3U_IAD | 10.0000 | 21.0000 | 1.8271 | True | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1K3U_IAD/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1k3u | 21,21,21,21,21,21,21,21,21,21 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1K3U_IAD/receptor.pdbqt | 0.0000 | 14.1950 | 8.0000 | ok | Failed to read file: /tmp/dep-0cb559.d
+Failed to read file: /tmp/dep-4644bd.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1K3U_IAD/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.1      0.000      0.000
+   2         -9.3      1.217      2.067
+   3         -8.9      1.179      2.004
+   4         -8.6      1.021      2.113
+   5         -8.6      1.562      2.426
+   6         -8.2      1.243      2.117
+   7         -8.0      1.383      2.035
+   8         -7.9      1.600      2.772
+   9         -7.8      1.513      2.733
+  10         -7.7      5.733      7.953
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1K3U_IAD/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1K3U_IAD/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.338 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 1.8271 | -10.1000 | True |
+| -7.9000 | 24.0000 | 68.7066 | 34.9220 | 19.3975 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1P62_GEO/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1P62_GEO | 10.0000 | 18.0000 | 3.5892 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1P62_GEO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1p62 | 18,18,18,18,18,18,18,18,18,18 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1P62_GEO/receptor.pdbqt | 0.0000 | 14.2360 | 8.0000 | ok | Failed to read file: /tmp/dep-8da390.d
+Failed to read file: /tmp/dep-e5bac3.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1P62_GEO/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.9      0.000      0.000
+   2         -6.8      2.886      5.221
+   3         -6.6      9.219     11.871
+   4         -6.5      3.540      5.775
+   5         -6.3      6.950      9.548
+   6         -6.2      7.427     10.035
+   7         -6.1      8.213     10.539
+   8         -5.8      6.823      9.487
+   9         -5.7      4.381      6.041
+  10         -5.7      6.177      8.315
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1P62_GEO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1P62_GEO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.236 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.5438 | -7.9000 | False |
+| -8.5000 | 24.0000 | 16.6862 | 25.4975 | 12.9437 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1HP0_AD3/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1HP0_AD3 | 10.0000 | 19.0000 | 2.5231 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HP0_AD3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1hp0 | 19,19,19,19,19,19,19,19,19,19 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1HP0_AD3/receptor.pdbqt | 0.0000 | 14.0110 | 8.0000 | ok | Failed to read file: /tmp/dep-b3a3d2.d
+Failed to read file: /tmp/dep-05810f.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HP0_AD3/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.5      0.000      0.000
+   2         -8.4      1.520      2.554
+   3         -8.2      1.237      1.454
+   4         -8.2      1.534      2.545
+   5         -7.9      1.591      2.718
+   6         -7.3      1.601      2.872
+   7         -7.2      2.118      3.495
+   8         -7.1      1.479      2.541
+   9         -6.8      4.266      7.240
+  10         -6.7      2.504      4.952
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HP0_AD3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HP0_AD3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.142 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.8369 | -8.5000 | False |
+| -5.5000 | 24.0000 | 16.3324 | 12.7156 | 41.0448 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1P2Y_NCT/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1P2Y_NCT | 10.0000 | 12.0000 | 2.9137 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1P2Y_NCT/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1p2y | 12,12,12,12,12,12,12,12,12,12 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1P2Y_NCT/receptor.pdbqt | 0.0000 | 14.0890 | 8.0000 | ok | Failed to read file: /tmp/dep-237998.d
+Failed to read file: /tmp/dep-0fdd20.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1P2Y_NCT/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.5      0.000      0.000
+   2         -5.5      1.515      1.877
+   3         -5.5      1.208      2.198
+   4         -5.4      8.171      9.191
+   5         -5.4      0.906      1.437
+   6         -5.4      7.741      9.743
+   7         -5.4      1.026      1.768
+   8         -5.3      7.741      9.267
+   9         -5.2      7.929      9.176
+  10         -5.2      7.232      9.415
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1P2Y_NCT/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1P2Y_NCT/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.060 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.9625 | -5.5000 | False |
+| -9.4000 | 24.0000 | 36.1295 | 16.5957 | 30.9979 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1SG0_STL/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1SG0_STL | 10.0000 | 17.0000 | 5.2333 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1SG0_STL/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1sg0 | 17,17,17,17,17,17,17,17,17,17 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1SG0_STL/receptor.pdbqt | 0.0000 | 14.1360 | 8.0000 | ok | Failed to read file: /tmp/dep-ac4946.d
+Failed to read file: /tmp/dep-5a85d1.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1SG0_STL/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.4      0.000      0.000
+   2         -9.3      0.098      1.178
+   3         -9.3      0.156      2.347
+   4         -9.1      1.323      7.551
+   5         -9.1      1.305      7.584
+   6         -8.9      0.543      2.091
+   7         -8.7      1.233      7.518
+   8         -8.7      2.489      3.551
+   9         -8.7      1.424      7.607
+  10         -8.5      0.966      1.520
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1SG0_STL/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1SG0_STL/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.212 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.3614 | -9.4000 | False |
+| -8.7000 | 24.0000 | 69.1788 | 45.2288 | 25.3751 | astex_diverse | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1HVY_D16/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1HVY_D16 | 10.0000 | 32.0000 | 6.6619 | False | results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HVY_D16/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1hvy | 32,32,32,32,32,32,32,32,32,32 | results/posebench_702_predictions/vina_cpu_full/astex_diverse/1HVY_D16/receptor.pdbqt | 0.0000 | 14.3100 | 8.0000 | ok | Failed to read file: /tmp/dep-e8dc42.d
+Failed to read file: /tmp/dep-9b407e.d
+ | 23).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HVY_D16/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.7      0.000      0.000
+   2         -8.7      3.385     10.627
+   3         -8.6      2.382      3.037
+   4         -8.6      4.398      9.354
+   5         -8.5      2.473      3.519
+   6         -8.4      1.404      1.887
+   7         -8.4      3.544      4.562
+   8         -8.3      4.061      6.311
+   9         -8.3      2.395      2.917
+  10         -8.3      1.650      2.342
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HVY_D16/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/astex_diverse/1HVY_D16/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.692 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 8.9657 | -8.7000 | False |
+|  | 24.0000 |  |  |  | dockgen |  | PocketVina-GPU native-pocket subset | 6a71_1_9UX_0 |  |  |  |  |  | 6a71 |  |  |  |  | 8.0000 | missing_vina_receptor_pdbqt |  |  | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 |  |  |  |
+| -5.7000 | 24.0000 | 35.0472 | -4.6045 | -30.3405 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/3o7j_1_2AL_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 3o7j_1_2AL_0 | 10.0000 | 11.0000 | 7.9966 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3o7j_1_2AL_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 3o7j | 11,11,11,11,11,11,11,11,11,11 | results/posebench_702_predictions/vina_cpu_full/dockgen/3o7j_1_2AL_0/receptor.pdbqt | 0.0000 | 13.3460 | 8.0000 | ok | Failed to read file: /tmp/dep-85c7a5.d
+Failed to read file: /tmp/dep-b753ce.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3o7j_1_2AL_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.7      0.000      0.000
+   2         -5.5      2.037      4.188
+   3         -5.1     15.250     15.815
+   4         -5.1      2.123      4.135
+   5         -4.9      9.337     10.833
+   6         -4.9      2.053      4.312
+   7         -4.9     15.286     15.980
+   8         -4.8      1.178      3.930
+   9         -4.8      2.232      4.186
+  10         -4.8      9.552     11.382
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3o7j_1_2AL_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3o7j_1_2AL_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.301 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 8.1228 | -5.7000 | False |
+| 0.8000 | 24.0000 | 13.4328 | 17.9248 | 6.6005 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/5enr_1_MBX_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 5enr_1_MBX_0 | 10.0000 | 36.0000 | 12.1723 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5enr_1_MBX_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 5enr | 36,36,36,36,36,36,36,36,36,36 | results/posebench_702_predictions/vina_cpu_full/dockgen/5enr_1_MBX_0/receptor.pdbqt | 0.0000 | 14.3100 | 8.0000 | ok | Failed to read file: /tmp/dep-9269ed.d
+Failed to read file: /tmp/dep-b5ae03.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5enr_1_MBX_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1          0.8      0.000      0.000
+   2          1.6      1.562      2.026
+   3          2.2      2.240      5.355
+   4          5.0      4.936      8.304
+   5          5.4      3.665      5.395
+   6          8.6      1.842      2.710
+   7          9.2      5.580      8.469
+   8          9.6      4.306      6.719
+   9          9.6      6.542     13.125
+  10         10.5      5.264      7.885
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5enr_1_MBX_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5enr_1_MBX_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.790 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 14.5513 | 0.8000 | False |
+| -4.5000 | 24.0000 | 85.8852 | 13.2474 | 29.0555 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/3nvv_1_MTE_1/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 3nvv_1_MTE_1 | 10.0000 | 24.0000 | 12.6679 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3nvv_1_MTE_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 3nvv | 24,24,24,24,24,24,24,24,24,24 | results/posebench_702_predictions/vina_cpu_full/dockgen/3nvv_1_MTE_1/receptor.pdbqt | 0.0000 | 14.1340 | 8.0000 | ok | Failed to read file: /tmp/dep-b28c6f.d
+Failed to read file: /tmp/dep-753c84.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3nvv_1_MTE_1/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.5      0.000      0.000
+   2         -4.3      1.116      1.377
+   3         -3.9     14.069     16.350
+   4         -3.8      2.689      3.022
+   5         -3.7      4.480      6.679
+   6         -3.6     14.125     16.928
+   7         -3.4     12.010     15.212
+   8         -3.4     15.481     17.526
+   9         -3.4     12.656     15.801
+  10         -3.3     16.042     17.885
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3nvv_1_MTE_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3nvv_1_MTE_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.339 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 13.9371 | -4.5000 | False |
+| -4.9000 | 24.0000 | -28.4984 | 13.0593 | 7.9655 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/4zay_1_4LS_6/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 4zay_1_4LS_6 | 10.0000 | 36.0000 | 5.7247 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4zay_1_4LS_6/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 4zay | 36,36,36,36,36,36,36,36,36,36 | results/posebench_702_predictions/vina_cpu_full/dockgen/4zay_1_4LS_6/receptor.pdbqt | 0.0000 | 13.1980 | 8.0000 | ok | Failed to read file: /tmp/dep-c9a3e0.d
+Failed to read file: /tmp/dep-15b2d0.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4zay_1_4LS_6/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.9      0.000      0.000
+   2         -4.9      4.914      7.672
+   3         -4.8      2.435      3.890
+   4         -4.7      9.064     11.325
+   5         -4.7      7.363      9.474
+   6         -4.7      5.096      6.959
+   7         -4.6      7.865     10.157
+   8         -4.6      5.596      7.879
+   9         -4.6      9.860     12.400
+  10         -4.6     10.719     13.196
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4zay_1_4LS_6/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4zay_1_4LS_6/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.970 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 11.9695 | -4.9000 | False |
+| -9.6000 | 24.0000 | 6.0635 | 6.0868 | -14.0663 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/4rhe_1_FMN_6/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 4rhe_1_FMN_6 | 10.0000 | 31.0000 | 3.9715 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4rhe_1_FMN_6/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 4rhe | 31,31,31,31,31,31,31,31,31,31 | results/posebench_702_predictions/vina_cpu_full/dockgen/4rhe_1_FMN_6/receptor.pdbqt | 0.0000 | 14.1960 | 8.0000 | ok | Failed to read file: /tmp/dep-fb2ed9.d
+Failed to read file: /tmp/dep-389d57.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4rhe_1_FMN_6/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.6      0.000      0.000
+   2         -9.5      4.818      7.821
+   3         -9.3      3.261      7.394
+   4         -9.3      3.329      7.621
+   5         -9.3      3.262      7.321
+   6         -9.3      4.598      7.772
+   7         -9.3      2.602      4.010
+   8         -9.2      4.208      7.670
+   9         -9.2      4.622      7.822
+  10         -9.1      3.598      7.647
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4rhe_1_FMN_6/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4rhe_1_FMN_6/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.575 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.9715 | -9.6000 | False |
+| -6.6000 | 24.0000 | 55.9515 | -15.5005 | -20.8705 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/1sbz_1_FMN_3/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1sbz_1_FMN_3 | 10.0000 | 31.0000 | 4.7804 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1sbz_1_FMN_3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1sbz | 31,31,31,31,31,31,31,31,31,31 | results/posebench_702_predictions/vina_cpu_full/dockgen/1sbz_1_FMN_3/receptor.pdbqt | 0.0000 | 13.3660 | 8.0000 | ok | Failed to read file: /tmp/dep-17bb59.d
+Failed to read file: /tmp/dep-503bc4.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1sbz_1_FMN_3/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.6      0.000      0.000
+   2         -6.5      3.411      6.386
+   3         -6.5      1.752      2.297
+   4         -6.2      3.237      4.214
+   5         -6.2      3.486      7.106
+   6         -6.0      2.104      2.851
+   7         -6.0      2.439      3.106
+   8         -6.0      2.656      5.213
+   9         -5.9      4.636      7.590
+  10         -5.9      3.910      6.923
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1sbz_1_FMN_3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1sbz_1_FMN_3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.837 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.8471 | -6.6000 | False |
+|  | 24.0000 |  |  |  | dockgen |  | PocketVina-GPU native-pocket subset | 5u82_2_ZN0_0 |  |  |  |  |  | 5u82 |  |  |  |  | 8.0000 | missing_vina_receptor_pdbqt |  |  | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 |  |  |  |
+| -7.6000 | 24.0000 | -48.5984 | 26.1066 | 13.3717 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/6yaq_1_OHZ_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6yaq_1_OHZ_0 | 10.0000 | 25.0000 | 5.6901 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6yaq_1_OHZ_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6yaq | 25,25,25,25,25,25,25,25,25,25 | results/posebench_702_predictions/vina_cpu_full/dockgen/6yaq_1_OHZ_0/receptor.pdbqt | 0.0000 | 14.2170 | 8.0000 | ok | Failed to read file: /tmp/dep-de0394.d
+Failed to read file: /tmp/dep-6966f7.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6yaq_1_OHZ_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.6      0.000      0.000
+   2         -7.6      1.998      2.933
+   3         -7.6      5.294      9.552
+   4         -7.6      5.084      7.117
+   5         -7.6      5.471      7.599
+   6         -7.6      1.733      2.735
+   7         -7.5      1.697      2.742
+   8         -7.5      3.212      4.291
+   9         -7.5      1.673      2.725
+  10         -7.5      3.105      3.668
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6yaq_1_OHZ_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6yaq_1_OHZ_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.519 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.6901 | -7.6000 | False |
+| -6.0000 | 24.0000 | 7.5469 | -2.3622 | -97.1599 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/6n19_2_K8V_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6n19_2_K8V_0 | 10.0000 | 17.0000 | 4.4029 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6n19_2_K8V_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6n19 | 17,17,17,17,17,17,17,17,17,17 | results/posebench_702_predictions/vina_cpu_full/dockgen/6n19_2_K8V_0/receptor.pdbqt | 0.0000 | 14.0900 | 8.0000 | ok | Failed to read file: /tmp/dep-441b06.d
+Failed to read file: /tmp/dep-6228c4.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6n19_2_K8V_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.0      0.000      0.000
+   2         -6.0      3.298      5.500
+   3         -5.9      2.362      6.172
+   4         -5.9      3.813      6.438
+   5         -5.9      3.817      6.502
+   6         -5.9      3.484      5.929
+   7         -5.7      4.138      5.499
+   8         -5.6      3.631      6.260
+   9         -5.6      4.558      6.980
+  10         -5.6      3.306      5.175
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6n19_2_K8V_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6n19_2_K8V_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.184 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.1643 | -6.0000 | False |
+| -8.0000 | 24.0000 | -13.9543 | 71.5804 | -7.4240 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/6o6y_1_ACK_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6o6y_1_ACK_0 | 10.0000 | 22.0000 | 5.7998 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6o6y_1_ACK_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6o6y | 22,22,22,22,22,22,22,22,22,22 | results/posebench_702_predictions/vina_cpu_full/dockgen/6o6y_1_ACK_0/receptor.pdbqt | 0.0000 | 14.0300 | 8.0000 | ok | Failed to read file: /tmp/dep-60faf8.d
+Failed to read file: /tmp/dep-283cb1.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6o6y_1_ACK_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.0      0.000      0.000
+   2         -7.1      1.689      3.301
+   3         -6.8      1.083      1.999
+   4         -6.6      2.466      3.254
+   5         -6.5      1.816      3.247
+   6         -6.5      4.198      6.017
+   7         -6.4      1.664      2.475
+   8         -6.3      3.101      4.958
+   9         -6.3      4.302      6.330
+  10         -6.3      4.599      6.270
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6o6y_1_ACK_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6o6y_1_ACK_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.224 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.5343 | -8.0000 | False |
+| -11.7000 | 24.0000 | 30.4821 | 85.4443 | -12.5775 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/4bc9_1_CNV-FAD_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 4bc9_1_CNV-FAD_0 | 10.0000 | 57.0000 | 7.8176 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4bc9_1_CNV-FAD_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 4bc9 | 57,57,57,57,57,57,57,57,57,57 | results/posebench_702_predictions/vina_cpu_full/dockgen/4bc9_1_CNV-FAD_0/receptor.pdbqt | 0.0000 | 15.4700 | 8.0000 | ok | Failed to read file: /tmp/dep-0769ee.d
+Failed to read file: /tmp/dep-131ccb.d
+ | jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|  =======                            \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4bc9_1_CNV-FAD_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -11.7      0.000      0.000
+   2        -10.5      2.018      4.021
+   3        -10.3      2.488      4.802
+   4        -10.1      1.002      1.427
+   5         -9.8      1.173      1.559
+   6         -9.2      2.191      4.163
+   7         -9.1      1.978      3.595
+   8         -9.0      3.036      5.225
+   9         -8.3      2.837     13.246
+  10         -8.3      1.687      3.257
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4bc9_1_CNV-FAD_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4bc9_1_CNV-FAD_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 14.924 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 11.5971 | -11.7000 | False |
+| -6.5000 | 24.0000 | -3.0669 | 18.1522 | 28.6843 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/3wvc_1_FEG_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 3wvc_1_FEG_0 | 10.0000 | 37.0000 | 11.2040 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3wvc_1_FEG_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 3wvc | 37,37,37,37,37,37,37,37,37,37 | results/posebench_702_predictions/vina_cpu_full/dockgen/3wvc_1_FEG_0/receptor.pdbqt | 0.0000 | 13.3100 | 8.0000 | ok | Failed to read file: /tmp/dep-a5d0d4.d
+Failed to read file: /tmp/dep-f4b61a.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3wvc_1_FEG_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.5      0.000      0.000
+   2         -6.3      1.865      2.467
+   3         -6.2      2.296      3.778
+   4         -6.1      2.436      3.819
+   5         -6.1      2.626      7.145
+   6         -6.1      1.799      2.237
+   7         -5.8      2.927      4.455
+   8         -5.8      2.643      4.184
+   9         -5.8      2.016      2.880
+  10         -5.7      2.936      4.967
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3wvc_1_FEG_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3wvc_1_FEG_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.060 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 12.0617 | -6.5000 | False |
+| -9.8000 | 24.0000 | 27.2546 | 112.0448 | 26.9447 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/4cdn_2_FAD_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 4cdn_2_FAD_0 | 10.0000 | 53.0000 | 4.6342 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4cdn_2_FAD_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 4cdn | 53,53,53,53,53,53,53,53,53,53 | results/posebench_702_predictions/vina_cpu_full/dockgen/4cdn_2_FAD_0/receptor.pdbqt | 0.0000 | 16.2290 | 8.0000 | ok | Failed to read file: /tmp/dep-72ec40.d
+Failed to read file: /tmp/dep-aa02d8.d
+ | 10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|  =======                            \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4cdn_2_FAD_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.8      0.000      0.000
+   2         -9.6      2.484      4.580
+   3         -9.6      3.392      6.488
+   4         -9.2      3.262      6.791
+   5         -9.1      3.452      8.638
+   6         -9.0      3.696      7.573
+   7         -9.0      4.116      7.177
+   8         -9.0      3.414      6.145
+   9         -8.9      4.040      6.839
+  10         -8.9      3.267      6.280
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4cdn_2_FAD_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4cdn_2_FAD_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 15.544 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.6342 | -9.8000 | False |
+|  | 24.0000 |  |  |  | dockgen |  | PocketVina-GPU native-pocket subset | 1sij_1_PCD_0 |  |  |  |  |  | 1sij |  |  |  |  | 8.0000 | missing_vina_receptor_pdbqt |  |  | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 |  |  |  |
+| -9.2000 | 24.0000 | 32.2860 | 6.2353 | -17.6980 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/2gah_1_NAD_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 2gah_1_NAD_0 | 10.0000 | 44.0000 | 6.6053 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2gah_1_NAD_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 2gah | 44,44,44,44,44,44,44,44,44,44 | results/posebench_702_predictions/vina_cpu_full/dockgen/2gah_1_NAD_0/receptor.pdbqt | 0.0000 | 14.2640 | 8.0000 | ok | Failed to read file: /tmp/dep-3a1630.d
+Failed to read file: /tmp/dep-ef2c75.d
+ |                                #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2gah_1_NAD_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.2      0.000      0.000
+   2         -9.2      3.085      9.669
+   3         -9.2      4.792      8.287
+   4         -9.1      4.100     12.070
+   5         -9.1      3.818      6.399
+   6         -9.0      2.979      5.022
+   7         -9.0      3.328      5.058
+   8         -9.0      3.124      4.365
+   9         -8.9      2.981      9.104
+  10         -8.9      4.423      8.381
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2gah_1_NAD_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2gah_1_NAD_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.823 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.7201 | -9.2000 | False |
+|  | 24.0000 |  |  |  | dockgen |  | PocketVina-GPU native-pocket subset | 5ae3_2_AWB_1 |  |  |  |  |  | 5ae3 |  |  |  |  | 8.0000 | missing_vina_receptor_pdbqt |  |  | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 |  |  |  |
+| -7.7000 | 24.0000 | 72.5497 | 76.7451 | 18.2380 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/2zcz_2_TRP_3/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 2zcz_2_TRP_3 | 10.0000 | 15.0000 | 2.7317 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2zcz_2_TRP_3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 2zcz | 15,15,15,15,15,15,15,15,15,15 | results/posebench_702_predictions/vina_cpu_full/dockgen/2zcz_2_TRP_3/receptor.pdbqt | 0.0000 | 13.1030 | 8.0000 | ok | Failed to read file: /tmp/dep-b894bf.d
+Failed to read file: /tmp/dep-0ada77.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2zcz_2_TRP_3/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.7      0.000      0.000
+   2         -7.5      1.686      1.954
+   3         -7.3      1.507      2.109
+   4         -7.2      1.431      1.556
+   5         -7.2      1.827      2.074
+   6         -7.1      1.763      2.448
+   7         -6.6      1.684      2.522
+   8         -6.3      1.250      1.451
+   9         -6.3      1.613      2.367
+  10         -6.2      1.578      1.879
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2zcz_2_TRP_3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2zcz_2_TRP_3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.168 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.9697 | -7.7000 | False |
+| -9.5000 | 24.0000 | 16.8754 | 32.5024 | 62.3858 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/2v7u_1_SAM_2/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 2v7u_1_SAM_2 | 10.0000 | 27.0000 | 2.1090 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2v7u_1_SAM_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 2v7u | 27,27,27,27,27,27,27,27,27,27 | results/posebench_702_predictions/vina_cpu_full/dockgen/2v7u_1_SAM_2/receptor.pdbqt | 0.0000 | 14.1130 | 8.0000 | ok | Failed to read file: /tmp/dep-c10e08.d
+Failed to read file: /tmp/dep-ac9a63.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2v7u_1_SAM_2/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.5      0.000      0.000
+   2         -9.3      2.037      2.448
+   3         -8.8      1.287      1.779
+   4         -8.3      2.106      2.759
+   5         -7.3      2.403      2.875
+   6         -6.8      1.010      1.117
+   7         -6.3      1.971      2.204
+   8         -5.9      2.004      2.315
+   9         -5.8      2.070      2.746
+  10         -5.8      1.509      2.394
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2v7u_1_SAM_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2v7u_1_SAM_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.510 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.9711 | -9.5000 | False |
+| -4.7000 | 24.0000 | -11.4750 | -16.2495 | -10.8921 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/5k45_2_GLU_1/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 5k45_2_GLU_1 | 10.0000 | 10.0000 | 2.7618 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5k45_2_GLU_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 5k45 | 10,10,10,10,10,10,10,10,10,10 | results/posebench_702_predictions/vina_cpu_full/dockgen/5k45_2_GLU_1/receptor.pdbqt | 0.0000 | 14.0050 | 8.0000 | ok | Failed to read file: /tmp/dep-9f9e61.d
+Failed to read file: /tmp/dep-29a327.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5k45_2_GLU_1/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.7      0.000      0.000
+   2         -4.7      1.130      1.534
+   3         -4.5      3.513      3.853
+   4         -4.4      1.003      1.586
+   5         -4.2      3.057      4.585
+   6         -4.2      3.830      4.582
+   7         -4.2      4.366      5.425
+   8         -4.2      2.302      4.696
+   9         -4.1      1.446      4.075
+  10         -4.1      3.581      4.633
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5k45_2_GLU_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5k45_2_GLU_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.049 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.9158 | -4.7000 | False |
+| -8.3000 | 24.0000 | 21.9533 | -7.2721 | 14.1468 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/6yao_1_OJ2_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6yao_1_OJ2_0 | 10.0000 | 24.0000 | 7.1591 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6yao_1_OJ2_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6yao | 24,24,24,24,24,24,24,24,24,24 | results/posebench_702_predictions/vina_cpu_full/dockgen/6yao_1_OJ2_0/receptor.pdbqt | 0.0000 | 13.4060 | 8.0000 | ok | Failed to read file: /tmp/dep-8fccfe.d
+Failed to read file: /tmp/dep-f891af.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6yao_1_OJ2_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.3      0.000      0.000
+   2         -7.8      3.822      7.718
+   3         -7.6      3.910      7.884
+   4         -7.6      3.904      7.414
+   5         -7.6      4.057      7.761
+   6         -7.6      3.926      7.868
+   7         -7.6      4.360      8.175
+   8         -7.6      3.499      6.352
+   9         -7.6      4.234      8.097
+  10         -7.5      3.842      8.250
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6yao_1_OJ2_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6yao_1_OJ2_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.769 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 8.7416 | -8.3000 | False |
+| -5.7000 | 24.0000 | -1.8487 | -24.9095 | 24.7223 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/5k66_1_ASN-GLU_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 5k66_1_ASN-GLU_0 | 10.0000 | 17.0000 | 3.2441 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5k66_1_ASN-GLU_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 5k66 | 17,17,17,17,17,17,17,17,17,17 | results/posebench_702_predictions/vina_cpu_full/dockgen/5k66_1_ASN-GLU_0/receptor.pdbqt | 0.0000 | 13.3600 | 8.0000 | ok | Failed to read file: /tmp/dep-e8362c.d
+Failed to read file: /tmp/dep-c53289.d
+ |         #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5k66_1_ASN-GLU_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.7      0.000      0.000
+   2         -5.3      2.138      2.613
+   3         -5.3      2.429      6.973
+   4         -5.3      0.825      1.119
+   5         -5.2      2.967      6.821
+   6         -5.2      1.920      2.244
+   7         -5.1      4.694      6.022
+   8         -5.1      1.772      1.970
+   9         -5.1      8.337     10.137
+  10         -5.1      2.515      6.592
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5k66_1_ASN-GLU_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5k66_1_ASN-GLU_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.492 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.5600 | -5.7000 | False |
+| -8.9000 | 24.0000 | 10.7602 | -10.9254 | 20.4677 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/6rz2_1_5CD_2/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6rz2_1_5CD_2 | 10.0000 | 19.0000 | 2.4751 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6rz2_1_5CD_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6rz2 | 19,19,19,19,19,19,19,19,19,19 | results/posebench_702_predictions/vina_cpu_full/dockgen/6rz2_1_5CD_2/receptor.pdbqt | 0.0000 | 14.0680 | 8.0000 | ok | Failed to read file: /tmp/dep-fdaa8a.d
+Failed to read file: /tmp/dep-fd4e7e.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6rz2_1_5CD_2/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.9      0.000      0.000
+   2         -8.3      4.656      6.144
+   3         -8.2      3.996      5.834
+   4         -7.9      4.215      6.150
+   5         -7.8      4.754      6.311
+   6         -7.8      4.534      6.177
+   7         -7.7      5.164      6.826
+   8         -7.7      4.122      5.780
+   9         -7.7      4.581      6.122
+  10         -7.7      4.269      5.741
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6rz2_1_5CD_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6rz2_1_5CD_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.184 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.4751 | -8.9000 | False |
+| -4.6000 | 24.0000 | 27.9098 | 94.0197 | 44.2863 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/1za2_1_CTP_4/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1za2_1_CTP_4 | 10.0000 | 29.0000 | 4.5533 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1za2_1_CTP_4/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1za2 | 29,29,29,29,29,29,29,29,29,29 | results/posebench_702_predictions/vina_cpu_full/dockgen/1za2_1_CTP_4/receptor.pdbqt | 0.0000 | 14.0970 | 8.0000 | ok | Failed to read file: /tmp/dep-8c9a43.d
+Failed to read file: /tmp/dep-cf30a7.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1za2_1_CTP_4/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.6      0.000      0.000
+   2         -4.4      2.661      4.308
+   3         -4.2      4.208      6.773
+   4         -4.1      4.650      7.415
+   5         -4.1      6.328      9.737
+   6         -4.1      4.389      7.495
+   7         -4.1      4.962      8.496
+   8         -4.0      6.134      8.485
+   9         -4.0      4.419      6.589
+  10         -4.0      4.583      7.271
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1za2_1_CTP_4/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1za2_1_CTP_4/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.723 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.9276 | -4.6000 | False |
+| -3.9000 | 24.0000 | 54.4651 | 6.0265 | 81.1337 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/4zqx_1_ATP_2/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 4zqx_1_ATP_2 | 10.0000 | 31.0000 | 11.1660 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4zqx_1_ATP_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 4zqx | 31,31,31,31,31,31,31,31,31,31 | results/posebench_702_predictions/vina_cpu_full/dockgen/4zqx_1_ATP_2/receptor.pdbqt | 0.0000 | 14.0440 | 8.0000 | ok | Failed to read file: /tmp/dep-7bb071.d
+Failed to read file: /tmp/dep-18a362.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4zqx_1_ATP_2/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -3.9      0.000      0.000
+   2         -3.8      2.222      3.331
+   3         -3.8      3.292      5.582
+   4         -3.5      8.880     11.984
+   5         -3.4      4.153      6.307
+   6         -3.3      2.183      3.515
+   7         -3.3      9.032     12.120
+   8         -3.3      5.271      8.381
+   9         -3.2      3.861      5.721
+  10         -3.2      3.899      6.423
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4zqx_1_ATP_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4zqx_1_ATP_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.634 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 11.4744 | -3.9000 | False |
+| -8.0000 | 24.0000 | -25.0587 | 67.6706 | -5.1620 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/3s6a_1_ANP_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 3s6a_1_ANP_0 | 10.0000 | 27.0000 | 2.6101 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3s6a_1_ANP_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 3s6a | 27,27,27,27,27,27,27,27,27,27 | results/posebench_702_predictions/vina_cpu_full/dockgen/3s6a_1_ANP_0/receptor.pdbqt | 0.0000 | 14.2160 | 8.0000 | ok | Failed to read file: /tmp/dep-5db9f2.d
+Failed to read file: /tmp/dep-8b55cd.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3s6a_1_ANP_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.0      0.000      0.000
+   2         -7.9      1.542      1.773
+   3         -7.7      1.021      1.442
+   4         -7.3      2.559      3.944
+   5         -7.2      3.532      5.889
+   6         -7.2      3.324      5.515
+   7         -7.1      3.168      5.499
+   8         -7.0      3.156      5.074
+   9         -6.9      1.698      2.135
+  10         -6.8      3.299      5.494
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3s6a_1_ANP_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3s6a_1_ANP_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.558 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.6101 | -8.0000 | False |
+| -5.3000 | 24.0000 | 7.3988 | 33.7004 | 28.6865 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/6fgc_1_ADP_1/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6fgc_1_ADP_1 | 10.0000 | 27.0000 | 4.1296 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6fgc_1_ADP_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6fgc | 27,27,27,27,27,27,27,27,27,27 | results/posebench_702_predictions/vina_cpu_full/dockgen/6fgc_1_ADP_1/receptor.pdbqt | 0.0000 | 13.4270 | 8.0000 | ok | Failed to read file: /tmp/dep-f6ed65.d
+Failed to read file: /tmp/dep-2abbc7.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6fgc_1_ADP_1/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.3      0.000      0.000
+   2         -5.1      3.218      4.670
+   3         -5.1      3.981      6.852
+   4         -5.0      5.452      7.328
+   5         -4.8      3.659      5.924
+   6         -4.7      2.963      4.931
+   7         -4.7      5.019      7.453
+   8         -4.6      3.851      6.460
+   9         -4.6      4.938      6.493
+  10         -4.6      5.368      7.084
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6fgc_1_ADP_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6fgc_1_ADP_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.902 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.8172 | -5.3000 | False |
+| -7.3000 | 24.0000 | 18.2921 | 22.0675 | -3.6682 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/3zec_1_ANP_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 3zec_1_ANP_0 | 10.0000 | 31.0000 | 3.6843 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3zec_1_ANP_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 3zec | 31,31,31,31,31,31,31,31,31,31 | results/posebench_702_predictions/vina_cpu_full/dockgen/3zec_1_ANP_0/receptor.pdbqt | 0.0000 | 13.3980 | 8.0000 | ok | Failed to read file: /tmp/dep-62917b.d
+Failed to read file: /tmp/dep-a8e7ee.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3zec_1_ANP_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.3      0.000      0.000
+   2         -6.9      4.234      8.017
+   3         -6.8      2.702      4.742
+   4         -6.8      2.379      4.446
+   5         -6.8      4.548      9.030
+   6         -6.8      4.418      8.485
+   7         -6.6      4.357      8.779
+   8         -6.6      1.704      2.960
+   9         -6.6      6.006      8.691
+  10         -6.6      6.607      9.158
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3zec_1_ANP_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3zec_1_ANP_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.080 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.8083 | -7.3000 | False |
+| -5.6000 | 24.0000 | 20.4751 | 36.1972 | 59.9697 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/5dnc_1_ASN_2/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 5dnc_1_ASN_2 | 10.0000 | 9.0000 | 3.1165 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5dnc_1_ASN_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 5dnc | 9,9,9,9,9,9,9,9,9,9 | results/posebench_702_predictions/vina_cpu_full/dockgen/5dnc_1_ASN_2/receptor.pdbqt | 0.0000 | 14.1200 | 8.0000 | ok | Failed to read file: /tmp/dep-8d1a84.d
+Failed to read file: /tmp/dep-7adf8f.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5dnc_1_ASN_2/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.6      0.000      0.000
+   2         -5.5      0.115      1.029
+   3         -5.5      1.313      1.659
+   4         -5.5      1.014      1.434
+   5         -5.3      1.870      3.797
+   6         -5.3      1.572      1.572
+   7         -5.3      1.611      3.943
+   8         -5.3      1.728      4.008
+   9         -5.3      1.672      3.853
+  10         -5.2      1.761      4.171
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5dnc_1_ASN_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/5dnc_1_ASN_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.151 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.1165 | -5.6000 | False |
+| -4.4000 | 24.0000 | -26.0626 | 29.2127 | 84.8928 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/6pa6_2_ASN_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6pa6_2_ASN_0 | 10.0000 | 9.0000 | 2.8670 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6pa6_2_ASN_0/subset200_nativebox_sdepth8_t1000_seed101/receptor_pocket-pocket1-pocketvina_poses.pdbqt | 6pa6 | 9,9,9,9,9,9,9,9,9,9 | results/posebench_702_predictions/vina_cpu_full/dockgen/6pa6_2_ASN_0/receptor_pocket.pdbqt | 0.0000 | 14.0520 | 8.0000 | ok | Failed to read file: /tmp/dep-702b45.d
+Failed to read file: /tmp/dep-1dbe5d.d
+ |       #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6pa6_2_ASN_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.4      0.000      0.000
+   2         -4.4      1.062      1.062
+   3         -4.4      1.522      1.827
+   4         -4.4     10.481     11.109
+   5         -4.3      3.845      4.753
+   6         -4.3      1.641      3.426
+   7         -4.3      2.684      3.489
+   8         -4.2      0.952      1.145
+   9         -4.2      1.077      1.204
+  10         -4.2      1.947      2.536
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6pa6_2_ASN_0/subset200_nativebox_sdepth8_t1000_seed101/receptor_pocket-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6pa6_2_ASN_0/subset200_nativebox_sdepth8_t1000_seed101/receptor_pocket-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.080 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.9622 | -4.4000 | False |
+| -5.7000 | 24.0000 | 47.6044 | 63.6941 | 90.1938 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/3uni_1_SAL_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 3uni_1_SAL_0 | 10.0000 | 10.0000 | 12.8553 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3uni_1_SAL_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 3uni | 10,10,10,10,10,10,10,10,10,10 | results/posebench_702_predictions/vina_cpu_full/dockgen/3uni_1_SAL_0/receptor.pdbqt | 0.0000 | 14.0250 | 8.0000 | ok | Failed to read file: /tmp/dep-811a90.d
+Failed to read file: /tmp/dep-e557b2.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3uni_1_SAL_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.7      0.000      0.000
+   2         -5.7     10.374     11.686
+   3         -5.5      9.114     10.341
+   4         -5.5      1.064      2.937
+   5         -5.4      1.881      3.684
+   6         -5.4      1.036      3.012
+   7         -5.4     14.683     15.574
+   8         -5.4      1.837      2.662
+   9         -5.1      2.604      3.786
+  10         -5.0      5.567      6.669
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3uni_1_SAL_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3uni_1_SAL_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.033 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 13.2650 | -5.7000 | False |
+| -8.3000 | 24.0000 | 8.0442 | 21.2802 | 16.4723 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/4phr_1_UDP_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 4phr_1_UDP_0 | 10.0000 | 25.0000 | 4.1857 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4phr_1_UDP_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 4phr | 25,25,25,25,25,25,25,25,25,25 | results/posebench_702_predictions/vina_cpu_full/dockgen/4phr_1_UDP_0/receptor.pdbqt | 0.0000 | 14.1920 | 8.0000 | ok | Failed to read file: /tmp/dep-f2abe5.d
+Failed to read file: /tmp/dep-443c69.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4phr_1_UDP_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.3      0.000      0.000
+   2         -8.3      2.705      3.163
+   3         -7.8      7.128      9.256
+   4         -7.7      7.665     10.221
+   5         -7.7      7.555     10.621
+   6         -7.5      7.378     10.116
+   7         -7.5      9.384     11.706
+   8         -7.4      7.812     10.599
+   9         -7.4      0.639      1.042
+  10         -7.3      8.233     11.257
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4phr_1_UDP_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4phr_1_UDP_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.575 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.5076 | -8.3000 | False |
+| -4.8000 | 24.0000 | 19.2178 | 18.9647 | 45.7987 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/3it6_1_ORN_1/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 3it6_1_ORN_1 | 10.0000 | 9.0000 | 2.0425 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3it6_1_ORN_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 3it6 | 9,9,9,9,9,9,9,9,9,9 | results/posebench_702_predictions/vina_cpu_full/dockgen/3it6_1_ORN_1/receptor.pdbqt | 0.0000 | 14.0340 | 8.0000 | ok | Failed to read file: /tmp/dep-13d1ab.d
+Failed to read file: /tmp/dep-3b64fb.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3it6_1_ORN_1/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.8      0.000      0.000
+   2         -4.8      1.980      2.106
+   3         -4.7      1.817      3.114
+   4         -4.6      1.834      2.260
+   5         -4.6      2.872      3.287
+   6         -4.6      1.736      1.758
+   7         -4.6      2.187      2.515
+   8         -4.6      2.145      4.198
+   9         -4.6      2.731      4.108
+  10         -4.6      2.857      4.033
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3it6_1_ORN_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3it6_1_ORN_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.069 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.8876 | -4.8000 | False |
+| -6.6000 | 24.0000 | 28.4000 | 14.8726 | -27.8462 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/6etf_1_AMP_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6etf_1_AMP_0 | 10.0000 | 23.0000 | 2.8536 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6etf_1_AMP_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6etf | 23,23,23,23,23,23,23,23,23,23 | results/posebench_702_predictions/vina_cpu_full/dockgen/6etf_1_AMP_0/receptor.pdbqt | 0.0000 | 13.2520 | 8.0000 | ok | Failed to read file: /tmp/dep-d6fbee.d
+Failed to read file: /tmp/dep-9db441.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6etf_1_AMP_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.6      0.000      0.000
+   2         -6.6      3.712      6.111
+   3         -6.5      2.930      4.173
+   4         -6.5      4.857      7.205
+   5         -6.4      4.025      6.234
+   6         -6.4      2.878      4.003
+   7         -6.4      4.983      7.813
+   8         -6.4      4.407      6.839
+   9         -6.4      4.645      7.164
+  10         -6.4      5.238      7.031
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6etf_1_AMP_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6etf_1_AMP_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.515 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.4611 | -6.6000 | False |
+| -5.0000 | 24.0000 | 44.4812 | -31.4402 | 26.5481 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/4fyv_1_DCP_2/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 4fyv_1_DCP_2 | 10.0000 | 28.0000 | 7.4465 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4fyv_1_DCP_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 4fyv | 28,28,28,28,28,28,28,28,28,28 | results/posebench_702_predictions/vina_cpu_full/dockgen/4fyv_1_DCP_2/receptor.pdbqt | 0.0000 | 13.9940 | 8.0000 | ok | Failed to read file: /tmp/dep-9a3684.d
+Failed to read file: /tmp/dep-9e6b41.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4fyv_1_DCP_2/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.0      0.000      0.000
+   2         -4.9      6.328      8.632
+   3         -4.9      7.737      9.630
+   4         -4.8      5.907      7.351
+   5         -4.7      8.166      9.814
+   6         -4.7      5.782      9.899
+   7         -4.7      7.377      8.871
+   8         -4.7      8.246     10.006
+   9         -4.6      7.481      9.770
+  10         -4.6      6.556      9.591
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4fyv_1_DCP_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4fyv_1_DCP_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.572 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 12.9865 | -5.0000 | False |
+| -6.5000 | 24.0000 | -7.7437 | 0.5602 | 19.6264 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/1tkg_1_SSA_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1tkg_1_SSA_0 | 10.0000 | 29.0000 | 2.9889 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1tkg_1_SSA_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1tkg | 29,29,29,29,29,29,29,29,29,29 | results/posebench_702_predictions/vina_cpu_full/dockgen/1tkg_1_SSA_0/receptor.pdbqt | 0.0000 | 14.1570 | 8.0000 | ok | Failed to read file: /tmp/dep-88899d.d
+Failed to read file: /tmp/dep-ab6340.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1tkg_1_SSA_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.5      0.000      0.000
+   2         -6.2      2.103      3.252
+   3         -6.1      2.429      4.088
+   4         -6.0      1.996      3.851
+   5         -6.0      4.419      6.898
+   6         -5.9      8.180      9.916
+   7         -5.7      4.947      7.802
+   8         -5.7      3.525      8.336
+   9         -5.6      3.487      8.284
+  10         -5.6      4.502      7.818
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1tkg_1_SSA_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1tkg_1_SSA_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.726 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.4242 | -6.5000 | False |
+| -7.2000 | 24.0000 | 42.6406 | 11.0675 | 93.8692 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/2hs3_1_FGR_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 2hs3_1_FGR_0 | 10.0000 | 20.0000 | 6.4565 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2hs3_1_FGR_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 2hs3 | 20,20,20,20,20,20,20,20,20,20 | results/posebench_702_predictions/vina_cpu_full/dockgen/2hs3_1_FGR_0/receptor.pdbqt | 0.0000 | 13.5720 | 8.0000 | ok | Failed to read file: /tmp/dep-1f5f34.d
+Failed to read file: /tmp/dep-5b0ca4.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2hs3_1_FGR_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.2      0.000      0.000
+   2         -7.1      3.332      4.710
+   3         -6.9      3.247      6.557
+   4         -6.9      2.881      5.980
+   5         -6.9      3.798      5.363
+   6         -6.9      3.590      6.198
+   7         -6.8      2.787      6.130
+   8         -6.8      3.857      5.041
+   9         -6.8      2.958      5.120
+  10         -6.8      3.194      6.126
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2hs3_1_FGR_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2hs3_1_FGR_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.815 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 8.3073 | -7.2000 | False |
+| -7.5000 | 24.0000 | 42.9455 | 31.5174 | 100.5697 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/1o28_1_UFP_2/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1o28_1_UFP_2 | 10.0000 | 21.0000 | 4.3100 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1o28_1_UFP_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1o28 | 21,21,21,21,21,21,21,21,21,21 | results/posebench_702_predictions/vina_cpu_full/dockgen/1o28_1_UFP_2/receptor.pdbqt | 0.0000 | 14.0510 | 8.0000 | ok | Failed to read file: /tmp/dep-528596.d
+Failed to read file: /tmp/dep-31b6a0.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1o28_1_UFP_2/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.5      0.000      0.000
+   2         -7.5      4.742      6.586
+   3         -7.5      5.972      8.145
+   4         -7.3      5.221      7.237
+   5         -7.2      6.198      9.045
+   6         -7.2      4.777      8.584
+   7         -7.2      6.007      8.873
+   8         -7.1      4.995      7.673
+   9         -7.0      3.932      5.030
+  10         -7.0      4.936      6.780
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1o28_1_UFP_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1o28_1_UFP_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.274 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.8356 | -7.5000 | False |
+| -2.6000 | 24.0000 | -7.0503 | -6.7843 | 18.1784 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/4cnl_1_CHT_1/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 4cnl_1_CHT_1 | 10.0000 | 7.0000 | 3.0933 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4cnl_1_CHT_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 4cnl | 7,7,7,7,7,7,7,7,7,7 | results/posebench_702_predictions/vina_cpu_full/dockgen/4cnl_1_CHT_1/receptor.pdbqt | 0.0000 | 14.0960 | 8.0000 | ok | Failed to read file: /tmp/dep-962950.d
+Failed to read file: /tmp/dep-f11deb.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4cnl_1_CHT_1/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -2.6      0.000      0.000
+   2         -2.6      0.933      1.655
+   3         -2.6     12.307     13.354
+   4         -2.6      0.315      1.530
+   5         -2.6     12.666     13.697
+   6         -2.6      3.551      4.014
+   7         -2.6      3.527      4.267
+   8         -2.6      3.582      4.217
+   9         -2.5      1.302      1.761
+  10         -2.5     11.549     12.548
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4cnl_1_CHT_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4cnl_1_CHT_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.072 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 12.5376 | -2.6000 | False |
+| -4.7000 | 24.0000 | 44.2558 | 20.9733 | 40.3996 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/1pj4_1_FUM_1/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1pj4_1_FUM_1 | 10.0000 | 8.0000 | 2.0973 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1pj4_1_FUM_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1pj4 | 8,8,8,8,8,8,8,8,8,8 | results/posebench_702_predictions/vina_cpu_full/dockgen/1pj4_1_FUM_1/receptor.pdbqt | 0.0000 | 14.1540 | 8.0000 | ok | Failed to read file: /tmp/dep-6e85d7.d
+Failed to read file: /tmp/dep-7c0e02.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1pj4_1_FUM_1/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.7      0.000      0.000
+   2         -4.7      2.401      4.195
+   3         -4.7      2.411      3.467
+   4         -4.7      2.533      3.568
+   5         -4.7      2.556      3.756
+   6         -4.7      2.387      4.401
+   7         -4.6      2.880      4.092
+   8         -4.6      2.463      4.207
+   9         -4.6      2.377      3.428
+  10         -4.6      1.017      3.729
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1pj4_1_FUM_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1pj4_1_FUM_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.131 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.2165 | -4.7000 | False |
+| -8.5000 | 24.0000 | 47.0557 | 41.1907 | 67.4977 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/2v7t_1_SAH_4/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 2v7t_1_SAH_4 | 10.0000 | 26.0000 | 2.2892 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2v7t_1_SAH_4/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 2v7t | 26,26,26,26,26,26,26,26,26,26 | results/posebench_702_predictions/vina_cpu_full/dockgen/2v7t_1_SAH_4/receptor.pdbqt | 0.0000 | 14.1710 | 8.0000 | ok | Failed to read file: /tmp/dep-57376c.d
+Failed to read file: /tmp/dep-1fd009.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2v7t_1_SAH_4/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.5      0.000      0.000
+   2         -8.2      1.770      1.914
+   3         -7.5      1.052      1.221
+   4         -7.4      1.055      1.194
+   5         -7.2      2.068      2.680
+   6         -7.1      1.495      1.703
+   7         -6.9      1.405      2.096
+   8         -6.9      1.471      2.151
+   9         -6.8      2.953      6.681
+  10         -6.2      1.575      1.756
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2v7t_1_SAH_4/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2v7t_1_SAH_4/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.557 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.3384 | -8.5000 | False |
+| -4.7000 | 24.0000 | -3.0234 | -3.9792 | 3.8100 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/4o0d_1_GLY_3/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 4o0d_1_GLY_3 | 10.0000 | 5.0000 | 1.4075 | True | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4o0d_1_GLY_3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 4o0d | 5,5,5,5,5,5,5,5,5,5 | results/posebench_702_predictions/vina_cpu_full/dockgen/4o0d_1_GLY_3/receptor.pdbqt | 0.0000 | 14.0180 | 8.0000 | ok | Failed to read file: /tmp/dep-8b0918.d
+Failed to read file: /tmp/dep-903d23.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4o0d_1_GLY_3/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.7      0.000      0.000
+   2         -4.7      0.061      1.353
+   3         -4.7      2.352      2.795
+   4         -4.7      2.355      2.481
+   5         -4.6      2.059      2.254
+   6         -4.6      2.055      2.316
+   7         -4.6      1.120      1.120
+   8         -4.5      1.560      1.799
+   9         -4.4      1.626      2.098
+  10         -4.4      1.640      1.640
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4o0d_1_GLY_3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4o0d_1_GLY_3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.009 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 1.4075 | -4.7000 | True |
+| -4.1000 | 24.0000 | -20.6736 | 3.1619 | 44.2883 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/6uqy_2_AT3_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6uqy_2_AT3_0 | 10.0000 | 10.0000 | 3.7306 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6uqy_2_AT3_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6uqy | 10,10,10,10,10,10,10,10,10,10 | results/posebench_702_predictions/vina_cpu_full/dockgen/6uqy_2_AT3_0/receptor.pdbqt | 0.0000 | 14.1140 | 8.0000 | ok | Failed to read file: /tmp/dep-8fe63d.d
+Failed to read file: /tmp/dep-ea1b7d.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6uqy_2_AT3_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.1      0.000      0.000
+   2         -4.1      1.697      2.250
+   3         -4.1      1.228      1.428
+   4         -4.0      1.983      2.670
+   5         -4.0      1.400      1.727
+   6         -4.0      3.569      5.146
+   7         -3.9     13.701     14.702
+   8         -3.9      3.269      5.062
+   9         -3.9      3.846      5.142
+  10         -3.9      1.398      1.937
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6uqy_2_AT3_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/6uqy_2_AT3_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.069 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.7624 | -4.1000 | False |
+| -7.9000 | 24.0000 | 37.8825 | 36.1332 | 21.0324 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/4xdr_1_ADN_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 4xdr_1_ADN_0 | 10.0000 | 19.0000 | 2.7592 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4xdr_1_ADN_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 4xdr | 19,19,19,19,19,19,19,19,19,19 | results/posebench_702_predictions/vina_cpu_full/dockgen/4xdr_1_ADN_0/receptor.pdbqt | 0.0000 | 13.2220 | 8.0000 | ok | Failed to read file: /tmp/dep-6a7da2.d
+Failed to read file: /tmp/dep-e22512.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4xdr_1_ADN_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.9      0.000      0.000
+   2         -7.9      4.046      6.124
+   3         -7.8      3.901      6.062
+   4         -7.6      8.696     10.591
+   5         -7.3      3.902      6.503
+   6         -7.1      4.570      6.833
+   7         -7.1      1.281      2.545
+   8         -7.0      4.998      6.416
+   9         -6.9      5.748      7.246
+  10         -6.9      4.117      6.277
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4xdr_1_ADN_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4xdr_1_ADN_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.345 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.1773 | -7.9000 | False |
+| -5.1000 | 24.0000 | -5.5089 | 0.9199 | -14.4827 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/4qa8_1_PJZ_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 4qa8_1_PJZ_0 | 10.0000 | 34.0000 | 8.3811 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4qa8_1_PJZ_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 4qa8 | 34,34,34,34,34,34,34,34,34,34 | results/posebench_702_predictions/vina_cpu_full/dockgen/4qa8_1_PJZ_0/receptor.pdbqt | 0.0000 | 13.1500 | 8.0000 | ok | Failed to read file: /tmp/dep-145d4c.d
+Failed to read file: /tmp/dep-7cadf1.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4qa8_1_PJZ_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.1      0.000      0.000
+   2         -5.1      1.967      3.657
+   3         -5.0      2.163      6.222
+   4         -5.0      3.604      7.674
+   5         -4.8      3.276      6.557
+   6         -4.8      3.806      8.576
+   7         -4.7      3.237      6.612
+   8         -4.6      2.279      4.496
+   9         -4.6      2.363      6.733
+  10         -4.5      2.498      5.482
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4qa8_1_PJZ_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4qa8_1_PJZ_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.013 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 9.8505 | -5.1000 | False |
+| -5.1000 | 24.0000 | -21.0039 | -4.2806 | -19.6440 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/3q14_1_PCR_3/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 3q14_1_PCR_3 | 10.0000 | 8.0000 | 3.6584 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3q14_1_PCR_3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 3q14 | 8,8,8,8,8,8,8,8,8,8 | results/posebench_702_predictions/vina_cpu_full/dockgen/3q14_1_PCR_3/receptor.pdbqt | 0.0000 | 14.1090 | 8.0000 | ok | Failed to read file: /tmp/dep-3d2ebf.d
+Failed to read file: /tmp/dep-1d55d9.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3q14_1_PCR_3/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.1      0.000      0.000
+   2         -5.0      0.079      1.701
+   3         -5.0      2.336      3.386
+   4         -4.9      2.399      3.812
+   5         -4.9     14.835     15.151
+   6         -4.9      2.002      2.881
+   7         -4.9      2.597      3.786
+   8         -4.9      2.003      2.979
+   9         -4.9      1.683      2.637
+  10         -4.9      1.690      2.558
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3q14_1_PCR_3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3q14_1_PCR_3/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.090 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 14.6552 | -5.1000 | False |
+| -4.7000 | 24.0000 | 46.0754 | 44.8929 | -47.9839 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/3ju4_1_SLB_2/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 3ju4_1_SLB_2 | 10.0000 | 21.0000 | 4.4091 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3ju4_1_SLB_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 3ju4 | 21,21,21,21,21,21,21,21,21,21 | results/posebench_702_predictions/vina_cpu_full/dockgen/3ju4_1_SLB_2/receptor.pdbqt | 0.0000 | 13.3830 | 8.0000 | ok | Failed to read file: /tmp/dep-7f757e.d
+Failed to read file: /tmp/dep-c0e6f0.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3ju4_1_SLB_2/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.7      0.000      0.000
+   2         -4.6      1.081      1.520
+   3         -4.4      1.276      1.756
+   4         -4.4      3.383      6.069
+   5         -4.3      2.936      5.447
+   6         -4.3      3.226      5.736
+   7         -4.3      4.804      8.056
+   8         -4.2      1.967      2.738
+   9         -4.2      3.047      4.666
+  10         -4.2      2.896      4.837
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3ju4_1_SLB_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3ju4_1_SLB_2/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.629 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.9623 | -4.7000 | False |
+| -5.9000 | 24.0000 | 62.9377 | 86.7456 | 25.7811 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/3k8m_1_GLC-GLC-AC1_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 3k8m_1_GLC-GLC-AC1_0 | 10.0000 | 44.0000 | 4.1928 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3k8m_1_GLC-GLC-AC1_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 3k8m | 44,44,44,44,44,44,44,44,44,44 | results/posebench_702_predictions/vina_cpu_full/dockgen/3k8m_1_GLC-GLC-AC1_0/receptor.pdbqt | 0.0000 | 15.0140 | 8.0000 | ok | Failed to read file: /tmp/dep-5a4add.d
+Failed to read file: /tmp/dep-ebbdc2.d
+ |        #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3k8m_1_GLC-GLC-AC1_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.9      0.000      0.000
+   2         -5.4      3.344      5.858
+   3         -5.2      6.308     10.387
+   4         -5.1      3.645      5.668
+   5         -4.9      4.869     11.457
+   6         -4.8      8.463     13.139
+   7         -4.8      5.969     11.630
+   8         -4.7      4.009      9.987
+   9         -4.6      8.908     11.078
+  10         -4.6      1.780      2.209
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3k8m_1_GLC-GLC-AC1_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3k8m_1_GLC-GLC-AC1_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 14.104 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 11.2389 | -5.9000 | False |
+| -4.7000 | 24.0000 | 5.6283 | 34.2426 | 53.5962 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/1v2g_1_OCA_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 1v2g_1_OCA_0 | 10.0000 | 10.0000 | 4.4698 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1v2g_1_OCA_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 1v2g | 10,10,10,10,10,10,10,10,10,10 | results/posebench_702_predictions/vina_cpu_full/dockgen/1v2g_1_OCA_0/receptor.pdbqt | 0.0000 | 14.2700 | 8.0000 | ok | Failed to read file: /tmp/dep-71c713.d
+Failed to read file: /tmp/dep-56dc96.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1v2g_1_OCA_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.7      0.000      0.000
+   2         -4.6      1.037      1.889
+   3         -4.5      0.683      1.089
+   4         -4.5      0.966      1.450
+   5         -4.4      1.120      1.891
+   6         -4.3      3.374      4.926
+   7         -4.2      3.082      4.816
+   8         -4.2      1.546      2.359
+   9         -4.1      0.915      1.173
+  10         -4.1      1.069      1.186
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1v2g_1_OCA_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/1v2g_1_OCA_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.314 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.5286 | -4.7000 | False |
+| -5.9000 | 24.0000 | 26.7940 | 15.0138 | 4.3403 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/2g7c_1_NAG-GAL-GLA_1/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 2g7c_1_NAG-GAL-GLA_1 | 10.0000 | 37.0000 | 5.1652 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2g7c_1_NAG-GAL-GLA_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 2g7c | 37,37,37,37,37,37,37,37,37,37 | results/posebench_702_predictions/vina_cpu_full/dockgen/2g7c_1_NAG-GAL-GLA_1/receptor.pdbqt | 0.0000 | 13.3740 | 8.0000 | ok | Failed to read file: /tmp/dep-d25127.d
+Failed to read file: /tmp/dep-743c7f.d
+ |                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2g7c_1_NAG-GAL-GLA_1/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.9      0.000      0.000
+   2         -5.8      3.380      6.170
+   3         -5.7      4.240      7.593
+   4         -5.7      4.047      7.629
+   5         -5.4      3.273      6.273
+   6         -5.3      4.030      8.461
+   7         -5.3      3.397      6.365
+   8         -5.2      2.840      4.716
+   9         -5.2      3.188      9.351
+  10         -5.2      4.215      5.503
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2g7c_1_NAG-GAL-GLA_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/2g7c_1_NAG-GAL-GLA_1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.159 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.1652 | -5.9000 | False |
+| -6.7000 | 24.0000 | 15.4487 | -26.3825 | 7.0576 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/3o02_2_JN3_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 3o02_2_JN3_0 | 10.0000 | 28.0000 | 10.2006 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3o02_2_JN3_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 3o02 | 28,28,28,28,28,28,28,28,28,28 | results/posebench_702_predictions/vina_cpu_full/dockgen/3o02_2_JN3_0/receptor.pdbqt | 0.0000 | 13.5270 | 8.0000 | ok | Failed to read file: /tmp/dep-4d3947.d
+Failed to read file: /tmp/dep-269ab8.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3o02_2_JN3_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.7      0.000      0.000
+   2         -6.4     18.583     21.273
+   3         -6.2     19.375     22.264
+   4         -6.1     19.381     22.132
+   5         -5.8      4.174      6.648
+   6         -5.8      1.980      8.516
+   7         -5.7      2.870      9.359
+   8         -5.7      2.054      3.441
+   9         -5.6      4.420      7.590
+  10         -5.6     18.477     21.282
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3o02_2_JN3_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3o02_2_JN3_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.744 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 10.7407 | -6.7000 | False |
+| -4.5000 | 24.0000 | -14.4621 | -19.9274 | 52.4870 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/4tvd_1_GLC_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 4tvd_1_GLC_0 | 10.0000 | 12.0000 | 5.9306 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4tvd_1_GLC_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 4tvd | 12,12,12,12,12,12,12,12,12,12 | results/posebench_702_predictions/vina_cpu_full/dockgen/4tvd_1_GLC_0/receptor.pdbqt | 0.0000 | 14.0880 | 8.0000 | ok | Failed to read file: /tmp/dep-ddb538.d
+Failed to read file: /tmp/dep-14a821.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4tvd_1_GLC_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.5      0.000      0.000
+   2         -4.3      1.206      2.991
+   3         -4.3      1.146      2.753
+   4         -4.2     17.499     18.714
+   5         -4.2      1.367      2.121
+   6         -4.1      1.522      3.656
+   7         -4.1      8.193      9.539
+   8         -4.1     17.054     17.741
+   9         -4.0      8.300      9.384
+  10         -4.0      2.018      3.593
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4tvd_1_GLC_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/4tvd_1_GLC_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.114 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 13.2108 | -4.5000 | False |
+| -5.0000 | 24.0000 | -73.2977 | 91.1788 | 145.6343 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/3zjx_1_BOG_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 3zjx_1_BOG_0 | 10.0000 | 20.0000 | 8.6925 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3zjx_1_BOG_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 3zjx | 20,20,20,20,20,20,20,20,20,20 | results/posebench_702_predictions/vina_cpu_full/dockgen/3zjx_1_BOG_0/receptor.pdbqt | 0.0000 | 13.2180 | 8.0000 | ok | Failed to read file: /tmp/dep-20b908.d
+Failed to read file: /tmp/dep-4aa115.d
+ | ng (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3zjx_1_BOG_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.0      0.000      0.000
+   2         -4.9      1.533      4.424
+   3         -4.6      1.003      1.165
+   4         -4.6      2.131      4.029
+   5         -4.5      1.418      3.130
+   6         -4.4      2.406      4.721
+   7         -4.4      2.640      6.167
+   8         -4.4      2.509      5.637
+   9         -4.3      2.091      3.883
+  10         -4.3      2.175      4.096
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3zjx_1_BOG_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3zjx_1_BOG_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.422 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 9.4767 | -5.0000 | False |
+| -4.6000 | 24.0000 | -22.9791 | 1.7654 | -27.4582 | dockgen | results/posebench_702_predictions/vina_cpu_full/dockgen/3k8l_1_GLC-GLC-GLC-GLC-GLC_0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 3k8l_1_GLC-GLC-GLC-GLC-GLC_0 | 10.0000 | 56.0000 | 6.0931 | False | results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3k8l_1_GLC-GLC-GLC-GLC-GLC_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 3k8l | 56,56,56,56,56,56,56,56,56,56 | results/posebench_702_predictions/vina_cpu_full/dockgen/3k8l_1_GLC-GLC-GLC-GLC-GLC_0/receptor.pdbqt | 0.0000 | 15.1250 | 8.0000 | ok | Failed to read file: /tmp/dep-77ac47.d
+Failed to read file: /tmp/dep-d85895.d
+ | oi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3k8l_1_GLC-GLC-GLC-GLC-GLC_0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.6      0.000      0.000
+   2         -4.6      3.798      6.902
+   3         -4.5      5.530     10.438
+   4         -4.4      4.619     10.817
+   5         -4.4      2.447      4.190
+   6         -4.4      7.181     12.483
+   7         -4.4      9.289     12.247
+   8         -4.4      1.700      2.469
+   9         -4.3      2.807      5.836
+  10         -4.3      2.485      4.256
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3k8l_1_GLC-GLC-GLC-GLC-GLC_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/dockgen/3k8l_1_GLC-GLC-GLC-GLC-GLC_0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 14.971 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.7872 | -4.6000 | False |
+| -7.4000 | 24.0000 | -7.7082 | 11.8754 | -1.9829 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7NA4_1I9/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7NA4_1I9 | 10.0000 | 38.0000 | 5.9253 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NA4_1I9/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7na4 | 38,38,38,38,38,38,38,38,38,38 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7NA4_1I9/receptor.pdbqt | 0.0000 | 13.2410 | 8.0000 | ok | Failed to read file: /tmp/dep-d9091c.d
+Failed to read file: /tmp/dep-2481a9.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NA4_1I9/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.4      0.000      0.000
+   2         -7.4      2.790      5.836
+   3         -7.0      2.625      5.763
+   4         -6.9      3.904      7.997
+   5         -6.8      3.903      7.764
+   6         -6.7      2.982      6.450
+   7         -6.7      2.745      5.657
+   8         -6.7      3.106      6.817
+   9         -6.6      3.648      6.049
+  10         -6.5      3.506      7.243
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NA4_1I9/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NA4_1I9/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.889 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.7733 | -7.4000 | False |
+| -9.3000 | 24.0000 | 23.4999 | 55.5454 | 87.4696 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7MYU_ZR7/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7MYU_ZR7 | 10.0000 | 35.0000 | 4.6678 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MYU_ZR7/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7myu | 35,35,35,35,35,35,35,35,35,35 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7MYU_ZR7/receptor.pdbqt | 0.0000 | 14.0980 | 8.0000 | ok | Failed to read file: /tmp/dep-6033af.d
+Failed to read file: /tmp/dep-0612de.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MYU_ZR7/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.3      0.000      0.000
+   2         -8.8      4.186      8.205
+   3         -8.8      3.965      6.200
+   4         -8.7      1.246      1.723
+   5         -8.6      5.768     10.130
+   6         -8.5      4.238      8.756
+   7         -8.5      4.326      9.523
+   8         -8.4      3.295      4.850
+   9         -8.4      4.491      9.052
+  10         -8.4      4.233      7.363
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MYU_ZR7/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MYU_ZR7/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.649 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 8.7567 | -9.3000 | False |
+| -6.6000 | 24.0000 | 8.6465 | 141.9674 | 100.4941 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7UQ3_O2U/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7UQ3_O2U | 10.0000 | 12.0000 | 3.3315 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UQ3_O2U/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7uq3 | 12,12,12,12,12,12,12,12,12,12 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7UQ3_O2U/receptor.pdbqt | 0.0000 | 14.0800 | 8.0000 | ok | Failed to read file: /tmp/dep-6b4b2a.d
+Failed to read file: /tmp/dep-ae1b1c.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UQ3_O2U/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.6      0.000      0.000
+   2         -6.5      1.371      4.558
+   3         -6.4      1.795      4.492
+   4         -6.2      1.412      2.309
+   5         -6.1      1.396      2.332
+   6         -6.0      1.844      4.474
+   7         -6.0      1.788      5.019
+   8         -6.0      1.709      4.334
+   9         -5.7      1.790      4.858
+  10         -5.7      1.258      2.128
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UQ3_O2U/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UQ3_O2U/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.041 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.3333 | -6.6000 | False |
+| -11.3000 | 24.0000 | 26.9464 | -23.2239 | 22.9366 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8DHG_T78/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8DHG_T78 | 10.0000 | 35.0000 | 6.6001 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8DHG_T78/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8dhg | 35,35,35,35,35,35,35,35,35,35 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8DHG_T78/receptor.pdbqt | 0.0000 | 14.0720 | 8.0000 | ok | Failed to read file: /tmp/dep-655132.d
+Failed to read file: /tmp/dep-7befe6.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8DHG_T78/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -11.3      0.000      0.000
+   2         -9.9      1.453      1.936
+   3         -8.4      1.185      1.462
+   4         -7.9      3.906      9.747
+   5         -7.7      2.671      4.070
+   6         -7.6      2.623      3.908
+   7         -7.6      3.779      9.677
+   8         -7.6      2.447      4.055
+   9         -7.5      3.850      9.658
+  10         -7.4      2.500      3.750
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8DHG_T78/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8DHG_T78/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.566 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.6750 | -11.3000 | False |
+| -9.9000 | 24.0000 | -2.5713 | 11.5078 | -0.7532 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7AS1_21G/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7AS1_21G | 10.0000 | 29.0000 | 6.0209 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7AS1_21G/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7as1 | 29,29,29,29,29,29,29,29,29,29 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7AS1_21G/receptor.pdbqt | 0.0000 | 13.2020 | 8.0000 | ok | Failed to read file: /tmp/dep-dcf895.d
+Failed to read file: /tmp/dep-accfd3.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7AS1_21G/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.9      0.000      0.000
+   2         -9.8      0.885      1.134
+   3         -9.4      1.501      4.518
+   4         -9.0      2.708      3.668
+   5         -8.7      1.685      2.357
+   6         -8.6      2.963      4.373
+   7         -8.5      3.172      5.489
+   8         -8.4      3.043      4.779
+   9         -8.4      3.094      4.272
+  10         -8.4      2.575      3.779
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7AS1_21G/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7AS1_21G/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.602 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.0596 | -9.9000 | False |
+| -8.1000 | 24.0000 | 22.0816 | -8.2205 | -17.5178 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7N4N_0BK/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7N4N_0BK | 10.0000 | 32.0000 | 5.4434 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7N4N_0BK/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7n4n | 32,32,32,32,32,32,32,32,32,32 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7N4N_0BK/receptor.pdbqt | 0.0000 | 14.1540 | 8.0000 | ok | Failed to read file: /tmp/dep-8b8866.d
+Failed to read file: /tmp/dep-e17df1.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7N4N_0BK/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.1      0.000      0.000
+   2         -8.0      2.779      3.926
+   3         -8.0      3.127      8.559
+   4         -8.0      1.778      1.978
+   5         -8.0      1.723      1.969
+   6         -8.0      1.353      1.375
+   7         -7.9      4.268      6.084
+   8         -7.8      4.421      6.424
+   9         -7.8      3.395      8.666
+  10         -7.8      4.140      5.776
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7N4N_0BK/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7N4N_0BK/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.530 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.9923 | -8.1000 | False |
+| -6.3000 | 24.0000 | -22.1801 | 13.4045 | 27.4542 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/5S8I_2LY/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 5S8I_2LY | 10.0000 | 13.0000 | 2.7187 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/5S8I_2LY/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 5s8i | 13,13,13,13,13,13,13,13,13,13 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/5S8I_2LY/receptor.pdbqt | 0.0000 | 14.0330 | 8.0000 | ok | Failed to read file: /tmp/dep-67ba84.d
+Failed to read file: /tmp/dep-94c63d.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/5S8I_2LY/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.3      0.000      0.000
+   2         -6.1      1.181      1.181
+   3         -5.7      2.890      3.534
+   4         -5.4      2.195      3.127
+   5         -5.3      2.807      4.939
+   6         -5.2      2.602      3.332
+   7         -5.1      3.241      5.490
+   8         -5.1      3.219      5.456
+   9         -5.0      2.763      3.549
+  10         -5.0      4.258      5.722
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/5S8I_2LY/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/5S8I_2LY/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.047 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.0679 | -6.3000 | False |
+| -11.7000 | 24.0000 | 3.9750 | 1.3704 | -23.8917 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7K0V_VQP/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7K0V_VQP | 10.0000 | 32.0000 | 7.3811 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7K0V_VQP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7k0v | 32,32,32,32,32,32,32,32,32,32 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7K0V_VQP/receptor.pdbqt | 0.0000 | 14.1400 | 8.0000 | ok | Failed to read file: /tmp/dep-855d8b.d
+Failed to read file: /tmp/dep-4c8754.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7K0V_VQP/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -11.7      0.000      0.000
+   2        -11.6      1.549      2.139
+   3        -11.6      0.646      1.033
+   4        -11.6      1.530      1.989
+   5        -11.5      0.870      1.131
+   6        -11.2      1.627      2.181
+   7        -10.6      2.287      9.879
+   8        -10.1      2.342     10.110
+   9        -10.1      1.684      2.196
+  10         -9.3      6.768      9.942
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7K0V_VQP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7K0V_VQP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.571 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.8889 | -11.7000 | False |
+| -8.0000 | 24.0000 | -46.6965 | -28.5890 | 2.5780 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8ERS_WQO/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8ERS_WQO | 10.0000 | 23.0000 | 4.3161 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8ERS_WQO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8ers | 23,23,23,23,23,23,23,23,23,23 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8ERS_WQO/receptor.pdbqt | 0.0000 | 14.0060 | 8.0000 | ok | Failed to read file: /tmp/dep-a5a1fc.d
+Failed to read file: /tmp/dep-96be6a.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8ERS_WQO/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.0      0.000      0.000
+   2         -7.4      3.107      4.627
+   3         -7.4      2.214      3.553
+   4         -7.2      3.674      5.669
+   5         -7.2      3.230      6.001
+   6         -7.2      2.926      5.781
+   7         -7.2      2.698      5.183
+   8         -7.2      2.855      5.596
+   9         -7.1      3.742      5.787
+  10         -7.0      1.874      2.623
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8ERS_WQO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8ERS_WQO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.239 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.1075 | -8.0000 | False |
+| -9.6000 | 24.0000 | -3.6858 | -7.3787 | 33.2567 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7AA0_R6B/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7AA0_R6B | 10.0000 | 26.0000 | 5.2842 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7AA0_R6B/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7aa0 | 26,26,26,26,26,26,26,26,26,26 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7AA0_R6B/receptor.pdbqt | 0.0000 | 13.2300 | 8.0000 | ok | Failed to read file: /tmp/dep-94d441.d
+Failed to read file: /tmp/dep-3e046a.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7AA0_R6B/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.6      0.000      0.000
+   2         -9.4      0.778      1.379
+   3         -9.3      0.445      1.043
+   4         -9.2      0.705      1.190
+   5         -9.1      1.324      3.160
+   6         -9.1      1.314      3.010
+   7         -9.1      1.003      1.044
+   8         -8.8      4.969      9.736
+   9         -8.6      4.989      9.799
+  10         -8.3      4.939      9.678
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7AA0_R6B/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7AA0_R6B/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.415 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.3272 | -9.6000 | False |
+| -9.7000 | 24.0000 | -21.2020 | -12.8503 | -9.5951 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7UYB_OK0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7UYB_OK0 | 10.0000 | 31.0000 | 5.0625 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UYB_OK0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7uyb | 31,31,31,31,31,31,31,31,31,31 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7UYB_OK0/receptor.pdbqt | 0.0000 | 13.1840 | 8.0000 | ok | Failed to read file: /tmp/dep-bb0401.d
+Failed to read file: /tmp/dep-ac0f0f.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UYB_OK0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.7      0.000      0.000
+   2         -9.6      0.839      1.803
+   3         -9.6      0.549      1.401
+   4         -9.5      0.579      1.029
+   5         -9.1      5.305      8.759
+   6         -9.0      5.426      8.844
+   7         -9.0      5.396      8.846
+   8         -9.0      0.911      1.603
+   9         -8.6      0.632      1.105
+  10         -8.5      5.152      8.785
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UYB_OK0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UYB_OK0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.618 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.3995 | -9.7000 | False |
+| -7.7000 | 24.0000 | -14.0570 | 6.7646 | -14.7014 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8FLV_ZB9/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8FLV_ZB9 | 10.0000 | 29.0000 | 6.0907 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8FLV_ZB9/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8flv | 29,29,29,29,29,29,29,29,29,29 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8FLV_ZB9/receptor.pdbqt | 0.0000 | 14.0480 | 8.0000 | ok | Failed to read file: /tmp/dep-645981.d
+Failed to read file: /tmp/dep-17f936.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8FLV_ZB9/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.7      0.000      0.000
+   2         -7.7      1.828      2.988
+   3         -7.4      1.599      2.113
+   4         -7.1      3.304      6.868
+   5         -7.1      1.684      3.835
+   6         -7.0      1.848      2.525
+   7         -6.9      2.048      3.634
+   8         -6.9      2.734      3.297
+   9         -6.8      1.506      2.615
+  10         -6.7      4.952      7.984
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8FLV_ZB9/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8FLV_ZB9/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.434 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.5166 | -7.7000 | False |
+| -9.1000 | 24.0000 | -65.3095 | -36.3296 | 96.8078 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7LCU_XTA/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7LCU_XTA | 10.0000 | 39.0000 | 7.8040 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7LCU_XTA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7lcu | 39,39,39,39,39,39,39,39,39,39 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7LCU_XTA/receptor.pdbqt | 0.0000 | 14.0660 | 8.0000 | ok | Failed to read file: /tmp/dep-a56602.d
+Failed to read file: /tmp/dep-ed73dd.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7LCU_XTA/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.1      0.000      0.000
+   2         -8.8      1.900      2.687
+   3         -8.6      0.695      1.964
+   4         -8.6      3.460      8.927
+   5         -8.3      1.657      2.398
+   6         -8.2      3.626      8.896
+   7         -8.1      3.555      4.462
+   8         -7.7      3.690      8.954
+   9         -7.7      3.277      4.136
+  10         -7.6      3.700      8.193
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7LCU_XTA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7LCU_XTA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.823 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.8973 | -9.1000 | False |
+| -8.4000 | 24.0000 | 45.6960 | 39.4090 | 75.3634 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7T3F_EM0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7T3F_EM0 | 10.0000 | 24.0000 | 4.0738 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7T3F_EM0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7t3f | 24,24,24,24,24,24,24,24,24,24 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7T3F_EM0/receptor.pdbqt | 0.0000 | 13.2510 | 8.0000 | ok | Failed to read file: /tmp/dep-d4b002.d
+Failed to read file: /tmp/dep-2c36bd.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7T3F_EM0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.4      0.000      0.000
+   2         -8.1      1.221      1.345
+   3         -7.9      0.988      1.973
+   4         -7.9      1.997      3.115
+   5         -7.9      1.788      2.874
+   6         -7.8      4.118      8.512
+   7         -7.8      2.023      3.001
+   8         -7.7      2.195      2.517
+   9         -7.7      1.785      2.011
+  10         -7.7      3.992      8.165
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7T3F_EM0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7T3F_EM0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.411 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.8322 | -8.4000 | False |
+|  | 24.0000 | 5.6815 | -12.6602 | 3.2598 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ZYS_KNR/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7ZYS_KNR |  |  |  |  | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZYS_KNR/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_poses.pdbqt | 7zys |  | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ZYS_KNR/receptor.pdbqt | 1.0000 | 0.0140 | 8.0000 | failed_nonzero | 
+Parse error on line 48 in file "<REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ZYS_KNR/ligand_start.pdbqt": ATOM syntax incorrect: "CG0" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.
+No valid ligands in the input directory
+ | Pocket rank: 1
+#################################################################
+# If you used QuickVina2-GPU 2.1 in your work, please cite:    #
+#                                                               #
+# Ding, Ji, et al. Vina-GPU 2.0: Further Accelerating AutoDock  #
+# Vina and Its Derivatives with Graphics Processing Units.      #
+# Journal of Chemical Information and Modeling (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 |  |  |  |
+| -8.1000 | 24.0000 | 19.1197 | -7.5681 | 18.6114 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7RKW_5TV/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7RKW_5TV | 10.0000 | 25.0000 | 6.6142 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RKW_5TV/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7rkw | 25,25,25,25,25,25,25,25,25,25 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7RKW_5TV/receptor.pdbqt | 0.0000 | 14.0180 | 8.0000 | ok | Failed to read file: /tmp/dep-3df8ea.d
+Failed to read file: /tmp/dep-20a98e.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RKW_5TV/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.1      0.000      0.000
+   2         -8.0      0.470      1.234
+   3         -7.7      3.776      6.426
+   4         -7.7      3.989      6.680
+   5         -7.7      1.056      2.135
+   6         -7.6     10.507     12.092
+   7         -7.6      5.049      8.494
+   8         -7.6      3.653      6.488
+   9         -7.6      3.984      6.477
+  10         -7.6      3.501      6.126
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RKW_5TV/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RKW_5TV/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.291 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 8.2624 | -8.1000 | False |
+| -7.9000 | 24.0000 | 4.7365 | -22.1191 | 44.0416 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7JY3_VUD/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7JY3_VUD | 10.0000 | 27.0000 | 5.5380 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7JY3_VUD/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7jy3 | 27,27,27,27,27,27,27,27,27,27 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7JY3_VUD/receptor.pdbqt | 0.0000 | 14.1140 | 8.0000 | ok | Failed to read file: /tmp/dep-486b1c.d
+Failed to read file: /tmp/dep-a10aed.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7JY3_VUD/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.9      0.000      0.000
+   2         -7.6      3.310      6.628
+   3         -7.5      4.958      8.322
+   4         -7.5      3.234      6.635
+   5         -7.4      2.264      4.192
+   6         -7.4      1.721      2.283
+   7         -7.3      3.781      6.995
+   8         -7.2      4.598      6.328
+   9         -7.1      3.217      6.775
+  10         -7.1      2.139      3.356
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7JY3_VUD/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7JY3_VUD/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.433 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.1193 | -7.9000 | False |
+| -8.4000 | 24.0000 | -2.4107 | 23.5356 | 1.1168 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8BN6_R53/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8BN6_R53 | 10.0000 | 29.0000 | 6.7189 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8BN6_R53/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8bn6 | 29,29,29,29,29,29,29,29,29,29 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8BN6_R53/receptor.pdbqt | 0.0000 | 14.0670 | 8.0000 | ok | Failed to read file: /tmp/dep-0c459a.d
+Failed to read file: /tmp/dep-f121e7.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8BN6_R53/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.4      0.000      0.000
+   2         -8.2      8.101     11.053
+   3         -8.1      1.040      1.201
+   4         -8.0      1.726      2.043
+   5         -8.0      4.622      7.026
+   6         -7.9      1.238      1.406
+   7         -7.8      1.187      1.530
+   8         -7.6      1.966      2.329
+   9         -7.6      2.205      2.638
+  10         -7.6      2.610      3.146
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8BN6_R53/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8BN6_R53/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.378 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.7621 | -8.4000 | False |
+| -4.7000 | 24.0000 | 34.6033 | 13.7840 | 54.5363 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6Z0R_Q4H/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6Z0R_Q4H | 10.0000 | 9.0000 | 1.8983 | True | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6Z0R_Q4H/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6z0r | 9,9,9,9,9,9,9,9,9,9 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6Z0R_Q4H/receptor.pdbqt | 0.0000 | 14.1250 | 8.0000 | ok | Failed to read file: /tmp/dep-8c6991.d
+Failed to read file: /tmp/dep-03d114.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6Z0R_Q4H/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.7      0.000      0.000
+   2         -4.1      1.135      3.307
+   3         -4.1      1.375      3.874
+   4         -4.0      2.125      3.902
+   5         -3.9      5.521      7.231
+   6         -3.9      5.661      7.085
+   7         -3.8      2.164      3.724
+   8         -3.8      1.760      3.459
+   9         -3.8      1.351      3.100
+  10         -3.8      1.359      3.369
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6Z0R_Q4H/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6Z0R_Q4H/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.109 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.6697 | -4.7000 | False |
+| -10.5000 | 24.0000 | -3.0991 | -18.2366 | 16.8048 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7KC5_BJZ/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7KC5_BJZ | 10.0000 | 37.0000 | 4.9572 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KC5_BJZ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7kc5 | 37,37,37,37,37,37,37,37,37,37 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7KC5_BJZ/receptor.pdbqt | 0.0000 | 13.1890 | 8.0000 | ok | Failed to read file: /tmp/dep-18be5c.d
+Failed to read file: /tmp/dep-dcc9fa.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KC5_BJZ/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.5      0.000      0.000
+   2        -10.5      0.524      1.774
+   3        -10.5      0.142      1.597
+   4        -10.4      0.737      1.224
+   5         -8.1      4.628      9.222
+   6         -8.1      4.626      9.270
+   7         -8.0      4.561      9.694
+   8         -7.9      4.551      9.632
+   9         -7.8      4.685      9.179
+  10         -7.8      4.598      9.666
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KC5_BJZ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KC5_BJZ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.764 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 8.0781 | -10.5000 | False |
+| -5.4000 | 24.0000 | -0.6551 | 31.5045 | 6.6805 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7T9O_GEI/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7T9O_GEI | 10.0000 | 41.0000 | 4.9625 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7T9O_GEI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7t9o | 41,41,41,41,41,41,41,41,41,41 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7T9O_GEI/receptor.pdbqt | 0.0000 | 13.9760 | 8.0000 | ok | Failed to read file: /tmp/dep-586826.d
+Failed to read file: /tmp/dep-dc206d.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7T9O_GEI/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.4      0.000      0.000
+   2         -5.2      4.249      9.580
+   3         -5.0      4.543      7.195
+   4         -4.9      5.457      8.119
+   5         -4.9      1.190      1.919
+   6         -4.9      2.888      8.140
+   7         -4.8      4.431     10.049
+   8         -4.7      3.866      8.998
+   9         -4.6      5.334      9.466
+  10         -4.6      2.638      5.051
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7T9O_GEI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7T9O_GEI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.886 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 8.6978 | -5.4000 | False |
+| -9.2000 | 24.0000 | -19.6722 | 5.8540 | -11.9414 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6Z2C_Q5E/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6Z2C_Q5E | 10.0000 | 26.0000 | 3.7498 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6Z2C_Q5E/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6z2c | 26,26,26,26,26,26,26,26,26,26 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6Z2C_Q5E/receptor.pdbqt | 0.0000 | 13.9300 | 8.0000 | ok | Failed to read file: /tmp/dep-56fe10.d
+Failed to read file: /tmp/dep-cc34e8.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6Z2C_Q5E/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.2      0.000      0.000
+   2         -9.2      1.989      2.891
+   3         -9.1      0.948      1.053
+   4         -9.0      0.941      1.121
+   5         -8.9      2.634      4.436
+   6         -8.5      2.988      4.399
+   7         -8.5      2.268      4.444
+   8         -8.3      1.720      3.616
+   9         -8.3      2.463      3.846
+  10         -8.1      2.550      3.418
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6Z2C_Q5E/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6Z2C_Q5E/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.136 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.7498 | -9.2000 | False |
+| -8.6000 | 24.0000 | 1.3903 | 0.9268 | 13.6871 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6ZCY_QF8/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6ZCY_QF8 | 10.0000 | 33.0000 | 5.5996 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZCY_QF8/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6zcy | 33,33,33,33,33,33,33,33,33,33 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6ZCY_QF8/receptor.pdbqt | 0.0000 | 13.1290 | 8.0000 | ok | Failed to read file: /tmp/dep-1fa5da.d
+Failed to read file: /tmp/dep-0bf2c7.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZCY_QF8/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.6      0.000      0.000
+   2         -8.3      2.728      4.147
+   3         -8.3      2.535      4.200
+   4         -8.2      3.155      5.431
+   5         -8.2      2.271      3.672
+   6         -7.9      3.924     10.062
+   7         -7.9      3.272     10.439
+   8         -7.9      2.861      8.341
+   9         -7.8      2.864      8.359
+  10         -7.8      3.749     10.857
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZCY_QF8/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZCY_QF8/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.630 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.5946 | -8.6000 | False |
+| -6.4000 | 24.0000 | 1.8104 | 1.7504 | 45.6517 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7B2C_TP7/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7B2C_TP7 | 10.0000 | 21.0000 | 3.8990 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7B2C_TP7/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7b2c | 21,21,21,21,21,21,21,21,21,21 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7B2C_TP7/receptor.pdbqt | 0.0000 | 13.4630 | 8.0000 | ok | Failed to read file: /tmp/dep-1d5a56.d
+Failed to read file: /tmp/dep-2097f6.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7B2C_TP7/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.4      0.000      0.000
+   2         -6.4      2.186      3.600
+   3         -5.9      5.233      7.744
+   4         -5.8      2.008      2.989
+   5         -5.8      1.742      2.369
+   6         -5.8      1.824      2.656
+   7         -5.8      5.263      7.523
+   8         -5.8      1.828      2.582
+   9         -5.8      4.092      5.742
+  10         -5.7      1.768      3.446
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7B2C_TP7/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7B2C_TP7/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.755 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.2065 | -6.4000 | False |
+| -8.6000 | 24.0000 | 124.3620 | 20.6525 | -7.5312 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7PRM_81I/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7PRM_81I | 10.0000 | 32.0000 | 6.4465 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7PRM_81I/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7prm | 32,32,32,32,32,32,32,32,32,32 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7PRM_81I/receptor.pdbqt | 0.0000 | 14.1380 | 8.0000 | ok | Failed to read file: /tmp/dep-981a6b.d
+Failed to read file: /tmp/dep-38d6bc.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7PRM_81I/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.6      0.000      0.000
+   2         -8.6      6.196      9.915
+   3         -8.4      1.630      2.219
+   4         -8.2      6.113      9.984
+   5         -8.2      2.358      3.825
+   6         -8.1      1.853      2.528
+   7         -8.1      2.352      3.824
+   8         -7.9      3.036      3.902
+   9         -7.9      1.478      2.070
+  10         -7.8      2.636      4.256
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7PRM_81I/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7PRM_81I/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.529 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 11.8425 | -8.6000 | False |
+| -8.2000 | 24.0000 | 7.4800 | -5.0833 | 29.6503 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7F5D_EUO/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7F5D_EUO | 10.0000 | 21.0000 | 4.5243 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7F5D_EUO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7f5d | 21,21,21,21,21,21,21,21,21,21 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7F5D_EUO/receptor.pdbqt | 0.0000 | 14.1220 | 8.0000 | ok | Failed to read file: /tmp/dep-472e6c.d
+Failed to read file: /tmp/dep-4c1c8d.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7F5D_EUO/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.2      0.000      0.000
+   2         -8.1      3.367      5.906
+   3         -7.5      3.278      7.281
+   4         -7.4      3.442      5.949
+   5         -7.4      3.566      6.075
+   6         -7.4      3.536      6.189
+   7         -7.3      2.302      3.257
+   8         -7.2      1.289      1.336
+   9         -7.2      3.254      6.548
+  10         -7.2      4.079      6.191
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7F5D_EUO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7F5D_EUO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.257 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.2725 | -8.2000 | False |
+| -8.2000 | 24.0000 | 40.5879 | -19.6675 | 12.3925 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7LOE_Y84/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7LOE_Y84 | 10.0000 | 11.0000 | 0.6655 | True | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7LOE_Y84/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7loe | 11,11,11,11,11,11,11,11,11,11 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7LOE_Y84/receptor.pdbqt | 0.0000 | 13.2110 | 8.0000 | ok | Failed to read file: /tmp/dep-2497fc.d
+Failed to read file: /tmp/dep-11a7fb.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7LOE_Y84/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.2      0.000      0.000
+   2         -8.1      1.570      2.518
+   3         -8.0      0.725      3.356
+   4         -7.9      1.789      4.198
+   5         -7.9      1.828      4.130
+   6         -7.6      1.545      3.442
+   7         -7.6      1.284      2.572
+   8         -7.6      1.684      3.699
+   9         -7.4      1.771      3.283
+  10         -7.2      1.428      2.780
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7LOE_Y84/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7LOE_Y84/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.163 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 0.6655 | -8.2000 | True |
+| -6.7000 | 24.0000 | 22.3138 | 43.3784 | -20.4358 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7MS7_ZQ1/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7MS7_ZQ1 | 10.0000 | 29.0000 | 5.8235 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MS7_ZQ1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7ms7 | 29,29,29,29,29,29,29,29,29,29 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7MS7_ZQ1/receptor.pdbqt | 0.0000 | 14.2610 | 8.0000 | ok | Failed to read file: /tmp/dep-12ef25.d
+Failed to read file: /tmp/dep-ea0dda.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MS7_ZQ1/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.7      0.000      0.000
+   2         -6.5      2.132      2.668
+   3         -6.3      1.731      2.480
+   4         -6.2      2.438      3.110
+   5         -6.0      3.123      4.065
+   6         -5.4      3.777      4.788
+   7         -5.3      5.333      7.754
+   8         -5.3      3.986      5.768
+   9         -5.3      5.332      6.969
+  10         -5.2      5.701      8.360
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MS7_ZQ1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MS7_ZQ1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.646 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 8.4038 | -6.7000 | False |
+| -9.6000 | 24.0000 | 82.9666 | 8.2039 | 66.1690 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6XUM_30L/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6XUM_30L | 10.0000 | 25.0000 | 6.1671 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6XUM_30L/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6xum | 25,25,25,25,25,25,25,25,25,25 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6XUM_30L/receptor.pdbqt | 0.0000 | 14.0500 | 8.0000 | ok | Failed to read file: /tmp/dep-8e4864.d
+Failed to read file: /tmp/dep-eba1fb.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6XUM_30L/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.6      0.000      0.000
+   2         -9.2      4.296      8.562
+   3         -9.0      2.122      3.673
+   4         -8.7      3.982      8.312
+   5         -8.6      3.972      7.835
+   6         -8.4      4.769      8.878
+   7         -8.1      3.791      7.343
+   8         -8.0      5.551      7.978
+   9         -7.7      4.536      6.956
+  10         -7.6      5.559      7.907
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6XUM_30L/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6XUM_30L/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.248 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.0317 | -9.6000 | False |
+| -5.0000 | 24.0000 | 26.5933 | -7.3317 | 42.9418 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ZDY_6MJ/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7ZDY_6MJ | 10.0000 | 11.0000 | 3.0043 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZDY_6MJ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7zdy | 11,11,11,11,11,11,11,11,11,11 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ZDY_6MJ/receptor.pdbqt | 0.0000 | 14.0910 | 8.0000 | ok | Failed to read file: /tmp/dep-402db9.d
+Failed to read file: /tmp/dep-d53a83.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZDY_6MJ/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.0      0.000      0.000
+   2         -4.9      1.359      2.617
+   3         -4.6      2.576      4.258
+   4         -4.5      2.462      4.260
+   5         -4.4      2.536      3.807
+   6         -4.4      2.804      4.607
+   7         -4.3      2.156      4.422
+   8         -4.3      2.231      4.955
+   9         -4.2      2.819      4.208
+  10         -4.2      2.183      3.239
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZDY_6MJ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZDY_6MJ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.094 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.0043 | -5.0000 | False |
+| -8.9000 | 24.0000 | 182.5929 | 123.6558 | 30.4170 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7RNI_60I/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7RNI_60I | 10.0000 | 31.0000 | 6.5611 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RNI_60I/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7rni | 31,31,31,31,31,31,31,31,31,31 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7RNI_60I/receptor.pdbqt | 0.0000 | 13.9610 | 8.0000 | ok | Failed to read file: /tmp/dep-095e84.d
+Failed to read file: /tmp/dep-b75f4f.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RNI_60I/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.9      0.000      0.000
+   2         -8.8      4.411      7.697
+   3         -8.7      2.159      3.744
+   4         -8.6      4.584      7.585
+   5         -8.6      2.189      3.653
+   6         -8.5      0.970      1.852
+   7         -8.4      4.746      6.603
+   8         -8.4      2.567      4.185
+   9         -8.2      5.410      7.290
+  10         -8.1      4.399      6.734
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RNI_60I/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RNI_60I/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.435 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 8.1091 | -8.9000 | False |
+| -8.4000 | 24.0000 | 42.2466 | 51.6373 | 67.2895 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7AMC_73B/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7AMC_73B | 10.0000 | 31.0000 | 3.8310 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7AMC_73B/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7amc | 31,31,31,31,31,31,31,31,31,31 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7AMC_73B/receptor.pdbqt | 0.0000 | 13.3620 | 8.0000 | ok | Failed to read file: /tmp/dep-9130d8.d
+Failed to read file: /tmp/dep-537455.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7AMC_73B/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.4      0.000      0.000
+   2         -8.4      4.087      7.537
+   3         -8.4      4.915      7.871
+   4         -8.3      4.228      7.514
+   5         -8.3      0.382      1.283
+   6         -8.2      0.583      1.227
+   7         -8.1      1.089      1.469
+   8         -8.0      0.550      1.026
+   9         -8.0      4.268      7.181
+  10         -8.0      6.194      8.511
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7AMC_73B/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7AMC_73B/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.720 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.2128 | -8.4000 | False |
+| -6.2000 | 24.0000 | -20.0480 | 17.0827 | 28.1653 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7W06_ITN/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7W06_ITN | 10.0000 | 9.0000 | 2.4936 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7W06_ITN/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7w06 | 9,9,9,9,9,9,9,9,9,9 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7W06_ITN/receptor.pdbqt | 0.0000 | 14.1100 | 8.0000 | ok | Failed to read file: /tmp/dep-5583e1.d
+Failed to read file: /tmp/dep-2b318a.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7W06_ITN/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.2      0.000      0.000
+   2         -6.2      0.078      1.085
+   3         -6.2      1.516      2.304
+   4         -6.1      1.500      2.548
+   5         -6.1      1.332      1.955
+   6         -6.0      1.449      2.415
+   7         -6.0      0.944      1.652
+   8         -6.0      1.333      1.790
+   9         -5.9      1.634      3.591
+  10         -5.9      1.670      3.692
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7W06_ITN/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7W06_ITN/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.100 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.6325 | -6.2000 | False |
+| -6.0000 | 24.0000 | -5.2725 | 3.4096 | -12.8065 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7UP3_NZ0/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7UP3_NZ0 | 10.0000 | 23.0000 | 5.2977 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UP3_NZ0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7up3 | 23,23,23,23,23,23,23,23,23,23 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7UP3_NZ0/receptor.pdbqt | 0.0000 | 14.0730 | 8.0000 | ok | Failed to read file: /tmp/dep-f07352.d
+Failed to read file: /tmp/dep-c3d59e.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UP3_NZ0/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.0      0.000      0.000
+   2         -6.0      3.929      5.455
+   3         -5.8      3.495      4.860
+   4         -5.8      5.320      8.557
+   5         -5.8      4.610      6.999
+   6         -5.8      3.552      4.793
+   7         -5.8      4.525      5.668
+   8         -5.7      6.722      9.614
+   9         -5.7      7.689      9.664
+  10         -5.7      2.817      3.312
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UP3_NZ0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UP3_NZ0/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.268 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.6589 | -6.0000 | False |
+| -5.2000 | 24.0000 | 32.5692 | 16.8509 | 16.0092 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8H0M_2EH/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8H0M_2EH | 10.0000 | 9.0000 | 4.4330 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8H0M_2EH/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8h0m | 9,9,9,9,9,9,9,9,9,9 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8H0M_2EH/receptor.pdbqt | 0.0000 | 14.0290 | 8.0000 | ok | Failed to read file: /tmp/dep-255923.d
+Failed to read file: /tmp/dep-6d1e6d.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8H0M_2EH/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.2      0.000      0.000
+   2         -4.6      1.976      2.926
+   3         -4.5      0.995      1.402
+   4         -4.4      2.419      4.807
+   5         -4.4      2.100      2.905
+   6         -4.4      1.912      4.342
+   7         -4.4      9.400     11.799
+   8         -4.4      3.204      4.556
+   9         -4.3      2.584      3.604
+  10         -4.3      2.557      3.726
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8H0M_2EH/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8H0M_2EH/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.004 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.5377 | -5.2000 | False |
+| -4.2000 | 24.0000 | 2.4572 | -22.5955 | 14.6035 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8AJX_FUM/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8AJX_FUM | 10.0000 | 8.0000 | 4.7491 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AJX_FUM/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8ajx | 8,8,8,8,8,8,8,8,8,8 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8AJX_FUM/receptor.pdbqt | 0.0000 | 14.0810 | 8.0000 | ok | Failed to read file: /tmp/dep-0152ac.d
+Failed to read file: /tmp/dep-b050ac.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AJX_FUM/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.2      0.000      0.000
+   2         -4.2      0.404      1.647
+   3         -4.1      0.827      4.179
+   4         -4.1      0.885      4.114
+   5         -4.0      0.710      4.297
+   6         -3.7      9.695     10.896
+   7         -3.6     13.518     14.057
+   8         -3.6     13.205     14.174
+   9         -3.6      8.446      8.861
+  10         -3.6      8.458      8.911
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AJX_FUM/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AJX_FUM/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.005 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 12.2714 | -4.2000 | False |
+| -6.6000 | 24.0000 | 14.2491 | 8.6028 | -0.1377 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7MOI_HPS/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7MOI_HPS | 10.0000 | 11.0000 | 3.6831 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MOI_HPS/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7moi | 11,11,11,11,11,11,11,11,11,11 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7MOI_HPS/receptor.pdbqt | 0.0000 | 14.0370 | 8.0000 | ok | Failed to read file: /tmp/dep-1df5ed.d
+Failed to read file: /tmp/dep-1ac606.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MOI_HPS/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.6      0.000      0.000
+   2         -6.5      0.275      2.047
+   3         -6.2      0.555      1.560
+   4         -5.8      2.196      2.974
+   5         -5.8      2.312      2.990
+   6         -5.7      2.172      2.843
+   7         -5.6      1.694      2.601
+   8         -5.6      1.690      2.903
+   9         -5.6      1.317      2.159
+  10         -5.6      1.583      2.994
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MOI_HPS/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MOI_HPS/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.011 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.6831 | -6.6000 | False |
+| -9.0000 | 24.0000 | -18.4538 | -9.0402 | -13.1066 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7WN5_JGL/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7WN5_JGL | 10.0000 | 37.0000 | 5.6715 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WN5_JGL/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7wn5 | 37,37,37,37,37,37,37,37,37,37 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7WN5_JGL/receptor.pdbqt | 0.0000 | 14.0930 | 8.0000 | ok | Failed to read file: /tmp/dep-f758af.d
+Failed to read file: /tmp/dep-3031ef.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WN5_JGL/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.0      0.000      0.000
+   2         -8.8      1.192      1.338
+   3         -8.6      3.455      7.184
+   4         -8.5      2.920      6.478
+   5         -8.5      3.447      7.235
+   6         -8.4      1.305      1.585
+   7         -8.3      2.970      5.516
+   8         -8.1      3.536      7.263
+   9         -8.0      1.338      1.698
+  10         -8.0      2.896      5.451
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WN5_JGL/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WN5_JGL/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.801 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.3959 | -9.0000 | False |
+| -8.3000 | 24.0000 | -1.4696 | 8.1027 | 14.2571 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6ZR8_QOZ/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6ZR8_QOZ | 10.0000 | 33.0000 | 6.3168 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZR8_QOZ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6zr8 | 33,33,33,33,33,33,33,33,33,33 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6ZR8_QOZ/receptor.pdbqt | 0.0000 | 14.1550 | 8.0000 | ok | Failed to read file: /tmp/dep-6ced25.d
+Failed to read file: /tmp/dep-14b7fb.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZR8_QOZ/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.3      0.000      0.000
+   2         -8.2      5.404      9.171
+   3         -8.2      2.056      3.872
+   4         -8.0      0.943      3.334
+   5         -7.8      1.839      3.817
+   6         -7.8      2.952      5.480
+   7         -7.7      1.652      2.535
+   8         -7.7      5.206      9.251
+   9         -7.7      5.183      8.683
+  10         -7.6      2.717      4.964
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZR8_QOZ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZR8_QOZ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.751 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.0296 | -8.3000 | False |
+| -7.2000 | 24.0000 | 9.8361 | 0.4703 | 21.9815 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8ACL_LQL/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8ACL_LQL | 10.0000 | 31.0000 | 5.8518 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8ACL_LQL/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8acl | 31,31,31,31,31,31,31,31,31,31 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8ACL_LQL/receptor.pdbqt | 0.0000 | 14.0760 | 8.0000 | ok | Failed to read file: /tmp/dep-e344a3.d
+Failed to read file: /tmp/dep-cb6eb2.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8ACL_LQL/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.2      0.000      0.000
+   2         -7.1      2.951      6.200
+   3         -7.0      4.611      8.422
+   4         -6.9      3.570      7.858
+   5         -6.9      3.756      7.342
+   6         -6.7      4.025      6.185
+   7         -6.6      3.026      6.094
+   8         -6.6      3.910      7.404
+   9         -6.5      3.952      8.204
+  10         -6.5      3.406      5.701
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8ACL_LQL/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8ACL_LQL/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.555 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.0856 | -7.2000 | False |
+| -5.8000 | 24.0000 | 37.8481 | 35.7617 | 114.8611 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7THI_PGA/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7THI_PGA | 10.0000 | 9.0000 | 1.5759 | True | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7THI_PGA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7thi | 9,9,9,9,9,9,9,9,9,9 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7THI_PGA/receptor.pdbqt | 0.0000 | 13.2600 | 8.0000 | ok | Failed to read file: /tmp/dep-f8d73b.d
+Failed to read file: /tmp/dep-e77f15.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7THI_PGA/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.8      0.000      0.000
+   2         -5.6      1.011      1.011
+   3         -5.4      1.268      1.489
+   4         -5.4      1.023      1.447
+   5         -5.3      2.571      4.650
+   6         -5.3      2.020      4.488
+   7         -5.3      1.400      1.841
+   8         -5.3      4.116      5.372
+   9         -5.3      1.982      4.260
+  10         -5.2      1.185      2.073
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7THI_PGA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7THI_PGA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.237 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 1.8134 | -5.8000 | True |
+| -8.4000 | 24.0000 | -13.2815 | -7.7917 | 21.7544 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7Q27_8KC/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7Q27_8KC | 10.0000 | 35.0000 | 6.8177 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7Q27_8KC/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7q27 | 35,35,35,35,35,35,35,35,35,35 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7Q27_8KC/receptor.pdbqt | 0.0000 | 14.0620 | 8.0000 | ok | Failed to read file: /tmp/dep-fc3e4d.d
+Failed to read file: /tmp/dep-317b87.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7Q27_8KC/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.4      0.000      0.000
+   2         -8.2      2.646      6.184
+   3         -8.1      1.758      2.507
+   4         -8.1      2.415      5.090
+   5         -8.1      4.835      8.636
+   6         -8.0      7.064     10.909
+   7         -7.9      2.082      5.039
+   8         -7.9      6.715     10.497
+   9         -7.9      3.019      4.933
+  10         -7.9      2.135      6.956
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7Q27_8KC/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7Q27_8KC/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.821 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 8.2519 | -8.4000 | False |
+| -7.4000 | 24.0000 | 26.0303 | 1.0064 | 1.5602 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6YDY_K73/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6YDY_K73 | 10.0000 | 28.0000 | 5.7287 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6YDY_K73/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6ydy | 28,28,28,28,28,28,28,28,28,28 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6YDY_K73/receptor.pdbqt | 0.0000 | 14.0220 | 8.0000 | ok | Failed to read file: /tmp/dep-7c5288.d
+Failed to read file: /tmp/dep-b1bb79.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6YDY_K73/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.4      0.000      0.000
+   2         -7.3      1.642      2.065
+   3         -6.5      2.087      3.210
+   4         -6.5      3.031      4.515
+   5         -6.3      1.574      2.068
+   6         -6.1      3.050      5.220
+   7         -5.9      4.244      5.959
+   8         -5.8      9.280     11.614
+   9         -5.8      5.783      8.716
+  10         -5.8      3.273      7.035
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6YDY_K73/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6YDY_K73/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.461 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.1943 | -7.4000 | False |
+| -6.8000 | 24.0000 | 92.7454 | 8.7911 | 30.7175 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6VTA_AKN/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6VTA_AKN | 10.0000 | 40.0000 | 5.8615 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6VTA_AKN/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6vta | 40,40,40,40,40,40,40,40,40,40 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6VTA_AKN/receptor.pdbqt | 0.0000 | 14.3640 | 8.0000 | ok | Failed to read file: /tmp/dep-60c6df.d
+Failed to read file: /tmp/dep-100e3a.d
+ |  #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6VTA_AKN/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.8      0.000      0.000
+   2         -6.7      2.811      6.295
+   3         -6.6      6.905     10.505
+   4         -6.6      2.788      8.328
+   5         -6.3      2.503      7.824
+   6         -6.1      3.256      8.184
+   7         -6.1      3.443      5.185
+   8         -6.1      2.585      6.520
+   9         -6.1      2.898      7.408
+  10         -6.1      2.983      8.129
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6VTA_AKN/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6VTA_AKN/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.385 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.1120 | -6.8000 | False |
+| -6.8000 | 24.0000 | 16.2177 | 10.5274 | 35.4559 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ZOC_T8E/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7ZOC_T8E | 10.0000 | 15.0000 | 4.4491 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZOC_T8E/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7zoc | 15,15,15,15,15,15,15,15,15,15 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ZOC_T8E/receptor.pdbqt | 0.0000 | 14.0150 | 8.0000 | ok | Failed to read file: /tmp/dep-9ba2ca.d
+Failed to read file: /tmp/dep-4db82a.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZOC_T8E/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.8      0.000      0.000
+   2         -6.6      1.814      1.939
+   3         -6.6      1.570      1.668
+   4         -6.5      0.864      1.571
+   5         -6.4      1.706      2.096
+   6         -6.4      0.440      1.314
+   7         -6.4      1.321      1.902
+   8         -6.3      1.140      1.140
+   9         -6.2      3.685      5.143
+  10         -6.2      3.167      6.609
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZOC_T8E/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZOC_T8E/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.080 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.5305 | -6.8000 | False |
+| -5.8000 | 24.0000 | -13.3990 | -2.2016 | -14.3607 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7LZQ_YJV/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7LZQ_YJV | 10.0000 | 22.0000 | 5.6103 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7LZQ_YJV/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7lzq | 22,22,22,22,22,22,22,22,22,22 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7LZQ_YJV/receptor.pdbqt | 0.0000 | 14.1260 | 8.0000 | ok | Failed to read file: /tmp/dep-969cf7.d
+Failed to read file: /tmp/dep-4fd089.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7LZQ_YJV/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.8      0.000      0.000
+   2         -5.8      3.661      5.464
+   3         -5.7      4.380      5.718
+   4         -5.7      3.523      5.274
+   5         -5.6      2.755      7.246
+   6         -5.5      2.445      7.837
+   7         -5.5      3.517      7.770
+   8         -5.5      1.382      1.508
+   9         -5.4      2.825      4.130
+  10         -5.4      2.416      7.232
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7LZQ_YJV/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7LZQ_YJV/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.301 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.8086 | -5.8000 | False |
+| -10.0000 | 24.0000 | -66.7369 | 39.6240 | -6.7512 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8A1H_DLZ/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8A1H_DLZ | 10.0000 | 23.0000 | 3.0345 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8A1H_DLZ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8a1h | 23,23,23,23,23,23,23,23,23,23 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8A1H_DLZ/receptor.pdbqt | 0.0000 | 13.2360 | 8.0000 | ok | Failed to read file: /tmp/dep-5757e6.d
+Failed to read file: /tmp/dep-6bbf5d.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8A1H_DLZ/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.0      0.000      0.000
+   2         -9.7      0.797      1.136
+   3         -9.3      1.889      3.846
+   4         -9.2      1.016      1.482
+   5         -8.9      2.553      5.542
+   6         -8.7      1.715      3.594
+   7         -8.7      0.663      1.450
+   8         -8.5      2.418      5.500
+   9         -8.5      1.808      3.920
+  10         -8.5      2.441      5.330
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8A1H_DLZ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8A1H_DLZ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.445 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.0345 | -10.0000 | False |
+| -5.1000 | 24.0000 | 30.1059 | 0.6602 | 11.6963 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8BRO_R7E/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8BRO_R7E | 10.0000 | 26.0000 | 5.8805 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8BRO_R7E/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8bro | 26,26,26,26,26,26,26,26,26,26 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8BRO_R7E/receptor.pdbqt | 0.0000 | 13.1000 | 8.0000 | ok | Failed to read file: /tmp/dep-e38c9e.d
+Failed to read file: /tmp/dep-58e55e.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8BRO_R7E/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.1      0.000      0.000
+   2         -5.0      3.560      9.180
+   3         -4.9      6.399      9.998
+   4         -4.9      3.808      6.876
+   5         -4.8      5.545      9.920
+   6         -4.8      1.136      1.700
+   7         -4.8      7.324     10.565
+   8         -4.7      6.926      9.927
+   9         -4.7      7.817     11.724
+  10         -4.6      8.975     11.694
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8BRO_R7E/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8BRO_R7E/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.378 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.4861 | -5.1000 | False |
+| -7.1000 | 24.0000 | 16.3730 | 32.4427 | 75.2800 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7WKL_CAQ/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7WKL_CAQ | 10.0000 | 8.0000 | 2.1458 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WKL_CAQ/subset200_nativebox_sdepth8_t1000_seed101/receptor_pocket-pocket1-pocketvina_poses.pdbqt | 7wkl | 8,8,8,8,8,8,8,8,8,8 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7WKL_CAQ/receptor_pocket.pdbqt | 0.0000 | 14.1140 | 8.0000 | ok | Failed to read file: /tmp/dep-8dfc08.d
+Failed to read file: /tmp/dep-8972da.d
+ |                                           #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WKL_CAQ/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.1      0.000      0.000
+   2         -7.1      0.011      2.254
+   3         -7.0      1.478      2.575
+   4         -7.0      1.463      2.418
+   5         -6.1      2.110      3.460
+   6         -6.1      2.115      2.725
+   7         -5.6     10.161     11.414
+   8         -5.6     10.181     11.503
+   9         -5.2      9.839     11.104
+  10         -5.2      1.119      2.405
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WKL_CAQ/subset200_nativebox_sdepth8_t1000_seed101/receptor_pocket-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WKL_CAQ/subset200_nativebox_sdepth8_t1000_seed101/receptor_pocket-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.104 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.4775 | -7.1000 | False |
+| -5.6000 | 24.0000 | 1.1605 | 16.4709 | 44.1892 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7P2I_MFU/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7P2I_MFU | 10.0000 | 12.0000 | 2.9187 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7P2I_MFU/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7p2i | 12,12,12,12,12,12,12,12,12,12 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7P2I_MFU/receptor.pdbqt | 0.0000 | 13.9920 | 8.0000 | ok | Failed to read file: /tmp/dep-677530.d
+Failed to read file: /tmp/dep-df0819.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7P2I_MFU/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.6      0.000      0.000
+   2         -4.9      1.337      1.485
+   3         -4.6      1.768      2.242
+   4         -4.6      1.830      2.502
+   5         -4.6      1.831      2.711
+   6         -4.4      1.996      4.147
+   7         -4.4      2.018      4.252
+   8         -4.4      2.112      4.444
+   9         -4.4      1.720      3.339
+  10         -4.3      1.991      3.174
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7P2I_MFU/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7P2I_MFU/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.998 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.5301 | -5.6000 | False |
+| -5.9000 | 24.0000 | 69.7130 | -2.1069 | 75.0528 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7KQU_YOF/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7KQU_YOF | 10.0000 | 14.0000 | 1.5772 | True | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KQU_YOF/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7kqu | 14,14,14,14,14,14,14,14,14,14 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7KQU_YOF/receptor.pdbqt | 0.0000 | 13.9620 | 8.0000 | ok | Failed to read file: /tmp/dep-0f2906.d
+Failed to read file: /tmp/dep-c0f08b.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KQU_YOF/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.9      0.000      0.000
+   2         -5.5      7.018      8.012
+   3         -5.4      4.822      7.080
+   4         -5.4      4.625      6.121
+   5         -5.4      5.432      7.678
+   6         -5.4      7.010      7.630
+   7         -5.3      5.213      7.323
+   8         -5.3      2.058      2.486
+   9         -5.3      5.783      7.098
+  10         -5.3      5.440      7.572
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KQU_YOF/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KQU_YOF/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.020 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 1.5772 | -5.9000 | True |
+| -6.7000 | 24.0000 | 64.4107 | 44.2818 | 26.7685 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7NSW_HC4/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7NSW_HC4 | 10.0000 | 12.0000 | 1.8530 | True | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NSW_HC4/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7nsw | 12,12,12,12,12,12,12,12,12,12 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7NSW_HC4/receptor.pdbqt | 0.0000 | 14.0600 | 8.0000 | ok | Failed to read file: /tmp/dep-366569.d
+Failed to read file: /tmp/dep-3a8a51.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NSW_HC4/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.7      0.000      0.000
+   2         -6.7      0.105      1.402
+   3         -6.4      0.683      1.845
+   4         -5.7     12.265     14.605
+   5         -5.7     13.367     14.586
+   6         -5.4     12.572     14.454
+   7         -5.0     13.755     14.690
+   8         -4.9     13.860     14.689
+   9         -4.9      1.204      5.746
+  10         -4.9     11.841     13.730
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NSW_HC4/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NSW_HC4/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.089 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 1.8530 | -6.7000 | True |
+| -6.4000 | 24.0000 | 53.6218 | 78.3489 | 7.9042 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6ZAE_ACV/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6ZAE_ACV | 10.0000 | 24.0000 | 5.3033 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZAE_ACV/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6zae | 24,24,24,24,24,24,24,24,24,24 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6ZAE_ACV/receptor.pdbqt | 0.0000 | 13.2360 | 8.0000 | ok | Failed to read file: /tmp/dep-b423f7.d
+Failed to read file: /tmp/dep-7e9dcf.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZAE_ACV/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.4      0.000      0.000
+   2         -6.0      3.702      4.921
+   3         -6.0      4.305      7.918
+   4         -5.9      3.593      4.697
+   5         -5.9      5.573      7.848
+   6         -5.9      4.118      7.684
+   7         -5.8      3.548      4.459
+   8         -5.8      4.014      5.188
+   9         -5.8      3.664      4.747
+  10         -5.8      2.369      7.270
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZAE_ACV/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZAE_ACV/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.606 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.2873 | -6.4000 | False |
+| -8.7000 | 24.0000 | -76.4287 | -15.3532 | 18.1611 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7MFP_Z7P/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7MFP_Z7P | 10.0000 | 50.0000 | 4.6172 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MFP_Z7P/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7mfp | 50,50,50,50,50,50,50,50,50,50 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7MFP_Z7P/receptor.pdbqt | 0.0000 | 15.1860 | 8.0000 | ok | Failed to read file: /tmp/dep-20fa26.d
+Failed to read file: /tmp/dep-f47c8c.d
+ |  #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MFP_Z7P/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.7      0.000      0.000
+   2         -8.5      2.539     12.778
+   3         -8.2      5.681      8.241
+   4         -8.0      5.279      8.597
+   5         -7.7      3.406      5.265
+   6         -7.4      3.174      5.018
+   7         -7.4      5.476     10.073
+   8         -7.4      5.460      8.147
+   9         -7.3      5.603     12.639
+  10         -7.3      5.417      8.175
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MFP_Z7P/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MFP_Z7P/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 14.943 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 12.6471 | -8.7000 | False |
+| -8.4000 | 24.0000 | -1.3179 | -27.3566 | -69.3958 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7WY1_D0L/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7WY1_D0L | 10.0000 | 26.0000 | 4.3637 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WY1_D0L/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7wy1 | 26,26,26,26,26,26,26,26,26,26 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7WY1_D0L/receptor.pdbqt | 0.0000 | 14.0630 | 8.0000 | ok | Failed to read file: /tmp/dep-ca7506.d
+Failed to read file: /tmp/dep-e54257.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WY1_D0L/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.4      0.000      0.000
+   2         -8.3      0.981      1.659
+   3         -8.1      0.792      1.027
+   4         -7.8      0.917      1.211
+   5         -7.7      1.154      1.726
+   6         -7.6      1.023      1.560
+   7         -7.4      0.852      1.578
+   8         -7.4      3.787      9.503
+   9         -7.4      1.280      1.808
+  10         -7.3      3.348      5.892
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WY1_D0L/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WY1_D0L/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.365 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.3637 | -8.4000 | False |
+| -7.9000 | 24.0000 | 13.7781 | 10.8211 | 38.1669 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6ZX3_QRZ/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6ZX3_QRZ | 10.0000 | 24.0000 | 4.7812 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZX3_QRZ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6zx3 | 24,24,24,24,24,24,24,24,24,24 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6ZX3_QRZ/receptor.pdbqt | 0.0000 | 13.3230 | 8.0000 | ok | Failed to read file: /tmp/dep-e8b045.d
+Failed to read file: /tmp/dep-7b3813.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZX3_QRZ/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.9      0.000      0.000
+   2         -7.7      2.935      3.727
+   3         -7.5      2.776      3.354
+   4         -7.3      0.968      1.473
+   5         -7.1      3.842      6.628
+   6         -7.0      2.516      3.326
+   7         -6.9      3.615      5.418
+   8         -6.9      2.411      3.140
+   9         -6.9      3.870      6.609
+  10         -6.9      3.316      3.907
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZX3_QRZ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZX3_QRZ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.552 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.6947 | -7.9000 | False |
+| -8.6000 | 24.0000 | 41.8278 | 13.6738 | 54.0273 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7C0U_FGO/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7C0U_FGO | 10.0000 | 43.0000 | 6.5645 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7C0U_FGO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7c0u | 43,43,43,43,43,43,43,43,43,43 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7C0U_FGO/receptor.pdbqt | 0.0000 | 15.1720 | 8.0000 | ok | Failed to read file: /tmp/dep-5b7394.d
+Failed to read file: /tmp/dep-28b617.d
+ |  #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7C0U_FGO/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.6      0.000      0.000
+   2         -8.4      2.472      7.425
+   3         -8.2      3.248      9.253
+   4         -8.2      2.994      4.581
+   5         -8.1      1.766      2.131
+   6         -8.0      1.988      3.397
+   7         -8.0      2.893      4.407
+   8         -7.9      3.152      8.284
+   9         -7.8      3.332      6.149
+  10         -7.7      4.095      7.183
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7C0U_FGO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7C0U_FGO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 14.258 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 8.6944 | -8.6000 | False |
+| -7.1000 | 24.0000 | 58.2384 | 67.0000 | 60.4826 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7DKT_GLF/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7DKT_GLF | 10.0000 | 12.0000 | 2.3089 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7DKT_GLF/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7dkt | 12,12,12,12,12,12,12,12,12,12 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7DKT_GLF/receptor.pdbqt | 0.0000 | 14.1310 | 8.0000 | ok | Failed to read file: /tmp/dep-c43c44.d
+Failed to read file: /tmp/dep-438161.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7DKT_GLF/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.1      0.000      0.000
+   2         -6.8      1.419      1.807
+   3         -6.7      1.189      3.486
+   4         -6.4      1.476      3.310
+   5         -6.3      1.895      3.709
+   6         -6.1      2.154      4.048
+   7         -5.9      1.876      3.251
+   8         -5.7      2.272      4.266
+   9         -5.7      1.993      2.998
+  10         -5.6      2.144      4.356
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7DKT_GLF/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7DKT_GLF/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.148 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.3089 | -7.1000 | False |
+| -8.5000 | 24.0000 | -12.6108 | -9.6507 | -1.9542 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6ZK5_IMH/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6ZK5_IMH | 10.0000 | 19.0000 | 2.8771 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZK5_IMH/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6zk5 | 19,19,19,19,19,19,19,19,19,19 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6ZK5_IMH/receptor.pdbqt | 0.0000 | 14.1130 | 8.0000 | ok | Failed to read file: /tmp/dep-2017e5.d
+Failed to read file: /tmp/dep-7777b2.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZK5_IMH/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.5      0.000      0.000
+   2         -7.9      2.171      3.213
+   3         -7.7      1.948      5.909
+   4         -7.6      1.177      2.210
+   5         -7.6      1.775      5.854
+   6         -7.5      1.746      2.969
+   7         -7.5      2.176      5.978
+   8         -7.3      2.879      4.533
+   9         -7.2      2.012      6.038
+  10         -7.1      2.845      6.064
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZK5_IMH/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6ZK5_IMH/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.237 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.8828 | -8.5000 | False |
+| -5.8000 | 24.0000 | -25.8669 | 23.8401 | -22.8834 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7UEY_N0R/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7UEY_N0R | 10.0000 | 27.0000 | 7.3587 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UEY_N0R/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7uey | 27,27,27,27,27,27,27,27,27,27 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7UEY_N0R/receptor.pdbqt | 0.0000 | 14.0370 | 8.0000 | ok | Failed to read file: /tmp/dep-5eedc5.d
+Failed to read file: /tmp/dep-07a622.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UEY_N0R/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.8      0.000      0.000
+   2         -5.5      4.043      7.102
+   3         -5.4      5.484      8.114
+   4         -5.4      3.151      3.781
+   5         -5.2      7.682     11.647
+   6         -5.2      6.531      9.140
+   7         -5.2      6.601      8.234
+   8         -5.1      7.505     10.090
+   9         -4.9      4.980      6.928
+  10         -4.9      5.345      6.837
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UEY_N0R/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UEY_N0R/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.341 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 12.0606 | -5.8000 | False |
+| -8.9000 | 24.0000 | -9.3966 | 57.5829 | 21.1960 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7SNE_9XR/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7SNE_9XR | 10.0000 | 45.0000 | 6.2444 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7SNE_9XR/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7sne | 45,45,45,45,45,45,45,45,45,45 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7SNE_9XR/receptor.pdbqt | 0.0000 | 15.1970 | 8.0000 | ok | Failed to read file: /tmp/dep-85ed21.d
+Failed to read file: /tmp/dep-fb3517.d
+ |  #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7SNE_9XR/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.9      0.000      0.000
+   2         -8.7      2.337      9.275
+   3         -8.7      1.920      9.593
+   4         -8.6      6.024     11.257
+   5         -8.5      4.634      8.369
+   6         -8.2      5.189      9.048
+   7         -8.2      4.156      9.742
+   8         -8.2      3.357      9.023
+   9         -8.2      2.945      4.640
+  10         -8.2      3.193      3.832
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7SNE_9XR/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7SNE_9XR/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 14.576 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.1770 | -8.9000 | False |
+| -5.7000 | 24.0000 | 17.2497 | 0.6365 | 26.1458 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8E77_ULP/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8E77_ULP | 10.0000 | 55.0000 | 8.0021 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8E77_ULP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8e77 | 55,55,55,55,55,55,55,55,55,55 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8E77_ULP/receptor.pdbqt | 0.0000 | 16.0790 | 8.0000 | ok | Failed to read file: /tmp/dep-23c16f.d
+Failed to read file: /tmp/dep-417be1.d
+ |             #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|  =======                            \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8E77_ULP/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.7      0.000      0.000
+   2         -5.4      5.069      7.876
+   3         -5.2      5.189      9.697
+   4         -5.2      5.390     10.197
+   5         -5.2      5.181      9.221
+   6         -5.0      5.729     10.664
+   7         -4.9      2.965     10.616
+   8         -4.9      4.128      8.383
+   9         -4.9      3.364      8.837
+  10         -4.8      3.421      6.590
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8E77_ULP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8E77_ULP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 15.241 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 10.0032 | -5.7000 | False |
+| -8.1000 | 24.0000 | 19.7446 | -0.3242 | 18.7652 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7MAE_XUS/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7MAE_XUS | 10.0000 | 49.0000 | 7.6038 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MAE_XUS/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7mae | 49,49,49,49,49,49,49,49,49,49 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7MAE_XUS/receptor.pdbqt | 0.0000 | 15.1480 | 8.0000 | ok | Failed to read file: /tmp/dep-99479a.d
+Failed to read file: /tmp/dep-08459e.d
+ |  #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MAE_XUS/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.1      0.000      0.000
+   2         -7.7      3.540     10.576
+   3         -7.5      2.836      5.298
+   4         -7.4      4.418     10.652
+   5         -7.2      4.472     11.295
+   6         -7.2      3.654      9.675
+   7         -7.1      3.660      9.543
+   8         -7.1      2.774      4.968
+   9         -6.9      2.967     10.041
+  10         -6.8      3.578      6.545
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MAE_XUS/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MAE_XUS/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 14.659 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 9.1495 | -8.1000 | False |
+| -7.9000 | 24.0000 | 12.7185 | 15.8778 | -10.6707 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6XCT_478/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6XCT_478 | 10.0000 | 35.0000 | 6.3275 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6XCT_478/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6xct | 35,35,35,35,35,35,35,35,35,35 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6XCT_478/receptor.pdbqt | 0.0000 | 13.2350 | 8.0000 | ok | Failed to read file: /tmp/dep-aaf818.d
+Failed to read file: /tmp/dep-3f1639.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6XCT_478/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.9      0.000      0.000
+   2         -7.7      1.741      2.439
+   3         -7.4      3.190      9.117
+   4         -7.3      3.313      8.425
+   5         -7.3      1.241      1.467
+   6         -7.2      2.842      7.608
+   7         -7.1      4.130      7.388
+   8         -7.1      2.396      8.072
+   9         -7.1      3.322      7.906
+  10         -7.1      2.661      8.490
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6XCT_478/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6XCT_478/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.950 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.9279 | -7.9000 | False |
+| -9.1000 | 24.0000 | 11.6960 | -12.8233 | -8.4356 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7OMX_CNA/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7OMX_CNA | 10.0000 | 44.0000 | 4.0405 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7OMX_CNA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7omx | 44,44,44,44,44,44,44,44,44,44 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7OMX_CNA/receptor.pdbqt | 0.0000 | 15.0360 | 8.0000 | ok | Failed to read file: /tmp/dep-4293e4.d
+Failed to read file: /tmp/dep-df8c92.d
+ |  #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7OMX_CNA/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.1      0.000      0.000
+   2         -8.4      2.592      8.659
+   3         -8.4      3.760      6.220
+   4         -8.3      2.597      6.212
+   5         -8.3      3.262      9.267
+   6         -8.1      4.371      6.170
+   7         -8.0      3.601      9.980
+   8         -8.0      4.049      6.863
+   9         -7.9      2.370      3.517
+  10         -7.7      4.404      6.583
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7OMX_CNA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7OMX_CNA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 14.419 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.0574 | -9.1000 | False |
+| -10.9000 | 24.0000 | 15.4688 | 2.6220 | 37.8067 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7VWF_K55/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7VWF_K55 | 10.0000 | 33.0000 | 5.1926 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7VWF_K55/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7vwf | 33,33,33,33,33,33,33,33,33,33 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7VWF_K55/receptor.pdbqt | 0.0000 | 14.0570 | 8.0000 | ok | Failed to read file: /tmp/dep-ca1dee.d
+Failed to read file: /tmp/dep-0144fa.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7VWF_K55/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.9      0.000      0.000
+   2        -10.9      1.264      1.780
+   3        -10.6      0.441      1.006
+   4        -10.2      0.879      1.448
+   5         -9.4      1.333      5.774
+   6         -9.4      1.355      1.997
+   7         -8.9      4.159      5.466
+   8         -8.8      1.583      5.872
+   9         -8.7      1.311      2.135
+  10         -8.7      1.992      3.404
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7VWF_K55/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7VWF_K55/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.666 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.9067 | -10.9000 | False |
+| -6.0000 | 24.0000 | 2.9731 | 10.9456 | 14.4056 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7TWC_CXS/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7TWC_CXS | 10.0000 | 14.0000 | 6.9414 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TWC_CXS/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7twc | 14,14,14,14,14,14,14,14,14,14 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7TWC_CXS/receptor.pdbqt | 0.0000 | 14.0140 | 8.0000 | ok | Failed to read file: /tmp/dep-cf7874.d
+Failed to read file: /tmp/dep-276ff7.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TWC_CXS/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.0      0.000      0.000
+   2         -5.7      1.758      2.069
+   3         -5.4      1.015      1.092
+   4         -5.3      1.562      1.965
+   5         -5.3      1.417      1.983
+   6         -5.3      4.166      6.591
+   7         -5.3      4.329      6.587
+   8         -5.2      4.257      6.472
+   9         -5.2      4.203      6.501
+  10         -5.1      4.459      6.074
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TWC_CXS/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TWC_CXS/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.073 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.5673 | -6.0000 | False |
+| -6.5000 | 24.0000 | -12.5620 | -20.1468 | 17.5916 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7L81_UD4/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7L81_UD4 | 10.0000 | 38.0000 | 6.5273 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7L81_UD4/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7l81 | 38,38,38,38,38,38,38,38,38,38 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7L81_UD4/receptor.pdbqt | 0.0000 | 15.1400 | 8.0000 | ok | Failed to read file: /tmp/dep-953c75.d
+Failed to read file: /tmp/dep-e96e67.d
+ |  #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7L81_UD4/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.5      0.000      0.000
+   2         -6.2      1.165      2.810
+   3         -5.8      3.310      5.467
+   4         -5.5      3.355      5.768
+   5         -5.3      2.820      4.086
+   6         -5.2      4.075     11.746
+   7         -5.1      3.999     11.756
+   8         -5.1      4.031      8.885
+   9         -5.0      3.179     10.537
+  10         -5.0      2.944      5.025
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7L81_UD4/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7L81_UD4/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 14.077 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 9.9288 | -6.5000 | False |
+| -8.1000 | 24.0000 | 32.2567 | 108.5683 | 58.3607 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/5SIS_JSM/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 5SIS_JSM | 10.0000 | 32.0000 | 8.0330 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/5SIS_JSM/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 5sis | 32,32,32,32,32,32,32,32,32,32 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/5SIS_JSM/receptor.pdbqt | 0.0000 | 13.9830 | 8.0000 | ok | Failed to read file: /tmp/dep-3c969d.d
+Failed to read file: /tmp/dep-618319.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/5SIS_JSM/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.1      0.000      0.000
+   2         -8.0      1.696      2.198
+   3         -8.0      1.822      3.759
+   4         -7.9      3.392      6.044
+   5         -7.8      1.878      2.322
+   6         -7.8      2.062      4.151
+   7         -7.7      3.315      9.024
+   8         -7.7      1.851      4.251
+   9         -7.6      1.906      4.306
+  10         -7.4      1.247      1.574
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/5SIS_JSM/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/5SIS_JSM/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.448 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 8.7706 | -8.1000 | False |
+| -7.2000 | 24.0000 | -26.1996 | -5.1938 | 30.0724 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7PT3_3KK/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7PT3_3KK | 10.0000 | 54.0000 | 6.8240 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7PT3_3KK/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7pt3 | 54,54,54,54,54,54,54,54,54,54 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7PT3_3KK/receptor.pdbqt | 0.0000 | 16.1630 | 8.0000 | ok | Failed to read file: /tmp/dep-a86ab7.d
+Failed to read file: /tmp/dep-471180.d
+ |             #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|  =======                            \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7PT3_3KK/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.2      0.000      0.000
+   2         -6.2      2.993      6.045
+   3         -6.0      4.097      6.064
+   4         -5.9      4.577      7.426
+   5         -5.9      5.707     10.719
+   6         -5.6      2.960      4.652
+   7         -5.4      3.311      4.683
+   8         -5.4      5.381      7.785
+   9         -5.3      6.244     10.371
+  10         -5.2      4.212      7.443
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7PT3_3KK/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7PT3_3KK/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 15.381 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.8240 | -7.2000 | False |
+| -8.3000 | 24.0000 | -41.8897 | 31.3508 | 9.0140 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ODX_DGP/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7ODX_DGP | 10.0000 | 23.0000 | 2.3178 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ODX_DGP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7odx | 23,23,23,23,23,23,23,23,23,23 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ODX_DGP/receptor.pdbqt | 0.0000 | 13.4690 | 8.0000 | ok | Failed to read file: /tmp/dep-f4739b.d
+Failed to read file: /tmp/dep-98c8e6.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ODX_DGP/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.3      0.000      0.000
+   2         -8.1      0.687      1.113
+   3         -7.9      0.549      1.103
+   4         -7.8      3.702      6.016
+   5         -7.8      2.283      4.371
+   6         -7.8      2.234      4.152
+   7         -7.7      2.048      2.696
+   8         -7.6      2.350      3.813
+   9         -7.6      2.467      4.129
+  10         -7.5      7.450      9.997
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ODX_DGP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ODX_DGP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.708 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.3752 | -8.3000 | False |
+| -7.4000 | 24.0000 | 17.3735 | 8.3866 | 11.3279 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ZZB_KGX/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7ZZB_KGX | 10.0000 | 51.0000 | 6.7718 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZZB_KGX/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7zzb | 51,51,51,51,51,51,51,51,51,51 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ZZB_KGX/receptor.pdbqt | 0.0000 | 15.2210 | 8.0000 | ok | Failed to read file: /tmp/dep-9ebefe.d
+Failed to read file: /tmp/dep-051f7f.d
+ |  #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZZB_KGX/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.4      0.000      0.000
+   2         -7.1      4.171      7.239
+   3         -6.6      2.680      3.904
+   4         -6.6      2.859      4.530
+   5         -6.5      5.087      7.354
+   6         -6.4      4.447      6.666
+   7         -6.4      2.655      9.885
+   8         -6.3      3.301      5.708
+   9         -6.2      3.240      5.206
+  10         -6.2      4.159     10.179
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZZB_KGX/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZZB_KGX/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 15.022 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.6257 | -7.4000 | False |
+| -12.7000 | 24.0000 | -83.0324 | -19.0570 | 87.1922 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8BOM_QU6/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8BOM_QU6 | 10.0000 | 35.0000 | 7.8282 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8BOM_QU6/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8bom | 35,35,35,35,35,35,35,35,35,35 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8BOM_QU6/receptor.pdbqt | 0.0000 | 14.0590 | 8.0000 | ok | Failed to read file: /tmp/dep-5dcb51.d
+Failed to read file: /tmp/dep-4b3730.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8BOM_QU6/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -12.7      0.000      0.000
+   2        -11.7      1.620      2.627
+   3        -11.5      1.335      1.949
+   4        -11.3      1.713      4.103
+   5        -11.2      3.010      7.158
+   6        -10.9      1.821      4.270
+   7        -10.8      0.932      1.339
+   8        -10.8      3.020      7.331
+   9        -10.7      3.475      7.484
+  10        -10.4      4.790      9.044
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8BOM_QU6/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8BOM_QU6/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.585 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.8282 | -12.7000 | False |
+| -10.0000 | 24.0000 | 3.7357 | -0.6453 | -29.1922 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ODY_DGI/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7ODY_DGI | 10.0000 | 27.0000 | 1.9576 | True | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ODY_DGI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7ody | 27,27,27,27,27,27,27,27,27,27 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ODY_DGI/receptor.pdbqt | 0.0000 | 14.1210 | 8.0000 | ok | Failed to read file: /tmp/dep-5016db.d
+Failed to read file: /tmp/dep-5988de.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ODY_DGI/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.0      0.000      0.000
+   2         -9.3      1.330      2.349
+   3         -9.3      1.292      2.299
+   4         -9.1      1.010      1.436
+   5         -8.9      4.750      8.449
+   6         -8.8      1.352      2.340
+   7         -8.7      4.566      8.083
+   8         -8.7      4.469      8.151
+   9         -8.2      4.900      8.325
+  10         -8.2      7.783     10.154
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ODY_DGI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ODY_DGI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.513 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 1.9576 | -10.0000 | True |
+| -4.5000 | 24.0000 | 22.9259 | -12.6412 | -27.1689 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7NU0_DCL/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7NU0_DCL | 10.0000 | 8.0000 | 2.4703 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NU0_DCL/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7nu0 | 8,8,8,8,8,8,8,8,8,8 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7NU0_DCL/receptor.pdbqt | 0.0000 | 14.0450 | 8.0000 | ok | Failed to read file: /tmp/dep-520b1c.d
+Failed to read file: /tmp/dep-e6a376.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NU0_DCL/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.5      0.000      0.000
+   2         -4.5      0.475      1.335
+   3         -4.1      5.999      7.871
+   4         -4.0      8.407      9.574
+   5         -4.0      7.707      8.397
+   6         -4.0      7.467      8.998
+   7         -3.9      9.584     10.288
+   8         -3.9      2.699      5.097
+   9         -3.9      6.039      7.152
+  10         -3.9      1.473      1.606
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NU0_DCL/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NU0_DCL/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.052 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.5459 | -4.5000 | False |
+| -5.5000 | 24.0000 | -2.3179 | 103.3061 | 26.9872 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7M31_TDR/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7M31_TDR | 10.0000 | 9.0000 | 0.4742 | True | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7M31_TDR/subset200_nativebox_sdepth8_t1000_seed101/receptor_pocket-pocket1-pocketvina_poses.pdbqt | 7m31 | 9,9,9,9,9,9,9,9,9,9 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7M31_TDR/receptor_pocket.pdbqt | 0.0000 | 13.9520 | 8.0000 | ok | Failed to read file: /tmp/dep-38ca66.d
+Failed to read file: /tmp/dep-5a22e9.d
+ |                                           #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7M31_TDR/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.5      0.000      0.000
+   2         -5.5      1.496      2.181
+   3         -5.3      0.983      1.069
+   4         -5.2      6.023      6.851
+   5         -5.2      7.595      7.687
+   6         -5.2      1.905      3.005
+   7         -5.1      7.222      8.021
+   8         -5.1      7.258      7.392
+   9         -5.1      7.338      7.931
+  10         -5.0      6.184      7.662
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7M31_TDR/subset200_nativebox_sdepth8_t1000_seed101/receptor_pocket-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7M31_TDR/subset200_nativebox_sdepth8_t1000_seed101/receptor_pocket-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.931 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.8002 | -5.5000 | False |
+| -7.1000 | 24.0000 | 21.5715 | 14.3293 | 62.5097 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7CUO_PHB/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7CUO_PHB | 10.0000 | 10.0000 | 3.0262 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7CUO_PHB/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7cuo | 10,10,10,10,10,10,10,10,10,10 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7CUO_PHB/receptor.pdbqt | 0.0000 | 14.2220 | 8.0000 | ok | Failed to read file: /tmp/dep-40ff8a.d
+Failed to read file: /tmp/dep-f3e42d.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7CUO_PHB/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.1      0.000      0.000
+   2         -7.1      0.026      1.532
+   3         -7.0      0.070      1.025
+   4         -7.0      2.257      3.281
+   5         -7.0      2.259      3.273
+   6         -6.9      2.272      3.230
+   7         -6.7      2.276      3.028
+   8         -6.6      2.380      3.272
+   9         -6.6      2.298      2.892
+  10         -6.6      0.881      2.073
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7CUO_PHB/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7CUO_PHB/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.163 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.6130 | -7.1000 | False |
+| -5.9000 | 24.0000 | 38.5376 | 16.4972 | 59.4735 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ZCC_OGA/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7ZCC_OGA | 10.0000 | 10.0000 | 2.3791 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZCC_OGA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7zcc | 10,10,10,10,10,10,10,10,10,10 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ZCC_OGA/receptor.pdbqt | 0.0000 | 13.2080 | 8.0000 | ok | Failed to read file: /tmp/dep-f118c0.d
+Failed to read file: /tmp/dep-e66761.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZCC_OGA/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.9      0.000      0.000
+   2         -5.7      0.724      1.255
+   3         -5.6      0.844      4.757
+   4         -5.5      0.845      4.758
+   5         -5.4      0.846      4.756
+   6         -5.1      1.860      4.614
+   7         -5.1      1.960      4.677
+   8         -5.1      1.900      2.631
+   9         -5.1      1.992      4.655
+  10         -5.0      1.166      4.662
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZCC_OGA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZCC_OGA/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.205 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.3997 | -5.9000 | False |
+| -6.4000 | 24.0000 | 18.9403 | 16.6281 | -26.8423 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8AUH_L9I/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8AUH_L9I | 10.0000 | 11.0000 | 4.5851 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AUH_L9I/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8auh | 11,11,11,11,11,11,11,11,11,11 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8AUH_L9I/receptor.pdbqt | 0.0000 | 14.0960 | 8.0000 | ok | Failed to read file: /tmp/dep-9ba605.d
+Failed to read file: /tmp/dep-b8a9b4.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AUH_L9I/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.4      0.000      0.000
+   2         -5.8      1.360      4.207
+   3         -5.6      2.014      2.740
+   4         -5.4      1.804      2.178
+   5         -5.2      1.919      4.340
+   6         -5.0      2.029      2.751
+   7         -4.9      1.574      1.698
+   8         -4.8      2.308      3.161
+   9         -4.8     10.237     11.826
+  10         -4.7      3.456      4.761
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AUH_L9I/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AUH_L9I/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.066 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 12.2588 | -6.4000 | False |
+| -6.5000 | 24.0000 | -20.3627 | 4.6318 | -3.6783 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7BCP_GCO/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7BCP_GCO | 10.0000 | 13.0000 | 3.0849 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7BCP_GCO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7bcp | 13,13,13,13,13,13,13,13,13,13 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7BCP_GCO/receptor.pdbqt | 0.0000 | 14.0490 | 8.0000 | ok | Failed to read file: /tmp/dep-1425ec.d
+Failed to read file: /tmp/dep-a0d2f8.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7BCP_GCO/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.5      0.000      0.000
+   2         -6.2      1.115      1.961
+   3         -5.4      1.227      4.577
+   4         -5.4      1.650      4.333
+   5         -5.4      1.170      2.127
+   6         -5.3      1.059      4.785
+   7         -5.3      2.679      4.471
+   8         -5.3      1.322      1.815
+   9         -5.2      1.308      4.672
+  10         -5.2      2.254      4.752
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7BCP_GCO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7BCP_GCO/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.124 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.9751 | -6.5000 | False |
+| -6.4000 | 24.0000 | 27.5691 | -1.4591 | 28.7582 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7VQ9_ISY/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7VQ9_ISY | 10.0000 | 14.0000 | 5.3190 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7VQ9_ISY/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7vq9 | 14,14,14,14,14,14,14,14,14,14 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7VQ9_ISY/receptor.pdbqt | 0.0000 | 14.1130 | 8.0000 | ok | Failed to read file: /tmp/dep-d53e11.d
+Failed to read file: /tmp/dep-33a30d.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7VQ9_ISY/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.4      0.000      0.000
+   2         -6.3      2.063      3.249
+   3         -6.3      3.335      4.329
+   4         -6.1      1.382      2.447
+   5         -6.1      5.636      6.794
+   6         -6.0      1.643      2.268
+   7         -6.0      6.686      7.902
+   8         -6.0      4.148      5.345
+   9         -6.0      6.409      7.655
+  10         -6.0      1.374      1.987
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7VQ9_ISY/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7VQ9_ISY/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.137 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.3578 | -6.4000 | False |
+| -6.8000 | 24.0000 | 29.9639 | 44.2085 | 90.3119 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7TXK_LW8/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7TXK_LW8 | 10.0000 | 15.0000 | 1.7965 | True | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TXK_LW8/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7txk | 15,15,15,15,15,15,15,15,15,15 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7TXK_LW8/receptor.pdbqt | 0.0000 | 14.1300 | 8.0000 | ok | Failed to read file: /tmp/dep-c282a7.d
+Failed to read file: /tmp/dep-137e34.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TXK_LW8/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.8      0.000      0.000
+   2         -6.7      2.302      2.503
+   3         -6.7      2.294      2.843
+   4         -6.7      1.433      1.985
+   5         -6.6      1.448      2.033
+   6         -6.6      0.462      1.424
+   7         -6.5      1.192      1.986
+   8         -6.4      2.099      2.927
+   9         -6.4      1.397      2.137
+  10         -6.3      1.845      2.534
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TXK_LW8/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TXK_LW8/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.209 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.0404 | -6.8000 | False |
+| -5.1000 | 24.0000 | 30.8596 | 53.8500 | 19.4385 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7NTG_F6R/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7NTG_F6R | 10.0000 | 16.0000 | 3.5622 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NTG_F6R/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7ntg | 16,16,16,16,16,16,16,16,16,16 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7NTG_F6R/receptor.pdbqt | 0.0000 | 14.0010 | 8.0000 | ok | Failed to read file: /tmp/dep-411ed9.d
+Failed to read file: /tmp/dep-9a61ef.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NTG_F6R/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.1      0.000      0.000
+   2         -4.7      2.181      4.901
+   3         -4.7      2.301      4.605
+   4         -4.5      2.553      5.100
+   5         -4.5      1.527      2.351
+   6         -4.5      2.745      4.434
+   7         -4.4      2.343      4.466
+   8         -4.4      2.897      5.682
+   9         -4.4      6.468      8.456
+  10         -4.3      1.554      2.911
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NTG_F6R/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NTG_F6R/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.148 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.8511 | -5.1000 | False |
+| -7.6000 | 24.0000 | -38.2692 | -27.9356 | 17.5282 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7XG5_PLP/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7XG5_PLP | 10.0000 | 16.0000 | 2.5823 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7XG5_PLP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7xg5 | 16,16,16,16,16,16,16,16,16,16 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7XG5_PLP/receptor.pdbqt | 0.0000 | 14.0890 | 8.0000 | ok | Failed to read file: /tmp/dep-6fc223.d
+Failed to read file: /tmp/dep-1020cd.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7XG5_PLP/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.6      0.000      0.000
+   2         -7.5      0.652      1.337
+   3         -7.2      3.250      5.869
+   4         -7.2      3.266      5.872
+   5         -7.0      3.600      6.211
+   6         -6.9      1.850      2.739
+   7         -6.9      1.822      2.926
+   8         -6.9      3.440      5.871
+   9         -6.9      3.668      6.213
+  10         -6.8      3.106      3.984
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7XG5_PLP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7XG5_PLP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.154 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.9719 | -7.6000 | False |
+| -8.0000 | 24.0000 | 52.4118 | 62.9064 | 286.8313 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7NR6_UO8/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7NR6_UO8 | 10.0000 | 17.0000 | 3.9901 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NR6_UO8/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7nr6 | 17,17,17,17,17,17,17,17,17,17 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7NR6_UO8/receptor.pdbqt | 0.0000 | 14.0340 | 8.0000 | ok | Failed to read file: /tmp/dep-4bbfd3.d
+Failed to read file: /tmp/dep-3dfbfc.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NR6_UO8/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.0      0.000      0.000
+   2         -8.0      1.164      1.834
+   3         -7.7      2.641      5.980
+   4         -7.6      3.355      5.637
+   5         -7.6      2.931      5.574
+   6         -7.5      1.075      2.737
+   7         -7.3      3.588      4.811
+   8         -7.2      3.365      5.488
+   9         -7.2      2.670      5.526
+  10         -7.2      1.042      1.351
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NR6_UO8/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NR6_UO8/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.073 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.6555 | -8.0000 | False |
+| -7.7000 | 24.0000 | 7.1120 | 2.9729 | 34.7496 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7TSF_H4B/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7TSF_H4B | 10.0000 | 17.0000 | 3.2658 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TSF_H4B/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7tsf | 17,17,17,17,17,17,17,17,17,17 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7TSF_H4B/receptor.pdbqt | 0.0000 | 13.2630 | 8.0000 | ok | Failed to read file: /tmp/dep-37e2be.d
+Failed to read file: /tmp/dep-78507c.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TSF_H4B/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.7      0.000      0.000
+   2         -6.8     12.065     13.441
+   3         -6.7      0.866      1.541
+   4         -6.6     11.271     11.739
+   5         -6.5     10.608     12.426
+   6         -6.4     11.304     12.429
+   7         -6.4     12.558     13.035
+   8         -6.4     10.999     11.685
+   9         -6.3     10.059     10.874
+  10         -6.3     10.854     12.030
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TSF_H4B/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TSF_H4B/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.311 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.2658 | -7.7000 | False |
+| -6.2000 | 24.0000 | 23.8548 | 17.9241 | -11.9891 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7WUX_6OI/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7WUX_6OI | 10.0000 | 17.0000 | 4.2037 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WUX_6OI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7wux | 17,17,17,17,17,17,17,17,17,17 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7WUX_6OI/receptor.pdbqt | 0.0000 | 14.1000 | 8.0000 | ok | Failed to read file: /tmp/dep-99c4cb.d
+Failed to read file: /tmp/dep-e4c50f.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WUX_6OI/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.2      0.000      0.000
+   2         -6.0      3.759      6.409
+   3         -6.0      1.826      2.322
+   4         -6.0      3.301      4.200
+   5         -5.9      2.922      5.460
+   6         -5.8      2.961      3.779
+   7         -5.8      3.257      5.375
+   8         -5.8      3.640      6.434
+   9         -5.7      2.096      3.833
+  10         -5.7      3.407      5.712
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WUX_6OI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WUX_6OI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.291 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.3022 | -6.2000 | False |
+| -7.2000 | 24.0000 | -31.6644 | 19.8251 | 35.1953 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7JG0_GAR/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7JG0_GAR | 10.0000 | 18.0000 | 6.0804 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7JG0_GAR/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7jg0 | 18,18,18,18,18,18,18,18,18,18 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7JG0_GAR/receptor.pdbqt | 0.0000 | 14.1190 | 8.0000 | ok | Failed to read file: /tmp/dep-9ed527.d
+Failed to read file: /tmp/dep-419a67.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7JG0_GAR/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.2      0.000      0.000
+   2         -6.8      6.142      9.741
+   3         -6.8      7.156     11.286
+   4         -6.7      6.782     10.827
+   5         -6.6      6.740     10.653
+   6         -6.4      6.611     10.570
+   7         -6.3      8.063     10.088
+   8         -6.3      7.112      9.603
+   9         -6.3      6.248      9.729
+  10         -6.2      5.598      9.239
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7JG0_GAR/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7JG0_GAR/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.207 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.0804 | -7.2000 | False |
+| -5.9000 | 24.0000 | 6.7691 | 21.8474 | 23.6638 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8AIJ_M9I/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8AIJ_M9I | 10.0000 | 19.0000 | 3.9337 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AIJ_M9I/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8aij | 19,19,19,19,19,19,19,19,19,19 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8AIJ_M9I/receptor.pdbqt | 0.0000 | 14.0100 | 8.0000 | ok | Failed to read file: /tmp/dep-f56202.d
+Failed to read file: /tmp/dep-1de263.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AIJ_M9I/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.9      0.000      0.000
+   2         -5.7      3.778      4.538
+   3         -5.6      3.792      6.185
+   4         -5.6      3.810      4.382
+   5         -5.6      3.810      6.114
+   6         -5.5      0.932      1.564
+   7         -5.5      4.037      7.158
+   8         -5.5      4.015      7.133
+   9         -5.4      3.612      6.313
+  10         -5.3      3.841      6.606
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AIJ_M9I/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AIJ_M9I/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.131 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.6946 | -5.9000 | False |
+|  | 24.0000 | -5.7758 | 48.5209 | 17.1685 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7Q19_DSM/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7Q19_DSM |  |  |  |  | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7Q19_DSM/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_poses.pdbqt | 7q19 |  | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7Q19_DSM/receptor.pdbqt | 1.0000 | 0.0120 | 8.0000 | failed_nonzero | 
+Parse error on line 29 in file "<REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7Q19_DSM/ligand_start.pdbqt": ATOM syntax incorrect: "CG0" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.
+No valid ligands in the input directory
+ | Pocket rank: 1
+#################################################################
+# If you used QuickVina2-GPU 2.1 in your work, please cite:    #
+#                                                               #
+# Ding, Ji, et al. Vina-GPU 2.0: Further Accelerating AutoDock  #
+# Vina and Its Derivatives with Graphics Processing Units.      #
+# Journal of Chemical Information and Modeling (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 |  |  |  |
+| -7.8000 | 24.0000 | -2.8235 | -16.5686 | 0.7138 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7XI7_4RI/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7XI7_4RI | 10.0000 | 20.0000 | 4.8479 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7XI7_4RI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7xi7 | 20,20,20,20,20,20,20,20,20,20 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7XI7_4RI/receptor.pdbqt | 0.0000 | 14.0790 | 8.0000 | ok | Failed to read file: /tmp/dep-4c8bdd.d
+Failed to read file: /tmp/dep-e9f4d1.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7XI7_4RI/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.8      0.000      0.000
+   2         -7.6      1.048      1.579
+   3         -7.5      3.013      5.264
+   4         -7.4      2.806      5.055
+   5         -7.4      2.880      5.185
+   6         -7.3      2.263      3.944
+   7         -7.3      3.142      5.325
+   8         -7.3      3.161      5.430
+   9         -7.3      2.757      5.061
+  10         -7.3      3.508      5.636
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7XI7_4RI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7XI7_4RI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.251 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.8479 | -7.8000 | False |
+| -5.0000 | 24.0000 | 24.4800 | 30.5932 | 31.0328 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8D19_GSH/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8D19_GSH | 10.0000 | 20.0000 | 6.9633 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8D19_GSH/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8d19 | 20,20,20,20,20,20,20,20,20,20 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8D19_GSH/receptor.pdbqt | 0.0000 | 14.0970 | 8.0000 | ok | Failed to read file: /tmp/dep-71d104.d
+Failed to read file: /tmp/dep-4c73c1.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8D19_GSH/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.0      0.000      0.000
+   2         -4.5     10.100     11.803
+   3         -4.5      3.388      4.022
+   4         -4.4      9.088     10.757
+   5         -4.4     10.861     12.108
+   6         -4.3      9.329     11.445
+   7         -4.3      3.527      5.384
+   8         -4.2      4.207      5.390
+   9         -4.2     10.385     12.020
+  10         -4.2      3.678      4.802
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8D19_GSH/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8D19_GSH/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.302 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 13.0362 | -5.0000 | False |
+| -9.0000 | 24.0000 | -7.2971 | -9.0316 | 19.7912 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7NLV_UJE/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7NLV_UJE | 10.0000 | 21.0000 | 5.0023 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NLV_UJE/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7nlv | 21,21,21,21,21,21,21,21,21,21 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7NLV_UJE/receptor.pdbqt | 0.0000 | 13.2230 | 8.0000 | ok | Failed to read file: /tmp/dep-27ea56.d
+Failed to read file: /tmp/dep-d5c5af.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NLV_UJE/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.0      0.000      0.000
+   2         -8.5      1.653      1.834
+   3         -8.5      1.116      1.250
+   4         -8.3      1.248      1.410
+   5         -8.2      2.760      8.500
+   6         -8.1      1.291      1.478
+   7         -8.1      2.623      8.773
+   8         -8.0      2.607      9.169
+   9         -7.9      2.919      8.585
+  10         -7.9      2.614      9.110
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NLV_UJE/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7NLV_UJE/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.384 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 7.7443 | -9.0000 | False |
+| -7.6000 | 24.0000 | -1.2861 | -28.1643 | 16.7608 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7KB1_WBJ/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7KB1_WBJ | 10.0000 | 22.0000 | 4.1476 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KB1_WBJ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7kb1 | 22,22,22,22,22,22,22,22,22,22 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7KB1_WBJ/receptor.pdbqt | 0.0000 | 14.0670 | 8.0000 | ok | Failed to read file: /tmp/dep-6753d4.d
+Failed to read file: /tmp/dep-15695f.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KB1_WBJ/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.6      0.000      0.000
+   2         -7.5      2.710      6.353
+   3         -7.3      1.759      5.181
+   4         -7.2      1.094      1.568
+   5         -6.9      1.777      5.230
+   6         -6.8      1.794      4.883
+   7         -6.8      2.862      5.149
+   8         -6.8      1.706      4.642
+   9         -6.6      2.815      5.224
+  10         -6.5      3.001      6.148
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KB1_WBJ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KB1_WBJ/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.287 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.0428 | -7.6000 | False |
+| -7.2000 | 24.0000 | 9.1914 | 20.0010 | 9.1647 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8AP0_PRP/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8AP0_PRP | 10.0000 | 22.0000 | 4.3306 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AP0_PRP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8ap0 | 22,22,22,22,22,22,22,22,22,22 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8AP0_PRP/receptor.pdbqt | 0.0000 | 14.0920 | 8.0000 | ok | Failed to read file: /tmp/dep-c8d503.d
+Failed to read file: /tmp/dep-0f784a.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AP0_PRP/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.2      0.000      0.000
+   2         -7.2      3.872      6.536
+   3         -7.2      4.177      5.646
+   4         -6.9      1.609      2.194
+   5         -6.9      4.018      7.167
+   6         -6.9      2.887      6.573
+   7         -6.8      2.074      6.014
+   8         -6.8      2.311      5.427
+   9         -6.7      1.657      2.127
+  10         -6.7      5.991      8.244
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AP0_PRP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8AP0_PRP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.358 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.7853 | -7.2000 | False |
+|  | 24.0000 | -24.1540 | -22.0267 | -2.8689 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7OLT_58J/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7OLT_58J |  |  |  |  | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7OLT_58J/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_poses.pdbqt | 7olt |  | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7OLT_58J/receptor.pdbqt | 1.0000 | 0.0170 | 8.0000 | failed_nonzero | 
+Parse error on line 23 in file "<REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7OLT_58J/ligand_start.pdbqt": ATOM syntax incorrect: "CG0" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.
+No valid ligands in the input directory
+ | Pocket rank: 1
+#################################################################
+# If you used QuickVina2-GPU 2.1 in your work, please cite:    #
+#                                                               #
+# Ding, Ji, et al. Vina-GPU 2.0: Further Accelerating AutoDock  #
+# Vina and Its Derivatives with Graphics Processing Units.      #
+# Journal of Chemical Information and Modeling (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 |  |  |  |
+| -5.2000 | 24.0000 | 3.4474 | -12.8283 | -10.8030 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7EN7_J79/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7EN7_J79 | 10.0000 | 24.0000 | 4.4564 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7EN7_J79/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7en7 | 24,24,24,24,24,24,24,24,24,24 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7EN7_J79/receptor.pdbqt | 0.0000 | 14.0680 | 8.0000 | ok | Failed to read file: /tmp/dep-66fa75.d
+Failed to read file: /tmp/dep-2e2c70.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7EN7_J79/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.2      0.000      0.000
+   2         -5.2      3.265      5.436
+   3         -4.8      2.294      4.432
+   4         -4.7      2.983      4.983
+   5         -4.6      2.603      5.119
+   6         -4.6      2.731      4.252
+   7         -4.5      2.756      5.388
+   8         -4.4      1.679      2.153
+   9         -4.4      2.811      5.220
+  10         -4.3      2.976      4.980
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7EN7_J79/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7EN7_J79/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.335 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.4422 | -5.2000 | False |
+| -9.1000 | 24.0000 | -5.7685 | 0.5185 | 25.7886 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7X9K_8OG/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7X9K_8OG | 10.0000 | 24.0000 | 2.8313 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7X9K_8OG/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7x9k | 24,24,24,24,24,24,24,24,24,24 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7X9K_8OG/receptor.pdbqt | 0.0000 | 14.1160 | 8.0000 | ok | Failed to read file: /tmp/dep-1d39e1.d
+Failed to read file: /tmp/dep-14e27b.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7X9K_8OG/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.1      0.000      0.000
+   2         -8.2      2.881      6.076
+   3         -7.6      1.223      1.687
+   4         -7.4      3.388      7.262
+   5         -7.3      2.942      6.026
+   6         -7.3      3.670      6.830
+   7         -7.2      3.254      6.390
+   8         -7.2      1.928      3.449
+   9         -7.1      1.770      3.205
+  10         -7.0      1.680      3.213
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7X9K_8OG/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7X9K_8OG/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.377 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.8313 | -9.1000 | False |
+| -10.3000 | 24.0000 | 3.2120 | 4.0215 | -6.0772 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7SFO_98L/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7SFO_98L | 10.0000 | 25.0000 | 5.1758 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7SFO_98L/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7sfo | 25,25,25,25,25,25,25,25,25,25 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7SFO_98L/receptor.pdbqt | 0.0000 | 14.0700 | 8.0000 | ok | Failed to read file: /tmp/dep-54b922.d
+Failed to read file: /tmp/dep-34f3c9.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7SFO_98L/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.3      0.000      0.000
+   2         -9.9      0.998      1.389
+   3         -9.6      2.802      4.773
+   4         -9.3      2.935      4.778
+   5         -9.1      0.796      1.293
+   6         -9.1      0.752      1.587
+   7         -9.1      0.968      1.419
+   8         -8.9      3.684      6.335
+   9         -8.9      3.436      5.877
+  10         -8.9      2.768      4.636
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7SFO_98L/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7SFO_98L/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.237 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.6921 | -10.3000 | False |
+| -10.5000 | 24.0000 | -29.0228 | 1.9021 | 1.0603 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8CNH_V6U/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8CNH_V6U | 10.0000 | 25.0000 | 4.8052 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8CNH_V6U/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8cnh | 25,25,25,25,25,25,25,25,25,25 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8CNH_V6U/receptor.pdbqt | 0.0000 | 14.0890 | 8.0000 | ok | Failed to read file: /tmp/dep-9ffaa1.d
+Failed to read file: /tmp/dep-bf138b.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8CNH_V6U/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.5      0.000      0.000
+   2        -10.4      1.101      1.513
+   3        -10.1      3.981      6.185
+   4        -10.0      1.516      2.646
+   5        -10.0      3.841      6.092
+   6         -9.9      4.151      6.430
+   7         -9.7      2.743      4.018
+   8         -9.5      1.287      1.732
+   9         -9.4      3.857      6.233
+  10         -9.3      4.666      7.646
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8CNH_V6U/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8CNH_V6U/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.362 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.3294 | -10.5000 | False |
+| -6.4000 | 24.0000 | -44.6030 | 13.8781 | 7.2027 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7RC3_SAH/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7RC3_SAH | 10.0000 | 26.0000 | 2.6257 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RC3_SAH/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7rc3 | 26,26,26,26,26,26,26,26,26,26 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7RC3_SAH/receptor.pdbqt | 0.0000 | 14.1570 | 8.0000 | ok | Failed to read file: /tmp/dep-9676c1.d
+Failed to read file: /tmp/dep-6b7ee2.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RC3_SAH/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.4      0.000      0.000
+   2         -6.1      3.133      4.785
+   3         -6.1      1.960      2.450
+   4         -6.0      3.385      5.238
+   5         -6.0      4.742      9.397
+   6         -5.9      5.187      7.424
+   7         -5.8      2.628      8.462
+   8         -5.7      2.669      8.756
+   9         -5.6      5.116      7.107
+  10         -5.4      8.372     10.336
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RC3_SAH/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RC3_SAH/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.530 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.6257 | -6.4000 | False |
+| -10.0000 | 24.0000 | 19.7500 | 13.1644 | 22.3887 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8EX2_Q2Q/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 8EX2_Q2Q | 10.0000 | 26.0000 | 5.1890 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8EX2_Q2Q/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 8ex2 | 26,26,26,26,26,26,26,26,26,26 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/8EX2_Q2Q/receptor.pdbqt | 0.0000 | 14.1690 | 8.0000 | ok | Failed to read file: /tmp/dep-e09c8e.d
+Failed to read file: /tmp/dep-1646ea.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8EX2_Q2Q/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.0      0.000      0.000
+   2        -10.0      0.427      1.294
+   3         -9.9      2.841      4.320
+   4         -9.9      2.857      4.295
+   5         -9.9      2.834      4.282
+   6         -9.7      2.543      3.910
+   7         -9.4      2.363      3.351
+   8         -9.3      2.672      6.194
+   9         -9.2      2.251      3.394
+  10         -9.1      2.212      3.134
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8EX2_Q2Q/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/8EX2_Q2Q/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.354 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.1890 | -10.0000 | False |
+| -9.0000 | 24.0000 | -4.0434 | -0.3472 | -2.4210 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7FHA_ADX/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7FHA_ADX | 10.0000 | 27.0000 | 2.5563 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7FHA_ADX/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7fha | 27,27,27,27,27,27,27,27,27,27 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7FHA_ADX/receptor.pdbqt | 0.0000 | 14.0870 | 8.0000 | ok | Failed to read file: /tmp/dep-e2c847.d
+Failed to read file: /tmp/dep-c13537.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7FHA_ADX/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.0      0.000      0.000
+   2         -8.8      0.623      1.180
+   3         -8.7      4.161      7.007
+   4         -8.4      4.413      7.022
+   5         -8.3      4.264      6.145
+   6         -8.3      4.182      6.987
+   7         -8.2      4.478      6.990
+   8         -8.2      4.235      6.624
+   9         -8.2      4.380      6.880
+  10         -8.2      4.680      7.361
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7FHA_ADX/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7FHA_ADX/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.444 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.5563 | -9.0000 | False |
+| -13.1000 | 24.0000 | 29.0861 | -6.0351 | 9.4385 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7WQQ_5Z6/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7WQQ_5Z6 | 10.0000 | 27.0000 | 5.4314 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WQQ_5Z6/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7wqq | 27,27,27,27,27,27,27,27,27,27 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7WQQ_5Z6/receptor.pdbqt | 0.0000 | 13.5480 | 8.0000 | ok | Failed to read file: /tmp/dep-cf7929.d
+Failed to read file: /tmp/dep-0ba807.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WQQ_5Z6/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -13.1      0.000      0.000
+   2        -13.1      0.535      1.555
+   3        -13.1      0.140      1.264
+   4        -13.1      0.575      1.631
+   5        -13.0      0.243      3.497
+   6        -13.0      0.448      3.544
+   7        -13.0      0.532      1.370
+   8        -13.0      0.490      3.640
+   9        -12.8      0.504      1.321
+  10        -12.8      0.322      3.587
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WQQ_5Z6/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7WQQ_5Z6/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.777 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.4314 | -13.1000 | False |
+| -7.0000 | 24.0000 | 4.1911 | -9.3829 | 29.6445 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6XAF_GDP/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 6XAF_GDP | 10.0000 | 28.0000 | 2.5199 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6XAF_GDP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 6xaf | 28,28,28,28,28,28,28,28,28,28 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/6XAF_GDP/receptor.pdbqt | 0.0000 | 13.2340 | 8.0000 | ok | Failed to read file: /tmp/dep-3add1b.d
+Failed to read file: /tmp/dep-51fafc.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6XAF_GDP/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -7.0      0.000      0.000
+   2         -6.3      1.153      1.505
+   3         -5.6      3.563      5.620
+   4         -5.4      1.588      2.266
+   5         -5.4      3.383      4.230
+   6         -5.4      5.135      7.918
+   7         -5.4      4.082      5.564
+   8         -5.3      5.378      7.949
+   9         -5.2      3.909      5.038
+  10         -5.2      3.177      4.610
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6XAF_GDP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/6XAF_GDP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 12.671 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 2.5199 | -7.0000 | False |
+| -8.6000 | 24.0000 | 15.3660 | 51.0154 | 156.9749 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7N7H_CTP/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7N7H_CTP | 10.0000 | 29.0000 | 5.4216 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7N7H_CTP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7n7h | 29,29,29,29,29,29,29,29,29,29 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7N7H_CTP/receptor.pdbqt | 0.0000 | 14.1550 | 8.0000 | ok | Failed to read file: /tmp/dep-4b1777.d
+Failed to read file: /tmp/dep-b39760.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7N7H_CTP/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.6      0.000      0.000
+   2         -8.4      4.811      8.589
+   3         -7.9      4.912      8.650
+   4         -7.9      4.837      8.274
+   5         -7.9      1.341      1.443
+   6         -7.8      2.541      4.360
+   7         -7.8      4.773      8.534
+   8         -7.6      4.559      8.627
+   9         -7.5      2.596      3.973
+  10         -7.5      2.290      3.999
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7N7H_CTP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7N7H_CTP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.562 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.3555 | -8.6000 | False |
+| -5.1000 | 24.0000 | -26.0668 | -57.8622 | -6.9213 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7RH8_UTP/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7RH8_UTP | 10.0000 | 29.0000 | 3.4178 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RH8_UTP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7rh8 | 29,29,29,29,29,29,29,29,29,29 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7RH8_UTP/receptor.pdbqt | 0.0000 | 14.2070 | 8.0000 | ok | Failed to read file: /tmp/dep-d4c40d.d
+Failed to read file: /tmp/dep-7eb066.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RH8_UTP/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.1      0.000      0.000
+   2         -5.0      3.859      7.678
+   3         -5.0      4.410      6.716
+   4         -5.0      5.323      7.577
+   5         -4.9      2.896      5.420
+   6         -4.7      5.555      8.714
+   7         -4.7      3.822      6.427
+   8         -4.7      9.575     13.655
+   9         -4.6      3.634      5.411
+  10         -4.6      4.489      7.150
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RH8_UTP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7RH8_UTP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.695 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.2956 | -5.1000 | False |
+| -8.7000 | 24.0000 | 23.8659 | -14.8051 | 37.9883 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7QHL_D5P/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7QHL_D5P | 10.0000 | 30.0000 | 5.8514 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7QHL_D5P/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7qhl | 30,30,30,30,30,30,30,30,30,30 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7QHL_D5P/receptor.pdbqt | 0.0000 | 14.0890 | 8.0000 | ok | Failed to read file: /tmp/dep-78b137.d
+Failed to read file: /tmp/dep-92a031.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7QHL_D5P/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.7      0.000      0.000
+   2         -8.5      1.867      2.386
+   3         -8.5      1.769      2.179
+   4         -8.4      2.202      2.827
+   5         -8.2      1.878      2.527
+   6         -8.1      4.378     10.133
+   7         -8.0      3.688      6.242
+   8         -8.0      3.385      8.620
+   9         -8.0      2.600      9.109
+  10         -7.9      1.910      2.458
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7QHL_D5P/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7QHL_D5P/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.452 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 5.8514 | -8.7000 | False |
+| -11.1000 | 24.0000 | 82.7359 | 49.8930 | 54.2096 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7X5N_5M5/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7X5N_5M5 | 10.0000 | 30.0000 | 3.5920 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7X5N_5M5/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7x5n | 30,30,30,30,30,30,30,30,30,30 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7X5N_5M5/receptor.pdbqt | 0.0000 | 14.0620 | 8.0000 | ok | Failed to read file: /tmp/dep-41f400.d
+Failed to read file: /tmp/dep-904dcc.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7X5N_5M5/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -11.1      0.000      0.000
+   2        -10.5      1.666      3.530
+   3        -10.4      0.915      1.216
+   4        -10.2      0.762      1.032
+   5         -9.0      1.717      3.539
+   6         -8.1      2.424      3.601
+   7         -8.1      2.186      3.997
+   8         -7.3      2.563      3.848
+   9         -7.2      2.465      3.706
+  10         -6.7      6.803     10.528
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7X5N_5M5/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7X5N_5M5/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.415 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.5920 | -11.1000 | False |
+| -9.5000 | 24.0000 | 46.0896 | 39.8987 | 203.4680 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7KRU_ATP/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7KRU_ATP | 10.0000 | 31.0000 | 3.5245 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KRU_ATP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7kru | 31,31,31,31,31,31,31,31,31,31 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7KRU_ATP/receptor.pdbqt | 0.0000 | 14.0560 | 8.0000 | ok | Failed to read file: /tmp/dep-0dc259.d
+Failed to read file: /tmp/dep-a85c62.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KRU_ATP/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.5      0.000      0.000
+   2         -8.7      5.652      8.451
+   3         -8.6      0.975      1.457
+   4         -8.5      5.209      7.956
+   5         -8.3      5.750      8.623
+   6         -8.3      7.220      9.889
+   7         -8.2      6.326      9.595
+   8         -8.1      2.493      4.155
+   9         -8.1      7.346      9.886
+  10         -8.1      7.655     10.015
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KRU_ATP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7KRU_ATP/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.615 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 10.0021 | -9.5000 | False |
+| -10.2000 | 24.0000 | -30.4538 | 3.9197 | -20.9464 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7SIU_9ID/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7SIU_9ID | 10.0000 | 31.0000 | 6.8192 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7SIU_9ID/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7siu | 31,31,31,31,31,31,31,31,31,31 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7SIU_9ID/receptor.pdbqt | 0.0000 | 14.0890 | 8.0000 | ok | Failed to read file: /tmp/dep-b13223.d
+Failed to read file: /tmp/dep-0136a7.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7SIU_9ID/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.2      0.000      0.000
+   2         -9.3      2.578      3.357
+   3         -9.3      2.546      3.244
+   4         -9.2      3.298     10.810
+   5         -9.1      3.295     10.993
+   6         -8.9      2.986      5.631
+   7         -8.8      4.149      5.633
+   8         -8.8      2.929      3.718
+   9         -8.8      3.371     10.707
+  10         -8.7      6.362     10.676
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7SIU_9ID/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7SIU_9ID/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.451 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 9.3056 | -10.2000 | False |
+| -12.2000 | 24.0000 | 20.8302 | -12.1794 | -15.0259 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7MWN_WI5/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7MWN_WI5 | 10.0000 | 32.0000 | 3.8252 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MWN_WI5/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7mwn | 32,32,32,32,32,32,32,32,32,32 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7MWN_WI5/receptor.pdbqt | 0.0000 | 14.1190 | 8.0000 | ok | Failed to read file: /tmp/dep-0c4af5.d
+Failed to read file: /tmp/dep-bf8954.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MWN_WI5/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -12.2      0.000      0.000
+   2        -10.7      0.743      1.855
+   3        -10.0      1.963      4.053
+   4         -9.8      2.045      3.668
+   5         -9.7      2.142      4.033
+   6         -9.6      1.057      1.308
+   7         -9.5      1.894      3.741
+   8         -9.4      1.849      4.234
+   9         -9.2      1.767      4.305
+  10         -9.2      2.197      6.977
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MWN_WI5/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7MWN_WI5/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.536 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.9472 | -12.2000 | False |
+| -10.0000 | 24.0000 | -2.1554 | -15.1821 | -62.5159 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7UJF_R3V/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7UJF_R3V | 10.0000 | 32.0000 | 3.3059 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UJF_R3V/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7ujf | 32,32,32,32,32,32,32,32,32,32 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7UJF_R3V/receptor.pdbqt | 0.0000 | 14.1970 | 8.0000 | ok | Failed to read file: /tmp/dep-c9bf9b.d
+Failed to read file: /tmp/dep-71acd3.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UJF_R3V/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.0      0.000      0.000
+   2         -9.9      0.700      1.448
+   3         -9.8      0.618      1.208
+   4         -9.1      1.137      1.842
+   5         -8.9      1.352      2.149
+   6         -8.6      1.946      2.864
+   7         -8.4      2.145      4.239
+   8         -8.3      2.155      4.229
+   9         -8.2      2.018      4.091
+  10         -8.2      2.338      3.308
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UJF_R3V/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UJF_R3V/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.552 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.3813 | -10.0000 | False |
+| -8.8000 | 24.0000 | 45.5283 | -21.0551 | 14.4339 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ZXZ_K9R/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7ZXZ_K9R | 10.0000 | 33.0000 | 4.1951 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZXZ_K9R/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7zxz | 33,33,33,33,33,33,33,33,33,33 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7ZXZ_K9R/receptor.pdbqt | 0.0000 | 14.2090 | 8.0000 | ok | Failed to read file: /tmp/dep-ab2031.d
+Failed to read file: /tmp/dep-149063.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZXZ_K9R/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.8      0.000      0.000
+   2         -8.0      2.169      2.361
+   3         -7.9      2.561      4.041
+   4         -7.9      1.222      1.227
+   5         -7.8      2.776      4.213
+   6         -7.7      1.266      1.335
+   7         -7.5      1.837      2.371
+   8         -7.4      2.877      4.250
+   9         -7.1      2.793      4.371
+  10         -7.0      2.288      3.644
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZXZ_K9R/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7ZXZ_K9R/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.795 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.2287 | -8.8000 | False |
+| -14.0000 | 24.0000 | 23.8258 | -8.0174 | 20.9903 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7T1D_E7K/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7T1D_E7K | 10.0000 | 34.0000 | 6.3627 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7T1D_E7K/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7t1d | 34,34,34,34,34,34,34,34,34,34 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7T1D_E7K/receptor.pdbqt | 0.0000 | 14.1850 | 8.0000 | ok | Failed to read file: /tmp/dep-b4f0eb.d
+Failed to read file: /tmp/dep-2a0653.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7T1D_E7K/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -14.0      0.000      0.000
+   2        -13.9      0.749      1.447
+   3        -12.3      1.055      1.433
+   4        -12.2      2.849     11.213
+   5        -12.0      1.460     12.129
+   6        -11.8      1.622      1.898
+   7        -11.6      3.258      4.120
+   8        -11.4      1.480     12.135
+   9        -11.4      1.394      2.148
+  10        -11.3      1.770      1.993
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7T1D_E7K/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7T1D_E7K/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.477 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.3989 | -14.0000 | False |
+| -6.8000 | 24.0000 | -12.8892 | -20.1022 | 27.7732 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7TXP_0FX/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7TXP_0FX | 10.0000 | 35.0000 | 3.1794 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TXP_0FX/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7txp | 35,35,35,35,35,35,35,35,35,35 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7TXP_0FX/receptor.pdbqt | 0.0000 | 14.0380 | 8.0000 | ok | Failed to read file: /tmp/dep-c507c6.d
+Failed to read file: /tmp/dep-aee6fa.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TXP_0FX/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.8      0.000      0.000
+   2         -6.2      4.309     10.301
+   3         -6.2      1.988      3.304
+   4         -6.2      2.934      4.894
+   5         -6.1      4.648     11.517
+   6         -6.0      3.038     10.986
+   7         -5.8      5.689      7.927
+   8         -5.8      5.656     10.693
+   9         -5.7      3.863      6.779
+  10         -5.5      2.451      4.099
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TXP_0FX/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TXP_0FX/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.748 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 3.1794 | -6.8000 | False |
+| -9.0000 | 24.0000 | 15.1593 | 21.4052 | -50.6893 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7R3D_APR/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7R3D_APR | 10.0000 | 36.0000 | 4.7129 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7R3D_APR/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7r3d | 36,36,36,36,36,36,36,36,36,36 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7R3D_APR/receptor.pdbqt | 0.0000 | 14.1540 | 8.0000 | ok | Failed to read file: /tmp/dep-1841da.d
+Failed to read file: /tmp/dep-9f7686.d
+ |                                                         #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7R3D_APR/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.0      0.000      0.000
+   2         -8.5      2.999      5.607
+   3         -8.2      2.624      3.848
+   4         -8.1      5.124     10.386
+   5         -8.0      4.978     10.531
+   6         -8.0      5.046     10.745
+   7         -7.9      1.180      1.291
+   8         -7.9      1.570      2.804
+   9         -7.9      1.468      1.754
+  10         -7.9      1.767      2.369
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7R3D_APR/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7R3D_APR/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 13.957 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.6490 | -9.0000 | False |
+|  | 24.0000 | -24.1491 | 10.2131 | 16.3932 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7QK0_EBL/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7QK0_EBL |  |  |  |  | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7QK0_EBL/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_poses.pdbqt | 7qk0 |  | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7QK0_EBL/receptor.pdbqt | 1.0000 | 0.0120 | 8.0000 | failed_nonzero | 
+Parse error on line 27 in file "<REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7QK0_EBL/ligand_start.pdbqt": ATOM syntax incorrect: "CG0" is not a valid AutoDock type. Note that AutoDock atom types are case-sensitive.
+No valid ligands in the input directory
+ | Pocket rank: 1
+#################################################################
+# If you used QuickVina2-GPU 2.1 in your work, please cite:    #
+#                                                               #
+# Ding, Ji, et al. Vina-GPU 2.0: Further Accelerating AutoDock  #
+# Vina and Its Derivatives with Graphics Processing Units.      #
+# Journal of Chemical Information and Modeling (2023).          #
+#                                                               #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 |  |  |  |
+| -8.8000 | 24.0000 | 27.5574 | -30.3344 | 39.8593 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7TB0_UD1/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7TB0_UD1 | 10.0000 | 39.0000 | 5.4678 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TB0_UD1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7tb0 | 39,39,39,39,39,39,39,39,39,39 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7TB0_UD1/receptor.pdbqt | 0.0000 | 15.1330 | 8.0000 | ok | Failed to read file: /tmp/dep-3ea0e1.d
+Failed to read file: /tmp/dep-e3aa14.d
+ |  #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TB0_UD1/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.8      0.000      0.000
+   2         -8.5      3.089      5.370
+   3         -8.5      2.876      5.124
+   4         -8.3      2.288      3.767
+   5         -8.2      1.623      3.288
+   6         -8.2      3.145      5.221
+   7         -8.1      2.151      9.901
+   8         -8.0      1.904      3.402
+   9         -8.0      3.238      5.015
+  10         -7.8      2.159     10.145
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TB0_UD1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7TB0_UD1/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 14.125 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.3535 | -8.8000 | False |
+| -9.8000 | 24.0000 | -2.2883 | 5.6575 | 9.4191 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7F51_BA7/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7F51_BA7 | 10.0000 | 44.0000 | 8.6710 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7F51_BA7/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7f51 | 44,44,44,44,44,44,44,44,44,44 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7F51_BA7/receptor.pdbqt | 0.0000 | 15.1710 | 8.0000 | ok | Failed to read file: /tmp/dep-426810.d
+Failed to read file: /tmp/dep-fdfe4c.d
+ |  #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7F51_BA7/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.8      0.000      0.000
+   2         -9.4      2.708      5.206
+   3         -9.3      5.056      7.447
+   4         -9.1      4.223      6.808
+   5         -8.9      4.193     10.063
+   6         -8.7      4.619      9.067
+   7         -8.6      3.257      5.805
+   8         -8.4      4.031      8.081
+   9         -8.4      4.728      7.254
+  10         -8.4      5.095     11.068
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7F51_BA7/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7F51_BA7/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 14.450 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 9.1633 | -9.8000 | False |
+| -9.1000 | 24.0000 | 29.6715 | -5.8256 | -35.8046 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7UTW_NAI/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7UTW_NAI | 10.0000 | 44.0000 | 3.9597 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UTW_NAI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7utw | 44,44,44,44,44,44,44,44,44,44 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7UTW_NAI/receptor.pdbqt | 0.0000 | 15.1130 | 8.0000 | ok | Failed to read file: /tmp/dep-713e83.d
+Failed to read file: /tmp/dep-b09259.d
+ |  #
+# DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UTW_NAI/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.1      0.000      0.000
+   2         -8.4      6.804      9.572
+   3         -8.2      5.387      9.252
+   4         -8.2      1.186      1.453
+   5         -8.2      2.977     12.424
+   6         -8.1      2.610     12.474
+   7         -8.1      2.295      3.648
+   8         -8.0      2.558     12.674
+   9         -8.0      4.236      7.389
+  10         -7.9      1.157      1.489
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UTW_NAI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7UTW_NAI/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 14.414 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 4.4173 | -9.1000 | False |
+| -10.8000 | 24.0000 | 24.9335 | 23.4910 | 99.9137 | posebusters_benchmark | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7F8T_FAD/ligand_start.pdbqt | PocketVina-GPU native-pocket subset | 7F8T_FAD | 10.0000 | 53.0000 | 6.1983 | False | results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7F8T_FAD/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt | 7f8t | 53,53,53,53,53,53,53,53,53,53 | results/posebench_702_predictions/vina_cpu_full/posebusters_benchmark/7F8T_FAD/receptor.pdbqt | 0.0000 | 16.0990 | 8.0000 | ok | Failed to read file: /tmp/dep-e610f1.d
+Failed to read file: /tmp/dep-8e782c.d
+ |             #
+#                                                               #
+# Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+# Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+# Accelerating AutoDock Vina with GPUs.                         #
+# Molecules 27.9 (2022): 3041.                                  #
+#                                                               #
+# DOI https://doi.org/10.3390/molecules27093041                 #
+#                                                               #
+# And also the origin AutoDock Vina paper:                      #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+#################################################################
+
+Using single ligand docking mode
+
+Reading input ... done.
+Using pocket rank: 1
+Setting up the scoring function ... done.
+Search_depth is fixed to 8
+Analyzing the binding site ... done.
+GPU Platform: NVIDIA CUDA
+GPU Device: NVIDIA GeForce RTX 4090 D
+Using random seed: 101
+
+Build kernel 1 from source
+OpenCL version: 3.0
+
+Build kernel 2 from source
+OpenCL version: 3.0
+
+
+Perform docking\|=======                              \|
+Perform docking\| =======                             \|
+Perform docking\|  =======                            \|
+Perform docking\|================done=================\|
+
+Refining ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7F8T_FAD/subset200_nativebox_sdepth8_t1000_seed101/pocketvina_p results...done.
+mode \|   affinity \| dist from best mode
+     \| (kcal/mol) \| rmsd l.b.\| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.8      0.000      0.000
+   2        -10.8      2.577      6.938
+   3        -10.3      2.727      7.114
+   4        -10.2      2.223      4.772
+   5        -10.1      2.195      4.494
+   6         -9.9      2.407      6.975
+   7         -9.9      1.908      3.929
+   8         -9.9      2.754      7.184
+   9         -9.9      2.157      4.877
+  10         -9.7      2.570      6.374
+Writing ligand <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7F8T_FAD/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.pdbqt output...
+JSON file successfully saved to: <REMOTE_PROJECT_ROOT>/results/posebench_702_predictions/pocketvina_gpu_subset/posebusters_benchmark/7F8T_FAD/subset200_nativebox_sdepth8_t1000_seed101/receptor-pocket1-pocketvina_poses.json
+done.
+
+QuickVina 2-GPU3 total runtime = 15.190 s
+ | PoseBench proportional stratified subset; native ligand center; fixed 24A box | subset200_nativebox_sdepth8_t1000_seed101 | 1000.0000 | 6.6553 | -10.8000 | False |

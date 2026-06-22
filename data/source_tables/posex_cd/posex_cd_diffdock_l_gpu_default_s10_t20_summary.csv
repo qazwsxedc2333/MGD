@@ -1,0 +1,2 @@
+dataset,n_total,attempted,ok,failed,attempt_coverage,ok_rate_attempted,top2a_runnable,top2a_attempted,top2a_full_denominator,oracle2a_runnable,oracle2a_attempted,oracle2a_full_denominator,median_top_rmsd,median_oracle_rmsd,median_top_confidence,vina_top2a_same_cases
+posex_cross_dock,1312,1312,1312,0,1.0,1.0,0.45503048780487804,0.45503048780487804,0.45503048780487804,0.4428353658536585,0.4428353658536585,0.4428353658536585,2.2658894464401955,2.5001467410840164,-0.31,0.006864988558352402

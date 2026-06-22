@@ -1,0 +1,5 @@
+dataset,n_cases,n_metric_ok,score_ranked_symmetry_success_2a,oracle_best_symmetry_success_2a,median_score_ranked_symmetry_pocket_rmsd,median_oracle_best_symmetry_pocket_rmsd,mean_n_samples_eval
+all,67,23,0.5652173913043478,0.6521739130434783,1.5653148893077249,0.9620843438782917,5.0
+astex_diverse,11,4,0.5,0.5,17.04958883227878,16.92716783797059,5.0
+dockgen,9,0,,,,,
+posebusters_benchmark,47,19,0.5789473684210527,0.6842105263157895,1.5653148893077249,0.9620843438782917,5.0

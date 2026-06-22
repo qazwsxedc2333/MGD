@@ -1,0 +1,5 @@
+selector,baseline,n_cases,selector_success,baseline_success,delta_success,rescued,harmed,both_success,neither_success,net_rescue,mcnemar_exact_p
+lodo_hgb_controlled_candidate_stack,DiffDock-L default s10/t20,702,0.44871794871794873,0.3817663817663818,0.06695156695156695,84,37,231,350,47,2.3164303287606523e-05
+lodo_hgb_controlled_candidate_stack,lodo_method_prior,702,0.44871794871794873,0.3475783475783476,0.10113960113960113,100,29,215,358,71,2.46848631880612e-10
+lodo_hgb_controlled_candidate_stack,Vina/Meeko full,702,0.44871794871794873,0.019943019943019943,0.4287749287749288,311,10,4,377,301,1.343679413686042e-78
+lodo_hgb_controlled_candidate_stack,Chai-1 full receptor s5/t200,702,0.44871794871794873,0.3817663817663818,0.06695156695156695,78,31,237,356,47,7.733924871438956e-06

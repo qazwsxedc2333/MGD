@@ -1,0 +1,5 @@
+dataset,n,ok,non_ok,ok_rate,class_cuda_oom
+astex_diverse,3,0,3,0.0,3
+dockgen,8,0,8,0.0,8
+posebusters_benchmark,12,0,12,0.0,12
+all,23,0,23,0.0,23

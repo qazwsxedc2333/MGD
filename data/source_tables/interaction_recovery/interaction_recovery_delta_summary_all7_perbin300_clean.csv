@@ -1,0 +1,5 @@
+case_type,n,mean_all_f1_delta,median_all_f1_delta,mean_contact_f1_delta,mean_hbond_f1_delta,mean_unstructured_all_f1_delta,median_unstructured_all_f1_delta,mean_unstructured_contact_f1_delta,improved_all_f1_rate,improved_unstructured_all_f1_rate
+harmed,1,0.0,0.0,0.0,0.0,-0.1843971631205673,-0.1843971631205673,-0.18181818181818188,0.0,0.0
+kept_official,463,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+rescued,11,0.0,0.0,0.0,0.09090909090909091,0.023404303036399298,0.021592442645074206,0.0036607445141568166,0.0,0.7272727272727273
+unchanged_or_neutral,53,0.0,0.0,0.0,-0.018867924528301886,-0.018561316590515426,-0.004052684903748882,-0.004145288081570436,0.0,0.4528301886792453

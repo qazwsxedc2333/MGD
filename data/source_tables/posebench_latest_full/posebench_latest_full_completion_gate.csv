@@ -1,0 +1,3 @@
+baseline,expected_cases,status_files,ok_cases,full_denominator_complete
+Boltz-2,702,702,678,True
+Protenix,702,702,678,True

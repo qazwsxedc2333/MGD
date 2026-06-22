@@ -1,0 +1,6 @@
+benchmark,contrast,delta_success_2a,delta_median_top_rmsd,interpretation
+PoseBench-702,DiffDock-L vs Vina,0.36156436156436156,-2.291462369729718,neural docking is much stronger than classical baseline under the same external denominator
+PoseX-CD-1312,DiffDock-L vs Vina,0.4481654992465256,-3.923027742407678,neural docking is much stronger than classical baseline under the same external denominator
+PoseBench-702,MGD hybrid full-coverage vs DiffDock-L,-0.028490028490028574,1.3077539744540196,selector claim is competitive only when carefully bounded by public-pool/fallback coverage
+PoseBench-702,MGD controlled candidate-stack selector vs DiffDock-L,0.0669515669515669,-0.7164598765900192,"candidate-stack selection improves over the strongest single neural baseline, but remains a selector-over-generated-candidates claim"
+PoseBench,public-pool selector vs full-coverage hybrid,0.07821648925943409,-1.8284769314425837,coverage expansion lowers performance; manuscript should avoid overclaiming beyond available predictions

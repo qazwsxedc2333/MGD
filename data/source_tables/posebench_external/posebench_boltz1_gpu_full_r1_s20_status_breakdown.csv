@@ -1,0 +1,11 @@
+dataset,status,n
+astex_diverse,ok,76
+astex_diverse,failed_no_prediction_cif,7
+astex_diverse,failed_nonzero,2
+dockgen,ok,182
+dockgen,failed_no_prediction_cif,5
+dockgen,exception,1
+dockgen,failed_nonzero,1
+posebusters_benchmark,ok,395
+posebusters_benchmark,failed_no_prediction_cif,29
+posebusters_benchmark,failed_nonzero,4

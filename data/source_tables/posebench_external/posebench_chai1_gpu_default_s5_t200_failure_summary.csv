@@ -1,0 +1,5 @@
+dataset,n,ok,non_ok,ok_rate,class_ok,class_cuda_oom,class_too_many_tokens,class_input_chemistry_error
+astex_diverse,85,74,11,0.8705882352941177,74,10,1.0,0.0
+dockgen,189,180,9,0.9523809523809523,180,8,0.0,1.0
+posebusters_benchmark,428,381,47,0.8901869158878505,381,38,9.0,0.0
+all,702,635,67,0.9045584045584045,635,56,10.0,1.0

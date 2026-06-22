@@ -1,0 +1,6 @@
+gate,status,evidence,paper_claim_allowed_now
+PoseX-CD data downloaded and converted,pass,cross-dock benchmark rows: 1312,PoseX-CD stress-test results
+PoseX-CD Vina full classical baseline,pass,"1312/1312 cases, ok_rate=0.999, top-1 2A=0.007, oracle 2A=0.013",classical full-denominator baseline
+PoseX-CD DiffDock-L full neural baseline,pass,"1312/1312 cases, ok_rate=1.000, top-1 2A=0.455, oracle 2A=0.443",neural full-denominator stress baseline
+PoseX-CD base method results,partial_pass,2 base method result inventories detected.,two-method stress comparison with caveat
+PoseX-CD proposed selector,pending,MemoryGuard-fusion should run only after at least three base methods have aligned outputs.,not yet

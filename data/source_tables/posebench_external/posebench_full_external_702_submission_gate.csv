@@ -1,0 +1,4 @@
+gate,status,evidence,paper_claim_allowed_now
+PoseBench 702/702 full external denominator,pass,702/702 frozen cases have complete controlled attempts or explicit failure accounting across the fixed method stack.,full-denominator external baseline audit
+coverage caveat in manuscript,pass,Public prediction pool covers 489/702 manifest cases.,external public-pool selection with explicit coverage denominator
+frozen queue for completion,pass,All remaining case-method jobs are enumerated in posebench_full_external_702_inference_queue.csv.,transparent remaining-work statement

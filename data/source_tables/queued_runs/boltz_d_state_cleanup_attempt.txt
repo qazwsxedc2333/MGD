@@ -1,0 +1,5 @@
+time=2026-05-18T12:38:45+08:00
+action=TERM_then_KILL_attempted_by_codex
+result=processes_remain_D_state
+pids=3644677,3649435,3651684,3651685,3661161,3663790,3722364,3722365,3722366,3722367,3722368,3722369,3743440
+note=ordinary kill cannot clear uninterruptible D-state; requires driver/GPU reset or host reboot by admin if they do not self-release

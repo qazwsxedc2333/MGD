@@ -1,0 +1,13 @@
+selector,n_cases,success_2a,median_rmsd,chosen_experts,selected_sources
+defer_et_success,702,0.6125356125356125,1.3675509918773108,public_ours_hgb:336; rankaware_fixed_rank_fusion:366,ours:302; public:400
+defer_et_utility,702,0.6125356125356125,1.3675509918773108,public_ours_hgb:336; rankaware_fixed_rank_fusion:366,ours:302; public:400
+defer_et_conservative,702,0.6125356125356125,1.3675509918773108,public_ours_hgb:336; rankaware_fixed_rank_fusion:366,ours:302; public:400
+defer_rf_success,702,0.6111111111111112,1.3617926320505473,public_ours_hgb:510; rankaware_fixed_rank_fusion:192,ours:314; public:388
+defer_rf_utility,702,0.6111111111111112,1.3617926320505473,public_ours_hgb:510; rankaware_fixed_rank_fusion:192,ours:314; public:388
+defer_rf_conservative,702,0.6111111111111112,1.3617926320505473,public_ours_hgb:510; rankaware_fixed_rank_fusion:192,ours:314; public:388
+defer_hgb_success,702,0.6111111111111112,1.3634148316172925,public_ours_hgb:102; rankaware_fixed_rank_fusion:600,ours:293; public:409
+defer_hgb_utility,702,0.6111111111111112,1.3634148316172925,public_ours_hgb:102; rankaware_fixed_rank_fusion:600,ours:293; public:409
+defer_hgb_conservative,702,0.6096866096866097,1.3634148316172925,public_ours_hgb:408; rankaware_fixed_rank_fusion:294,ours:303; public:399
+defer_ridge_success,702,0.6068376068376068,1.3657305730186442,public_ours_hgb:116; rankaware_fixed_rank_fusion:586,ours:296; public:406
+defer_ridge_utility,702,0.6068376068376068,1.3657305730186442,public_ours_hgb:116; rankaware_fixed_rank_fusion:586,ours:296; public:406
+defer_ridge_conservative,702,0.6068376068376068,1.3657305730186442,public_ours_hgb:116; rankaware_fixed_rank_fusion:586,ours:296; public:406

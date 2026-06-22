@@ -1,0 +1,5 @@
+dataset,n_cases,ok_cases,ok_rate,top_success_2a_all_denominator,oracle_success_2a_all_denominator,top_success_2a_ok_only,oracle_success_2a_ok_only,median_top_rmsd_ok,median_oracle_rmsd_ok,mean_runtime_sec_ok
+all,29,29,1.0,0.0,0.0,0.0,0.0,5.581448793398837,4.409129662524384,14.193068965517242
+astex_diverse,4,4,1.0,0.0,0.0,0.0,0.0,4.771991804614531,4.564002916372324,14.1385
+dockgen,8,8,1.0,0.0,0.0,0.0,0.0,4.924948846655504,3.5096074763721345,14.211625
+posebusters_benchmark,17,17,1.0,0.0,0.0,0.0,0.0,5.694653786666929,4.432975524407956,14.197176470588236

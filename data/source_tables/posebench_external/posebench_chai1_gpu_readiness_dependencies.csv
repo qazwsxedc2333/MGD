@@ -1,0 +1,16 @@
+import_name,package_name,installed,note
+typer,typer,True,declared in chai-lab requirements
+einops,einops,True,first failing import observed for chai_lab.chai1
+jaxtyping,jaxtyping,True,declared in chai-lab requirements
+beartype,beartype,True,declared in chai-lab requirements
+pandera,pandera,True,declared in chai-lab requirements
+numba,numba,True,declared in chai-lab requirements
+antipickle,antipickle,True,declared in chai-lab requirements
+tmtools,tmtools,True,declared in chai-lab requirements
+modelcif,modelcif,True,declared in chai-lab requirements
+attr,attrs,True,imported by Chai template/context code
+aiohttp,aiohttp,True,imported by Chai template loading utilities
+torch,torch,True,runtime tensor dependency
+rdkit,rdkit,True,available in project venv for ligand preparation
+Bio,biopython,True,available in project venv for sequence extraction
+gemmi,gemmi,True,declared in chai-lab requirements

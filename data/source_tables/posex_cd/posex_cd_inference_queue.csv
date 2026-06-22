@@ -1,0 +1,9 @@
+dataset,method,family,priority,state,relax,command,expected_cases
+posex_cross_dock,vina_meeko,classical_docking,1,complete_full_denominator,False,python scripts/68_posex_vina_baseline.py --tag full_vina_exh4 --n-jobs 64 --cpu 2 --exhaustiveness 4 --n-poses 5,1312
+posex_cross_dock,gnina,physics_cnn,2,pending,False,cd external/PoseX && bash scripts/run_gnina/run_gnina.sh posex_cross_dock && bash scripts/calculate_benchmark_result.sh posex_cross_dock gnina false,1312
+posex_cross_dock,diffdock_l,diffusion_docking,3,complete_full_denominator_local,True,"python scripts/81_launch_posex_diffdock_queue.py --limit 2000 --max-parallel 6 --gpus 0,2,3,4,6,7 --tag default_s10_t20 --samples 10 --steps 20 && python scripts/80_posex_diffdock_audit.py --tag default_s10_t20",1312
+posex_cross_dock,dynamicbind,generative_docking,4,pending,True,cd external/PoseX && bash scripts/run_dynamicbind/run_dynamicbind.sh posex_cross_dock && bash scripts/calculate_benchmark_result.sh posex_cross_dock dynamicbind true,1312
+posex_cross_dock,boltz,cofolding,5,pending,True,cd external/PoseX && bash scripts/run_boltz/run_boltz.sh posex_cross_dock && bash scripts/calculate_benchmark_result.sh posex_cross_dock boltz true,1312
+posex_cross_dock,chai,cofolding,6,pending,True,cd external/PoseX && bash scripts/run_chai/run_chai.sh posex_cross_dock && bash scripts/calculate_benchmark_result.sh posex_cross_dock chai true,1312
+posex_cross_dock,rfaa,cofolding,7,pending,True,cd external/PoseX && bash scripts/run_rfaa/run_rfaa.sh posex_cross_dock && bash scripts/calculate_benchmark_result.sh posex_cross_dock rfaa true,1312
+posex_cross_dock,memoryguard_fusion,proposed_selector,8,pending_until_base_predictions_exist,False,python scripts/61_evidence_fusion_method.py --external-predictions results/posex_cd,1312

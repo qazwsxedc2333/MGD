@@ -1,0 +1,5 @@
+baseline,setting,n_cases,ok_cases,success_2a_all_denominator,median_rmsd_ok,mean_runtime_sec
+Boltz-2,low_budget_full_protocol,30,28,0.0,7.47632258502193,59.60392857142857
+Boltz-2,higher_budget_subset,30,28,0.03333333333333333,8.956903564832109,93.89696428571428
+Protenix,low_budget_full_protocol,30,28,0.0,14.664547858120667,86.02871428571429
+Protenix,higher_budget_subset,30,28,0.0,12.259811631945547,96.79896428571428

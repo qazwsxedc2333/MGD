@@ -1,0 +1,4 @@
+| baseline | planned_tag | fixed_seed | denominator_cases | status_files | ok_cases | failed_cases | status_breakdown | strict_successes_all_denominator | strict_success_rate_all_702 | mean_runtime_sec_status_files | full_denominator_complete | claim_status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Boltz-2 | full_r1_s20_seed101 | 101.0000 | 702.0000 | 702.0000 | 678.0000 | 24.0000 | exception:1; failed_no_prediction_cif:18; failed_nonzero:5; ok:678 | 4.0000 | 0.0057 | 60.2990 | 1.0000 | completed fixed-seed PoseBench-702 external baseline |
+| Protenix | full_base_c1_s20_n1 | 101.0000 | 702.0000 | 702.0000 | 678.0000 | 24.0000 | exception:1; failed_no_prediction_cif:23; ok:678 | 0.0000 | 0.0000 | 84.4211 | 1.0000 | completed fixed-seed PoseBench-702 external baseline |

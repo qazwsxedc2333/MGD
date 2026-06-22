@@ -1,0 +1,31 @@
+# Reproducibility Checklist
+
+## Minimal Verification
+
+```bash
+pip install -r requirements.txt
+pip install -e .
+pytest
+python scripts/reproduce_kbs_artifacts.py
+python scripts/verify_release.py
+```
+
+Expected outputs:
+
+- `outputs/reproduced/source_table_inventory.csv`
+- `outputs/reproduced/main_tables/*.csv`
+- `outputs/reproduced/key_metrics.csv`
+- `outputs/reproduced/reproduction_summary.md`
+
+## What The Checks Cover
+
+- Unit tests for the memory-score utility.
+- SHA256 checksum verification for all included source tables.
+- Presence of the paper-facing main source tables.
+- Extraction of headline values from reliability, conformal, rescue, external-baseline, and statistical-correction tables.
+- Repository scan for local absolute paths, server addresses, private user folders, and oversized files.
+
+## What Requires Full Experimental Resources
+
+Full retraining, full candidate-level reranking, docking/cofolding inference, and raw structural post-processing require public benchmark files and model outputs that are not redistributed in this lightweight repository.
+

@@ -1,0 +1,3 @@
+dataset,n_ok,n_total,ok_rate,top_success_2a,oracle_success_2a,median_top_rmsd,median_oracle_rmsd
+all,1,1,1.0,0.0,0.0,5.792235219671245,5.482222220961131
+astex_diverse,1,1,1.0,0.0,0.0,5.792235219671245,5.482222220961131

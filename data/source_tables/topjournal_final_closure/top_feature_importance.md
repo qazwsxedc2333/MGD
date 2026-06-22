@@ -1,0 +1,14 @@
+| rank | feature | feature_family | mean_auroc_drop |
+| --- | --- | --- | --- |
+| 1 | shape_pocket_memory | memory | 0.13215 |
+| 2 | pred_protein_receptor_atoms_contacting_4a | structure | 0.014505 |
+| 3 | pred_protein_min_dist | structure | 0.008619 |
+| 4 | ligand_memory | memory | 0.006288 |
+| 5 | pred_all_other_min_dist | structure | 0.005935 |
+| 6 | sample | rank/confidence | 0.005252 |
+| 7 | pred_all_other_contact_pairs_6a | structure | 0.004752 |
+| 8 | pred_protein_contact_pairs_6a | structure | 0.004662 |
+| 9 | pred_all_other_contact_density_4a | structure | 0.003161 |
+| 10 | pred_all_other_contact_pairs_4a | structure | 0.002023 |
+| 11 | ranking_score | ligand_or_other | 0.001951 |
+| 12 | pred_protein_contact_pairs_4a | structure | 0.001427 |

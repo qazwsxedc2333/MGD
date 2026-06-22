@@ -1,0 +1,4 @@
+selector,n_cases,success_2a,median_rmsd,chosen_experts,selected_sources
+rule_defer_success,702,0.6068376068376068,1.3775758015630986,public_ours_hgb:526; rankaware_fixed_rank_fusion:176,ours:313; public:389
+rule_defer_utility,702,0.6068376068376068,1.3775758015630986,public_ours_hgb:526; rankaware_fixed_rank_fusion:176,ours:313; public:389
+rule_defer_conservative,702,0.6068376068376068,1.3775758015630986,public_ours_hgb:526; rankaware_fixed_rank_fusion:176,ours:313; public:389

@@ -1,0 +1,8 @@
+| figure | purpose | main_evidence | source_artifacts | status |
+| --- | --- | --- | --- | --- |
+| Fig. 1 | Motivation and memory-generalization problem | memory-binned official performance and failure detector attribution | results/tables/official_clean_main_all7_perbin300_clean.csv; results/tables/gap_closure/failure_attribution_feature_summary_all7_perbin300_clean.csv | ready |
+| Fig. 2 | Method overview | memory-conditioned reliability estimation plus rescue/defer policy | docs/method_formalization.md | ready_as_diagram_spec |
+| Fig. 3 | Core internal result and ablations | official/oracle/guarded/pairwise rescue plus nested/rule controls | results/tables/trans_main_tables/main_table_1_core_results.csv; results/tables/trans_main_tables/main_table_3_rescue_ablation.csv | ready |
+| Fig. 4 | Reliability and selective prediction | AUROC/AUPRC/ECE and retained-success/failure-capture curves | results/tables/trans_main_tables/main_table_2_reliability.csv; results/tables/trans_main_tables/main_table_2b_selective_prediction.csv | ready |
+| Fig. 5 | External denominator and baseline audit | PoseBench/PoseX Vina, DiffDock-L, MGD selector, Chai full-receptor baseline, Chai oracle failure-attribution waterfall, Boltz full-receptor stress baseline | results/tables/trans_main_tables/main_table_4_external_baselines.csv; docs/external_controlled_baseline_meta_report.md; docs/posebench_chai1_gpu_rescue_waterfall.md | ready_with_oracle_rescue_caveat |
+| Fig. 6 | Qualitative case taxonomy | rescued, harmed, and severe-drift case panels | docs/case_figure_contact_sheet.md; docs/posebench_boltz1_full_r1_s20_drift_taxonomy.md | needs_final_visual_selection |

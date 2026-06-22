@@ -1,0 +1,14 @@
+stage,stage_name,dataset,eligible_cases,stage_ok,stage_ok_rate
+0,default_full_receptor_s5_t200,astex_diverse,85,74,0.8705882352941177
+0,default_full_receptor_s5_t200,dockgen,189,180,0.9523809523809523
+0,default_full_receptor_s5_t200,posebusters_benchmark,428,381,0.8901869158878505
+1,oracle_chain_crop_s5_t200,astex_diverse,11,8,0.7272727272727273
+1,oracle_chain_crop_s5_t200,dockgen,9,1,0.1111111111111111
+1,oracle_chain_crop_s5_t200,posebusters_benchmark,47,35,0.7446808510638298
+2,oracle_chain_crop_s1_t100_noesm,astex_diverse,3,0,0.0
+2,oracle_chain_crop_s1_t100_noesm,dockgen,8,0,0.0
+2,oracle_chain_crop_s1_t100_noesm,posebusters_benchmark,12,0,0.0
+3,oracle_residue_window_aa768,astex_diverse,3,3,1.0
+3,oracle_residue_window_aa768,dockgen,8,8,1.0
+3,oracle_residue_window_aa768,posebusters_benchmark,12,11,0.9166666666666666
+4,oracle_residue_window_aa384,posebusters_benchmark,1,1,1.0

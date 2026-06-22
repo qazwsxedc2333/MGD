@@ -1,0 +1,7 @@
+| _group_id | case_type | method | target | ligand_instance_chain | memory_score | rmsd_official | rmsd_selected | rmsd_gain | mapping_cost | all_unstructured_f1 | selected_geometry_plausible | strong_rescue_flag | needs_visual_review | case_dir |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| boltz2|8j7j__1__1.A_1.B__1.C|1.C | rescued | boltz2 | 8j7j__1__1.A_1.B__1.C | 1.C | 0.3410 | 8.2697 | 1.7804 | 6.4893 | 9.3073 | 0.8261 | True | True | True | results/figures/case_visualization_bundle/00_boltz2_8j7j__1__1.A_1.B__1.C_1.C |
+| boltz2|8g4a__1__1.A_1.B__1.C|1.C | rescued | boltz2 | 8g4a__1__1.A_1.B__1.C | 1.C | 0.2310 | 4.7718 | 0.3488 | 4.4230 | 0.9134 | 0.9091 | True | True | True | results/figures/case_visualization_bundle/01_boltz2_8g4a__1__1.A_1.B__1.C_1.C |
+| af3|8oqt__1__1.D__1.KA_1.LA|1.LA | rescued | af3 | 8oqt__1__1.D__1.KA_1.LA | 1.LA | 0.3024 | 5.4776 | 1.2039 | 4.2736 | 0.4780 | 0.8333 | True | True | True | results/figures/case_visualization_bundle/02_af3_8oqt__1__1.D__1.KA_1.LA_1.LA |
+| af3|8oqt__1__1.D__1.KA_1.LA|1.KA | rescued | af3 | 8oqt__1__1.D__1.KA_1.LA | 1.KA | 0.3021 | 5.4776 | 1.2039 | 4.2736 | 0.4497 | 0.5517 | True | True | True | results/figures/case_visualization_bundle/03_af3_8oqt__1__1.D__1.KA_1.LA_1.KA |
+| chai|8ivt__1__1.A_1.B__1.F|1.F | harmed | chai | 8ivt__1__1.A_1.B__1.F | 1.F | 0.3348 | 1.6857 | 4.8481 | -3.1624 | 16.0207 | 0.6667 | True | False | True | results/figures/case_visualization_bundle/04_chai_8ivt__1__1.A_1.B__1.F_1.F |

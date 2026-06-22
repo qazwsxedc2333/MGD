@@ -1,0 +1,3 @@
+dataset,n_ok,n_total,ok_rate,top_success_2a,oracle_success_2a,median_top_rmsd,median_oracle_rmsd
+all,3,12,0.25,0.0,0.0,5.8862777201361665,4.026410338360603
+posex_cross_dock,3,12,0.25,0.0,0.0,5.8862777201361665,4.026410338360603

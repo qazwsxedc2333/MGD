@@ -1,0 +1,28 @@
+{
+  "git_commit": "784f33814913939793e73e472997bf6637e8cd7e",
+  "packages": {
+    "aiohttp": "3.13.2",
+    "antipickle": "0.2.0",
+    "attrs": "25.4.0",
+    "beartype": "0.22.6",
+    "einops": "0.8.1",
+    "gemmi": "0.7.5",
+    "jaxtyping": "0.3.2",
+    "joblib": "1.5.3",
+    "meeko": "0.7.1",
+    "modelcif": "1.4",
+    "numba": "0.62.1",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pandera": "0.26.1",
+    "posebusters": "0.6.5",
+    "rdkit": "2026.03.1",
+    "scipy": "1.15.3",
+    "sklearn": "1.7.2",
+    "tmtools": "0.2.0",
+    "typer": "0.12.5",
+    "vina": "1.2.7"
+  },
+  "platform": "Linux-6.8.0-111-generic-x86_64-with-glibc2.35",
+  "python": "3.10.12"
+}

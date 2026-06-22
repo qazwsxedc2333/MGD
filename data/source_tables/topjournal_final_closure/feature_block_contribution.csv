@@ -1,0 +1,7 @@
+feature_blocks,n_candidates,n_features,auroc,auprc,delta_auroc_vs_rank_conf,delta_auprc_vs_rank_conf,interpretation
+rank+confidence,119198,9,0.987008,0.991461,0.0,0.0,candidate-level fusion ablation from frozen internal candidate table
+rank+confidence+structure+ligand,119198,25,0.989448,0.993276,0.002439,0.001815,candidate-level fusion ablation from frozen internal candidate table
+rank+confidence+structure+ligand+memory,119198,31,0.990118,0.993608,0.00311,0.002147,candidate-level fusion ablation from frozen internal candidate table
+rank+confidence+structure+ligand+physics,119198,31,0.989448,0.993276,0.002439,0.001815,candidate-level fusion ablation from frozen internal candidate table
+rank+confidence+structure+ligand+memory+physics,119198,37,0.990095,0.993594,0.003087,0.002133,candidate-level fusion ablation from frozen internal candidate table
+rank+confidence+structure+ligand+memory+physics,119198,37,0.989751,0.993336,0.002743,0.001875,candidate-level fusion ablation from frozen internal candidate table

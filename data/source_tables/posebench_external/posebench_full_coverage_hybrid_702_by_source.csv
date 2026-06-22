@@ -1,0 +1,10 @@
+source,dataset,n_cases,success_2a,median_rmsd,public_pool_coverage,fallback_cases,start_conf_success_on_fallback
+no_usable_pose,all,6,0.0,,0.0,6,0.0
+public_pool_calibrated_selector,all,489,0.49897750511247446,1.9934976922353962,1.0,0,
+vina_cpu_full_top_pose_fallback,all,207,0.01932367149758454,6.839424602178818,0.0,207,0.0
+public_pool_calibrated_selector,astex_diverse,85,0.6352941176470588,1.2921485308545118,1.0,0,
+no_usable_pose,dockgen,6,0.0,,0.0,6,0.0
+public_pool_calibrated_selector,dockgen,99,0.3838383838383838,5.470953770047779,1.0,0,
+vina_cpu_full_top_pose_fallback,dockgen,84,0.03571428571428571,8.150668532202559,0.0,84,0.0
+public_pool_calibrated_selector,posebusters_benchmark,305,0.49836065573770494,2.0129570473976277,1.0,0,
+vina_cpu_full_top_pose_fallback,posebusters_benchmark,123,0.008130081300813009,6.524535210196272,0.0,123,0.0

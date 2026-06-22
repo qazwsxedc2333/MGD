@@ -1,0 +1,254 @@
+chai1_import_ok,chai_lab_import_ok,chai_lab_source_tree,chai_lab_version,chain_ligand_cutoff,crop_candidate_chains,dataset,exception,exception_type,gpu,gpu_blocker_d_state_boltz_predict_count,gpu_blocker_preview,input_fasta,ligand_file,ligand_heavy_atoms,ligand_sanitize_mode,ligand_smiles,max_total_aa,method,mol_id,n_protein_chains,output_dir,pocket_chain_crop,protein_lengths,protein_pdb,runtime_sec,selected_chain_ids,selected_total_aa,status,tag,use_esm_embeddings,status_json,failure_class,rescue_recommendation
+True,True,True,0.6.1,12.0,A:1014:2.426,astex_diverse,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,1,0,,results/posebench_702_predictions/chai1_gpu/astex_diverse/1HWW_SWA/oracle_pocket_crop_s1_t100_noesm/inputs/1HWW_SWA_chai.fasta,external/PoseBench/data/astex_diverse_set/1HWW_SWA/1HWW_SWA_ligand.sdf,12,sanitized,O[C@H]1[C@H]2[C@H](O)CCCN2C[C@H]1O,1280,chai1_gpu,1HWW_SWA,1,results/posebench_702_predictions/chai1_gpu/astex_diverse/1HWW_SWA/oracle_pocket_crop_s1_t100_noesm,True,A:1014,external/PoseBench/data/astex_diverse_set/1HWW_SWA/1HWW_SWA_protein.pdb,52.584,A,1014,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/astex_diverse/1HWW_SWA/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,A:350:2.515;B:346:2.742;D:349:11.226;C:350:14.915;H:347:33.939;F:347:45.318;G:342:55.037;E:339:57.471,astex_diverse,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,2,0,,results/posebench_702_predictions/chai1_gpu/astex_diverse/1OF6_DTY/oracle_pocket_crop_s1_t100_noesm/inputs/1OF6_DTY_chai.fasta,external/PoseBench/data/astex_diverse_set/1OF6_DTY/1OF6_DTY_ligand.sdf,13,sanitized,N[C@@H](Cc1ccc(O)cc1)C(=O)O,1280,chai1_gpu,1OF6_DTY,3,results/posebench_702_predictions/chai1_gpu/astex_diverse/1OF6_DTY/oracle_pocket_crop_s1_t100_noesm,True,A:350;B:346;D:349,external/PoseBench/data/astex_diverse_set/1OF6_DTY/1OF6_DTY_protein.pdb,54.097,A;B;D,1045,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/astex_diverse/1OF6_DTY/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,B:595:2.864;A:583:3.317,astex_diverse,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,3,0,,results/posebench_702_predictions/chai1_gpu/astex_diverse/1T9B_1CS/oracle_pocket_crop_s1_t100_noesm/inputs/1T9B_1CS_chai.fasta,external/PoseBench/data/astex_diverse_set/1T9B_1CS/1T9B_1CS_ligand.sdf,23,sanitized,COc1nc(C)nc(NC(=O)NS(=O)(=O)c2ccccc2Cl)n1,1280,chai1_gpu,1T9B_1CS,2,results/posebench_702_predictions/chai1_gpu/astex_diverse/1T9B_1CS/oracle_pocket_crop_s1_t100_noesm,True,A:583;B:595,external/PoseBench/data/astex_diverse_set/1T9B_1CS/1T9B_1CS_protein.pdb,54.178,A;B,1178,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/astex_diverse/1T9B_1CS/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,A:539:2.578;B:539:3.515,dockgen,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,4,0,,results/posebench_702_predictions/chai1_gpu/dockgen/1pj2_1_FUM_0/oracle_pocket_crop_s1_t100_noesm/inputs/1pj2_1_FUM_0_chai.fasta,external/PoseBench/data/dockgen_set/1pj2_1_FUM_0/1pj2_1_FUM_0_ligand.pdb,8,sanitized,OC(O)CCC(O)O,1280,chai1_gpu,1pj2_1_FUM_0,2,results/posebench_702_predictions/chai1_gpu/dockgen/1pj2_1_FUM_0/oracle_pocket_crop_s1_t100_noesm,True,A:539;B:539,external/PoseBench/data/dockgen_set/1pj2_1_FUM_0/1pj2_1_FUM_0_protein_processed.pdb,52.973,A;B,1078,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/dockgen/1pj2_1_FUM_0/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,B:538:2.539;A:538:3.620,dockgen,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,5,0,,results/posebench_702_predictions/chai1_gpu/dockgen/1pj4_1_FUM_1/oracle_pocket_crop_s1_t100_noesm/inputs/1pj4_1_FUM_1_chai.fasta,external/PoseBench/data/dockgen_set/1pj4_1_FUM_1/1pj4_1_FUM_1_ligand.pdb,8,sanitized,OC(O)CCC(O)O,1280,chai1_gpu,1pj4_1_FUM_1,2,results/posebench_702_predictions/chai1_gpu/dockgen/1pj4_1_FUM_1/oracle_pocket_crop_s1_t100_noesm,True,A:538;B:538,external/PoseBench/data/dockgen_set/1pj4_1_FUM_1/1pj4_1_FUM_1_protein_processed.pdb,44.761,A;B,1076,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/dockgen/1pj4_1_FUM_1/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,B:1296:2.643,dockgen,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,6,0,,results/posebench_702_predictions/chai1_gpu/dockgen/1v97_1_MTE_1/oracle_pocket_crop_s1_t100_noesm/inputs/1v97_1_MTE_1_chai.fasta,external/PoseBench/data/dockgen_set/1v97_1_MTE_1/1v97_1_MTE_1_ligand.pdb,24,sanitized,NC1NC(O)[C@@H]2N[C@H]3C(S)C(S)[C@@H](CO[PH](O)(O)O)O[C@H]3NC2N1,1280,chai1_gpu,1v97_1_MTE_1,1,results/posebench_702_predictions/chai1_gpu/dockgen/1v97_1_MTE_1/oracle_pocket_crop_s1_t100_noesm,True,B:1296,external/PoseBench/data/dockgen_set/1v97_1_MTE_1/1v97_1_MTE_1_protein_processed.pdb,52.868,B,1296,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/dockgen/1v97_1_MTE_1/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,A:1289:2.731,dockgen,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,7,0,,results/posebench_702_predictions/chai1_gpu/dockgen/3uni_1_SAL_0/oracle_pocket_crop_s1_t100_noesm/inputs/3uni_1_SAL_0_chai.fasta,external/PoseBench/data/dockgen_set/3uni_1_SAL_0/3uni_1_SAL_0_ligand.pdb,10,sanitized,OC(O)C1CCCCC1O,1280,chai1_gpu,3uni_1_SAL_0,1,results/posebench_702_predictions/chai1_gpu/dockgen/3uni_1_SAL_0/oracle_pocket_crop_s1_t100_noesm,True,A:1289,external/PoseBench/data/dockgen_set/3uni_1_SAL_0/3uni_1_SAL_0_protein_processed.pdb,54.213,A,1289,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/dockgen/3uni_1_SAL_0/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,C:552:2.324;D:550:6.024,dockgen,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,5,0,,results/posebench_702_predictions/chai1_gpu/dockgen/4bc9_1_CNV-FAD_0/oracle_pocket_crop_s1_t100_noesm/inputs/4bc9_1_CNV-FAD_0_chai.fasta,external/PoseBench/data/dockgen_set/4bc9_1_CNV-FAD_0/4bc9_1_CNV-FAD_0_ligand.pdb,57,sanitized,CC1CC2[C@H](CC1C)N(C(C)CN)C1C(O)NC(O)NC1N2C[C@H](O)[C@H](O)[C@H](O)CO[PH](O)(O)O[PH](O)(O)OC[C@H]1O[C@@H](N2CNC3C(N)NCN[C@H]32)[C@H](O)[C@@H]1O,1280,chai1_gpu,4bc9_1_CNV-FAD_0,2,results/posebench_702_predictions/chai1_gpu/dockgen/4bc9_1_CNV-FAD_0/oracle_pocket_crop_s1_t100_noesm,True,C:552;D:550,external/PoseBench/data/dockgen_set/4bc9_1_CNV-FAD_0/4bc9_1_CNV-FAD_0_protein_processed.pdb,42.751,C;D,1102,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/dockgen/4bc9_1_CNV-FAD_0/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,A:1028:2.570,dockgen,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,1,0,,results/posebench_702_predictions/chai1_gpu/dockgen/4tvd_1_BGC_4/oracle_pocket_crop_s1_t100_noesm/inputs/4tvd_1_BGC_4_chai.fasta,external/PoseBench/data/dockgen_set/4tvd_1_BGC_4/4tvd_1_BGC_4_ligand.pdb,12,sanitized,OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O,1280,chai1_gpu,4tvd_1_BGC_4,1,results/posebench_702_predictions/chai1_gpu/dockgen/4tvd_1_BGC_4/oracle_pocket_crop_s1_t100_noesm,True,A:1028,external/PoseBench/data/dockgen_set/4tvd_1_BGC_4/4tvd_1_BGC_4_protein_processed.pdb,50.14,A,1028,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/dockgen/4tvd_1_BGC_4/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,A:1028:2.688,dockgen,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,2,0,,results/posebench_702_predictions/chai1_gpu/dockgen/4tvd_1_GLC_0/oracle_pocket_crop_s1_t100_noesm/inputs/4tvd_1_GLC_0_chai.fasta,external/PoseBench/data/dockgen_set/4tvd_1_GLC_0/4tvd_1_GLC_0_ligand.pdb,12,sanitized,OC[C@H]1O[C@H](O)[C@H](O)[C@@H](O)[C@@H]1O,1280,chai1_gpu,4tvd_1_GLC_0,1,results/posebench_702_predictions/chai1_gpu/dockgen/4tvd_1_GLC_0/oracle_pocket_crop_s1_t100_noesm,True,A:1028,external/PoseBench/data/dockgen_set/4tvd_1_GLC_0/4tvd_1_GLC_0_protein_processed.pdb,50.294,A,1028,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/dockgen/4tvd_1_GLC_0/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,C:354:2.466;B:355:3.431;D:356:7.929,dockgen,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,3,0,,results/posebench_702_predictions/chai1_gpu/dockgen/5dnc_1_ASN_2/oracle_pocket_crop_s1_t100_noesm/inputs/5dnc_1_ASN_2_chai.fasta,external/PoseBench/data/dockgen_set/5dnc_1_ASN_2/5dnc_1_ASN_2_ligand.pdb,9,sanitized,NC(O)C[C@H](N)C(O)O,1280,chai1_gpu,5dnc_1_ASN_2,3,results/posebench_702_predictions/chai1_gpu/dockgen/5dnc_1_ASN_2/oracle_pocket_crop_s1_t100_noesm,True,B:355;C:354;D:356,external/PoseBench/data/dockgen_set/5dnc_1_ASN_2/5dnc_1_ASN_2_protein_processed.pdb,51.369,B;C;D,1065,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/dockgen/5dnc_1_ASN_2/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,A:545:2.698;B:546:5.576,posebusters_benchmark,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,4,0,,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7A9H_TPP/oracle_pocket_crop_s1_t100_noesm/inputs/7A9H_TPP_chai.fasta,external/PoseBench/data/posebusters_benchmark_set/7A9H_TPP/7A9H_TPP_ligand.sdf,26,sanitized,Cc1ncc(C[n+]2csc(CCO[P@](=O)(O)OP(=O)(O)O)c2C)c(N)n1,1280,chai1_gpu,7A9H_TPP,2,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7A9H_TPP/oracle_pocket_crop_s1_t100_noesm,True,A:545;B:546,external/PoseBench/data/posebusters_benchmark_set/7A9H_TPP/7A9H_TPP_protein.pdb,51.379,A;B,1091,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7A9H_TPP/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,A:584:2.751;B:466:2.790;D:586:2.798;C:265:10.914;E:466:13.189;F:265:37.645,posebusters_benchmark,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,6,0,,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7B2C_TP7/oracle_pocket_crop_s1_t100_noesm/inputs/7B2C_TP7_chai.fasta,external/PoseBench/data/posebusters_benchmark_set/7B2C_TP7/7B2C_TP7_ligand.sdf,21,sanitized,C[C@@H](OP(=O)(O)O)[C@H](NC(=O)CCCCCCS)C(=O)O,1280,chai1_gpu,7B2C_TP7,2,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7B2C_TP7/oracle_pocket_crop_s1_t100_noesm,True,A:584;B:466,external/PoseBench/data/posebusters_benchmark_set/7B2C_TP7/7B2C_TP7_protein.pdb,51.363,A;B,1050,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7B2C_TP7/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,B:523:2.645;A:518:2.696,posebusters_benchmark,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,7,0,,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7CIJ_G0C/oracle_pocket_crop_s1_t100_noesm/inputs/7CIJ_G0C_chai.fasta,external/PoseBench/data/posebusters_benchmark_set/7CIJ_G0C/7CIJ_G0C_ligand.sdf,21,sanitized,CSCCC/N=C/c1c(COP(=O)(O)O)cnc(C)c1O,1280,chai1_gpu,7CIJ_G0C,2,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7CIJ_G0C/oracle_pocket_crop_s1_t100_noesm,True,A:518;B:523,external/PoseBench/data/posebusters_benchmark_set/7CIJ_G0C/7CIJ_G0C_protein.pdb,51.402,A;B,1041,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7CIJ_G0C/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,B:1288:2.570;A:1285:15.253,posebusters_benchmark,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,5,0,,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7D6O_MTE/oracle_pocket_crop_s1_t100_noesm/inputs/7D6O_MTE_chai.fasta,external/PoseBench/data/posebusters_benchmark_set/7D6O_MTE/7D6O_MTE_ligand.sdf,24,sanitized,Nc1nc2c(c(=O)[nH]1)N[C@H]1C(S)=C(S)[C@@H](COP(=O)(O)O)O[C@H]1N2,1280,chai1_gpu,7D6O_MTE,1,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7D6O_MTE/oracle_pocket_crop_s1_t100_noesm,True,B:1288,external/PoseBench/data/posebusters_benchmark_set/7D6O_MTE/7D6O_MTE_protein.pdb,42.105,B,1288,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7D6O_MTE/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,G:421:2.586;E:419:2.590;H:425:9.682;F:432:9.800;C:425:28.068;D:425:41.214;A:422:54.594;B:436:62.246,posebusters_benchmark,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,1,0,,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7FRX_O88/oracle_pocket_crop_s1_t100_noesm/inputs/7FRX_O88_chai.fasta,external/PoseBench/data/posebusters_benchmark_set/7FRX_O88/7FRX_O88_ligand.sdf,30,sanitized,O=S(=O)(NCc1ccc(S(=O)(=O)c2ccc(O)c(O)c2)cc1)c1ccc(O)c(O)c1,1280,chai1_gpu,7FRX_O88,3,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7FRX_O88/oracle_pocket_crop_s1_t100_noesm,True,E:419;G:421;H:425,external/PoseBench/data/posebusters_benchmark_set/7FRX_O88/7FRX_O88_protein.pdb,51.191,E;G;H,1265,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7FRX_O88/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,A:538:2.592;B:541:3.561,posebusters_benchmark,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,2,0,,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7KRU_ATP/oracle_pocket_crop_s1_t100_noesm/inputs/7KRU_ATP_chai.fasta,external/PoseBench/data/posebusters_benchmark_set/7KRU_ATP/7KRU_ATP_ligand.sdf,31,sanitized,Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO[P@@](=O)(O)O[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O,1280,chai1_gpu,7KRU_ATP,2,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7KRU_ATP/oracle_pocket_crop_s1_t100_noesm,True,B:541;A:538,external/PoseBench/data/posebusters_benchmark_set/7KRU_ATP/7KRU_ATP_protein.pdb,50.278,A;B,1079,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7KRU_ATP/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,D:1017:2.772;C:1008:8.846;A:1011:34.200;B:1011:48.534,posebusters_benchmark,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,3,0,,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7M31_TDR/oracle_pocket_crop_s1_t100_noesm/inputs/7M31_TDR_chai.fasta,external/PoseBench/data/posebusters_benchmark_set/7M31_TDR/7M31_TDR_ligand.sdf,9,sanitized,Cc1c[nH]c(=O)[nH]c1=O,1280,chai1_gpu,7M31_TDR,1,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7M31_TDR/oracle_pocket_crop_s1_t100_noesm,True,D:1017,external/PoseBench/data/posebusters_benchmark_set/7M31_TDR/7M31_TDR_protein.pdb,51.419,D,1017,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7M31_TDR/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,B:497:2.517;A:497:10.673,posebusters_benchmark,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,4,0,,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7NF0_BYN/oracle_pocket_crop_s1_t100_noesm/inputs/7NF0_BYN_chai.fasta,external/PoseBench/data/posebusters_benchmark_set/7NF0_BYN/7NF0_BYN_ligand.sdf,37,sanitized,Cc1cc2c3c(c1C)C(C)(C)C[C@@H](O)N3c1c(nc(O)[nH]c1=O)N2C[C@H](O)[C@H](O)[C@H](O)COP(=O)(O)O,1280,chai1_gpu,7NF0_BYN,2,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7NF0_BYN/oracle_pocket_crop_s1_t100_noesm,True,A:497;B:497,external/PoseBench/data/posebusters_benchmark_set/7NF0_BYN/7NF0_BYN_protein.pdb,45.722,A;B,994,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7NF0_BYN/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,A:574:2.679;B:572:2.935,posebusters_benchmark,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,6,0,,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7PT3_3KK/oracle_pocket_crop_s1_t100_noesm/inputs/7PT3_3KK_chai.fasta,external/PoseBench/data/posebusters_benchmark_set/7PT3_3KK/7PT3_3KK_ligand.sdf,54,sanitized,CC(C)(O)C(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)CO[P@@](=O)(O)O[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O,1280,chai1_gpu,7PT3_3KK,2,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7PT3_3KK/oracle_pocket_crop_s1_t100_noesm,True,A:574;B:572,external/PoseBench/data/posebusters_benchmark_set/7PT3_3KK/7PT3_3KK_protein.pdb,49.056,A;B,1146,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7PT3_3KK/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,A:542:2.683;C:246:2.888;B:442:3.025;a:542:4.732;b:442:22.457;c:246:52.750,posebusters_benchmark,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,7,0,,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7SUC_COM/oracle_pocket_crop_s1_t100_noesm/inputs/7SUC_COM_chai.fasta,external/PoseBench/data/posebusters_benchmark_set/7SUC_COM/7SUC_COM_ligand.sdf,7,sanitized,O=S(=O)(O)CCS,1280,chai1_gpu,7SUC_COM,3,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7SUC_COM/oracle_pocket_crop_s1_t100_noesm,True,A:542;B:442;C:246,external/PoseBench/data/posebusters_benchmark_set/7SUC_COM/7SUC_COM_protein.pdb,48.97,A;B;C,1230,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/7SUC_COM/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,D:341:2.986;A:334:3.123;F:34:10.304;B:505:10.781;E:82:15.258;J:36:16.337;X:38:16.604;L:37:16.805;C:442:18.137;H:65:18.726;M:32:22.446;V:137:23.052;R:34:23.490;T:29:24.474;K:37:24.948;O:244:31.760;Y:27:32.269;U:97:33.900;m:31:35.994;I:35:37.744,posebusters_benchmark,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,5,0,,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/8F4J_PHO/oracle_pocket_crop_s1_t100_noesm/inputs/8F4J_PHO_chai.fasta,external/PoseBench/data/posebusters_benchmark_set/8F4J_PHO/8F4J_PHO_ligand.sdf,64,sanitized,C=Cc1c(C)c2cc3nc(c4c5[nH]c(cc6nc(cc1[nH]2)C(C)=C6CC)c(C)c5C(=O)[C@@H]4C(=O)OC)[C@@H](CCC(=O)OC/C=C(\C)CCC[C@H](C)CCC[C@H](C)CCCC(C)C)[C@@H]3C,1280,chai1_gpu,8F4J_PHO,4,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/8F4J_PHO/oracle_pocket_crop_s1_t100_noesm,True,A:334;B:505;D:341;F:34,external/PoseBench/data/posebusters_benchmark_set/8F4J_PHO/8F4J_PHO_protein.pdb,42.011,A;B;D;F,1214,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/8F4J_PHO/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue
+True,True,True,0.6.1,12.0,A:533:2.591;B:533:2.733,posebusters_benchmark,"The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File ""code/__torch__/chai/model/af3/trunk.py"", line 136641, in forward_1536
+    _54560 = torch.mul(element11600, CONSTANTS.c0)
+    _54561 = torch.reshape(x6973, [_54557, _54559, int(_54560), 1, 1])
+    _54562 = torch.masked_fill(v915, _54561, 0)
+             ~~~~~~~~~~~~~~~~~ <--- HERE
+    o364 = torch.einsum(""abcd,aedbf->aecbf"", [torch.to(_54546, 15), _54562])
+    x6974 = torch.mul(g_sigm59, o364)
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.16 GiB is free. Including non-PyTorch memory, this process has 22.33 GiB memory in use. Of the allocated memory 21.75 GiB is allocated by PyTorch, and 171.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+",RuntimeError,4,0,,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/8FV9_80J/oracle_pocket_crop_s1_t100_noesm/inputs/8FV9_80J_chai.fasta,external/PoseBench/data/posebusters_benchmark_set/8FV9_80J/8FV9_80J_ligand.sdf,29,sanitized,Nc1ccn([C@@H]2O[C@H](CO[P@@](=O)(O)O[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2F)c(=O)n1,1280,chai1_gpu,8FV9_80J,2,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/8FV9_80J/oracle_pocket_crop_s1_t100_noesm,True,A:533;B:533,external/PoseBench/data/posebusters_benchmark_set/8FV9_80J/8FV9_80J_protein.pdb,39.947,A;B,1066,exception,oracle_pocket_crop_s1_t100_noesm,False,results/posebench_702_predictions/chai1_gpu/posebusters_benchmark/8FV9_80J/oracle_pocket_crop_s1_t100_noesm/run_status.json,cuda_oom,retry_default_with_allocator_then_low_sample_rescue

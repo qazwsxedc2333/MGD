@@ -1,0 +1,5 @@
+dataset,manifest_cases,public_prediction_cases,public_prediction_case_coverage,full_external_completed_cases,full_external_completion,full_external_all_ok_cases,missing_full_external_cases,vina_cpu_full_done_cases,vina_cpu_full_attempted_cases,vina_cpu_full_failed_or_unsupported_cases,diffdock_l_gpu_done_cases,diffdock_l_gpu_attempted_cases,diffdock_l_gpu_failed_or_unsupported_cases,boltz1_gpu_done_cases,boltz1_gpu_attempted_cases,boltz1_gpu_failed_or_unsupported_cases,chai1_gpu_done_cases,chai1_gpu_attempted_cases,chai1_gpu_failed_or_unsupported_cases,pending_jobs_all_methods,method_stack
+astex_diverse,85,85,1.0,85,1.0,70,0,85,85,0,85,85,0,76,85,9,74,85,11,0,
+posebusters_benchmark,428,305,0.7126168224299065,428,1.0,377,0,427,428,1,424,428,4,395,428,33,381,428,47,0,
+dockgen,189,99,0.5238095238095238,189,1.0,172,0,181,189,8,183,189,6,182,189,7,180,189,9,0,
+all,702,489,0.6965811965811965,702,1.0,619,0,693,702,9,692,702,10,653,702,49,635,702,67,0,

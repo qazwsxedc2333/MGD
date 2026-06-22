@@ -1,0 +1,14 @@
+| detector | target_risk | n_total | n_retained | coverage | failure_rate | success_rate | failure_cp_upper |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| rank_confidence_structure_memory | 0.1000 | 4727.0000 | 2425.0000 | 0.5130 | 0.0903 | 0.9097 | 0.1005 |
+| rank_confidence_structure_memory | 0.1500 | 4727.0000 | 2967.0000 | 0.6277 | 0.1399 | 0.8601 | 0.1508 |
+| rank_confidence_structure_memory | 0.2000 | 4727.0000 | 3382.0000 | 0.7155 | 0.1892 | 0.8108 | 0.2007 |
+| rank_confidence_structure_memory | 0.2500 | 4727.0000 | 3722.0000 | 0.7874 | 0.2380 | 0.7620 | 0.2498 |
+| rank_confidence_structure_memory | 0.3000 | 4727.0000 | 4071.0000 | 0.8612 | 0.2862 | 0.7138 | 0.2981 |
+| rank_confidence_structure_memory | 0.3500 | 4727.0000 | 4432.0000 | 0.9376 | 0.3380 | 0.6620 | 0.3499 |
+| rank_confidence_structure_memory_shuffled | 0.1000 | 4727.0000 | 1987.0000 | 0.4204 | 0.0876 | 0.9124 | 0.0987 |
+| rank_confidence_structure_memory_shuffled | 0.1500 | 4727.0000 | 2630.0000 | 0.5564 | 0.1395 | 0.8605 | 0.1511 |
+| rank_confidence_structure_memory_shuffled | 0.2000 | 4727.0000 | 3169.0000 | 0.6704 | 0.1887 | 0.8113 | 0.2005 |
+| rank_confidence_structure_memory_shuffled | 0.2500 | 4727.0000 | 3599.0000 | 0.7614 | 0.2359 | 0.7641 | 0.2478 |
+| rank_confidence_structure_memory_shuffled | 0.3000 | 4727.0000 | 4031.0000 | 0.8528 | 0.2873 | 0.7127 | 0.2992 |
+| rank_confidence_structure_memory_shuffled | 0.3500 | 4727.0000 | 4415.0000 | 0.9340 | 0.3373 | 0.6627 | 0.3492 |

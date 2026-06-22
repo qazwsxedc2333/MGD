@@ -1,0 +1,6 @@
+stage,stage_name,tag,scope,description,eligible_cases,stage_ok,stage_non_ok,stage_ok_rate,status_counts,cumulative_ok,cumulative_remaining,cumulative_coverage
+0,default_full_receptor_s5_t200,default_s5_t200,fair_external_baseline,"Full receptor Chai-1, 5 samples, 200 diffusion steps.",702,635,67,0.9045584045584045,exception:67;ok:635,635,67,0.9045584045584045
+1,oracle_chain_crop_s5_t200,oracle_pocket_crop_s5_t200,oracle_failure_attribution,"Native-ligand-informed pocket chain crop, same sample/step budget.",67,44,23,0.6567164179104478,exception:23;ok:44,679,23,0.9672364672364673
+2,oracle_chain_crop_s1_t100_noesm,oracle_pocket_crop_s1_t100_noesm,oracle_failure_attribution,"Same chain crop with 1 sample, 100 diffusion steps, no ESM embeddings.",23,0,23,0.0,exception:23,679,23,0.9672364672364673
+3,oracle_residue_window_aa768,oracle_pocket_window_s1_t100_noesm_aa768,oracle_failure_attribution,"Native-ligand-informed residue window crop, max total aa 768.",23,22,1,0.9565217391304348,exception:1;ok:22,701,1,0.9985754985754985
+4,oracle_residue_window_aa384,oracle_pocket_window_s1_t100_noesm_aa384,oracle_failure_attribution,Final smaller residue window for the single 768-window OOM case.,1,1,0,1.0,ok:1,702,0,1.0

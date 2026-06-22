@@ -1,0 +1,29 @@
+selector,dataset,n_cases,attempted_case_coverage,ok_case_coverage,success_2a,median_rmsd,selected_methods
+Boltz-1 full receptor r1/s20,all,702,1.0,0.9301994301994302,0.0,10.83523730778451,Boltz-1 full receptor r1/s20:702
+Chai-1 full receptor s5/t200,all,702,1.0,0.9045584045584045,0.3817663817663818,2.8681235845473676,Chai-1 full receptor s5/t200:702
+DiffDock-L default s10/t20,all,702,1.0,0.9857549857549858,0.3817663817663818,3.4532441501892936,DiffDock-L default s10/t20:702
+Vina/Meeko full,all,702,1.0,0.9871794871794872,0.019943019943019943,5.744706519919012,Vina/Meeko full:702
+lodo_hgb_controlled_candidate_stack,all,702,1.0,0.9871794871794872,0.44871794871794873,2.7367842735992745,Boltz-1 full receptor r1/s20:2;Chai-1 full receptor s5/t200:337;DiffDock-L default s10/t20:326;Vina/Meeko full:37
+lodo_method_prior,all,702,1.0,0.9700854700854701,0.3475783475783476,3.909954773621042,Chai-1 full receptor s5/t200:85;DiffDock-L default s10/t20:617
+oracle_candidate_stack_upper_bound,all,702,1.0,0.9985754985754985,0.5484330484330484,1.610095655925332,Boltz-1 full receptor r1/s20:12;Chai-1 full receptor s5/t200:261;DiffDock-L default s10/t20:244;Vina/Meeko full:185
+Boltz-1 full receptor r1/s20,astex_diverse,85,1.0,0.8941176470588236,0.0,9.819017033380378,Boltz-1 full receptor r1/s20:85
+Boltz-1 full receptor r1/s20,dockgen,189,1.0,0.9629629629629629,0.0,11.735136984766807,Boltz-1 full receptor r1/s20:189
+Boltz-1 full receptor r1/s20,posebusters_benchmark,428,1.0,0.9228971962616822,0.0,10.732963107943856,Boltz-1 full receptor r1/s20:428
+Chai-1 full receptor s5/t200,astex_diverse,85,1.0,0.8705882352941177,0.4117647058823529,2.647817662270584,Chai-1 full receptor s5/t200:85
+Chai-1 full receptor s5/t200,dockgen,189,1.0,0.9523809523809523,0.2962962962962963,5.615054865193352,Chai-1 full receptor s5/t200:189
+Chai-1 full receptor s5/t200,posebusters_benchmark,428,1.0,0.8901869158878505,0.4135514018691589,2.390286767564116,Chai-1 full receptor s5/t200:428
+DiffDock-L default s10/t20,astex_diverse,85,1.0,1.0,0.6941176470588235,0.5906073438373375,DiffDock-L default s10/t20:85
+DiffDock-L default s10/t20,dockgen,189,1.0,0.9682539682539683,0.19576719576719576,6.0787785179069855,DiffDock-L default s10/t20:189
+DiffDock-L default s10/t20,posebusters_benchmark,428,1.0,0.9906542056074766,0.40186915887850466,3.2958425638638316,DiffDock-L default s10/t20:428
+Vina/Meeko full,astex_diverse,85,1.0,1.0,0.03529411764705882,4.773580356614167,Vina/Meeko full:85
+Vina/Meeko full,dockgen,189,1.0,0.9576719576719577,0.015873015873015872,6.538653607586197,Vina/Meeko full:189
+Vina/Meeko full,posebusters_benchmark,428,1.0,0.9976635514018691,0.018691588785046728,5.80629170892153,Vina/Meeko full:428
+lodo_hgb_controlled_candidate_stack,astex_diverse,85,1.0,1.0,0.5882352941176471,0.9298821217470672,Chai-1 full receptor s5/t200:32;DiffDock-L default s10/t20:43;Vina/Meeko full:10
+lodo_hgb_controlled_candidate_stack,dockgen,189,1.0,0.9841269841269841,0.3439153439153439,4.032658865231887,Boltz-1 full receptor r1/s20:2;Chai-1 full receptor s5/t200:145;DiffDock-L default s10/t20:40;Vina/Meeko full:2
+lodo_hgb_controlled_candidate_stack,posebusters_benchmark,428,1.0,0.985981308411215,0.4672897196261682,2.455603622351965,Chai-1 full receptor s5/t200:160;DiffDock-L default s10/t20:243;Vina/Meeko full:25
+lodo_method_prior,astex_diverse,85,1.0,0.8705882352941177,0.4117647058823529,2.647817662270584,Chai-1 full receptor s5/t200:85
+lodo_method_prior,dockgen,189,1.0,0.9682539682539683,0.19576719576719576,6.0787785179069855,DiffDock-L default s10/t20:189
+lodo_method_prior,posebusters_benchmark,428,1.0,0.9906542056074766,0.40186915887850466,3.2958425638638316,DiffDock-L default s10/t20:428
+oracle_candidate_stack_upper_bound,astex_diverse,85,1.0,1.0,0.7647058823529411,0.4903209689669573,Chai-1 full receptor s5/t200:16;DiffDock-L default s10/t20:52;Vina/Meeko full:17
+oracle_candidate_stack_upper_bound,dockgen,189,1.0,0.9947089947089947,0.42857142857142855,2.708241357412592,Boltz-1 full receptor r1/s20:4;Chai-1 full receptor s5/t200:84;DiffDock-L default s10/t20:55;Vina/Meeko full:46
+oracle_candidate_stack_upper_bound,posebusters_benchmark,428,1.0,1.0,0.5584112149532711,1.6062676549865982,Boltz-1 full receptor r1/s20:8;Chai-1 full receptor s5/t200:161;DiffDock-L default s10/t20:137;Vina/Meeko full:122

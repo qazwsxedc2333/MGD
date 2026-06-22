@@ -1,0 +1,4 @@
+case_type,n,mean_rmsd_gain,median_rmsd_gain,mean_contact_delta,mean_clash_delta,geometry_plausible_rate,strong_rescue_count,needs_visual_review_count,selected_pb_missing_rate,selected_pb_failed_rate
+rescued,11,2.3571780107238074,1.1313832998275757,-0.5950503842250253,-0.019393939393939394,1.0,4,11,1.0,0.0
+harmed,1,-3.162358522415161,-3.162358522415161,-0.7037037037037037,0.0,1.0,0,1,1.0,0.0
+kept_official,463,0.0,0.0,0.0,0.0,0.43412526997840173,0,0,0.05183585313174946,0.5464362850971922

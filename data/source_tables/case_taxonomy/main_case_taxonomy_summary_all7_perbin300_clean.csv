@@ -1,0 +1,8 @@
+taxonomy_category,panel_use,n_cases,mean_memory_score,median_rmsd_official,median_rmsd_selected,median_delta_rmsd
+posebench_public_pool_harm_boundary,external_validation_case_panel,1,0.3170731707317073,1.78021072380599,2.414577994582713,0.634367270776723
+posebench_public_pool_rescue,external_validation_case_panel,4,0.3117311423332765,37.3681143575009,1.399734091672475,-35.78558599320549
+low_memory_rescue_mechanism,main_figure_rescue_pair,6,0.2945727271016984,5.1246657371521,1.2781590819358826,-4.273649454116821
+chemistry_validity_failure,main_or_supp_failure_taxonomy,5,0.2974170368607304,17.34786033630371,,
+high_confidence_wrong_low_memory,main_or_supp_failure_taxonomy,5,0.2798915855812745,20.99537849426269,,
+memorization_shortcut_high_memory_success,main_or_supp_failure_taxonomy,5,0.960921072288804,1.0154482126235962,,
+anti_memory_failure_boundary,supplement_failure_pair,1,0.3347984178695694,1.6857473850250244,4.8481059074401855,3.162358522415161

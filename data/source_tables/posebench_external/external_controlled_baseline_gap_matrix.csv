@@ -1,0 +1,11 @@
+requirement,status,evidence,next_action
+PoseBench external denominator frozen,pass,702 manifest cases and method queue are generated,keep denominator unchanged
+PoseBench classical full baseline,pass,Vina/Meeko attempted on 702/702,report as weak but complete classical anchor
+PoseBench neural full baseline,pass_with_failures,"DiffDock-L attempted on 702/702; 692 ok, 10 failures/unsupported",keep strict all-attempt metric and failure taxonomy
+PoseBench cofolding full baseline,pass_with_failures,"Boltz-1 full receptor attempted 702/702; ok=653; pocket top-1 2A=0.000; median pocket RMSD=10.835; Chai-1 default attempted 702/702; ok=635, non_ok=67; oracle rescue cumulative coverage=1.0000",report Chai default and Boltz full-receptor as fair full-receptor baselines; keep Chai oracle rescue waterfall as failure attribution only
+PoseBench Chai controlled launch and rescue audit,pass,"Chai-1 default attempted 702/702; ok=635, non_ok=67; oracle rescue cumulative coverage=1.0000",no launch recovery needed; use full-receptor row as fair baseline and oracle rescue waterfall only for failure attribution
+PoseBench Boltz full cofolding baseline,pass_with_failures,Boltz-1 full receptor attempted 702/702; ok=653; pocket top-1 2A=0.000; median pocket RMSD=10.835,keep as a completed full-receptor cofolding stress baseline; do not present it as a docking-tuned Boltz benchmark
+PoseBench proposed method full controlled inference,pass_with_boundary,controlled LODO candidate-stack selector attempted 702/702; success=0.449; median RMSD=2.737,report as selector-over-generated-candidates; do not claim de novo docking/generation SOTA
+PoseX-CD classical and neural stress baselines,pass,Vina/Meeko and DiffDock-L completed on 1312/1312,use as external stress-test anchor
+PoseX-CD cofolding/proposed stress,open,cofolding/proposed PoseX-CD outputs are not complete,queue after GPU recovers; lower priority than PoseBench proposed controlled run
+All-method full external completion,pass,702/702 cases have complete controlled attempts or explicit failure accounting,keep failure-accounted denominator; narrow broad SOTA language to the selector boundary

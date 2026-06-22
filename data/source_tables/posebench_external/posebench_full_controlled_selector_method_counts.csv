@@ -1,0 +1,15 @@
+selector,method,n_selected
+Boltz-1 full receptor r1/s20,Boltz-1 full receptor r1/s20,702
+Chai-1 full receptor s5/t200,Chai-1 full receptor s5/t200,702
+DiffDock-L default s10/t20,DiffDock-L default s10/t20,702
+Vina/Meeko full,Vina/Meeko full,702
+lodo_hgb_controlled_candidate_stack,Chai-1 full receptor s5/t200,337
+lodo_hgb_controlled_candidate_stack,DiffDock-L default s10/t20,326
+lodo_hgb_controlled_candidate_stack,Vina/Meeko full,37
+lodo_hgb_controlled_candidate_stack,Boltz-1 full receptor r1/s20,2
+lodo_method_prior,DiffDock-L default s10/t20,617
+lodo_method_prior,Chai-1 full receptor s5/t200,85
+oracle_candidate_stack_upper_bound,Chai-1 full receptor s5/t200,261
+oracle_candidate_stack_upper_bound,DiffDock-L default s10/t20,244
+oracle_candidate_stack_upper_bound,Vina/Meeko full,185
+oracle_candidate_stack_upper_bound,Boltz-1 full receptor r1/s20,12

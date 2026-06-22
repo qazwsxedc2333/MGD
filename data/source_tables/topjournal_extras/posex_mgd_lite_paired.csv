@@ -1,0 +1,4 @@
+selector,baseline,n_cases,selector_success,baseline_success,delta_success,rescued,harmed,net_rescue,binomial_p_greater
+MGD-lite_diffdock_first,DiffDock-L,1312,0.45503048780487804,0.45503048780487804,0.0,0,0,0,
+MGD-lite_confidence_gate,DiffDock-L,1312,0.42378048780487804,0.45503048780487804,-0.03125,0,41,-41,1.0
+two_source_oracle_upper_bound,DiffDock-L,1312,0.45884146341463417,0.45503048780487804,0.0038109756097561287,5,0,5,0.03125

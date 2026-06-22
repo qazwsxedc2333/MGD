@@ -1,0 +1,4 @@
+split,manifest_cases,extracted_cases,required_files_complete,missing_required_cases,missing_manifest_protein_inputs,ligand_parse_rate,mean_max_train_tanimoto,cases_tanimoto_ge_0_8,cases_scaffold_overlap,cases_pdb_overlap
+astex_diverse,85,85,True,0,0,1.0,0.434405680265745,8,27,0
+posebusters_benchmark,428,428,True,0,120,1.0,0.6684455451615814,191,238,99
+dockgen,189,189,True,0,0,0.9947089947089947,0.30940678585322284,9,31,0

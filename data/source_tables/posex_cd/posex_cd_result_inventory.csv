@@ -1,0 +1,13 @@
+dataset,method,relax,result_files,example_file,n_total,n_ok,ok_rate,top_success_2a,oracle_success_2a,median_top_rmsd,median_oracle_rmsd
+posex_cross_dock,vina_meeko,false,2,results/tables/posex_cd/posex_cd_vina_summary_full_vina_exh4.csv,1312.0,1311.0,0.9992378048780488,0.0068649885583524,0.0129672006102212,6.188917188847873,5.28937043688296
+posex_cross_dock,gnina,true,0,,,,,,,,
+posex_cross_dock,gnina,false,0,,,,,,,,
+posex_cross_dock,diffdock_l,local_controlled,2,results/tables/posex_cd/posex_cd_diffdock_l_gpu_default_s10_t20_summary.csv,1312.0,1312.0,1.0,0.455030487804878,0.4428353658536585,2.2658894464401955,2.5001467410840164
+posex_cross_dock,dynamicbind,true,0,,,,,,,,
+posex_cross_dock,dynamicbind,false,0,,,,,,,,
+posex_cross_dock,boltz,true,0,,,,,,,,
+posex_cross_dock,boltz,false,0,,,,,,,,
+posex_cross_dock,chai,true,0,,,,,,,,
+posex_cross_dock,chai,false,0,,,,,,,,
+posex_cross_dock,rfaa,true,0,,,,,,,,
+posex_cross_dock,rfaa,false,0,,,,,,,,

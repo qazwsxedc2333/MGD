@@ -1,0 +1,47 @@
+method,n_cases_covered,success_2a,median_rmsd,source_pool
+public_boltz_relaxedFalse_rep1,60,0.5166666666666667,1.753190648625405,public
+public_rfaa_relaxedFalse_rep1,25,0.48,3.058891953371351,public
+public_boltz_relaxedFalse_rep3,60,0.45,2.695082449450396,public
+public_boltz_relaxedTrue_rep1,60,0.45,2.512595502974758,public
+public_boltz_relaxedTrue_rep3,60,0.45,3.464970983466383,public
+public_boltz_relaxedFalse_rep2,89,0.42696629213483145,4.417643345042694,public
+public_boltz_ss_relaxedFalse_rep1,87,0.40229885057471265,3.5957431697772866,public
+public_boltz_ss_relaxedTrue_rep1,87,0.39080459770114945,4.336638008008047,public
+public_boltz_relaxedTrue_rep2,89,0.34831460674157305,5.580851107845575,public
+public_boltz_ss_relaxedFalse_rep2,89,0.3258426966292135,6.992384803103064,public
+public_boltz_ss_relaxedFalse_rep3,88,0.3181818181818182,7.228348203358773,public
+public_boltz_ss_relaxedTrue_rep3,88,0.3181818181818182,6.941802926801181,public
+Chai-1 full receptor s5/t200,189,0.2962962962962963,5.615054865193352,ours
+public_boltz_ss_relaxedTrue_rep2,89,0.29213483146067415,6.650354313618684,public
+public_chai_relaxedFalse_rep1,91,0.2857142857142857,14.28273156992543,public
+public_chai_relaxedFalse_rep3,92,0.2826086956521739,13.75533655384434,public
+public_rfaa_relaxedTrue_rep1,25,0.28,4.163992976699169,public
+public_chai_relaxedFalse_rep2,91,0.26373626373626374,16.124261255550078,public
+public_chai_relaxedTrue_rep1,91,0.25274725274725274,14.293311951820344,public
+public_chai_relaxedTrue_rep2,91,0.24175824175824176,16.2863305731832,public
+public_diffdock_relaxedFalse_rep1,58,0.22413793103448276,8.938619422452296,public
+public_diffdock_relaxedTrue_rep1,58,0.22413793103448276,8.938619422452296,public
+public_chai_relaxedTrue_rep3,92,0.21739130434782608,14.152904435004208,public
+DiffDock-L default s10/t20,189,0.19576719576719576,6.0787785179069855,ours
+public_neuralplexer_relaxedFalse_rep1,99,0.1919191919191919,10.42349481140243,public
+public_diffdock_relaxedFalse_rep2,59,0.1864406779661017,15.154464713476356,public
+public_diffdock_relaxedTrue_rep2,59,0.1864406779661017,15.154464713476356,public
+public_neuralplexer_relaxedFalse_rep3,99,0.1717171717171717,16.1508162834731,public
+public_neuralplexer_relaxedTrue_rep1,99,0.15151515151515152,9.443713039054078,public
+public_neuralplexer_relaxedTrue_rep3,99,0.15151515151515152,16.1508162834731,public
+public_diffdock_relaxedFalse_rep3,59,0.13559322033898305,18.416247600488543,public
+public_diffdock_relaxedTrue_rep3,59,0.13559322033898305,18.416247600488543,public
+public_neuralplexer_relaxedFalse_rep2,99,0.13131313131313133,10.577245720350202,public
+public_neuralplexer_relaxedTrue_rep2,99,0.10101010101010101,11.684010338834868,public
+public_vina_relaxedFalse_rep3,27,0.037037037037037035,25.49755838114701,public
+public_vina_relaxedTrue_rep3,27,0.037037037037037035,25.49755838114701,public
+Vina/Meeko full,189,0.015873015873015872,6.538653607586197,ours
+public_dynamicbind_relaxedFalse_rep-1,96,0.010416666666666666,14.424265865459702,public
+Boltz-2 full receptor r1/s20,189,0.005291005291005291,12.26292452553911,ours
+Boltz-1 full receptor r1/s20,189,0.0,11.735136984766807,ours
+Protenix base full receptor c1/s20/n1,189,0.0,13.292043345338485,ours
+public_dynamicbind_relaxedTrue_rep-1,96,0.0,15.280431628101258,public
+public_vina_relaxedFalse_rep1,28,0.0,18.34207033045141,public
+public_vina_relaxedTrue_rep1,28,0.0,18.34207033045141,public
+public_vina_relaxedFalse_rep2,27,0.0,21.315593642526903,public
+public_vina_relaxedTrue_rep2,27,0.0,21.315593642526903,public

@@ -1,0 +1,5 @@
+head,feature_blocks,auroc_success,delta_auroc_vs_hgb_reference,auprc_success,risk_coverage_auc,interpretation
+mlp_bce_no_memory,rank+confidence+structure+ligand+physics,0.98789328026532,-0.0021051932370006465,0.9921413305459335,0.892912914513352,neural/evidential reliability-head ablation under grouped CV
+mlp_bce_full,rank+confidence+structure+ligand+memory+physics,0.9865778427775722,-0.003420630724748408,0.9909473173136791,0.8921845560617735,neural/evidential reliability-head ablation under grouped CV
+evidential_mlp_full,rank+confidence+structure+ligand+memory+physics,0.987294959150632,-0.002703514351688585,0.991590008539093,0.8927732305887935,neural/evidential reliability-head ablation under grouped CV
+deep_ensemble_mlp_full,rank+confidence+structure+ligand+memory+physics,0.9874387437304784,-0.0025597297718422674,0.991731788392715,0.8927284935923612,neural/evidential reliability-head ablation under grouped CV

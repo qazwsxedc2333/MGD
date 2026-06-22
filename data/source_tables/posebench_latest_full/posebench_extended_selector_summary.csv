@@ -1,0 +1,11 @@
+selector,n_cases,ok_cases,ok_coverage,success_2a,median_rmsd,selected_methods
+Vina/Meeko full,702,693,0.9871794871794872,0.019943019943019943,5.744706519919012,Vina/Meeko full:702
+DiffDock-L default s10/t20,702,692,0.9857549857549858,0.3817663817663818,3.4532441501892936,DiffDock-L default s10/t20:702
+Boltz-1 full receptor r1/s20,702,653,0.9301994301994302,0.0,10.83523730778451,Boltz-1 full receptor r1/s20:702
+Chai-1 full receptor s5/t200,702,635,0.9045584045584045,0.3817663817663818,2.8681235845473676,Chai-1 full receptor s5/t200:702
+Boltz-2 full receptor r1/s20,702,678,0.9658119658119658,0.005698005698005698,8.839794067821384,Boltz-2 full receptor r1/s20:702
+Protenix base full receptor c1/s20/n1,702,678,0.9658119658119658,0.0,12.920897664979151,Protenix base full receptor c1/s20/n1:702
+extended_lodo_hgb_no_memory,702,701,0.9985754985754985,0.4515669515669516,2.60060451810706,DiffDock-L default s10/t20:416;Chai-1 full receptor s5/t200:267;Vina/Meeko full:19
+extended_lodo_hgb_full_memory,702,701,0.9985754985754985,0.45014245014245013,2.6703182734795035,DiffDock-L default s10/t20:411;Chai-1 full receptor s5/t200:269;Vina/Meeko full:20;Boltz-2 full receptor r1/s20:2
+extended_lodo_hgb_validity_aware,702,701,0.9985754985754985,0.44871794871794873,2.7040890173263437,DiffDock-L default s10/t20:359;Chai-1 full receptor s5/t200:291;Vina/Meeko full:50;Boltz-2 full receptor r1/s20:2
+oracle_candidate_stack_upper_bound,702,700,0.9971509971509972,0.5498575498575499,1.610095655925332,Chai-1 full receptor s5/t200:252;DiffDock-L default s10/t20:242;Vina/Meeko full:167;Boltz-2 full receptor r1/s20:26;Protenix base full receptor c1/s20/n1:8;Boltz-1 full receptor r1/s20:7

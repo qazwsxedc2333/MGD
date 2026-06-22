@@ -1,0 +1,6 @@
+file,url,exists,size_bytes,expected_size_bytes,size_matches
+posex_set.zip,https://hf-mirror.com/datasets/CataAI/PoseX/resolve/main/posex_set.zip,True,355843871,355843871,True
+posex_cif.zip,https://hf-mirror.com/datasets/CataAI/PoseX/resolve/main/posex_cif.zip,True,227489612,227489612,True
+posex_dataset_dir,,True,0,,True
+posex_cross_dock_set,,True,0,,True
+posex_cross_dock_benchmark_csv,,True,626059,,True

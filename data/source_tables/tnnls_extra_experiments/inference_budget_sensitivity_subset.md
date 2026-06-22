@@ -1,0 +1,32 @@
+| dataset | mol_id | ligand_heavy_atoms | selection_role |
+| --- | --- | --- | --- |
+| astex_diverse | 1N2J_PAF | 10.0000 | ligand-size-stratified fixed budget subset |
+| astex_diverse | 1HQ2_PH2 | 14.0000 | ligand-size-stratified fixed budget subset |
+| astex_diverse | 1W2G_THM | 17.0000 | ligand-size-stratified fixed budget subset |
+| astex_diverse | 1L2S_STC | 19.0000 | ligand-size-stratified fixed budget subset |
+| astex_diverse | 1OWE_675 | 22.0000 | ligand-size-stratified fixed budget subset |
+| astex_diverse | 1T9B_1CS | 23.0000 | ligand-size-stratified fixed budget subset |
+| astex_diverse | 1XOQ_ROF | 26.0000 | ligand-size-stratified fixed budget subset |
+| astex_diverse | 1R1H_BIR | 29.0000 | ligand-size-stratified fixed budget subset |
+| astex_diverse | 1LPZ_CMB | 32.0000 | ligand-size-stratified fixed budget subset |
+| astex_diverse | 1KZK_JE2 | 41.0000 | ligand-size-stratified fixed budget subset |
+| posebusters_benchmark | 7A9E_R4W | 6.0000 | ligand-size-stratified fixed budget subset |
+| posebusters_benchmark | 7OP9_06K | 11.0000 | ligand-size-stratified fixed budget subset |
+| posebusters_benchmark | 7NTG_F6R | 16.0000 | ligand-size-stratified fixed budget subset |
+| posebusters_benchmark | 7RWO_7WN | 20.0000 | ligand-size-stratified fixed budget subset |
+| posebusters_benchmark | 8A1H_DLZ | 23.0000 | ligand-size-stratified fixed budget subset |
+| posebusters_benchmark | 7AVI_S2Q | 27.0000 | ligand-size-stratified fixed budget subset |
+| posebusters_benchmark | 5SB2_1K2 | 30.0000 | ligand-size-stratified fixed budget subset |
+| posebusters_benchmark | 7VWF_K55 | 33.0000 | ligand-size-stratified fixed budget subset |
+| posebusters_benchmark | 7ROU_66I | 39.0000 | ligand-size-stratified fixed budget subset |
+| posebusters_benchmark | 8F4J_PHO | 64.0000 | ligand-size-stratified fixed budget subset |
+| dockgen | 3ub7_1_ACM_1 | 4.0000 | ligand-size-stratified fixed budget subset |
+| dockgen | 2xrh_1_NIO_1 | 9.0000 | ligand-size-stratified fixed budget subset |
+| dockgen | 6uqy_2_AT3_0 | 10.0000 | ligand-size-stratified fixed budget subset |
+| dockgen | 4qo5_1_NAG_2 | 14.0000 | ligand-size-stratified fixed budget subset |
+| dockgen | 4xdr_1_ADN_0 | 19.0000 | ligand-size-stratified fixed budget subset |
+| dockgen | 6rms_1_AMP_1 | 23.0000 | ligand-size-stratified fixed budget subset |
+| dockgen | 6ryz_1_SAM_2 | 27.0000 | ligand-size-stratified fixed budget subset |
+| dockgen | 3jqm_1_GTP_5 | 32.0000 | ligand-size-stratified fixed budget subset |
+| dockgen | 3ad7_1_NAD_0 | 44.0000 | ligand-size-stratified fixed budget subset |
+| dockgen | 4bc9_1_CNV-FAD_0 | 57.0000 | ligand-size-stratified fixed budget subset |

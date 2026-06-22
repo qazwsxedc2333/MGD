@@ -1,0 +1,8 @@
+dataset,failure_class,n
+astex_diverse,no_prediction_after_cuda_failure,7
+astex_diverse,nonzero_cuda_or_gpu_runtime,2
+dockgen,no_prediction_after_cuda_failure,5
+dockgen,input_chemistry_error,1
+dockgen,nonzero_cuda_or_gpu_runtime,1
+posebusters_benchmark,no_prediction_after_cuda_failure,29
+posebusters_benchmark,nonzero_cuda_or_gpu_runtime,4

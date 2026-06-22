@@ -1,0 +1,11 @@
+\begin{tabular}{llrrrlll}
+\toprule
+selector & role & all\_success & low\_memory\_success & delta\_low\_vs\_official & paired\_rescued\_low & paired\_harmed\_low & paired\_two\_sided\_p\_value\_low \\
+\midrule
+official\_ranking & official reference & 0.6245 & 0.1383 & 0.0000 &  &  &  \\
+nested\_pair\_rank\_structure\_memory\_antimemory\_low\_success & nested rank+structure+memory anti-memory rescue & 0.6275 & 0.1534 & 0.0152 & 10.0000 & 2.0000 & 0.0386 \\
+geometry\_filter\_clash\_only & non-learned geometry filter & 0.6247 & 0.1458 & 0.0076 &  &  &  \\
+physics\_score\_balanced & hand-written physics score & 0.6245 & 0.1402 & 0.0019 &  &  &  \\
+pair\_rank\_structure\_antimemory\_thr0.5 & fixed-threshold paired rescue evidence & 0.6330 & 0.1572 & 0.0189 & 11.0000 & 1.0000 & 0.0063 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,16 @@
+scope,setting,n_bootstrap,metric,estimate,ci_low,ci_high,stability_interpretation
+Runs N' Poses selective prediction,flagged_fraction=0.05,2000,retained_success_delta,0.030290851540904,0.0277774534031967,0.0325257966193737,bootstrap over query groups; positive interval supports selective-risk benefit
+Runs N' Poses selective prediction,flagged_fraction=0.05,2000,failure_capture_rate,0.1267605633802817,0.1171610135989879,0.1382691456885033,bootstrap over query groups; captures how many failures are triaged
+Runs N' Poses selective prediction,flagged_fraction=0.1,2000,retained_success_delta,0.0630905851598848,0.0587819169855132,0.0669302095156316,bootstrap over query groups; positive interval supports selective-risk benefit
+Runs N' Poses selective prediction,flagged_fraction=0.1,2000,failure_capture_rate,0.2512676056338028,0.2335806610468989,0.2733728670179076,bootstrap over query groups; captures how many failures are triaged
+Runs N' Poses selective prediction,flagged_fraction=0.2,2000,retained_success_delta,0.1305936785348587,0.1229519036998335,0.1373559852078879,bootstrap over query groups; positive interval supports selective-risk benefit
+Runs N' Poses selective prediction,flagged_fraction=0.2,2000,failure_capture_rate,0.4783098591549296,0.4521335430277664,0.5102793539938891,bootstrap over query groups; captures how many failures are triaged
+Runs N' Poses selective prediction,flagged_fraction=0.3,2000,retained_success_delta,0.1971469310188787,0.1856113177496621,0.2070612433584888,bootstrap over query groups; positive interval supports selective-risk benefit
+Runs N' Poses selective prediction,flagged_fraction=0.3,2000,failure_capture_rate,0.6676056338028169,0.6326847212772245,0.7019609067403185,bootstrap over query groups; captures how many failures are triaged
+Runs N' Poses selective prediction,flagged_fraction=0.4,2000,retained_success_delta,0.2520891747226493,0.2378042320810945,0.2656293369601964,bootstrap over query groups; positive interval supports selective-risk benefit
+Runs N' Poses selective prediction,flagged_fraction=0.4,2000,failure_capture_rate,0.8028169014084507,0.7733787618420336,0.8315125958394447,bootstrap over query groups; captures how many failures are triaged
+Runs N' Poses selective prediction,flagged_fraction=0.5,2000,retained_success_delta,0.2908642610171746,0.2730333148380384,0.3101828561710035,bootstrap over query groups; positive interval supports selective-risk benefit
+Runs N' Poses selective prediction,flagged_fraction=0.5,2000,failure_capture_rate,0.8873239436619719,0.8633678470879549,0.908560715501994,bootstrap over query groups; captures how many failures are triaged
+PoseBench public-pool external selection,lodo_hgb_antimemory_penalized,2000,success,0.4314928425357873,0.3865030674846625,0.4744376278118609,external bootstrap interval over public-pool cases
+PoseBench public-pool external selection,lodo_logreg_antimemory_weighted,2000,success,0.4498977505112474,0.4089979550102249,0.492842535787321,external bootstrap interval over public-pool cases
+PoseBench public-pool external selection,lodo_prior_physics_calibrated,2000,success,0.4989775051124744,0.4539877300613497,0.5439672801635992,external bootstrap interval over public-pool cases

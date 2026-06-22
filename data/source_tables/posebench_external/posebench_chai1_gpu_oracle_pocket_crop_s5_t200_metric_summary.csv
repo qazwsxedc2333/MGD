@@ -1,0 +1,5 @@
+dataset,n_cases,n_metric_ok,score_ranked_success_2a,oracle_best_success_2a,median_score_ranked_pocket_rmsd,median_oracle_best_pocket_rmsd,mean_n_samples_eval
+all,67,23,0.043478260869565216,0.043478260869565216,5.4282229203949806,5.06142954090539,5.0
+astex_diverse,11,4,0.0,0.0,18.95967731086229,18.840614889664693,5.0
+dockgen,9,0,,,,,
+posebusters_benchmark,47,19,0.05263157894736842,0.05263157894736842,5.4282229203949806,5.06142954090539,5.0

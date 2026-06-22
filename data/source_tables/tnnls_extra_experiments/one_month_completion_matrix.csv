@@ -1,0 +1,14 @@
+tier,item,completed,evidence_note
+1-week,Boltz-2/Protenix PoseBench subset/full external,True,"full-702 completed, stronger than 200 subset"
+1-week,neural reliability head,True,grouped CV reliability heads
+1-week,calibration baseline table,True,Brier/ECE/NLL and seed stability
+2-3-week,Boltz-2/Protenix PoseBench-702 full,True,702/702 denominator closed
+2-3-week,neural/evidential head,True,evidential head and ablation
+2-3-week,OOD split matrix,True,four split matrix
+2-3-week,sensitivity/stability table,True,"bootstrap, risk target, pool size, memory weight"
+1-month,PocketVina subset,True,native-pocket PocketVina-GPU subset; full P2Rank protocol remains boundary
+1-month,OpenFold3 subset,False,not completed; not used for claims
+1-month,statistical correction,True,Holm/BH across main and exploratory families
+1-month,runtime/scalability,True,budget sensitivity and runtime multiplier subset
+1-month,code reproducibility scripts,True,scripts 109-115
+1-month,failure case audit,True,status/failure/PoseBusters audit

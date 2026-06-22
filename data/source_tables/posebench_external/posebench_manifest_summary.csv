@@ -1,0 +1,4 @@
+split,manifest,cases
+posebusters_benchmark,data/test_cases/posebusters_benchmark/ensemble_inputs.csv,428
+dockgen,data/test_cases/dockgen/ensemble_inputs.csv,189
+astex_diverse,data/test_cases/astex_diverse/ensemble_inputs.csv,85

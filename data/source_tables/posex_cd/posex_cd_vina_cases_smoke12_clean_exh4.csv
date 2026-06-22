@@ -1,0 +1,58 @@
+PDB_CCD_ID,protein_pdb,start_sdf,native_sdf,status,cached,stderr,clean_receptor_pdb,receptor_atoms_kept,receptor_atoms_dropped,receptor_residue_types_kept,receptor_residue_types_dropped,n_poses,top_score,best_score,top_rmsd,oracle_rmsd,top_success_2a,oracle_success_2a,exhaustiveness,box_size,dataset
+7RGX_5EI,external/PoseX/data/dataset/posex/posex_cross_docking_set/7RGX_5EI/7RGX_5EI_protein.pdb,external/PoseX/data/dataset/posex/posex_cross_docking_set/7RGX_5EI/7RGX_5EI_ligand_start_conf.sdf,external/PoseX/data/dataset/posex/posex_cross_docking_set/7RGX_5EI/7RGX_5EI_ligand.sdf,subprocess_error:mk_prepare_receptor.py,False,,,,,,,,,,,,,,,,posex_cross_dock
+7GLA_X77,external/PoseX/data/dataset/posex/posex_cross_docking_set/7GLA_X77/7GLA_X77_protein.pdb,external/PoseX/data/dataset/posex/posex_cross_docking_set/7GLA_X77/7GLA_X77_ligand_start_conf.sdf,external/PoseX/data/dataset/posex/posex_cross_docking_set/7GLA_X77/7GLA_X77_ligand.sdf,ok,False,,<REMOTE_PROJECT_ROOT>/results/posex_cd/vina_smoke12_clean_exh4/7GLA_X77/receptor_clean_protein_only.pdb,4631.0,0.0,"ALA,ARG,ASN,ASP,CYS,GLN,GLU,GLY,HIS,ILE,LEU,LYS,MET,PHE,PRO,SER,THR,TRP,TYR,VAL",,4.0,-7.217,-7.217,7.428801883171456,5.643071849778692,False,False,4.0,24.0,posex_cross_dock
+9GR7_SAH,external/PoseX/data/dataset/posex/posex_cross_docking_set/9GR7_SAH/9GR7_SAH_protein.pdb,external/PoseX/data/dataset/posex/posex_cross_docking_set/9GR7_SAH/9GR7_SAH_ligand_start_conf.sdf,external/PoseX/data/dataset/posex/posex_cross_docking_set/9GR7_SAH/9GR7_SAH_ligand.sdf,subprocess_error:mk_prepare_receptor.py,False,,,,,,,,,,,,,,,,posex_cross_dock
+9ETQ_A1H64,external/PoseX/data/dataset/posex/posex_cross_docking_set/9ETQ_A1H64/9ETQ_A1H64_protein.pdb,external/PoseX/data/dataset/posex/posex_cross_docking_set/9ETQ_A1H64/9ETQ_A1H64_ligand_start_conf.sdf,external/PoseX/data/dataset/posex/posex_cross_docking_set/9ETQ_A1H64/9ETQ_A1H64_ligand.sdf,subprocess_error:mk_prepare_receptor.py,False,"s=[] bond_miss=set() bond_excess={1}
+ASH        heavy_miss=3 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess=set()
+CASH       heavy_miss=4 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={1}
+NASH       heavy_miss=3 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={4}
+
+matched with excess inter-residue bond(s): B:914
+- Template matching failed for: ['A:662', 'A:664', 'A:809', 'A:846', 'B:684', 'B:694', 'B:748', 'B:849', 'B:852', 'B:853', 'B:914'] Ignored due to allow_bad_res.
+",,,,,,,,,,,,,,,posex_cross_dock
+7FEZ_2AN,external/PoseX/data/dataset/posex/posex_cross_docking_set/7FEZ_2AN/7FEZ_2AN_protein.pdb,external/PoseX/data/dataset/posex/posex_cross_docking_set/7FEZ_2AN/7FEZ_2AN_ligand_start_conf.sdf,external/PoseX/data/dataset/posex/posex_cross_docking_set/7FEZ_2AN/7FEZ_2AN_ligand.sdf,subprocess_error:mk_prepare_receptor.py,False,"No template matched for residue_key='A:0'
+tried 3 templates for residue_key='A:0'excess_H_ok=False
+MET        heavy_miss=3 heavy_excess=0 H_excess=[] bond_miss={0, 4} bond_excess=set()
+NMET       heavy_miss=3 heavy_excess=0 H_excess=[] bond_miss={0} bond_excess=set()
+CMET       heavy_miss=4 heavy_excess=0 H_excess=[] bond_miss={5} bond_excess=set()
+
+- Template matching failed for: ['A:0'] Ignored due to allow_bad_res.
+",,,,,,,,,,,,,,,posex_cross_dock
+7XFA_57I,external/PoseX/data/dataset/posex/posex_cross_docking_set/7XFA_57I/7XFA_57I_protein.pdb,external/PoseX/data/dataset/posex/posex_cross_docking_set/7XFA_57I/7XFA_57I_ligand_start_conf.sdf,external/PoseX/data/dataset/posex/posex_cross_docking_set/7XFA_57I/7XFA_57I_ligand.sdf,subprocess_error:mk_prepare_receptor.py,False,"No template matched for residue_key='A:250'
+tried 3 templates for residue_key='A:250'excess_H_ok=False
+ILE        heavy_miss=0 heavy_excess=1 H_excess=[] bond_miss={0, 4} bond_excess=set()
+NILE       heavy_miss=0 heavy_excess=1 H_excess=[] bond_miss={0} bond_excess=set()
+CILE       heavy_miss=0 heavy_excess=0 H_excess=[] bond_miss={5} bond_excess=set()
+
+- Template matching failed for: ['A:250'] Ignored due to allow_bad_res.
+",,,,,,,,,,,,,,,posex_cross_dock
+7FDT_4I1,external/PoseX/data/dataset/posex/posex_cross_docking_set/7FDT_4I1/7FDT_4I1_protein.pdb,external/PoseX/data/dataset/posex/posex_cross_docking_set/7FDT_4I1/7FDT_4I1_ligand_start_conf.sdf,external/PoseX/data/dataset/posex/posex_cross_docking_set/7FDT_4I1/7FDT_4I1_ligand.sdf,subprocess_error:mk_prepare_receptor.py,False,"No template matched for residue_key='A:0'
+tried 3 templates for residue_key='A:0'excess_H_ok=False
+MET        heavy_miss=3 heavy_excess=0 H_excess=[] bond_miss={4} bond_excess=set()
+NMET       heavy_miss=3 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess=set()
+CMET       heavy_miss=4 heavy_excess=0 H_excess=[] bond_miss={5} bond_excess={1}
+
+matched with excess inter-residue bond(s): A:0
+- Template matching failed for: ['A:0'] Ignored due to allow_bad_res.
+",,,,,,,,,,,,,,,posex_cross_dock
+7V3S_A1ATS,external/PoseX/data/dataset/posex/posex_cross_docking_set/7V3S_A1ATS/7V3S_A1ATS_protein.pdb,external/PoseX/data/dataset/posex/posex_cross_docking_set/7V3S_A1ATS/7V3S_A1ATS_ligand_start_conf.sdf,external/PoseX/data/dataset/posex/posex_cross_docking_set/7V3S_A1ATS/7V3S_A1ATS_ligand.sdf,subprocess_error:mk_prepare_receptor.py,False,"={1}
+ASH        heavy_miss=3 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess=set()
+CASH       heavy_miss=4 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={1}
+NASH       heavy_miss=3 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={4}
+
+matched with excess inter-residue bond(s): A:1286
+- Template matching failed for: ['A:1061', 'A:1064', 'A:1100', 'A:1103', 'A:1114', 'A:1123', 'A:1150', 'A:1172', 'A:1238', 'A:1240', 'A:1244', 'A:1259', 'A:1286'] Ignored due to allow_bad_res.
+",,,,,,,,,,,,,,,posex_cross_dock
+8FX0_IMU,external/PoseX/data/dataset/posex/posex_cross_docking_set/8FX0_IMU/8FX0_IMU_protein.pdb,external/PoseX/data/dataset/posex/posex_cross_docking_set/8FX0_IMU/8FX0_IMU_ligand_start_conf.sdf,external/PoseX/data/dataset/posex/posex_cross_docking_set/8FX0_IMU/8FX0_IMU_ligand.sdf,ok,False,,<REMOTE_PROJECT_ROOT>/results/posex_cd/vina_smoke12_clean_exh4/8FX0_IMU/receptor_clean_protein_only.pdb,6851.0,0.0,"ALA,ARG,ASN,ASP,CYS,GLN,GLU,GLY,HIS,ILE,LEU,LYS,MET,PHE,PRO,SER,THR,TYR,VAL",,5.0,-8.012,-8.012,3.5026322807521013,3.5026322807521013,False,False,4.0,24.0,posex_cross_dock
+7F11_0BJ,external/PoseX/data/dataset/posex/posex_cross_docking_set/7F11_0BJ/7F11_0BJ_protein.pdb,external/PoseX/data/dataset/posex/posex_cross_docking_set/7F11_0BJ/7F11_0BJ_ligand_start_conf.sdf,external/PoseX/data/dataset/posex/posex_cross_docking_set/7F11_0BJ/7F11_0BJ_ligand.sdf,subprocess_error:mk_prepare_receptor.py,False,"bond(s): A:137
+No template matched for residue_key='B:100'
+tried 3 templates for residue_key='B:100'excess_H_ok=False
+ARG        heavy_miss=6 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess=set()
+NARG       heavy_miss=6 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={4}
+CARG       heavy_miss=7 heavy_excess=0 H_excess=[] bond_miss=set() bond_excess={1}
+
+matched with excess inter-residue bond(s): B:100
+- Template matching failed for: ['A:137', 'B:100'] Ignored due to allow_bad_res.
+",,,,,,,,,,,,,,,posex_cross_dock
+7V17_OSX,external/PoseX/data/dataset/posex/posex_cross_docking_set/7V17_OSX/7V17_OSX_protein.pdb,external/PoseX/data/dataset/posex/posex_cross_docking_set/7V17_OSX/7V17_OSX_ligand_start_conf.sdf,external/PoseX/data/dataset/posex/posex_cross_docking_set/7V17_OSX/7V17_OSX_ligand.sdf,subprocess_error:mk_prepare_receptor.py,False,,,,,,,,,,,,,,,,posex_cross_dock
+8JM5_FQ3,external/PoseX/data/dataset/posex/posex_cross_docking_set/8JM5_FQ3/8JM5_FQ3_protein.pdb,external/PoseX/data/dataset/posex/posex_cross_docking_set/8JM5_FQ3/8JM5_FQ3_ligand_start_conf.sdf,external/PoseX/data/dataset/posex/posex_cross_docking_set/8JM5_FQ3/8JM5_FQ3_ligand.sdf,ok,False,,<REMOTE_PROJECT_ROOT>/results/posex_cd/vina_smoke12_clean_exh4/8JM5_FQ3/receptor_clean_protein_only.pdb,3984.0,0.0,"ALA,ARG,ASN,ASP,CYS,GLN,GLU,GLY,HIS,ILE,LEU,LYS,MET,PHE,PRO,SER,THR,TRP,TYR,VAL",,5.0,-6.854,-6.854,5.8862777201361665,4.026410338360603,False,False,4.0,24.0,posex_cross_dock

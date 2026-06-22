@@ -1,0 +1,17 @@
+numpy
+pandas
+scipy
+scikit-learn
+biopython
+rdkit
+tqdm
+joblib
+pyyaml
+requests
+rich
+duckdb
+pyarrow
+networkx
+matplotlib
+seaborn
+pytest

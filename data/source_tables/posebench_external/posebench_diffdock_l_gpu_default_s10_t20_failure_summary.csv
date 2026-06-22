@@ -1,0 +1,6 @@
+method,tag,attempted_cases,ok_cases,failed_or_unsupported_cases,ok_rate,failure_rate,failure_classes,table,failure_scope,failure_class,n,datasets,example_cases
+diffdock_l_gpu,default_s10_t20,702.0,692.0,10.0,0.9857549857549858,0.014245014245014245,4.0,overall,,,,,
+,,,,,,,,by_class,model_input_limit,esm_embedding_length_mismatch,5.0,"dockgen,posebusters_benchmark","1v97_1_MTE_1,3uni_1_SAL_0,4tvd_1_BGC_4,4tvd_1_GLC_0,7D6O_MTE"
+,,,,,,,,by_class,model_input_limit,receptor_too_large,3.0,posebusters_benchmark,"7FRX_O88,7M31_TDR,8F4J_PHO"
+,,,,,,,,by_class,ligand_preparation,ligand_graph_missing_coordinates,1.0,dockgen,6a71_1_9UX_0
+,,,,,,,,by_class,ligand_preparation,ligand_sanitization_failure,1.0,dockgen,6nco_1_KQP_0

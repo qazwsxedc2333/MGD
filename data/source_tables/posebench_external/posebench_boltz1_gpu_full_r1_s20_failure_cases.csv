@@ -1,0 +1,863 @@
+boltz_complex_ipde,boltz_complex_iplddt,boltz_complex_pde,boltz_complex_plddt,boltz_confidence_score,boltz_iptm,boltz_ligand_iptm,boltz_protein_iptm,boltz_ptm,confidence_json,dataset,gpu,input_yaml,ligand_file,ligand_heavy_atoms,ligand_smiles,matched_ca,matched_chains,model,mol_id,n_protein_chains,native_ligand_heavy_atoms,output_dir,pocket_ca_rmsd_after_fit,pocket_cutoff_a,pocket_matched_ca,pocket_matched_residues_preview,pred_ligand_heavy_atoms,prediction_cif,protein_lengths,protein_pdb,receptor_ca_rmsd_after_fit,returncode,runtime_sec,status,tag,top_pocket_rmsd_approx,top_pocket_success_2a_approx,top_rmsd_approx,top_success_2a_approx,status_json,stderr_tail,exception,exception_type,failure_class
+,,,,,,,,,,astex_diverse,3,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1HWI_115/full_r1_s20/inputs/1HWI_115_boltz1.yaml,external/PoseBench/data/astex_diverse_set/1HWI_115/1HWI_115_ligand.sdf,30.0,CC(C)n1c(/C=C/[C@@H](O)C[C@@H](O)CC(=O)O)c(-c2ccc(F)cc2)c2ccccc21,,,boltz1,1HWI_115,4.0,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1HWI_115/full_r1_s20,,,,,,,A:393;B:399;C:374;D:374,external/PoseBench/data/astex_diverse_set/1HWI_115/1HWI_115_protein.pdb,,0.0,58.598,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1HWI_115/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.11it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.11it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [3]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,astex_diverse,2,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1JD0_AZM/full_r1_s20/inputs/1JD0_AZM_boltz1.yaml,external/PoseBench/data/astex_diverse_set/1JD0_AZM/1JD0_AZM_ligand.sdf,13.0,CC(=O)Nc1nnc(S(N)(=O)=O)s1,,,boltz1,1JD0_AZM,2.0,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1JD0_AZM/full_r1_s20,,,,,,,A:260;B:259,external/PoseBench/data/astex_diverse_set/1JD0_AZM/1JD0_AZM_protein.pdb,,0.0,61.687,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1JD0_AZM/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00, 14.14it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,astex_diverse,7,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1MZC_BNE/full_r1_s20/inputs/1MZC_BNE_boltz1.yaml,external/PoseBench/data/astex_diverse_set/1MZC_BNE/1MZC_BNE_ligand.sdf,35.0,CC[C@@]1(c2cccc(Oc3cc([C@](C)(N)c4cncn4C)ccc3C#N)c2)CCCCN(C)C1=O,,,boltz1,1MZC_BNE,2.0,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1MZC_BNE/full_r1_s20,,,,,,,A:313;B:407,external/PoseBench/data/astex_diverse_set/1MZC_BNE/1MZC_BNE_protein.pdb,,1.0,88.102,failed_nonzero,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1MZC_BNE/full_r1_s20/run_status.json,"<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  [Previous line repeated 4 more times]
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 930, in _apply
+    param_applied = fn(param)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1329, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 23.52 GiB of which 768.00 KiB is free. Process 3425328 has 21.95 GiB memory in use. Including non-PyTorch memory, this process has 1.54 GiB memory in use. Of the allocated memory 1.10 GiB is allocated by PyTorch, and 98.99 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/bin/boltz"", line 6, in <module>
+    sys.exit(cli())
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1078, in main
+    rv = self.invoke(ctx)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/main.py"", line 1329, in predict
+    trainer.predict(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 859, in predict
+    return call._call_and_handle_interrupt(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py"", line 68, in _call_and_handle_interrupt
+    trainer._teardown()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 1005, in _teardown
+    self.strategy.teardown()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py"", line 536, in teardown
+    self.lightning_module.cpu()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/lightning_fabric/utilities/device_dtype_mixin.py"", line 82, in cpu
+    return super().cpu()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1121, in cpu
+    return self._apply(lambda t: t.cpu())
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torchmetrics/metric.py"", line 907, in _apply
+    _dummy_tensor = fn(torch.zeros(1, device=self.device))
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+",,,nonzero_cuda_or_gpu_runtime
+,,,,,,,,,,astex_diverse,2,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1N1M_A3M/full_r1_s20/inputs/1N1M_A3M_boltz1.yaml,external/PoseBench/data/astex_diverse_set/1N1M_A3M/1N1M_A3M_ligand.sdf,12.0,CC(C)[C@H](N)C(=O)N1CCCC1,,,boltz1,1N1M_A3M,2.0,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1N1M_A3M/full_r1_s20,,,,,,,A:726;B:728,external/PoseBench/data/astex_diverse_set/1N1M_A3M/1N1M_A3M_protein.pdb,,0.0,92.501,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1N1M_A3M/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.45it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.45it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,astex_diverse,7,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1OF6_DTY/full_r1_s20/inputs/1OF6_DTY_boltz1.yaml,external/PoseBench/data/astex_diverse_set/1OF6_DTY/1OF6_DTY_ligand.sdf,13.0,N[C@@H](Cc1ccc(O)cc1)C(=O)O,,,boltz1,1OF6_DTY,8.0,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1OF6_DTY/full_r1_s20,,,,,,,A:350;B:346;C:350;D:349;E:339;F:347;G:342;H:347,external/PoseBench/data/astex_diverse_set/1OF6_DTY/1OF6_DTY_protein.pdb,,0.0,61.829,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1OF6_DTY/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  3.03it/s]
+100%|██████████| 1/1 [00:00<00:00,  3.03it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [7]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,astex_diverse,2,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1Q1G_MTI/full_r1_s20/inputs/1Q1G_MTI_boltz1.yaml,external/PoseBench/data/astex_diverse_set/1Q1G_MTI/1Q1G_MTI_ligand.sdf,20.0,CSC[C@H]1[NH2+][C@@H](c2c[nH]c3c(=O)[nH]cnc23)[C@H](O)[C@@H]1O,,,boltz1,1Q1G_MTI,6.0,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1Q1G_MTI/full_r1_s20,,,,,,,A:243;B:243;C:243;D:243;E:243;F:243,external/PoseBench/data/astex_diverse_set/1Q1G_MTI/1Q1G_MTI_protein.pdb,,0.0,162.697,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1Q1G_MTI/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00, 10.23it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,astex_diverse,3,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1U1C_BAU/full_r1_s20/inputs/1U1C_BAU_boltz1.yaml,external/PoseBench/data/astex_diverse_set/1U1C_BAU/1U1C_BAU_ligand.sdf,20.0,O=c1[nH]c(=O)n(COCCO)cc1Cc1ccccc1,,,boltz1,1U1C_BAU,6.0,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1U1C_BAU/full_r1_s20,,,,,,,A:253;B:251;C:250;D:242;E:251;F:250,external/PoseBench/data/astex_diverse_set/1U1C_BAU/1U1C_BAU_protein.pdb,,0.0,142.528,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1U1C_BAU/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.09it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.08it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [3]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,astex_diverse,2,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1W1P_GIO/full_r1_s20/inputs/1W1P_GIO_boltz1.yaml,external/PoseBench/data/astex_diverse_set/1W1P_GIO/1W1P_GIO_ligand.sdf,11.0,O=C1NCC(=O)N2CCC[C@@H]12,,,boltz1,1W1P_GIO,2.0,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1W1P_GIO/full_r1_s20,,,,,,,A:498;B:498,external/PoseBench/data/astex_diverse_set/1W1P_GIO/1W1P_GIO_protein.pdb,,0.0,83.867,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1W1P_GIO/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00, 10.85it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,astex_diverse,3,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1Z95_198/full_r1_s20/inputs/1Z95_198_boltz1.yaml,external/PoseBench/data/astex_diverse_set/1Z95_198/1Z95_198_ligand.sdf,29.0,C[C@](O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1,,,boltz1,1Z95_198,1.0,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1Z95_198/full_r1_s20,,,,,,,A:238,external/PoseBench/data/astex_diverse_set/1Z95_198/1Z95_198_protein.pdb,,1.0,65.569,failed_nonzero,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/astex_diverse/1Z95_198/full_r1_s20/run_status.json,"""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 930, in _apply
+    param_applied = fn(param)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1329, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 23.52 GiB of which 8.75 MiB is free. Process 3624347 has 20.88 GiB memory in use. Including non-PyTorch memory, this process has 2.60 GiB memory in use. Of the allocated memory 2.09 GiB is allocated by PyTorch, and 180.90 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/bin/boltz"", line 6, in <module>
+    sys.exit(cli())
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1078, in main
+    rv = self.invoke(ctx)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/main.py"", line 1329, in predict
+    trainer.predict(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 859, in predict
+    return call._call_and_handle_interrupt(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py"", line 68, in _call_and_handle_interrupt
+    trainer._teardown()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 1005, in _teardown
+    self.strategy.teardown()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py"", line 536, in teardown
+    self.lightning_module.cpu()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/lightning_fabric/utilities/device_dtype_mixin.py"", line 82, in cpu
+    return super().cpu()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1121, in cpu
+    return self._apply(lambda t: t.cpu())
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torchmetrics/metric.py"", line 907, in _apply
+    _dummy_tensor = fn(torch.zeros(1, device=self.device))
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+",,,nonzero_cuda_or_gpu_runtime
+,,,,,,,,,,dockgen,7,results/posebench_702_predictions/boltz1_gpu/dockgen/1v97_1_MTE_1/full_r1_s20/inputs/1v97_1_MTE_1_boltz1.yaml,external/PoseBench/data/dockgen_set/1v97_1_MTE_1/1v97_1_MTE_1_ligand.pdb,24.0,NC1NC(O)[C@@H]2N[C@H]3C(S)C(S)[C@@H](CO[PH](O)(O)O)O[C@H]3NC2N1,,,boltz1,1v97_1_MTE_1,1.0,,results/posebench_702_predictions/boltz1_gpu/dockgen/1v97_1_MTE_1/full_r1_s20,,,,,,,B:1296,external/PoseBench/data/dockgen_set/1v97_1_MTE_1/1v97_1_MTE_1_protein_processed.pdb,,0.0,225.439,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/dockgen/1v97_1_MTE_1/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.93it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.90it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [7]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,dockgen,0,results/posebench_702_predictions/boltz1_gpu/dockgen/2o5m_1_MNR_0/full_r1_s20/inputs/2o5m_1_MNR_0_boltz1.yaml,external/PoseBench/data/dockgen_set/2o5m_1_MNR_0/2o5m_1_MNR_0_ligand.pdb,43.0,CCC1C(C)C2C[C@@H]3[C@H](C)[C@H](CCC(O)O)C4CC5[C@@H](CCC(O)O)C(C)C6CC7[C@@H](CC)[C@H](C)C8CC1[N]2[Mn@SP2]([N]65)([N]87)[N]43,,,boltz1,2o5m_1_MNR_0,1.0,,results/posebench_702_predictions/boltz1_gpu/dockgen/2o5m_1_MNR_0/full_r1_s20,,,,,,,X:152,external/PoseBench/data/dockgen_set/2o5m_1_MNR_0/2o5m_1_MNR_0_protein_processed.pdb,,0.0,12.83,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/dockgen/2o5m_1_MNR_0/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]Traceback (most recent call last):
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/main.py"", line 551, in process_input
+    target = parse_yaml(path, ccd, mol_dir, boltz2)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/data/parse/yaml.py"", line 68, in parse_yaml
+    return parse_boltz_schema(name, data, ccd, mol_dir, boltz2)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/data/parse/schema.py"", line 1255, in parse_boltz_schema
+    raise ValueError(msg)
+ValueError: CCC1C(C)C2C[C@@H]3[C@H](C)[C@H](CCC(O)O)C4CC5[C@@H](CCC(O)O)C(C)C6CC7[C@@H](CC)[C@H](C)C8CC1[N]2[Mn@SP2]([N]65)([N]87)[N]43 has an atom with a name longer than 4 characters: MN103.
+
+100%|██████████| 1/1 [00:00<00:00, 58.79it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,dockgen,3,results/posebench_702_predictions/boltz1_gpu/dockgen/3uni_1_SAL_0/full_r1_s20/inputs/3uni_1_SAL_0_boltz1.yaml,external/PoseBench/data/dockgen_set/3uni_1_SAL_0/3uni_1_SAL_0_ligand.pdb,10.0,OC(O)C1CCCCC1O,,,boltz1,3uni_1_SAL_0,1.0,,results/posebench_702_predictions/boltz1_gpu/dockgen/3uni_1_SAL_0/full_r1_s20,,,,,,,A:1289,external/PoseBench/data/dockgen_set/3uni_1_SAL_0/3uni_1_SAL_0_protein_processed.pdb,,0.0,200.411,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/dockgen/3uni_1_SAL_0/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.31it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.30it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [3]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,dockgen,4,results/posebench_702_predictions/boltz1_gpu/dockgen/4kgx_1_CTP_5/full_r1_s20/inputs/4kgx_1_CTP_5_boltz1.yaml,external/PoseBench/data/dockgen_set/4kgx_1_CTP_5/4kgx_1_CTP_5_ligand.pdb,29.0,NC1CCN([C@@H]2O[C@H](CO[PH](O)(O)O[PH](O)(O)O[PH](O)(O)O)[C@@H](O)[C@H]2O)C(O)N1,,,boltz1,4kgx_1_CTP_5,1.0,,results/posebench_702_predictions/boltz1_gpu/dockgen/4kgx_1_CTP_5/full_r1_s20,,,,,,,B:145,external/PoseBench/data/dockgen_set/4kgx_1_CTP_5/4kgx_1_CTP_5_protein_processed.pdb,,1.0,54.543,failed_nonzero,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/dockgen/4kgx_1_CTP_5/full_r1_s20/run_status.json,"home/test/kkkk/18MGD/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 930, in _apply
+    param_applied = fn(param)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1329, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 23.52 GiB of which 768.00 KiB is free. Process 3635485 has 20.88 GiB memory in use. Including non-PyTorch memory, this process has 2.60 GiB memory in use. Of the allocated memory 2.09 GiB is allocated by PyTorch, and 180.90 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/bin/boltz"", line 6, in <module>
+    sys.exit(cli())
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1078, in main
+    rv = self.invoke(ctx)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/main.py"", line 1329, in predict
+    trainer.predict(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 859, in predict
+    return call._call_and_handle_interrupt(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py"", line 68, in _call_and_handle_interrupt
+    trainer._teardown()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 1005, in _teardown
+    self.strategy.teardown()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py"", line 536, in teardown
+    self.lightning_module.cpu()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/lightning_fabric/utilities/device_dtype_mixin.py"", line 82, in cpu
+    return super().cpu()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1121, in cpu
+    return self._apply(lambda t: t.cpu())
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torchmetrics/metric.py"", line 907, in _apply
+    _dummy_tensor = fn(torch.zeros(1, device=self.device))
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+",,,nonzero_cuda_or_gpu_runtime
+,,,,,,,,,,dockgen,1,results/posebench_702_predictions/boltz1_gpu/dockgen/6a71_1_9UX_0/full_r1_s20/inputs/6a71_1_9UX_0_boltz1.yaml,external/PoseBench/data/dockgen_set/6a71_1_9UX_0/6a71_1_9UX_0_ligand.pdb,6.0,[OH][Mo@]12[S][Mo@@]1([OH])[S]2,,,boltz1,6a71_1_9UX_0,1.0,,results/posebench_702_predictions/boltz1_gpu/dockgen/6a71_1_9UX_0/full_r1_s20,,,,,,,B:71,external/PoseBench/data/dockgen_set/6a71_1_9UX_0/6a71_1_9UX_0_protein_processed.pdb,,0.0,11.102,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/dockgen/6a71_1_9UX_0/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]Traceback (most recent call last):
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/main.py"", line 551, in process_input
+    target = parse_yaml(path, ccd, mol_dir, boltz2)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/data/parse/yaml.py"", line 68, in parse_yaml
+    return parse_boltz_schema(name, data, ccd, mol_dir, boltz2)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/data/parse/schema.py"", line 1261, in parse_boltz_schema
+    raise ValueError(msg)
+ValueError: Failed to compute 3D conformer for [OH][Mo@]12[S][Mo@@]1([OH])[S]2
+
+100%|██████████| 1/1 [00:00<00:00, 22.14it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,dockgen,1,results/posebench_702_predictions/boltz1_gpu/dockgen/6a72_1_9UX_0/full_r1_s20/inputs/6a72_1_9UX_0_boltz1.yaml,external/PoseBench/data/dockgen_set/6a72_1_9UX_0/6a72_1_9UX_0_ligand.pdb,6.0,[OH][Mo@]12[S][Mo@@]1([OH])[S]2,,,boltz1,6a72_1_9UX_0,2.0,,results/posebench_702_predictions/boltz1_gpu/dockgen/6a72_1_9UX_0/full_r1_s20,,,,,,,A:71;B:72,external/PoseBench/data/dockgen_set/6a72_1_9UX_0/6a72_1_9UX_0_protein_processed.pdb,,0.0,12.216,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/dockgen/6a72_1_9UX_0/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]Traceback (most recent call last):
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/main.py"", line 551, in process_input
+    target = parse_yaml(path, ccd, mol_dir, boltz2)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/data/parse/yaml.py"", line 68, in parse_yaml
+    return parse_boltz_schema(name, data, ccd, mol_dir, boltz2)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/data/parse/schema.py"", line 1261, in parse_boltz_schema
+    raise ValueError(msg)
+ValueError: Failed to compute 3D conformer for [OH][Mo@]12[S][Mo@@]1([OH])[S]2
+
+100%|██████████| 1/1 [00:00<00:00, 17.28it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,dockgen,7,,external/PoseBench/data/dockgen_set/6nco_1_KQP_0/6nco_1_KQP_0_ligand.pdb,,,,,boltz1,6nco_1_KQP_0,,,results/posebench_702_predictions/boltz1_gpu/dockgen/6nco_1_KQP_0/full_r1_s20,,,,,,,,external/PoseBench/data/dockgen_set/6nco_1_KQP_0/6nco_1_KQP_0_protein_processed.pdb,,,0.011,exception,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/dockgen/6nco_1_KQP_0/full_r1_s20/run_status.json,,"Explicit valence for atom # 18 C, 5, is greater than permitted",AtomValenceException,input_chemistry_error
+,,,,,,,,,,posebusters_benchmark,3,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/6XHT_V2V/full_r1_s20/inputs/6XHT_V2V_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/6XHT_V2V/6XHT_V2V_ligand.sdf,34.0,Nc1ccn([C@@H]2O[C@H](CO[P@](=O)(O)O[P@@](=O)(O)OC[C@@H](O)[C@@H](O)[C@@H](O)CO)[C@@H](O)[C@H]2O)c(=O)n1,,,boltz1,6XHT_V2V,6.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/6XHT_V2V/full_r1_s20,,,,,,,A:233;B:236;C:236;D:236;E:230;F:236,external/PoseBench/data/posebusters_benchmark_set/6XHT_V2V/6XHT_V2V_protein.pdb,,0.0,105.161,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/6XHT_V2V/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.61it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.60it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [3]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,0,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7AKL_RK5/full_r1_s20/inputs/7AKL_RK5_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7AKL_RK5/7AKL_RK5_ligand.sdf,19.0,Cc1oc2ccc(-c3cc(N)nc(N)c3)cc2c1C,,,boltz1,7AKL_RK5,1.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7AKL_RK5/full_r1_s20,,,,,,,A:329,external/PoseBench/data/posebusters_benchmark_set/7AKL_RK5/7AKL_RK5_protein.pdb,,1.0,65.91,failed_nonzero,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7AKL_RK5/full_r1_s20/run_status.json,"ome/test/kkkk/18MGD/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  [Previous line repeated 2 more times]
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 930, in _apply
+    param_applied = fn(param)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1329, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 23.52 GiB of which 8.75 MiB is free. Process 3504223 has 22.89 GiB memory in use. Including non-PyTorch memory, this process has 600.00 MiB memory in use. Of the allocated memory 237.96 MiB is allocated by PyTorch, and 14.04 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/bin/boltz"", line 6, in <module>
+    sys.exit(cli())
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1078, in main
+    rv = self.invoke(ctx)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/main.py"", line 1329, in predict
+    trainer.predict(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 859, in predict
+    return call._call_and_handle_interrupt(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py"", line 68, in _call_and_handle_interrupt
+    trainer._teardown()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 1005, in _teardown
+    self.strategy.teardown()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py"", line 536, in teardown
+    self.lightning_module.cpu()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/lightning_fabric/utilities/device_dtype_mixin.py"", line 82, in cpu
+    return super().cpu()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1121, in cpu
+    return self._apply(lambda t: t.cpu())
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torchmetrics/metric.py"", line 907, in _apply
+    _dummy_tensor = fn(torch.zeros(1, device=self.device))
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+",,,nonzero_cuda_or_gpu_runtime
+,,,,,,,,,,posebusters_benchmark,6,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7AVI_S2Q/full_r1_s20/inputs/7AVI_S2Q_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7AVI_S2Q/7AVI_S2Q_ligand.sdf,27.0,CC(C)c1noc2ncc(C(=O)N[C@H](C)c3cccc(S(N)(=O)=O)c3)cc12,,,boltz1,7AVI_S2Q,2.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7AVI_S2Q/full_r1_s20,,,,,,,A:472;B:472,external/PoseBench/data/posebusters_benchmark_set/7AVI_S2Q/7AVI_S2Q_protein.pdb,,1.0,104.909,failed_nonzero,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7AVI_S2Q/full_r1_s20/run_status.json,"<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 930, in _apply
+    param_applied = fn(param)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1329, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 23.52 GiB of which 16.75 MiB is free. Process 3520158 has 21.06 GiB memory in use. Including non-PyTorch memory, this process has 2.41 GiB memory in use. Of the allocated memory 1.90 GiB is allocated by PyTorch, and 168.33 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/bin/boltz"", line 6, in <module>
+    sys.exit(cli())
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1078, in main
+    rv = self.invoke(ctx)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/main.py"", line 1329, in predict
+    trainer.predict(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 859, in predict
+    return call._call_and_handle_interrupt(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py"", line 68, in _call_and_handle_interrupt
+    trainer._teardown()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 1005, in _teardown
+    self.strategy.teardown()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py"", line 536, in teardown
+    self.lightning_module.cpu()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/lightning_fabric/utilities/device_dtype_mixin.py"", line 82, in cpu
+    return super().cpu()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1121, in cpu
+    return self._apply(lambda t: t.cpu())
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torchmetrics/metric.py"", line 907, in _apply
+    _dummy_tensor = fn(torch.zeros(1, device=self.device))
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+",,,nonzero_cuda_or_gpu_runtime
+,,,,,,,,,,posebusters_benchmark,4,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7B2C_TP7/full_r1_s20/inputs/7B2C_TP7_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7B2C_TP7/7B2C_TP7_ligand.sdf,21.0,C[C@@H](OP(=O)(O)O)[C@H](NC(=O)CCCCCCS)C(=O)O,,,boltz1,7B2C_TP7,6.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7B2C_TP7/full_r1_s20,,,,,,,A:584;B:466;C:265;D:586;E:466;F:265,external/PoseBench/data/posebusters_benchmark_set/7B2C_TP7/7B2C_TP7_protein.pdb,,0.0,139.893,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7B2C_TP7/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  2.82it/s]
+100%|██████████| 1/1 [00:00<00:00,  2.82it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [4]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,2,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7CIJ_G0C/full_r1_s20/inputs/7CIJ_G0C_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7CIJ_G0C/7CIJ_G0C_ligand.sdf,21.0,CSCCC/N=C/c1c(COP(=O)(O)O)cnc(C)c1O,,,boltz1,7CIJ_G0C,2.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7CIJ_G0C/full_r1_s20,,,,,,,A:518;B:523,external/PoseBench/data/posebusters_benchmark_set/7CIJ_G0C/7CIJ_G0C_protein.pdb,,0.0,81.603,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7CIJ_G0C/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  3.62it/s]
+100%|██████████| 1/1 [00:00<00:00,  3.61it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,1,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7CNQ_G8X/full_r1_s20/inputs/7CNQ_G8X_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7CNQ_G8X/7CNQ_G8X_ligand.sdf,9.0,O=C(O)[C@H]1NCC[C@H]1O,,,boltz1,7CNQ_G8X,4.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7CNQ_G8X/full_r1_s20,,,,,,,A:559;B:559;C:559;D:559,external/PoseBench/data/posebusters_benchmark_set/7CNQ_G8X/7CNQ_G8X_protein.pdb,,0.0,73.379,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7CNQ_G8X/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  9.08it/s]
+100%|██████████| 1/1 [00:00<00:00,  9.06it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [1]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,3,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7D6O_MTE/full_r1_s20/inputs/7D6O_MTE_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7D6O_MTE/7D6O_MTE_ligand.sdf,24.0,Nc1nc2c(c(=O)[nH]1)N[C@H]1C(S)=C(S)[C@@H](COP(=O)(O)O)O[C@H]1N2,,,boltz1,7D6O_MTE,2.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7D6O_MTE/full_r1_s20,,,,,,,A:1285;B:1288,external/PoseBench/data/posebusters_benchmark_set/7D6O_MTE/7D6O_MTE_protein.pdb,,0.0,72.684,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7D6O_MTE/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  2.53it/s]
+100%|██████████| 1/1 [00:00<00:00,  2.53it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [3]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,4,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7DKT_GLF/full_r1_s20/inputs/7DKT_GLF_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7DKT_GLF/7DKT_GLF_ligand.sdf,12.0,OC[C@H]1O[C@H](F)[C@H](O)[C@@H](O)[C@@H]1O,,,boltz1,7DKT_GLF,1.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7DKT_GLF/full_r1_s20,,,,,,,A:769,external/PoseBench/data/posebusters_benchmark_set/7DKT_GLF/7DKT_GLF_protein.pdb,,1.0,54.33,failed_nonzero,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7DKT_GLF/full_r1_s20/run_status.json,"""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  [Previous line repeated 3 more times]
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 930, in _apply
+    param_applied = fn(param)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1329, in convert
+    return t.to(
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 23.52 GiB of which 8.75 MiB is free. Process 3635485 has 20.85 GiB memory in use. Including non-PyTorch memory, this process has 2.63 GiB memory in use. Of the allocated memory 2.11 GiB is allocated by PyTorch, and 182.98 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/bin/boltz"", line 6, in <module>
+    sys.exit(cli())
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1078, in main
+    rv = self.invoke(ctx)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/main.py"", line 1329, in predict
+    trainer.predict(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 859, in predict
+    return call._call_and_handle_interrupt(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py"", line 68, in _call_and_handle_interrupt
+    trainer._teardown()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 1005, in _teardown
+    self.strategy.teardown()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py"", line 536, in teardown
+    self.lightning_module.cpu()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/lightning_fabric/utilities/device_dtype_mixin.py"", line 82, in cpu
+    return super().cpu()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1121, in cpu
+    return self._apply(lambda t: t.cpu())
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 903, in _apply
+    module._apply(fn)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torchmetrics/metric.py"", line 907, in _apply
+    _dummy_tensor = fn(torch.zeros(1, device=self.device))
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+",,,nonzero_cuda_or_gpu_runtime
+,,,,,,,,,,posebusters_benchmark,0,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7ECR_SIN/full_r1_s20/inputs/7ECR_SIN_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7ECR_SIN/7ECR_SIN_ligand.sdf,8.0,O=C(O)CCC(=O)O,,,boltz1,7ECR_SIN,3.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7ECR_SIN/full_r1_s20,,,,,,,A:460;B:460;C:460,external/PoseBench/data/posebusters_benchmark_set/7ECR_SIN/7ECR_SIN_protein.pdb,,1.0,173.302,failed_nonzero,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7ECR_SIN/full_r1_s20/run_status.json,"z"", line 6, in <module>
+    sys.exit(cli())
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1078, in main
+    rv = self.invoke(ctx)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/click/core.py"", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/main.py"", line 1329, in predict
+    trainer.predict(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 859, in predict
+    return call._call_and_handle_interrupt(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py"", line 47, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 898, in _predict_impl
+    results = self._run(model, ckpt_path=ckpt_path)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 982, in _run
+    results = self._run_stage()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py"", line 1021, in _run_stage
+    return self.predict_loop.run()
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/loops/utilities.py"", line 179, in _decorator
+    return loop_run(self, *args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/loops/prediction_loop.py"", line 125, in run
+    self._predict_step(batch, batch_idx, dataloader_idx, dataloader_iter)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/loops/prediction_loop.py"", line 255, in _predict_step
+    predictions = call._call_strategy_hook(trainer, ""predict_step"", *step_args)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py"", line 323, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/strategies/strategy.py"", line 438, in predict_step
+    return self.lightning_module.predict_step(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/model/models/boltz1.py"", line 1155, in predict_step
+    out = self(
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/torch/nn/modules/module.py"", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/model/models/boltz1.py"", line 364, in forward
+    self.structure_module.sample(
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/model/modules/diffusion.py"", line 691, in sample
+    atom_coords_noisy = weighted_rigid_align(
+  File ""<REMOTE_PROJECT_ROOT>/external/boltz/src/boltz/model/loss/diffusion.py"", line 63, in weighted_rigid_align
+    U, S, V = torch.linalg.svd(
+RuntimeError: cusolver error: CUSOLVER_STATUS_INTERNAL_ERROR, when calling `cusolverDnCreate(handle)`. If you keep seeing this error, you may use `torch.backends.cuda.preferred_linalg_library()` to try linear algebra operators with other supported backends. See https://pytorch.org/docs/stable/backends.html#torch.backends.cuda.preferred_linalg_library
+",,,nonzero_cuda_or_gpu_runtime
+,,,,,,,,,,posebusters_benchmark,3,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7FRX_O88/full_r1_s20/inputs/7FRX_O88_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7FRX_O88/7FRX_O88_ligand.sdf,30.0,O=S(=O)(NCc1ccc(S(=O)(=O)c2ccc(O)c(O)c2)cc1)c1ccc(O)c(O)c1,,,boltz1,7FRX_O88,8.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7FRX_O88/full_r1_s20,,,,,,,A:422;B:436;C:425;D:425;E:419;F:432;G:421;H:425,external/PoseBench/data/posebusters_benchmark_set/7FRX_O88/7FRX_O88_protein.pdb,,0.0,87.039,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7FRX_O88/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  2.63it/s]
+100%|██████████| 1/1 [00:00<00:00,  2.63it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [3]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,2,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7KB1_WBJ/full_r1_s20/inputs/7KB1_WBJ_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7KB1_WBJ/7KB1_WBJ_ligand.sdf,22.0,C=C/C(=N\Cc1c(COP(=O)(O)O)cnc(C)c1O)C(=O)O,,,boltz1,7KB1_WBJ,4.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7KB1_WBJ/full_r1_s20,,,,,,,A:428;B:428;C:428;D:428,external/PoseBench/data/posebusters_benchmark_set/7KB1_WBJ/7KB1_WBJ_protein.pdb,,0.0,43.496,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7KB1_WBJ/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  9.46it/s]
+100%|██████████| 1/1 [00:00<00:00,  9.45it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,1,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7LJN_GTP/full_r1_s20/inputs/7LJN_GTP_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7LJN_GTP/7LJN_GTP_ligand.sdf,32.0,Nc1nc2c(ncn2[C@@H]2O[C@H](CO[P@](=O)(O)O[P@](=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1,,,boltz1,7LJN_GTP,4.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7LJN_GTP/full_r1_s20,,,,,,,A:342;B:335;C:337;D:339,external/PoseBench/data/posebusters_benchmark_set/7LJN_GTP/7LJN_GTP_protein.pdb,,0.0,225.207,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7LJN_GTP/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.16it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.16it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [1]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,2,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7M31_TDR/full_r1_s20/inputs/7M31_TDR_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7M31_TDR/7M31_TDR_ligand.sdf,9.0,Cc1c[nH]c(=O)[nH]c1=O,,,boltz1,7M31_TDR,4.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7M31_TDR/full_r1_s20,,,,,,,A:1011;B:1011;C:1008;D:1017,external/PoseBench/data/posebusters_benchmark_set/7M31_TDR/7M31_TDR_protein.pdb,,0.0,89.638,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7M31_TDR/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  2.33it/s]
+100%|██████████| 1/1 [00:00<00:00,  2.33it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,2,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7MFP_Z7P/full_r1_s20/inputs/7MFP_Z7P_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7MFP_Z7P/7MFP_Z7P_ligand.sdf,50.0,Cc1ncc(COP(=O)(O)O)c(/C=N/[C@H]2[C@H](O)[C@@H](O)[C@@H](O[P@](=O)(O)O[P@](=O)(O)OC[C@H]3O[C@@H](n4ccc(=O)[nH]c4=O)[C@H](O)[C@@H]3O)O[C@@H]2C)c1O,,,boltz1,7MFP_Z7P,4.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7MFP_Z7P/full_r1_s20,,,,,,,A:351;B:354;C:351;D:348,external/PoseBench/data/posebusters_benchmark_set/7MFP_Z7P/7MFP_Z7P_protein.pdb,,0.0,67.112,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7MFP_Z7P/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  2.60it/s]
+100%|██████████| 1/1 [00:00<00:00,  2.60it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,7,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7MGY_ZD1/full_r1_s20/inputs/7MGY_ZD1_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7MGY_ZD1/7MGY_ZD1_ligand.sdf,23.0,N[C@H]1C=C(CO)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O,,,boltz1,7MGY_ZD1,2.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7MGY_ZD1/full_r1_s20,,,,,,,A:649;B:649,external/PoseBench/data/posebusters_benchmark_set/7MGY_ZD1/7MGY_ZD1_protein.pdb,,0.0,179.829,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7MGY_ZD1/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  6.39it/s]
+100%|██████████| 1/1 [00:00<00:00,  6.39it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [7]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,4,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7OP9_06K/full_r1_s20/inputs/7OP9_06K_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7OP9_06K/7OP9_06K_ligand.sdf,11.0,Clc1nc(Cl)c2[nH]cnc2n1,,,boltz1,7OP9_06K,12.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7OP9_06K/full_r1_s20,,,,,,,A:232;B:232;C:232;D:232;E:232;F:232;G:232;H:232;I:232;J:232;K:232;L:232,external/PoseBench/data/posebusters_benchmark_set/7OP9_06K/7OP9_06K_protein.pdb,,0.0,66.73,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7OP9_06K/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  7.75it/s]
+100%|██████████| 1/1 [00:00<00:00,  7.74it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [4]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,2,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7OU8_1XI/full_r1_s20/inputs/7OU8_1XI_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7OU8_1XI/7OU8_1XI_ligand.sdf,23.0,CC(=O)N[C@H]1CN2/C(=N/Cc3ccccc3)SC[C@@H]2[C@@H](O)[C@@H]1O,,,boltz1,7OU8_1XI,2.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7OU8_1XI/full_r1_s20,,,,,,,A:714;B:708,external/PoseBench/data/posebusters_benchmark_set/7OU8_1XI/7OU8_1XI_protein.pdb,,0.0,90.184,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7OU8_1XI/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.59it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.58it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,5,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7QSW_CAP/full_r1_s20/inputs/7QSW_CAP_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7QSW_CAP/7QSW_CAP_ligand.sdf,21.0,O=C(O)[C@@](O)(COP(=O)(O)O)[C@H](O)[C@H](O)COP(=O)(O)O,,,boltz1,7QSW_CAP,8.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7QSW_CAP/full_r1_s20,,,,,,,A:465;B:102;C:466;D:102;E:465;F:102;G:465;H:102,external/PoseBench/data/posebusters_benchmark_set/7QSW_CAP/7QSW_CAP_protein.pdb,,0.0,82.026,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7QSW_CAP/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.83it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.82it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [5]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,3,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7R6J_2I7/full_r1_s20/inputs/7R6J_2I7_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7R6J_2I7/7R6J_2I7_ligand.sdf,33.0,Cc1cc(NCc2cccc(CN3C[C@H](O)[C@@H](O)[C@H](O)[C@H]3CO)c2)cc(-c2ncccn2)c1,,,boltz1,7R6J_2I7,2.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7R6J_2I7/full_r1_s20,,,,,,,A:765;B:764,external/PoseBench/data/posebusters_benchmark_set/7R6J_2I7/7R6J_2I7_protein.pdb,,0.0,44.122,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7R6J_2I7/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  3.38it/s]
+100%|██████████| 1/1 [00:00<00:00,  3.38it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [3]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,5,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7SUC_COM/full_r1_s20/inputs/7SUC_COM_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7SUC_COM/7SUC_COM_ligand.sdf,7.0,O=S(=O)(O)CCS,,,boltz1,7SUC_COM,6.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7SUC_COM/full_r1_s20,,,,,,,A:542;B:442;C:246;a:542;b:442;c:246,external/PoseBench/data/posebusters_benchmark_set/7SUC_COM/7SUC_COM_protein.pdb,,0.0,51.717,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7SUC_COM/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.66it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.65it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [5]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,2,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7TB0_UD1/full_r1_s20/inputs/7TB0_UD1_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7TB0_UD1/7TB0_UD1_ligand.sdf,39.0,CC(=O)N[C@H]1[C@@H](O[P@@](=O)(O)O[P@@](=O)(O)OC[C@H]2O[C@@H](n3ccc(=O)[nH]c3=O)[C@H](O)[C@@H]2O)O[C@H](CO)[C@@H](O)[C@@H]1O,,,boltz1,7TB0_UD1,4.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7TB0_UD1/full_r1_s20,,,,,,,A:420;B:420;C:420;D:420,external/PoseBench/data/posebusters_benchmark_set/7TB0_UD1/7TB0_UD1_protein.pdb,,0.0,80.754,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7TB0_UD1/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  3.78it/s]
+100%|██████████| 1/1 [00:00<00:00,  3.78it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,7,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7TS6_KMI/full_r1_s20/inputs/7TS6_KMI_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7TS6_KMI/7TS6_KMI_ligand.sdf,17.0,CNCc1cccc(-c2cc(C)cc(N)n2)c1,,,boltz1,7TS6_KMI,4.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7TS6_KMI/full_r1_s20,,,,,,,A:418;B:414;C:414;D:418,external/PoseBench/data/posebusters_benchmark_set/7TS6_KMI/7TS6_KMI_protein.pdb,,0.0,65.169,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7TS6_KMI/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.86it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.85it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [7]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,1,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7VKZ_NOJ/full_r1_s20/inputs/7VKZ_NOJ_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7VKZ_NOJ/7VKZ_NOJ_ligand.sdf,11.0,OC[C@H]1NC[C@H](O)[C@@H](O)[C@@H]1O,,,boltz1,7VKZ_NOJ,2.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7VKZ_NOJ/full_r1_s20,,,,,,,A:704;B:703,external/PoseBench/data/posebusters_benchmark_set/7VKZ_NOJ/7VKZ_NOJ_protein.pdb,,0.0,89.043,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7VKZ_NOJ/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.51it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.51it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [1]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,2,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7VYJ_CA0/full_r1_s20/inputs/7VYJ_CA0_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7VYJ_CA0/7VYJ_CA0_ligand.sdf,26.0,NC(=O)O[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O,,,boltz1,7VYJ_CA0,2.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7VYJ_CA0/full_r1_s20,,,,,,,A:675;B:679,external/PoseBench/data/posebusters_benchmark_set/7VYJ_CA0/7VYJ_CA0_protein.pdb,,0.0,212.543,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7VYJ_CA0/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.68it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.67it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,4,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7WKL_CAQ/full_r1_s20/inputs/7WKL_CAQ_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7WKL_CAQ/7WKL_CAQ_ligand.sdf,8.0,Oc1ccccc1O,,,boltz1,7WKL_CAQ,4.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7WKL_CAQ/full_r1_s20,,,,,,,A:339;B:339;C:339;D:339,external/PoseBench/data/posebusters_benchmark_set/7WKL_CAQ/7WKL_CAQ_protein.pdb,,0.0,198.745,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7WKL_CAQ/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  6.55it/s]
+100%|██████████| 1/1 [00:00<00:00,  6.54it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [4]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,5,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7XJN_NSD/full_r1_s20/inputs/7XJN_NSD_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7XJN_NSD/7XJN_NSD_ligand.sdf,9.0,NCCCNCCCN,,,boltz1,7XJN_NSD,4.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7XJN_NSD/full_r1_s20,,,,,,,A:322;B:316;C:319;D:321,external/PoseBench/data/posebusters_benchmark_set/7XJN_NSD/7XJN_NSD_protein.pdb,,0.0,189.16,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7XJN_NSD/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  6.07it/s]
+100%|██████████| 1/1 [00:00<00:00,  6.06it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [5]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,7,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7XRL_FWK/full_r1_s20/inputs/7XRL_FWK_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7XRL_FWK/7XRL_FWK_ligand.sdf,19.0,CC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O,,,boltz1,7XRL_FWK,6.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7XRL_FWK/full_r1_s20,,,,,,,A:552;B:179;C:136;D:554;E:178;F:136,external/PoseBench/data/posebusters_benchmark_set/7XRL_FWK/7XRL_FWK_protein.pdb,,0.0,47.36,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7XRL_FWK/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.50it/s]
+100%|██████████| 1/1 [00:00<00:00,  4.50it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [7]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,1,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7ZCC_OGA/full_r1_s20/inputs/7ZCC_OGA_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7ZCC_OGA/7ZCC_OGA_ligand.sdf,10.0,O=C(O)CNC(=O)C(=O)O,,,boltz1,7ZCC_OGA,4.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7ZCC_OGA/full_r1_s20,,,,,,,A:325;B:326;C:325;D:325,external/PoseBench/data/posebusters_benchmark_set/7ZCC_OGA/7ZCC_OGA_protein.pdb,,0.0,179.277,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7ZCC_OGA/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  7.90it/s]
+100%|██████████| 1/1 [00:00<00:00,  7.89it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [1]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,3,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7ZDY_6MJ/full_r1_s20/inputs/7ZDY_6MJ_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/7ZDY_6MJ/7ZDY_6MJ_ligand.sdf,11.0,CO[C@@H]1OC[C@@H](O)[C@H](O)[C@H]1O,,,boltz1,7ZDY_6MJ,2.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7ZDY_6MJ/full_r1_s20,,,,,,,W:763;Y:761,external/PoseBench/data/posebusters_benchmark_set/7ZDY_6MJ/7ZDY_6MJ_protein.pdb,,0.0,55.447,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/7ZDY_6MJ/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.46it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.46it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [3]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,2,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/8AQL_PLG/full_r1_s20/inputs/8AQL_PLG_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/8AQL_PLG/8AQL_PLG_ligand.sdf,20.0,Cc1ncc(COP(=O)(O)O)c(CNCC(=O)O)c1O,,,boltz1,8AQL_PLG,4.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/8AQL_PLG/full_r1_s20,,,,,,,A:453;B:461;C:452;D:453,external/PoseBench/data/posebusters_benchmark_set/8AQL_PLG/8AQL_PLG_protein.pdb,,0.0,51.782,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/8AQL_PLG/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.45it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.44it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [2]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,5,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/8CI0_8EL/full_r1_s20/inputs/8CI0_8EL_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/8CI0_8EL/8CI0_8EL_ligand.sdf,26.0,CC1=C(CCO[P@](=O)(O)OP(=O)(O)O)SCN1Cc1cnc(C)nc1N,,,boltz1,8CI0_8EL,3.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/8CI0_8EL/full_r1_s20,,,,,,,A:666;B:666;C:666,external/PoseBench/data/posebusters_benchmark_set/8CI0_8EL/8CI0_8EL_protein.pdb,,0.0,66.779,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/8CI0_8EL/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.63it/s]
+100%|██████████| 1/1 [00:00<00:00,  5.63it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [5]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,3,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/8F4J_PHO/full_r1_s20/inputs/8F4J_PHO_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/8F4J_PHO/8F4J_PHO_ligand.sdf,64.0,C=Cc1c(C)c2cc3nc(c4c5[nH]c(cc6nc(cc1[nH]2)C(C)=C6CC)c(C)c5C(=O)[C@@H]4C(=O)OC)[C@@H](CCC(=O)OC/C=C(\C)CCC[C@H](C)CCC[C@H](C)CCCC(C)C)[C@@H]3C,,,boltz1,8F4J_PHO,40.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/8F4J_PHO/full_r1_s20,,,,,,,A:334;B:505;C:442;D:341;E:82;F:34;H:65;I:35;J:36;K:37;L:37;M:32;O:244;T:29;U:97;V:137;Y:27;X:38;Z:62;R:34;a:334;b:505;c:451;d:341;e:82;f:34;h:63;i:35;j:36;k:37;l:36;m:31;o:244;t:29;u:97;v:137;y:30;x:39;z:62;r:31,external/PoseBench/data/posebusters_benchmark_set/8F4J_PHO/8F4J_PHO_protein.pdb,,0.0,87.483,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/8F4J_PHO/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:01<00:00,  1.86s/it]
+100%|██████████| 1/1 [00:01<00:00,  1.86s/it]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [3]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure
+,,,,,,,,,,posebusters_benchmark,1,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/8G0V_YHT/full_r1_s20/inputs/8G0V_YHT_boltz1.yaml,external/PoseBench/data/posebusters_benchmark_set/8G0V_YHT/8G0V_YHT_ligand.sdf,26.0,C#CCO[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O,,,boltz1,8G0V_YHT,3.0,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/8G0V_YHT/full_r1_s20,,,,,,,A:666;B:665;C:665,external/PoseBench/data/posebusters_benchmark_set/8G0V_YHT/8G0V_YHT_protein.pdb,,0.0,84.257,failed_no_prediction_cif,full_r1_s20,,,,,results/posebench_702_predictions/boltz1_gpu/posebusters_benchmark/8G0V_YHT/full_r1_s20/run_status.json,"
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  3.68it/s]
+100%|██████████| 1/1 [00:00<00:00,  3.68it/s]
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 4090 D') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [1]
+<REMOTE_PROJECT_ROOT>/envs/boltz/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=383` in the `DataLoader` to improve performance.
+",,,no_prediction_after_cuda_failure

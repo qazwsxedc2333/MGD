@@ -1,0 +1,7 @@
+| figure_role | case_id | method | target | ligand | rmsd_official | rmsd_selected | rmsd_gain | suitability_score | render_nonblank | overlay_png |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| rescued_main | boltz2|8j7j__1__1.A_1.B__1.C|1.C | boltz2 | 8j7j__1__1.A_1.B__1.C | 1.C | 8.2697 | 1.7804 | 6.4893 | 8.8607 | True | <REMOTE_PROJECT_ROOT>/results/figures/case_visualization_bundle/00_boltz2_8j7j__1__1.A_1.B__1.C_1.C/ligand_overlay.png |
+| rescued_main | boltz2|8g4a__1__1.A_1.B__1.C|1.C | boltz2 | 8g4a__1__1.A_1.B__1.C | 1.C | 4.7718 | 0.3488 | 4.4230 | 8.5749 | True | <REMOTE_PROJECT_ROOT>/results/figures/case_visualization_bundle/01_boltz2_8g4a__1__1.A_1.B__1.C_1.C/ligand_overlay.png |
+| rescued_main | af3|8oqt__1__1.D__1.KA_1.LA|1.LA | af3 | 8oqt__1__1.D__1.KA_1.LA | 1.LA | 5.4776 | 1.2039 | 4.2736 | 8.4463 | True | <REMOTE_PROJECT_ROOT>/results/figures/case_visualization_bundle/02_af3_8oqt__1__1.D__1.KA_1.LA_1.LA/ligand_overlay.png |
+| rescued_main | af3|8oqt__1__1.D__1.KA_1.LA|1.KA | af3 | 8oqt__1__1.D__1.KA_1.LA | 1.KA | 5.4776 | 1.2039 | 4.2736 | 8.1661 | True | <REMOTE_PROJECT_ROOT>/results/figures/case_visualization_bundle/03_af3_8oqt__1__1.D__1.KA_1.LA_1.KA/ligand_overlay.png |
+| boundary_supplement | chai|8ivt__1__1.A_1.B__1.F|1.F | chai | 8ivt__1__1.A_1.B__1.F | 1.F | 1.6857 | 4.8481 | -3.1624 | 3.8656 | True | <REMOTE_PROJECT_ROOT>/results/figures/case_visualization_bundle/04_chai_8ivt__1__1.A_1.B__1.F_1.F/ligand_overlay.png |

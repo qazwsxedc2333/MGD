@@ -1,0 +1,12 @@
+dataset,archive,exists,size_bytes,expected_size_bytes,size_matches,aria2_in_progress,gzip_ok
+astex_diverse,astex_diverse_set.tar.gz,True,527997506,527997506,True,False,True
+posebusters_benchmark,posebusters_benchmark_set.tar.gz,True,1933390665,1933390665,True,False,True
+dockgen,dockgen_set.tar.gz,True,1401461917,1401461917,True,False,True
+casp15,casp15_set.tar.gz,True,242220668,242220668,True,False,True
+pred_vina,vina_benchmark_method_predictions.tar.gz,True,18744218,18744218,True,False,True
+pred_diffdock,diffdock_benchmark_method_predictions.tar.gz,True,11051676,11051676,True,False,True
+pred_dynamicbind,dynamicbind_benchmark_method_predictions.tar.gz,True,8286628028,8286628028,True,False,True
+pred_neuralplexer,neuralplexer_benchmark_method_predictions.tar.gz,True,1571315637,1571315637,True,False,True
+pred_rfaa,rfaa_benchmark_method_predictions.tar.gz,True,109219891,109219891,True,False,True
+pred_chai,chai_benchmark_method_predictions.tar.gz,True,1548258544,1548258544,True,False,True
+pred_boltz,boltz_benchmark_method_predictions.tar.gz,True,399681011,399681011,True,False,True

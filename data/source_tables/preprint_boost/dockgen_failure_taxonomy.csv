@@ -1,0 +1,12 @@
+dataset,category,n_cases,fraction
+astex_diverse,candidate_pool_limit,6,0.07058823529411765
+astex_diverse,ranking_miss_within_top10,5,0.058823529411764705
+astex_diverse,top1_success,74,0.8705882352941177
+dockgen,candidate_pool_limit,87,0.4603174603174603
+dockgen,ranking_miss_within_top10,18,0.09523809523809523
+dockgen,shortlist_miss_pool_has_success,1,0.005291005291005291
+dockgen,top1_success,83,0.43915343915343913
+posebusters_benchmark,candidate_pool_limit,117,0.2733644859813084
+posebusters_benchmark,ranking_miss_within_top10,30,0.07009345794392523
+posebusters_benchmark,shortlist_miss_pool_has_success,8,0.018691588785046728
+posebusters_benchmark,top1_success,273,0.6378504672897196
