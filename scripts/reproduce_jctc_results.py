@@ -168,11 +168,14 @@ def write_jctc_facing_tables(tables: Path, out: Path) -> pd.DataFrame:
             "test": "descriptive",
         },
     ]
-    pd.DataFrame(paired_rows).to_csv(out_dir / "table6_public_pool_paired_increment.csv", index=False)
+    paired_df = pd.DataFrame(paired_rows)
+    paired_df.to_csv(out_dir / "table_s12_public_pool_paired_physics_increment.csv", index=False)
+    paired_df.to_csv(out_dir / "table6_public_pool_paired_increment.csv", index=False)
     return pd.DataFrame(
         [
             {"table": "jctc_tables/table5_posebench702_external_top1.csv", "rows": len(table5), "columns": len(table5.columns)},
             {"table": "jctc_tables/table6_public_pool_physical_plausibility.csv", "rows": len(table6), "columns": len(table6.columns)},
+            {"table": "jctc_tables/table_s12_public_pool_paired_physics_increment.csv", "rows": len(paired_rows), "columns": len(paired_rows[0])},
             {"table": "jctc_tables/table6_public_pool_paired_increment.csv", "rows": len(paired_rows), "columns": len(paired_rows[0])},
         ]
     )
