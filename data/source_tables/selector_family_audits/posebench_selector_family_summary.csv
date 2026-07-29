@@ -1,0 +1,12 @@
+selector,n_cases,ok_cases,ok_coverage,success_2a,median_rmsd,selected_methods
+Vina/Meeko full,702,693,0.9871794871794872,0.019943019943019943,5.744706519919012,Vina/Meeko full:702
+DiffDock-L default s10/t20,702,692,0.9857549857549858,0.3817663817663818,3.4532441501892936,DiffDock-L default s10/t20:702
+Boltz-1 full receptor r1/s20,702,653,0.9301994301994302,0.0,10.83523730778451,Boltz-1 full receptor r1/s20:702
+Chai-1 full receptor s5/t200,702,635,0.9045584045584045,0.3817663817663818,2.8681235845473676,Chai-1 full receptor s5/t200:702
+lodo_method_prior_recomputed,702,701,0.9985754985754985,0.3561253561253561,3.95667554863299,DiffDock-L default s10/t20:618;Chai-1 full receptor s5/t200:75;Vina/Meeko full:9
+lodo_score_normalized_confidence,702,700,0.9971509971509972,0.23504273504273504,6.3774561288033205,Vina/Meeko full:201;DiffDock-L default s10/t20:191;Boltz-1 full receptor r1/s20:176;Chai-1 full receptor s5/t200:134
+borda_prior_confidence_structure,702,700,0.9971509971509972,0.022792022792022793,5.7374659340818805,Vina/Meeko full:695;Chai-1 full receptor s5/t200:4;DiffDock-L default s10/t20:3
+lodo_hgb_no_reference_neighborhood,702,701,0.9985754985754985,0.45584045584045585,2.579710769118274,DiffDock-L default s10/t20:416;Chai-1 full receptor s5/t200:269;Vina/Meeko full:17
+lodo_hgb_full_reference_neighborhood,702,701,0.9985754985754985,0.44871794871794873,2.7226663866359777,DiffDock-L default s10/t20:418;Chai-1 full receptor s5/t200:267;Vina/Meeko full:17
+lodo_hgb_validity_aware,702,701,0.9985754985754985,0.452991452991453,2.633867714968137,DiffDock-L default s10/t20:351;Chai-1 full receptor s5/t200:300;Vina/Meeko full:51
+oracle_candidate_stack_upper_bound,702,700,0.9971509971509972,0.5484330484330484,1.610095655925332,Chai-1 full receptor s5/t200:260;DiffDock-L default s10/t20:244;Vina/Meeko full:186;Boltz-1 full receptor r1/s20:12

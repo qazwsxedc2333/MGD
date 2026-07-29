@@ -1,8 +1,8 @@
 feature,mean_auroc_drop
-shape_pocket_memory,0.13215009200722702
+shape_pocket_similarity,0.13215009200722702
 pred_protein_receptor_atoms_contacting_4a,0.014505033706401927
 pred_protein_min_dist,0.008619153225858212
-ligand_memory,0.006288303332452583
+ligand_similarity,0.006288303332452583
 pred_all_other_min_dist,0.005934797935625802
 sample,0.005252017880030569
 pred_all_other_contact_pairs_6a,0.004751549038571656
@@ -11,12 +11,12 @@ pred_all_other_contact_density_4a,0.003160953566735525
 pred_all_other_contact_pairs_4a,0.0020233261796353654
 ranking_score,0.0019514943537836005
 pred_protein_contact_pairs_4a,0.0014271095410934743
-memory_score,0.0013901612573279597
+reference_neighborhood_similarity,0.0013901612573279597
 pred_protein_contact_density_4a,0.0013067428398971903
 pred_protein_ligand_atoms_contacting_4a,0.001174868504863491
-protein_memory,0.0005945114989402422
+protein_similarity,0.0005945114989402422
 pred_protein_clash_density_2a,0.0005944122613744995
-pocket_memory,0.00015280452889655517
+pocket_similarity,0.00015280452889655517
 pred_all_other_clash_density_2a,0.00014120651395954642
 pred_all_other_clash_pairs_2a,5.375796099738039e-06
 pred_protein_clash_pairs_2a,-7.453934654266803e-06

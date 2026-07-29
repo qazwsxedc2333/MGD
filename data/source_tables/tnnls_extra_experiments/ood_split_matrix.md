@@ -1,6 +1,0 @@
-| ood_split | train_n | test_n | test_failure_rate | best_detector | best_auroc | rank_auroc | rank_confidence_auroc | structure_gain_vs_rank_conf | memory_gain_vs_rank_conf_structure | memory_only_auroc | full_brier | evidence_role |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| low_memory_holdout | 4199.0000 | 528.0000 | 0.8617 | rank_confidence | 0.7170 | 0.5685 | 0.7170 | -0.0293 | 0.0014 | 0.6074 | 0.1160 | main OOD reliability split matrix for TNNLS-style generalization claims |
-| temporal_2024_holdout | 3975.0000 | 752.0000 | 0.4681 | rank_confidence_structure_memory | 0.9119 | 0.6339 | 0.8107 | 0.0526 | 0.0486 | 0.8420 | 0.1229 | main OOD reliability split matrix for TNNLS-style generalization claims |
-| joint_low_ligand_protein_ood | 4230.0000 | 497.0000 | 0.8652 | rank_confidence | 0.7234 | 0.5875 | 0.7234 | -0.0166 | -0.0651 | 0.6621 | 0.1157 | main OOD reliability split matrix for TNNLS-style generalization claims |
-| joint_low_ligand_protein_temporal_ood | 4377.0000 | 350.0000 | 0.8829 | rank_confidence_structure | 0.7327 | 0.5598 | 0.7196 | 0.0131 | -0.0017 | 0.6782 | 0.0955 | main OOD reliability split matrix for TNNLS-style generalization claims |

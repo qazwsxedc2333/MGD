@@ -1,6 +1,6 @@
-selector,role,all_success,low_memory_success,delta_low_vs_official,paired_rescued_low,paired_harmed_low,paired_two_sided_p_value_low
+selector,role,all_success,low_similarity_success,delta_low_vs_official,paired_rescued_low,paired_harmed_low,paired_two_sided_p_value_low
 official_ranking,official reference,0.6244975671673366,0.1382575757575757,0.0,,,
-nested_pair_rank_structure_memory_antimemory_low_success,nested rank+structure+memory anti-memory rescue,0.627459276496721,0.1534090909090909,0.015151515151515194,10.0,2.0,0.03857421875
+nested_pair_rank_structure_reference_neighborhood_low_similarity_low_success,nested rank+structure+reference_neighborhood low-similarity rescue,0.627459276496721,0.1534090909090909,0.015151515151515194,10.0,2.0,0.03857421875
 geometry_filter_clash_only,non-learned geometry filter,0.6247091178337212,0.1458333333333333,0.007575757575757597,,,
 physics_score_balanced,hand-written physics score,0.6244975671673366,0.1401515151515151,0.00189393939393942,,,
-pair_rank_structure_antimemory_thr0.5,fixed-threshold paired rescue evidence,0.6329595938227205,0.1571969696969697,0.018939393939394006,11.0,1.0,0.00634765625
+pair_rank_structure_low_similarity_thr0.5,fixed-threshold paired rescue evidence,0.6329595938227205,0.1571969696969697,0.018939393939394006,11.0,1.0,0.00634765625

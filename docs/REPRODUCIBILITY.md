@@ -6,7 +6,7 @@
 pip install -r requirements.txt
 pip install -e .
 pytest
-python scripts/reproduce_kbs_artifacts.py
+python scripts/reproduce_jctc_results.py
 python scripts/verify_release.py
 ```
 
@@ -19,13 +19,12 @@ Expected outputs:
 
 ## What The Checks Cover
 
-- Unit tests for the memory-score utility.
+- Unit tests for the reference-neighborhood similarity utility.
 - SHA256 checksum verification for all included source tables.
 - Presence of the paper-facing main source tables.
-- Extraction of headline values from reliability, conformal, rescue, external-baseline, and statistical-correction tables.
+- Extraction of headline values from reliability, calibration-bound, rescue, physical-plausibility audit, and multiplicity-adjusted statistical tables.
 - Repository scan for local absolute paths, server addresses, private user folders, and oversized files.
 
 ## What Requires Full Experimental Resources
 
 Full retraining, full candidate-level reranking, docking/cofolding inference, and raw structural post-processing require public benchmark files and model outputs that are not redistributed in this lightweight repository.
-

@@ -7,6 +7,6 @@
 | PoseBench-702 | Chai-1 oracle rescue waterfall | oracle sensitivity | 702.0000 | 702.0000 | 702.0000 |  |  | oracle failure-attribution only; not a fair baseline row |
 | PoseBench-702 | MGD hybrid full-coverage selector | reliability selector | 702.0000 | 702.0000 | 702.0000 | 0.3533 | 4.7610 | full-coverage external reliability-selection evidence with fallback caveat |
 | PoseBench-702 | MGD controlled LODO candidate-stack selector | reliability selector | 702.0000 | 702.0000 | 693.0000 | 0.4487 | 2.7368 | full-denominator proposed candidate-stack selector audit with LODO boundary |
-| PoseBench-public-pool | MGD LODO anti-memory selector | reliability selector | 702.0000 | 489.0000 | 489.0000 | 0.4315 | 2.9325 | public-prediction-pool external selector claim |
+| PoseBench-public-pool | MGD LODO low-similarity selector | reliability selector | 702.0000 | 489.0000 | 489.0000 | 0.4315 | 2.9325 | public-prediction-pool external selector claim |
 | PoseX-CD-1312 | Vina/Meeko full | classical docking | 1312.0000 | 1312.0000 | 1311.0000 | 0.0069 | 6.1889 | cross-docking classical stress anchor |
 | PoseX-CD-1312 | DiffDock-L default s10/t20 | neural docking | 1312.0000 | 1312.0000 | 1312.0000 | 0.4550 | 2.2659 | cross-docking neural stress anchor |

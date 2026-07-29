@@ -1,4 +1,4 @@
-selector,method,memory_bin,n,success,median_rmsd,pb_valid_all,replacement_rate,eligible_rate
+selector,method,similarity_bin,n,success,median_rmsd,pb_valid_all,replacement_rate,eligible_rate
 geometry_filter_clash_only,all_methods,all,4727,0.6247091178337212,1.096609354019165,0.6981386565956299,0.09287074254283902,0.9767294266976941
 geometry_filter_clash_only,all_methods,high,2100,0.8914285714285715,0.4436071962118149,0.7697082557417753,0.09619047619047619,0.9676190476190476
 geometry_filter_clash_only,all_methods,low,528,0.14583333333333334,8.098996639251709,0.4709976798143852,0.13446969696969696,0.9886363636363636

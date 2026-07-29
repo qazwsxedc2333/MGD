@@ -1,11 +1,11 @@
-metric,previous,boosted,target_for_strong_tnnls,status,artifact
+metric,previous,boosted,target_for_strong_stability,status,artifact
 PoseBench-702 full success,0.4487,0.6125,>=0.47,exceeds,posebench_two_expert_defer_summary.csv
 PoseBench-702 median RMSD,2.7368,1.3676,<=2.50,exceeds,posebench_two_expert_defer_summary.csv
 PoseBench paired rescue/harm,old controlled selector,rescued 134 / harmed 19,rescued >> harmed,exceeds,posebench_two_expert_defer_paired.csv
 Joint ligand+protein OOD AUROC,0.7234 baseline; 0.7960 nested fusion,0.8503 (rank_logistic_stack),>=0.80,exceeds,runs_method_consensus_ood_boost_metrics.csv
-Low-memory OOD AUROC,0.7170 baseline; 0.7931 nested fusion,0.8325 (consensus_logistic_stack),>=0.80,exceeds,runs_method_consensus_ood_boost_metrics.csv
+Low-similarity OOD AUROC,0.7170 baseline; 0.7931 nested fusion,0.8325 (consensus_logistic_stack),>=0.80,exceeds,runs_method_consensus_ood_boost_metrics.csv
 Temporal OOD AUROC,0.9119 baseline; 0.9082 nested fusion,0.9123 (consensus_logistic_stack),>=0.90,meets,runs_method_consensus_ood_boost_metrics.csv
-Strict conformal upper risk,0.2007 upper at target 0.20,0.1916 upper; coverage 0.6973,<=0.195 upper,exceeds,strict_conformal_operating_points.csv
+Strict calibration_bound upper risk,0.2007 upper at target 0.20,0.1916 upper; coverage 0.6973,<=0.195 upper,exceeds,strict_calibration_bound_operating_points.csv
 PoseBench shortlist Hit@5,top-1 decision only,0.6823; best-RMSD median 1.0742,>=0.65,exceeds,posebench_tkde_topk_shortlist_summary.csv
 PoseBench shortlist Hit@10 / oracle capture,candidate oracle unavailable in top-1 table,0.6880; captures 0.9817 of oracle 0.7009,>=0.68 and >95% oracle capture,exceeds,posebench_tkde_topk_shortlist_summary.csv
 DockGen shortlist Hit@10 / oracle capture,DockGen top-1 0.4392,0.5344; captures 0.9902 of oracle 0.5397,show hard-split oracle closure,exceeds,posebench_tkde_topk_shortlist_by_dataset.csv

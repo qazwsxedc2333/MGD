@@ -1,0 +1,8 @@
+| evidence_type | statistical_control | manuscript_location |
+| --- | --- | --- |
+| failure-risk detector | grouped cross-validation; AUROC/AUPRC/Brier/ECE | main reliability table; supplement detector variants |
+| selective prediction | bootstrap confidence intervals over query groups | main reliability table; supplement selective table |
+| low-similarity rescue | paired rescued/harmed counts; exact binomial/McNemar tests; nested threshold freeze | main internal table; supplement rescue controls |
+| external selector | full denominator; paired rescued/harmed counts; selector-family negative controls | main external table; supplement selector-family tables |
+| cross-docking stress | separate PoseX-CD stress framing; oracle headroom and confidence-gate diagnostic | main PoseX paragraph; supplement MGD-lite table |
+| structural validity | PoseBusters-style validity flags; interaction-recovery audit; harmed-case disclosure | supplement structural case tables |

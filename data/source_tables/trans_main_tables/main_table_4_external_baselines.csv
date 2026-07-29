@@ -6,6 +6,6 @@ PoseBench-702,Chai-1 full receptor s5/t200,cofolding foundation model,702.0,702.
 PoseBench-702,Chai-1 oracle rescue waterfall,oracle sensitivity,702.0,702.0,702.0,,,oracle failure-attribution only; not a fair baseline row
 PoseBench-702,MGD hybrid full-coverage selector,reliability selector,702.0,702.0,702.0,0.3532763532763532,4.760998124643313,full-coverage external reliability-selection evidence with fallback caveat
 PoseBench-702,MGD controlled LODO candidate-stack selector,reliability selector,702.0,702.0,693.0,0.4487179487179487,2.7367842735992745,full-denominator proposed candidate-stack selector audit with LODO boundary
-PoseBench-public-pool,MGD LODO anti-memory selector,reliability selector,702.0,489.0,489.0,0.4314928425357873,2.9325211932007296,public-prediction-pool external selector claim
+PoseBench-public-pool,MGD LODO low-similarity selector,reliability selector,702.0,489.0,489.0,0.4314928425357873,2.9325211932007296,public-prediction-pool external selector claim
 PoseX-CD-1312,Vina/Meeko full,classical docking,1312.0,1312.0,1311.0,0.0068649885583524,6.188917188847873,cross-docking classical stress anchor
 PoseX-CD-1312,DiffDock-L default s10/t20,neural docking,1312.0,1312.0,1312.0,0.455030487804878,2.2658894464401955,cross-docking neural stress anchor

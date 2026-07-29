@@ -1,4 +1,4 @@
-| method | all_success | low_memory_success | mid_memory_success | high_memory_success | delta_all_vs_official | delta_low_vs_official | manuscript_use |
+| method | all_success | low_similarity_success | mid_similarity_success | high_similarity_success | delta_all_vs_official | delta_low_vs_official | manuscript_use |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Official | 0.6245 | 0.1383 | 0.4826 | 0.8886 | 0.0000 | 0.0000 | main baseline |
 | Oracle | 0.7142 | 0.2311 | 0.6103 | 0.9395 | 0.0897 | 0.0928 | headroom only, not a deployable method |

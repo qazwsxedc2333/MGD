@@ -1,4 +1,4 @@
-_group_id,memory_bin,ligand_novel,protein_novel,temporal_recent,temporal_2024,joint_low_ligand_protein_ood,joint_low_ligand_protein_temporal_ood,failure_label
+_group_id,similarity_bin,ligand_novel,protein_novel,temporal_recent,temporal_2024,joint_low_ligand_protein_ood,joint_low_ligand_protein_temporal_ood,failure_label
 af3|5s9l__1__1.A__1.H_1.I|1.H,high,True,False,False,False,False,False,0
 af3|5s9y__1__1.A__1.K|1.K,low,True,True,False,False,True,False,1
 af3|5s9z__1__1.A_1.B__1.R|1.R,mid,True,False,False,False,False,False,1

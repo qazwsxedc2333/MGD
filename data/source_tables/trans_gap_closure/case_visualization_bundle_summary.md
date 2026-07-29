@@ -1,4 +1,4 @@
-| _group_id | case_type | method | target | ligand_instance_chain | memory_score | rmsd_official | rmsd_selected | rmsd_gain | mapping_cost | all_unstructured_f1 | selected_geometry_plausible | strong_rescue_flag | needs_visual_review | case_dir |
+| _group_id | case_type | method | target | ligand_instance_chain | reference_neighborhood_similarity | rmsd_official | rmsd_selected | rmsd_gain | mapping_cost | all_unstructured_f1 | selected_geometry_plausible | strong_rescue_flag | needs_visual_review | case_dir |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | boltz2|8j7j__1__1.A_1.B__1.C|1.C | rescued | boltz2 | 8j7j__1__1.A_1.B__1.C | 1.C | 0.3410 | 8.2697 | 1.7804 | 6.4893 | 9.3073 | 0.8261 | True | True | True | results/figures/case_visualization_bundle/00_boltz2_8j7j__1__1.A_1.B__1.C_1.C |
 | boltz2|8g4a__1__1.A_1.B__1.C|1.C | rescued | boltz2 | 8g4a__1__1.A_1.B__1.C | 1.C | 0.2310 | 4.7718 | 0.3488 | 4.4230 | 0.9134 | 0.9091 | True | True | True | results/figures/case_visualization_bundle/01_boltz2_8g4a__1__1.A_1.B__1.C_1.C |
