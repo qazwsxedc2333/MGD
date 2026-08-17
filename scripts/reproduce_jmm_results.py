@@ -66,8 +66,8 @@ def copy_required_tables(tables: Path, out: Path) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def write_jctc_facing_tables(tables: Path, out: Path) -> pd.DataFrame:
-    out_dir = out / "jctc_tables"
+def write_jmm_facing_tables(tables: Path, out: Path) -> pd.DataFrame:
+    out_dir = out / "jmm_tables"
     out_dir.mkdir(parents=True, exist_ok=True)
     rows: list[dict] = []
 
@@ -106,7 +106,7 @@ def write_jctc_facing_tables(tables: Path, out: Path) -> pd.DataFrame:
     add_table5("Augmented pool", "Final two-expert fusion selector", 702, 702, stability.loc[("two_expert_defer", "old_controlled"), "selector_success"], 1.3676, "Final workflow")
 
     table5 = pd.DataFrame(rows)
-    table5.to_csv(out_dir / "table5_posebench702_external_top1.csv", index=False)
+    table5.to_csv(out_dir / "table_main_posebench702_external_top1.csv", index=False)
 
     summary = pd.read_csv(tables / "posebench_external" / "posebench_external_selection_summary.csv")
     table6_keep = {
@@ -119,7 +119,7 @@ def write_jctc_facing_tables(tables: Path, out: Path) -> pd.DataFrame:
     table6 = summary[summary["dataset"].eq("all") & summary["selector"].isin(table6_keep)].copy()
     table6["selector_label"] = table6["selector"].map(table6_keep)
     table6 = table6[["selector_label", "n_cases", "manifest_cases", "success", "pb_valid_all", "median_rmsd", "median_centroid_distance"]]
-    table6.to_csv(out_dir / "table6_public_pool_physical_plausibility.csv", index=False)
+    table6.to_csv(out_dir / "table_public_pool_physical_plausibility.csv", index=False)
 
     delta = pd.read_csv(tables / "posebench_external" / "posebench_external_selection_paired_delta_ci.csv")
     rescue = pd.read_csv(tables / "posebench_external" / "posebench_external_selection_paired_rescue.csv")
@@ -169,14 +169,14 @@ def write_jctc_facing_tables(tables: Path, out: Path) -> pd.DataFrame:
         },
     ]
     paired_df = pd.DataFrame(paired_rows)
-    paired_df.to_csv(out_dir / "table_s12_public_pool_paired_physics_increment.csv", index=False)
-    paired_df.to_csv(out_dir / "table6_public_pool_paired_increment.csv", index=False)
+    paired_df.to_csv(out_dir / "table_public_pool_paired_physics_increment.csv", index=False)
+    paired_df.to_csv(out_dir / "table_public_pool_paired_increment_alias.csv", index=False)
     return pd.DataFrame(
         [
-            {"table": "jctc_tables/table5_posebench702_external_top1.csv", "rows": len(table5), "columns": len(table5.columns)},
-            {"table": "jctc_tables/table6_public_pool_physical_plausibility.csv", "rows": len(table6), "columns": len(table6.columns)},
-            {"table": "jctc_tables/table_s12_public_pool_paired_physics_increment.csv", "rows": len(paired_rows), "columns": len(paired_rows[0])},
-            {"table": "jctc_tables/table6_public_pool_paired_increment.csv", "rows": len(paired_rows), "columns": len(paired_rows[0])},
+            {"table": "jmm_tables/table_main_posebench702_external_top1.csv", "rows": len(table5), "columns": len(table5.columns)},
+            {"table": "jmm_tables/table_public_pool_physical_plausibility.csv", "rows": len(table6), "columns": len(table6.columns)},
+            {"table": "jmm_tables/table_public_pool_paired_physics_increment.csv", "rows": len(paired_rows), "columns": len(paired_rows[0])},
+            {"table": "jmm_tables/table_public_pool_paired_increment_alias.csv", "rows": len(paired_rows), "columns": len(paired_rows[0])},
         ]
     )
 
@@ -247,10 +247,10 @@ def main() -> None:
     manifest_df = verify_manifest(args.tables)
     inventory = write_inventory(manifest_df, args.out)
     copied = copy_required_tables(args.tables, args.out)
-    jctc_tables = write_jctc_facing_tables(args.tables, args.out)
+    jmm_tables = write_jmm_facing_tables(args.tables, args.out)
     metrics = build_metrics_digest(args.tables)
     copied.to_csv(args.out / "required_table_status.csv", index=False)
-    jctc_tables.to_csv(args.out / "jctc_table_status.csv", index=False)
+    jmm_tables.to_csv(args.out / "jmm_table_status.csv", index=False)
     metrics.to_csv(args.out / "key_metrics.csv", index=False)
 
     summary = [
@@ -259,7 +259,7 @@ def main() -> None:
         f"Included source tables: {len(inventory)}",
         f"Included source-table size: {inventory['mb'].sum():.2f} MB",
         f"Required manuscript-facing tables copied: {len(copied)}",
-        f"JCTC-facing tables exported: {len(jctc_tables)}",
+        f"JMM-facing tables exported: {len(jmm_tables)}",
         f"Key metric rows exported: {len(metrics)}",
         "",
         "All included source-table checksums matched `SOURCE_TABLES_MANIFEST.csv`.",

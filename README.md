@@ -1,6 +1,6 @@
 # MemoryGuard-Dock
 
-This repository provides the reproducibility package for **"Availability-Aware Rescoring of Protein-Ligand Pose Ensembles."** It contains compact source tables, reference-neighborhood similarity utilities, selector controls, physical-plausibility audits, and scripts for regenerating the manuscript-level results.
+This repository provides the reproducibility package for **"Availability-Aware Rescoring of Heterogeneous Protein-Ligand Pose Ensembles."** It contains compact source tables, reference-neighborhood similarity utilities, selector controls, structural-validity audits, interaction-recovery summaries, and scripts for regenerating the manuscript-level results.
 
 ## What Is Included
 
@@ -19,7 +19,7 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 pip install -e .
 pytest
-python scripts/reproduce_jctc_results.py
+python scripts/reproduce_jmm_results.py
 python scripts/plot_verification_figures.py
 python scripts/verify_release.py
 ```
@@ -27,24 +27,23 @@ python scripts/verify_release.py
 The reproduction script writes compact regenerated artifacts to `outputs/reproduced`. It verifies table checksums, exports the paper-facing main tables, and builds a small metrics digest from the included source tables.
 The verification-figure script regenerates compact audit plots from the same source tables; full-resolution manuscript figures are preserved in the manuscript build directory.
 
-## JCTC Manuscript Outputs
+## JMM Manuscript Outputs
 
 Use the following commands to regenerate the manuscript-facing audit artifacts:
 
 ```bash
-python scripts/reproduce_jctc_results.py
+python scripts/reproduce_jmm_results.py
 python scripts/plot_verification_figures.py
 ```
 
 The first command exports:
 
-- `outputs/reproduced/jctc_tables/table5_posebench702_external_top1.csv` for the main Table 5 / SI Table S9 PoseBench-702 denominator audit.
-- `outputs/reproduced/jctc_tables/table6_public_pool_physical_plausibility.csv` for the main Table 6 public-pool physical-plausibility audit.
-- `outputs/reproduced/jctc_tables/table_s12_public_pool_paired_physics_increment.csv` for SI Table S12, the Run-prior versus Prior+physics paired uncertainty table.
-- `outputs/reproduced/jctc_tables/table6_public_pool_paired_increment.csv`, a backward-compatible alias of the SI Table S12 paired-increment export.
-- `outputs/reproduced/main_tables/*.csv` for the SI reliability, rescue, external-denominator, and statistical-control source tables.
+- `outputs/reproduced/jmm_tables/table_main_posebench702_external_top1.csv` for the PoseBench-derived denominator and top-1 audit.
+- `outputs/reproduced/jmm_tables/table_public_pool_physical_plausibility.csv` for the public-pool structural-validity audit.
+- `outputs/reproduced/jmm_tables/table_public_pool_paired_physics_increment.csv` for the paired Run-prior versus prior+physics uncertainty export retained from the frozen source tables.
+- `outputs/reproduced/main_tables/*.csv` for compact reliability, rescue, external-denominator, and statistical-control source tables.
 
-The second command exports `outputs/reproduced/verification_figures/verification_fig5_public_pool_physical_audit.pdf`, a compact Figure 5-style verification plot.
+The second command exports `outputs/reproduced/verification_figures/verification_fig5_public_pool_physical_audit.pdf`, a compact verification plot for the structural-validity audit.
 
 ## Data Policy
 
