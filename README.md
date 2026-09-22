@@ -19,7 +19,7 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 pip install -e .
 pytest
-python scripts/reproduce_jmm_results.py
+python scripts/reproduce_manuscript_results.py
 python scripts/plot_verification_figures.py
 python scripts/verify_release.py
 ```
@@ -27,20 +27,20 @@ python scripts/verify_release.py
 The reproduction script writes compact regenerated artifacts to `outputs/reproduced`. It verifies table checksums, exports the paper-facing main tables, and builds a small metrics digest from the included source tables.
 The verification-figure script regenerates compact audit plots from the same source tables; full-resolution manuscript figures are preserved in the manuscript build directory.
 
-## JMM Manuscript Outputs
+## Manuscript Outputs
 
 Use the following commands to regenerate the manuscript-facing audit artifacts:
 
 ```bash
-python scripts/reproduce_jmm_results.py
+python scripts/reproduce_manuscript_results.py
 python scripts/plot_verification_figures.py
 ```
 
 The first command exports:
 
-- `outputs/reproduced/jmm_tables/table_main_posebench702_external_top1.csv` for the PoseBench-derived denominator and top-1 audit.
-- `outputs/reproduced/jmm_tables/table_public_pool_physical_plausibility.csv` for the public-pool structural-validity audit.
-- `outputs/reproduced/jmm_tables/table_public_pool_paired_physics_increment.csv` for the paired Run-prior versus prior+physics uncertainty export retained from the frozen source tables.
+- `outputs/reproduced/manuscript_tables/table_main_posebench702_external_top1.csv` for the PoseBench-derived denominator and top-1 audit.
+- `outputs/reproduced/manuscript_tables/table_public_pool_physical_plausibility.csv` for the public-pool structural-validity audit.
+- `outputs/reproduced/manuscript_tables/table_public_pool_paired_physics_increment.csv` for the paired Run-prior versus prior+physics uncertainty export retained from the archived source tables.
 - `outputs/reproduced/main_tables/*.csv` for compact reliability, rescue, external-denominator, and statistical-control source tables.
 
 The second command exports `outputs/reproduced/verification_figures/verification_fig5_public_pool_physical_audit.pdf`, a compact verification plot for the structural-validity audit.

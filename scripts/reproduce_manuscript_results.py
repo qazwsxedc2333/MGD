@@ -66,8 +66,8 @@ def copy_required_tables(tables: Path, out: Path) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def write_jmm_facing_tables(tables: Path, out: Path) -> pd.DataFrame:
-    out_dir = out / "jmm_tables"
+def write_manuscript_tables(tables: Path, out: Path) -> pd.DataFrame:
+    out_dir = out / "manuscript_tables"
     out_dir.mkdir(parents=True, exist_ok=True)
     rows: list[dict] = []
 
@@ -173,10 +173,10 @@ def write_jmm_facing_tables(tables: Path, out: Path) -> pd.DataFrame:
     paired_df.to_csv(out_dir / "table_public_pool_paired_increment_alias.csv", index=False)
     return pd.DataFrame(
         [
-            {"table": "jmm_tables/table_main_posebench702_external_top1.csv", "rows": len(table5), "columns": len(table5.columns)},
-            {"table": "jmm_tables/table_public_pool_physical_plausibility.csv", "rows": len(table6), "columns": len(table6.columns)},
-            {"table": "jmm_tables/table_public_pool_paired_physics_increment.csv", "rows": len(paired_rows), "columns": len(paired_rows[0])},
-            {"table": "jmm_tables/table_public_pool_paired_increment_alias.csv", "rows": len(paired_rows), "columns": len(paired_rows[0])},
+            {"table": "manuscript_tables/table_main_posebench702_external_top1.csv", "rows": len(table5), "columns": len(table5.columns)},
+            {"table": "manuscript_tables/table_public_pool_physical_plausibility.csv", "rows": len(table6), "columns": len(table6.columns)},
+            {"table": "manuscript_tables/table_public_pool_paired_physics_increment.csv", "rows": len(paired_rows), "columns": len(paired_rows[0])},
+            {"table": "manuscript_tables/table_public_pool_paired_increment_alias.csv", "rows": len(paired_rows), "columns": len(paired_rows[0])},
         ]
     )
 
@@ -247,10 +247,10 @@ def main() -> None:
     manifest_df = verify_manifest(args.tables)
     inventory = write_inventory(manifest_df, args.out)
     copied = copy_required_tables(args.tables, args.out)
-    jmm_tables = write_jmm_facing_tables(args.tables, args.out)
+    manuscript_tables = write_manuscript_tables(args.tables, args.out)
     metrics = build_metrics_digest(args.tables)
     copied.to_csv(args.out / "required_table_status.csv", index=False)
-    jmm_tables.to_csv(args.out / "jmm_table_status.csv", index=False)
+    manuscript_tables.to_csv(args.out / "manuscript_table_status.csv", index=False)
     metrics.to_csv(args.out / "key_metrics.csv", index=False)
 
     summary = [
@@ -259,7 +259,7 @@ def main() -> None:
         f"Included source tables: {len(inventory)}",
         f"Included source-table size: {inventory['mb'].sum():.2f} MB",
         f"Required manuscript-facing tables copied: {len(copied)}",
-        f"JMM-facing tables exported: {len(jmm_tables)}",
+        f"Manuscript-facing tables exported: {len(manuscript_tables)}",
         f"Key metric rows exported: {len(metrics)}",
         "",
         "All included source-table checksums matched `SOURCE_TABLES_MANIFEST.csv`.",
