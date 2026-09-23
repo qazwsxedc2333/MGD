@@ -1,0 +1,9 @@
+source_family,included_frozen_source_rows_configurations,n_configurations,n_candidate_records,representative_row,planned_n,parsed_n,parsed_coverage,top_candidate_success,source_family_oracle_success
+Boltz-family,"Boltz-1 full receptor r1/s20; Boltz-2 full receptor r1/s20; public Boltz full/SS relaxed/unrelaxed reps 1-3 where available",14,6218,public_boltz_ss_relaxedFalse_rep1,702,409,0.5826,0.3191,0.3974
+Chai-family,"Chai-1 full receptor s5/t200; public Chai relaxed/unrelaxed reps 1-3",7,3522,Chai-1 full receptor s5/t200,702,635,0.9046,0.3818,0.4444
+DiffDock-family,"DiffDock-L default s10/t20; public DiffDock relaxed/unrelaxed reps 1-3",7,3190,DiffDock-L default s10/t20,702,692,0.9858,0.3818,0.4302
+Vina/Meeko,"Vina/Meeko full; public Vina relaxed/unrelaxed reps 1-3",7,2048,Vina/Meeko full,702,693,0.9872,0.0199,0.0456
+Protenix,Protenix base full receptor c1/s20/n1,1,702,Protenix base full receptor c1/s20/n1,702,678,0.9658,0.0000,0.0000
+NeuralPlexer,"public NeuralPlexer relaxed/unrelaxed reps 1-3",6,2858,public_neuralplexer_relaxedFalse_rep2,702,476,0.6781,0.1254,0.1838
+DynamicBind,public DynamicBind relaxed/unrelaxed rep -1,2,927,public_dynamicbind_relaxedFalse_rep-1,702,463,0.6595,0.1225,0.1296
+RFAA,public RFAA relaxed/unrelaxed rep 1,2,706,public_rfaa_relaxedFalse_rep1,702,353,0.5028,0.1353,0.1467

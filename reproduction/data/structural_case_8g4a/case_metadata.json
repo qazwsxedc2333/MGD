@@ -1,0 +1,20 @@
+{
+  "_group_id": "boltz2|8g4a__1__1.A_1.B__1.C|1.C",
+  "all_unstructured_f1": 0.9090909090909092,
+  "case_type": "rescued",
+  "ligand_instance_chain": "1.C",
+  "mapping_cost": 0.9133587260122542,
+  "memory_score": 0.2310147037633507,
+  "method": "boltz2",
+  "native_ligand_sdf": "native_ligand.sdf",
+  "native_receptor_cif": "native_receptor.cif",
+  "needs_visual_review": true,
+  "official_cif": "official_top.cif",
+  "rmsd_gain": 4.422990381717682,
+  "rmsd_official": 4.771772861480713,
+  "rmsd_selected": 0.348782479763031,
+  "selected_cif": "memoryguard_selected.cif",
+  "selected_geometry_plausible": true,
+  "strong_rescue_flag": true,
+  "target": "8g4a__1__1.A_1.B__1.C"
+}

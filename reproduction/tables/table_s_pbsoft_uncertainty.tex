@@ -1,0 +1,62 @@
+\begin{table}[!ht]
+\centering
+\caption{Paired uncertainty and transition accounting for the clean-feature PB-soft analysis. Exact sign tests use discordant pairs only.}
+\label{tab:s_pbsoft_uncertainty}
+\scriptsize
+\textbf{Panel A. Paired endpoint contrasts.}
+
+\vspace{2pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrrrr}
+\toprule
+Contrast & Metric & $\Delta$ & 95\% CI & Wins & Losses & Ties & Discordant & Exact $P$\\
+\midrule
+PB-soft vs clean anchor & top-1 success & 14.7 & [11.7, 17.7] & 116 & 13 & 573 & 129 & $7.77\times10^{-22}$\\
+PB-soft vs clean anchor & PoseBusters valid-all & $-1.4$ & [$-4.1$, 1.3] & 43 & 53 & 606 & 96 & 0.358\\
+PB-soft vs raw selector & top-1 success & $-0.14$ & [$-0.85$, 0.57] & 3 & 4 & 695 & 7 & 1.000\\
+PB-soft vs raw selector & PoseBusters valid-all & 11.1 & [8.8, 13.5] & 78 & 0 & 624 & 78 & $6.62\times10^{-24}$\\
+Raw selector vs clean anchor & top-1 success & 14.8 & [11.8, 17.8] & 118 & 14 & 570 & 132 & $1.14\times10^{-21}$\\
+Raw selector vs clean anchor & PoseBusters valid-all & $-12.5$ & [$-15.5$, $-9.5$] & 19 & 107 & 576 & 126 & $4.52\times10^{-16}$\\
+\bottomrule
+\end{tabular}%
+}
+
+\vspace{6pt}
+\begin{minipage}[t]{0.47\textwidth}
+\centering
+\textbf{Panel B. PoseBusters-validity transitions ($N=702$).}
+
+\vspace{2pt}
+\begin{tabular}{llr}
+\toprule
+Raw PB & PB-soft PB & $N$\\
+\midrule
+valid & valid & 199\\
+valid & invalid & 0\\
+invalid & valid & 78\\
+invalid & invalid & 425\\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+\centering
+\textbf{Panel C. RMSD transitions among the 78 invalid-to-valid changes.}
+
+\vspace{2pt}
+\begin{tabular}{llr}
+\toprule
+Raw RMSD & PB-soft RMSD & $N$\\
+\midrule
+success & success & 50\\
+failure & failure & 21\\
+failure & success (rescue) & 3\\
+success & failure (harm) & 4\\
+\bottomrule
+\end{tabular}
+\end{minipage}
+
+\vspace{3pt}
+\raggedright\footnotesize
+The 11.1-percentage-point valid-all gain is fully accounted for by the 78 raw-invalid to PB-soft-valid transitions. The independently evaluated RMSD endpoint changes in only seven cases, with three rescues and four harms.
+\end{table}

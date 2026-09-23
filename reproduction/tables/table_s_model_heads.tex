@@ -1,0 +1,17 @@
+\begin{table}[!ht]
+\centering
+\caption{Risk-head and PoseBusters-soft implementation summary.}
+\label{tab:s_model_heads}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.16\textwidth}>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.30\textwidth}>{\raggedright\arraybackslash}p{0.20\textwidth}}
+\toprule
+Component & Model & Training target and inputs & Validation use \\
+\midrule
+Failure-risk head $r(q,c)$ & scikit-learn histogram gradient-boosting probability classifier & RMSD success/failure at 2~\AA{} using the clean or full evidence profile, depending on the audit & Fold-local fitting with class-balanced weights; outer held-out labels not used for selection \\
+Candidate-intrinsic validity descriptors & direct generated-pose structural descriptors, including PoseBusters valid-all and individual check indicators & Candidate geometry and stereochemical validity computed without reference RMSD & May enter the raw risk head as selection-time descriptors; not interpreted as RMSD labels \\
+PB-soft penalty $v_{\mathrm{PB}}(q,c)$ & binary PoseBusters valid-all indicator in $\{0,1\}$ & $v_{\mathrm{PB}}=1$ if all PoseBusters checks pass; $0$ otherwise & Adds the explicit validation-fixed term $\lambda[1-v_{\mathrm{PB}}]$ after raw risk scoring \\
+Calibration-bound triage & threshold on predicted failure risk & accepted-set empirical failure rate from the calibration-audit evidence profile & Threshold fixed on calibration split; risk upper bound computed by one-sided Clopper--Pearson interval \\
+\bottomrule
+\end{tabular}
+\end{table}

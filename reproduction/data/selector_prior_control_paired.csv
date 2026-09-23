@@ -1,0 +1,4 @@
+selector,baseline,n_cases,selector_success,baseline_success,delta_success,rescued,harmed,net_rescue,binomial_p_greater
+lodo_hgb_validity_aware,DiffDock-L default s10/t20,702,0.452991452991453,0.3817663817663818,0.0712250712250712,77,27,50,4.850865402264232e-07
+lodo_hgb_validity_aware,Chai-1 full receptor s5/t200,702,0.452991452991453,0.3817663817663818,0.0712250712250712,85,35,50,2.866484951425488e-06
+lodo_hgb_validity_aware,lodo_method_prior_recomputed,702,0.452991452991453,0.3561253561253561,0.0968660968660968,86,18,68,4.109959024468529e-12

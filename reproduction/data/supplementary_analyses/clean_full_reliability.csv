@@ -1,0 +1,3 @@
+profile,n,auroc,brier,ece_10bin,outcome,matched_protocol
+Clean feature,4727,0.8748538112141685,0.1424283352211859,0.0503680469204047,official-top failure (RMSD > 2 A),"same 5-fold grouped split, HGB, preprocessing, and seed"
+Full evidence,4727,0.9030705370433988,0.1250274810322643,0.0549695077189053,official-top failure (RMSD > 2 A),"same 5-fold grouped split, HGB, preprocessing, and seed"

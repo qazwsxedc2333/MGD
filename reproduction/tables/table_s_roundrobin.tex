@@ -1,0 +1,48 @@
+\begin{table}[!ht]
+\centering
+\caption{Rank-only round-robin oracle sensitivities. Panel A retains the prespecified fixed family order; Panel B reports the 100-repeat random-family-order audit using the endpoint-consistent oracle.}
+\label{tab:s_roundrobin}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\textbf{Panel A. Prespecified fixed-family-order sensitivity.}
+
+\vspace{2pt}
+\begin{tabular}{llrrrrr}
+\toprule
+$K$ & Within-family comparator & Cases & Cross-family oracle & Within-family oracle & $\Delta$ oracle & 95\% CI \\
+\midrule
+2 & Boltz-family & 702 & 0.4858 & 0.3519 & 0.1339 & [0.1040, 0.1652] \\
+2 & Chai-1 & 474 & 0.5612 & 0.3692 & 0.1920 & [0.1561, 0.2278] \\
+2 & DiffDock-L & 419 & 0.5609 & 0.4105 & 0.1504 & [0.0955, 0.2053] \\
+4 & Boltz-family & 412 & 0.6748 & 0.6286 & 0.0461 & [0.0121, 0.0801] \\
+4 & Chai-1 & 470 & 0.6489 & 0.3830 & 0.2660 & [0.2255, 0.3085] \\
+4 & DiffDock-L & 418 & 0.6483 & 0.4330 & 0.2153 & [0.1699, 0.2632] \\
+8 & Boltz-family & 412 & 0.7233 & 0.6723 & 0.0510 & [0.0146, 0.0850] \\
+\bottomrule
+\end{tabular}
+
+\vspace{5pt}
+
+\textbf{Panel B. Random-family-order sensitivity (100 repeats).}
+
+\vspace{2pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrr}
+\toprule
+$K$ & Within-family comparator & $N$ & Random-RR oracle mean & Within oracle & Mean $\Delta$ & 2.5--97.5\% & Positive repeats\\
+\midrule
+2 & Boltz-family & 702 & 32.49 & 32.05 & 0.44 & [$-2.14$, 2.93] & 63/100\\
+2 & Chai-1 & 474 & 36.61 & 42.19 & $-5.58$ & [$-8.76$, $-2.11$] & 1/100\\
+2 & DiffDock-L & 419 & 37.21 & 40.10 & $-2.88$ & [$-6.46$, 1.21] & 5/100\\
+4 & Boltz-family & 412 & 57.08 & 62.86 & $-5.79$ & [$-8.62$, $-2.54$] & 0/100\\
+4 & Chai-1 & 470 & 53.85 & 45.11 & 8.75 & [5.85, 12.03] & 100/100\\
+4 & DiffDock-L & 418 & 54.04 & 48.80 & 5.23 & [1.90, 8.75] & 100/100\\
+8 & Boltz-family & 412 & 72.26 & 66.02 & 6.24 & [5.83, 6.55] & 100/100\\
+\bottomrule
+\end{tabular}%
+}
+
+\vspace{2pt}
+\raggedright\footnotesize
+Both panels remove the training-fold source prior, confidence term, PoseBusters-validity term, and geometry/status terms from candidate construction. Panel A uses the fixed order Boltz-family $\rightarrow$ Chai-family $\rightarrow$ DiffDock-family $\rightarrow$ DynamicBind $\rightarrow$ NeuralPlexer $\rightarrow$ Protenix $\rightarrow$ RFAA $\rightarrow$ Vina/Meeko and stable within-family candidate order. Panel B randomizes the eight-family order in each repeat while preserving that within-family order. The randomized results do not support a universal advantage at every small $K$: positive gains persist for Chai-1 and DiffDock-L at $K=4$ and Boltz-family at $K=8$, whereas several $K=2$ comparisons and Boltz-family at $K=4$ attenuate or reverse.
+\end{table}

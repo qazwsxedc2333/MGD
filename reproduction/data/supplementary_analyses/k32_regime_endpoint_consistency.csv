@@ -1,0 +1,3 @@
+definition,n,successful,discrimination_limited,generation_limited,oracle_success_count,oracle_success_rate,successful_with_oracle_failure
+original,702,424,64,214,487,0.6937321937321937,1
+endpoint_consistent,702,424,64,214,488,0.6951566951566952,0

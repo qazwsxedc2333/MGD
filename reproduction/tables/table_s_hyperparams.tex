@@ -1,0 +1,16 @@
+\begin{table}[!ht]
+\centering
+\caption{Fixed model and safeguard configuration used for the reported analyses.}
+\label{tab:s_hyperparams}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.19\textwidth}>{\raggedright\arraybackslash}p{0.28\textwidth}>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}p{0.21\textwidth}}
+\toprule
+Component & Fixed configuration & Selection criterion & Random seed \\
+\midrule
+Held-out clean risk head & HistGradientBoostingClassifier; max\_iter=160; learning\_rate=0.045; max\_leaf\_nodes=17; max\_depth=None; min\_samples\_leaf=20; l2\_regularization=0.05; early\_stopping=auto & Fixed before outer evaluation; fold-local preprocessing; no outer held-out RMSD labels used & 20260808 \\
+Calibration-audit failure detector & HistGradientBoostingClassifier; max\_iter=300; learning\_rate=0.03; max\_leaf\_nodes=31; max\_depth=None; min\_samples\_leaf=20; l2\_regularization=0.08; early\_stopping=auto & Grouped internal benchmark audit with class-balanced sample weights & 20260726 \\
+PB-soft safeguard & No separate histogram-gradient-boosting classifier; binary candidate-level $v_{\mathrm{PB}}\in\{0,1\}$ enters as $r+\lambda(1-v_{\mathrm{PB}})$; $\lambda\in\{0,0.1,0.2,0.3,0.5\}$ & Fold-specific $\lambda$ chosen only from inner out-of-fold validation trace; selected values were 0.1, 0.2, and 0.1 across the three outer folds & 20260808 \\
+\bottomrule
+\end{tabular}
+\end{table}

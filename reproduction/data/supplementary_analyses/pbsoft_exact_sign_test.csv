@@ -1,0 +1,2 @@
+n,raw_success,pbsoft_success,delta,ci_low,ci_high,wins,losses,ties,n_discordant,sign_test_p,raw_valid_all,pbsoft_valid_all,net_validity_gain,pose_changed_n,invalid_to_valid_n,valid_to_invalid_n
+702,0.6011396011396012,0.5997150997150997,-0.0014245014245014246,-0.008547008547008548,0.005698005698005698,3,4,695,7,1.0,0.28347578347578345,0.3945868945868946,0.11111111111111116,78,78,0

@@ -45,6 +45,16 @@ The first command exports:
 
 The second command exports `outputs/reproduced/verification_figures/verification_fig5_public_pool_physical_audit.pdf`, a compact verification plot for the structural-validity audit.
 
+## Manuscript reproduction package
+
+The complete compact reproduction package for the current manuscript is under
+[`reproduction/`](reproduction/README.md). It contains endpoint-consistent
+per-case results, supplementary sensitivity analyses, exact split assignments,
+interaction-audit outputs, manuscript-generation scripts, supplementary table
+sources, final figures, and a SHA-256 file manifest. Larger upstream candidate
+pools are not duplicated; their public sources and checksum records remain
+documented under `data/source_tables/`.
+
 ## Data Policy
 
 Raw structural files, public benchmark archives, model weights, and large candidate-level prediction tables are not redistributed here. They originate from public datasets or public model outputs described in `docs/DATASETS.md` and in the manuscript. The GitHub release keeps the lightweight derived source tables needed to audit and regenerate the reported manuscript-level values.

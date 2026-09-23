@@ -1,0 +1,8 @@
+k,same_generator,n_exact_matched_cases,cross_oracle_success,same_oracle_success,oracle_delta,ci_low,ci_high,definition
+2,Boltz,702,0.485755,0.351852,0.133903,0.103989,0.165242,fixed source order plus stable within-source order; oracle only
+2,Chai,474,0.561181,0.369198,0.191983,0.156118,0.227848,fixed source order plus stable within-source order; oracle only
+2,DiffDock,419,0.560859,0.410501,0.150358,0.095465,0.205251,fixed source order plus stable within-source order; oracle only
+4,Boltz,412,0.674757,0.628641,0.046117,0.012136,0.080097,fixed source order plus stable within-source order; oracle only
+4,Chai,470,0.648936,0.382979,0.265957,0.225532,0.308511,fixed source order plus stable within-source order; oracle only
+4,DiffDock,418,0.648325,0.433014,0.215311,0.169856,0.263158,fixed source order plus stable within-source order; oracle only
+8,Boltz,412,0.723301,0.672330,0.050971,0.014563,0.084951,fixed source order plus stable within-source order; oracle only

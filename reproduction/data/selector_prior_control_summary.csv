@@ -1,0 +1,5 @@
+selector,n_cases,ok_cases,ok_coverage,success_2a,median_rmsd,selected_methods
+DiffDock-L default s10/t20,702,692,0.9857549857549858,0.3817663817663818,3.4532441501892936,DiffDock-L default s10/t20:702
+Chai-1 full receptor s5/t200,702,635,0.9045584045584044,0.3817663817663818,2.868123584547368,Chai-1 full receptor s5/t200:702
+lodo_method_prior_recomputed,702,701,0.9985754985754984,0.3561253561253561,3.95667554863299,DiffDock-L default s10/t20:618;Chai-1 full receptor s5/t200:75;Vina/Meeko full:9
+lodo_hgb_validity_aware,702,701,0.9985754985754984,0.452991452991453,2.633867714968137,DiffDock-L default s10/t20:351;Chai-1 full receptor s5/t200:300;Vina/Meeko full:51

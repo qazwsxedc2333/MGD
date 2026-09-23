@@ -1,0 +1,22 @@
+\begin{table}[!ht]
+\centering
+\caption{Representative structural cases used for molecular interpretation. Interaction-F1 is computed against the native interaction fingerprint where available.}
+\label{tab:s_case_examples}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllllrrrrr}
+\toprule
+Role & Case & Ligand/context & Method & Regime & Official RMSD & Selected RMSD & RMSD gain & Official int.-F1 & Selected int.-F1 \\
+\midrule
+Rescue & 8j7j\_\_1\_\_1.A\_1.B\_\_1.C & 1.C & boltz2 & rescued & 8.27 & 1.78 & 6.49 & 0.800 & 0.826 \\
+Rescue & 8g4a\_\_1\_\_1.A\_1.B\_\_1.C & 1.C & boltz2 & rescued & 4.77 & 0.35 & 4.42 & 0.737 & 0.909 \\
+Rescue & 8oqt\_\_1\_\_1.D\_\_1.KA\_1.LA & 1.LA & af3 & rescued & 5.48 & 1.20 & 4.27 & 0.759 & 0.833 \\
+Rescue & 8oqt\_\_1\_\_1.D\_\_1.KA\_1.LA & 1.KA & af3 & rescued & 5.48 & 1.20 & 4.27 & 0.529 & 0.552 \\
+Boundary & 8ivt\_\_1\_\_1.A\_1.B\_\_1.F & 1.F & chai & harmed & 1.69 & 4.85 & -3.16 & 0.851 & 0.667 \\
+Generation-limited & 2gf3\_2\_FOA\_1 & FOA & DiffDock/Vina & generation-limited & 18.21 & 11.98 oracle & -- & -- & -- \\
+PB-soft safeguard & 7B94\_ANP & ANP & DiffDock/Boltz-SS & validity-limited & 1.31 raw & 0.69 PB-soft & 0.62 & -- & -- \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

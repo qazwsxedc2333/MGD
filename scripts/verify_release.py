@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_MAX_MB = 5.0
+DEFAULT_MAX_MB = 10.0
 
 
 TEXT_EXT = {

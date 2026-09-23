@@ -1,0 +1,5 @@
+accuracy_transition,n,fraction_of_changed
+fail -> fail,21,0.2692307692307692
+fail -> success,3,0.038461538461538464
+success -> fail,4,0.05128205128205128
+success -> success,50,0.6410256410256411

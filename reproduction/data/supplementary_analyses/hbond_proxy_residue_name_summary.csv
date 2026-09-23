@@ -1,0 +1,2 @@
+metric,n,mean,median,min,q1,q3,iqr,max,max_case,leave_max_out_mean
+unstructured H-bond proxy F1 (same metric as manuscript/Fig. 8),11,0.11404252313343223,0.0,-0.13888888888888895,-0.06439393939393934,0.0,0.06439393939393934,1.0,af3|8oqt__1__1.D__1.KA_1.LA|1.LA,0.025446775446775448

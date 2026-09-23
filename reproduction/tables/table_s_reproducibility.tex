@@ -1,0 +1,71 @@
+\clearpage
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.08}
+\setlength\LTleft{0pt}
+\setlength\LTright{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.17\linewidth}>{\raggedright\arraybackslash}p{0.43\linewidth}>{\raggedright\arraybackslash}p{0.33\linewidth}@{}}
+\caption{Computational environment, endpoint provenance, and reproduction resources for manuscript-level analyses.\label{tab:s_reproducibility}}\\
+\multicolumn{3}{c}{\textbf{Panel A. Software, endpoint provenance, and deterministic settings.}}\\[3pt]
+\toprule
+Component & Version/status & Use\\
+\midrule
+\endfirsthead
+\multicolumn{3}{c}{\tablename\ \thetable\ (continued)}\\
+\toprule
+Component & Version/status & Use\\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Python & 3.13.5 & Manuscript figure/table regeneration\\
+NumPy & 2.1.3 & Numerical summaries and bootstrap-ready tables\\
+pandas & 2.2.3 & CSV table joins and per-case summaries\\
+matplotlib & 3.10.0 & Publication figures\\
+scikit-learn & 1.6.1 & HistGradientBoostingClassifier risk heads\\
+RDKit & 2025.09.1 & Ligand descriptors and structure handling where available\\
+SciPy & 1.15.3 & Atom-pair distances in the interaction audit\\
+Biopython & Version not recorded in the archived source metadata & mmCIF parsing in the interaction audit\\
+PoseBusters & Precomputed endpoint tables; PoseBusters 0.6.5 in the source environment; not rerun during manuscript regeneration & Candidate structural-validity endpoint\\
+RMSD implementation & Symmetry-corrected values from precomputed PoseBench/PoseBusters-style source tables & Pose-success endpoint and candidate-pool oracle definition\\
+Random seeds & Model seeds in Table S4; primary figure/bootstrap seed 20260808; supplementary-analysis seed 20260921; figure-jitter seed 20260815; deterministic salts used where specified & Deterministic manuscript-level analyses\\
+PyMOL & 3.1.0 & Molecular case visualization\\
+\end{longtable}
+
+\vspace{4pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.20\linewidth}>{\raggedright\arraybackslash}p{0.49\linewidth}>{\raggedright\arraybackslash}p{0.24\linewidth}@{}}
+\multicolumn{3}{c}{\textbf{Panel B. Reproduction resources and their availability.}}\\[3pt]
+\toprule
+Asset & Public access and file & Reproduces/supports\\
+\midrule
+\endfirsthead
+\multicolumn{3}{c}{\textbf{Panel B. Reproduction resources and their availability (continued).}}\\[3pt]
+\toprule
+Asset & Public access and file & Reproduces/supports\\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+Full generator-output pools & Cited benchmark/model sources; checksums and exclusions: \nolinkurl{data/source_tables/EXCLUDED_LARGE_TABLES.md}. & Original candidate provenance; large upstream assets are not redistributed\\
+Compact source manifest & Versioned repository: \nolinkurl{data/source_tables/SOURCE_TABLES_MANIFEST.csv}. & Derived source-table inventory\\
+Reference-neighborhood feature source & Versioned repository: \nolinkurl{data/source_tables/posebench_external/posebench_external_case_manifest.csv}. & Training-neighborhood similarity fields in Table S1\\
+PB-soft outer cases and $\lambda$ trace & Versioned repository: \nolinkurl{reproduction/data/pbsoft_nested_validation_per_case.csv} and \nolinkurl{reproduction/data/pbsoft_lambda_selection_trace.csv}. & PB-soft outer evaluations and validation-fixed $\lambda$ values\\
+Exact train/validation/test assignments & Versioned repository: \nolinkurl{reproduction/data/supplementary_analyses/exact_train_validation_test_split_assignments.csv}; generator: \nolinkurl{reproduction/scripts/build_split_assignment_manifest.py}. & Clean risk head, grouped reliability audit, and PB-soft nested validation\\
+PoseBusters source and analysis tables & Versioned repository: \nolinkurl{data/source_tables/posebusters_recheck/} and \nolinkurl{reproduction/data/}. & Valid-all endpoint and PB-soft audit\\
+Exact-$K$ per-case and paired results & Versioned repository: \nolinkurl{reproduction/data/supplementary_analyses/candidate_diversity_per_case_endpoint_consistent.csv} and \nolinkurl{reproduction/data/supplementary_analyses/exactk_paired_statistics.csv}. & Fig.~2 and Table S5\\
+$K$-capped endpoint results & Versioned repository: \nolinkurl{reproduction/data/supplementary_analyses/kcapped_oracle_endpoint_consistent.csv}. & Fig.~3 and Table S9\\
+Random-order and candidate-subsampling analyses & Versioned repository: \nolinkurl{reproduction/data/supplementary_analyses/random_family_order_*} and \nolinkurl{reproduction/data/supplementary_analyses/candidate_subsampling_endpoint_consistent.csv}. & Tables S6 and S16\\
+Reliability and leakage analyses & Versioned repository: \nolinkurl{reproduction/data/supplementary_analyses/clean_full_reliability.csv} and \nolinkurl{reproduction/data/supplementary_analyses/leakage_ablation.csv}. & Table S14\\
+PB-soft transition analysis & Versioned repository: \nolinkurl{reproduction/data/supplementary_analyses/pbsoft_validity_transitions.csv}, \nolinkurl{reproduction/data/supplementary_analyses/pbsoft_changed_accuracy.csv}, and \nolinkurl{reproduction/data/supplementary_analyses/pbsoft_exact_sign_test.csv}. & Table S11\\
+Interaction-fingerprint audit & Versioned repository: \nolinkurl{reproduction/data/interaction_recovery_*.csv}, \nolinkurl{reproduction/data/supplementary_analyses/hbond_proxy_*.csv}, and \nolinkurl{reproduction/scripts/interaction_fingerprint_audit.py}. & Fig.~8 and Table S17\\
+Figure and table regeneration & Versioned repository: \nolinkurl{reproduction/scripts/}, \nolinkurl{reproduction/tables/}, and \nolinkurl{scripts/reproduce_manuscript_results.py}. & Manuscript figures and supplementary tables\\
+Reproduction-package manifest & Versioned repository: \nolinkurl{reproduction/MANIFEST.csv}. & File names, byte counts, and SHA-256 hashes for the public package\\
+\end{longtable}
+\endgroup

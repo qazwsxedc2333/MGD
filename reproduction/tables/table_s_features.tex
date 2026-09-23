@@ -1,0 +1,95 @@
+\begingroup
+\let\oldtexttt\texttt
+\renewcommand{\texttt}[1]{\nolinkurl{#1}}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.08}
+\setlength\LTleft{0pt}
+\setlength\LTright{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.22\linewidth}>{\raggedright\arraybackslash}p{0.27\linewidth}>{\raggedright\arraybackslash}p{0.23\linewidth}>{\raggedright\arraybackslash}p{0.20\linewidth}@{}}
+\caption{Complete feature dictionary for clean and full risk-model inputs. ``Exact-$K$'' identifies fields entering the prespecified candidate-construction rule directly or through a derived term. Exact archived field names are retained in the first column to connect the scientific definitions to the reproduction tables.\label{tab:s_features}}\\
+\multicolumn{4}{@{}p{0.96\linewidth}@{}}{\footnotesize \textit{Reading key:} C, clean profile; F, full profile; Ref., reference- or training-label-derived information.}\\[3pt]
+\toprule
+Archived field name (block; type) & Source/provenance & Analysis use & Missing handling\\
+\midrule
+\endfirsthead
+\multicolumn{4}{c}{\tablename\ \thetable\ (continued)}\\
+\toprule
+Archived field name (block; type) & Source/provenance & Analysis use & Missing handling\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\texttt{attempted_num}\newline Availability; binary & Precomputed source-execution table & Profiles: C, F; exact-$K$: no; Ref.: no & 0 if not attempted/recorded\\
+\texttt{status_ok_num}\newline Availability; binary & Precomputed parsed-output status table & Profiles: C, F; exact-$K$: yes ($a$); Ref.: no & 0 when unavailable or failed\\
+\texttt{confidence_primary}\newline Confidence; numeric & Generator-reported primary confidence & Profiles: C, F; exact-$K$: yes ($z_{\rm conf}$); Ref.: no & Training-fold median in risk head; 0 after robust standardization if missing in budget score\\
+\texttt{confidence_secondary}\newline Confidence; numeric & Optional generator-reported secondary confidence & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median; all-missing column set to 0\\
+\texttt{pb_valid_all_num}\newline Validity; binary & Precomputed PoseBusters candidate result & Profiles: C, F; exact-$K$: yes ($v_{\rm PB}$); Ref.: no & 0 for explicit PB-soft/budget term; fold-local median in risk head\\
+\texttt{median_centroid_distance}\newline Geometry; numeric & Generated-pose geometry summary & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median; all-missing column set to 0\\
+\texttt{max_volume_overlap_protein}\newline Geometry; numeric & Generated-pose/protein overlap summary & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median; all-missing column set to 0\\
+\texttt{median_volume_overlap_protein}\newline Geometry; numeric & Generated-pose/protein overlap summary & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median; all-missing column set to 0\\
+\texttt{max_pairwise_clashes_protein}\newline Geometry; numeric & Generated-pose/protein clash summary & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median; all-missing column set to 0\\
+\texttt{median_pairwise_clashes_protein}\newline Geometry; numeric & Generated-pose/protein clash summary & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median; all-missing column set to 0\\
+\texttt{min_smallest_distance_protein}\newline Geometry; numeric & Minimum ligand--protein distance summary & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median; all-missing column set to 0\\
+\texttt{max_energy_ratio}\newline Geometry; numeric & Precomputed candidate plausibility summary & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median; all-missing column set to 0\\
+\texttt{max_number_clashes}\newline Geometry; numeric & Precomputed candidate clash summary & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median; all-missing column set to 0\\
+\texttt{sum_number_clashes}\newline Geometry; numeric & Precomputed candidate clash summary & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median; all-missing column set to 0\\
+\texttt{stereochemistry_preserved_all_num}\newline Stereo; binary & Generated-pose stereochemistry audit & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median\\
+\texttt{stereo_inverted_any_num}\newline Stereo; binary & Generated-pose stereochemistry audit & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median\\
+\texttt{ligand_heavy_atoms}\newline Ligand; integer & Ligand structure descriptor & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median\\
+\texttt{ligand_chiral_centers}\newline Ligand; integer & Ligand structure descriptor & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median\\
+\texttt{pb_tetrahedral_chirality_num}\newline PB check; binary & Precomputed PoseBusters check & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median\\
+\texttt{pb_bond_lengths_num}\newline PB check; binary & Precomputed PoseBusters check & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median\\
+\texttt{pb_bond_angles_num}\newline PB check; binary & Precomputed PoseBusters check & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median\\
+\texttt{pb_internal_steric_clash_num}\newline PB check; binary & Precomputed PoseBusters check & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median\\
+\texttt{pb_volume_overlap_with_protein_num}\newline PB check; binary & Precomputed PoseBusters check & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median\\
+\texttt{pb_stereochemistry_preserved_num}\newline PB check; binary & Precomputed PoseBusters check & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median\\
+\texttt{case_candidate_count}\newline Availability; integer & Per-query precomputed candidate table & Profiles: C, F; exact-$K$: no; Ref.: no & 0 for an empty query pool\\
+\texttt{case_ok_count}\newline Availability; integer & Per-query parsed-output table & Profiles: C, F; exact-$K$: no; Ref.: no & 0 when no parsed candidate\\
+\texttt{case_public_count}\newline Availability; integer & Per-query public-source table & Profiles: C, F; exact-$K$: no; Ref.: no & 0 when no public candidate\\
+\texttt{case_mean_confidence}\newline Case summary; numeric & Mean over available candidate confidences & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median\\
+\texttt{case_std_confidence}\newline Case summary; numeric & SD over available candidate confidences & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median; singleton SD set in the precomputed table\\
+\texttt{case_mean_validity}\newline Case summary; numeric & Mean valid-all over available candidates & Profiles: C, F; exact-$K$: no; Ref.: no & Training-fold median\\
+\texttt{method_prior_train}\newline Source prior; numeric & Mean 2-\AA{} success for source in allowed training folds, with group/global fallbacks & Profiles: C, F; exact-$K$: yes ($\pi_g$); Ref.: training labels only & Training-fold estimate; documented fallback\\
+\texttt{method}\newline Source label; categorical & Precomputed candidate-source label & Profiles: C, F; exact-$K$: no; Ref.: no & Explicit \texttt{missing} level\\
+\texttt{method_family}\newline Source label; categorical & Curated source-family mapping & Profiles: C, F; exact-$K$: no; Ref.: no & Explicit \texttt{missing} level\\
+\texttt{source_pool}\newline Source label; categorical & Precomputed public/local source-pool label & Profiles: C, F; exact-$K$: no; Ref.: no & Explicit \texttt{missing} level\\
+\texttt{generator_group}\newline Source label; categorical & Prespecified grouping used for within-/cross-family construction & Profiles: C, F; exact-$K$: grouping; Ref.: no & Explicit \texttt{missing} level\\
+\end{longtable}
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.22\linewidth}>{\raggedright\arraybackslash}p{0.27\linewidth}>{\raggedright\arraybackslash}p{0.23\linewidth}>{\raggedright\arraybackslash}p{0.20\linewidth}@{}}
+\caption{Excluded reference/mapping fields and derived exact-$K$ construction quantities.\label{tab:s_feature_blocks}}\\
+\multicolumn{4}{@{}p{0.96\linewidth}@{}}{\footnotesize \textit{Reading key:} C, clean profile; F, full profile; Ref., reference- or training-label-derived information.}\\[3pt]
+\toprule
+Field (block; type) & Source/provenance & Analysis use & Missing handling\\
+\midrule
+\endfirsthead
+\multicolumn{4}{c}{\tablename\ \thetable\ (continued)}\\
+\toprule
+Field (block; type) & Source/provenance & Analysis use & Missing handling\\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{Continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\texttt{max_train_ligand_tanimoto}\newline A: similarity; numeric & Maximum ligand similarity to allowed training structures & Profiles: F only; exact-$K$: no; Ref.: yes & Training-fold median\\
+\texttt{train_scaffold_exact_match_num}\newline A: similarity; binary & Exact scaffold match in allowed training structures & Profiles: F only; exact-$K$: no; Ref.: yes & Training-fold median\\
+\texttt{train_pdb_id_overlap_num}\newline A: similarity; binary & PDB-identifier overlap with allowed training structures & Profiles: F only; exact-$K$: no; Ref.: yes & Training-fold median\\
+\texttt{protein_drift_a}\newline B: mapping; numeric & Precomputed protein-structure mapping/drift table & Profiles: F only; exact-$K$: no; Ref.: yes & Training-fold median\\
+\texttt{pocket_drift_a}\newline B: mapping; numeric & Precomputed pocket mapping/drift table & Profiles: F only; exact-$K$: no; Ref.: yes & Training-fold median\\
+\texttt{heavy_atom_count_match_num}\newline B: mapping; binary & Precomputed ligand atom-mapping diagnostic & Profiles: F only; exact-$K$: no; Ref.: yes & Training-fold median\\
+\texttt{mapping_reliable_le5_num}\newline B: mapping; binary & Mapping reliability flag at the prespecified threshold & Profiles: F only; exact-$K$: no; Ref.: yes & Training-fold median\\
+\texttt{mapping_cost}\newline B: mapping; numeric & Precomputed structure-mapping cost & Profiles: F only; exact-$K$: no; Ref.: yes & Training-fold median\\
+\texttt{similarity_risk}\newline C: summary; categorical & Precomputed categorical summary of similarity/mapping risk & Profiles: F only; exact-$K$: no; Ref.: yes & Explicit \texttt{missing} level\\
+$z_{\rm conf}$\newline Exact-$K$ derived; numeric & Robust within-method transform of \texttt{confidence_primary}, clipped to $[-3,3]$ & Profiles: --; exact-$K$: yes; Ref.: no & 0 when unavailable/nonfinite\\
+$\pi_g$\newline Exact-$K$ derived; numeric & \texttt{method_prior_train} for source $g$ & Profiles: --; exact-$K$: yes; Ref.: training labels only & Group/global training fallback\\
+$v_{\rm PB}$\newline Exact-$K$ derived; binary & \texttt{pb_valid_all_num} & Profiles: --; exact-$K$: yes; Ref.: no & 0 when unavailable\\
+$a$\newline Exact-$K$ derived; binary & \texttt{status_ok_num} & Profiles: --; exact-$K$: yes; Ref.: no & 0 when unavailable/failed\\
+$b(q,c)$\newline Exact-$K$ derived; numeric & $2\pi_g+0.10z_{\rm conf}+0.10v_{\rm PB}+0.05a$ & Profiles: --; exact-$K$: yes; Ref.: no held-out label & Deterministic from preceding terms\\
+\end{longtable}
+\endgroup

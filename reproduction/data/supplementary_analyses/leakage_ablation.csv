@@ -1,0 +1,5 @@
+profile,n_candidates,auroc,brier,ece_10bin,removed_numeric_fields,removed_categorical_fields,held_out_protocol
+Full evidence,20171,0.9678843956115246,0.06303533656218119,0.023477693266897137,,,"leave-one-dataset-out over Astex Diverse, DockGen, and PoseBusters Benchmark"
+Full - similarity block A,20171,0.9690510787379667,0.0618376916409135,0.022032486916740035,max_train_ligand_tanimoto; train_pdb_id_overlap_num; train_scaffold_exact_match_num,,"leave-one-dataset-out over Astex Diverse, DockGen, and PoseBusters Benchmark"
+Full - mapping/drift block B,20171,0.9678969214524067,0.06320953167806045,0.023301277523872396,heavy_atom_count_match_num; mapping_cost; mapping_reliable_le5_num; pocket_drift_a; protein_drift_a,,"leave-one-dataset-out over Astex Diverse, DockGen, and PoseBusters Benchmark"
+Clean feature (A+B+C removed),20171,0.9691848928512059,0.06231968254129512,0.02340615958310983,heavy_atom_count_match_num; mapping_cost; mapping_reliable_le5_num; max_train_ligand_tanimoto; pocket_drift_a; protein_drift_a; train_pdb_id_overlap_num; train_scaffold_exact_match_num,similarity_risk,"leave-one-dataset-out over Astex Diverse, DockGen, and PoseBusters Benchmark"

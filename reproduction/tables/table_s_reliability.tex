@@ -1,0 +1,55 @@
+\begin{table}[!ht]
+\centering
+\caption{Failure-risk reliability and leakage audits. Panel A is a matched full-versus-clean comparison on 4,727 records. Panel B is a separate leave-one-dataset-out reference-block ablation on 20,171 candidate records; its values must not be compared directly with Panel A as though the denominators and evaluation protocols were identical. Panel C retains the additional stress audits.}
+\label{tab:s_reliability}
+\scriptsize
+\textbf{Panel A. Matched full-evidence versus clean-feature reliability.}
+
+\vspace{2pt}
+\begin{tabular}{lrrrr}
+\toprule
+Profile & $N$ & AUROC & Brier & ECE\\
+\midrule
+Full evidence & 4,727 & 0.9031 & 0.1250 & 0.0550\\
+Clean feature & 4,727 & 0.8749 & 0.1424 & 0.0504\\
+\bottomrule
+\end{tabular}
+
+\vspace{6pt}
+\textbf{Panel B. Reference/mapping-block leakage ablation.}
+
+\vspace{2pt}
+\begin{tabular}{lrrrr}
+\toprule
+Profile & Candidate $N$ & AUROC & Brier & ECE\\
+\midrule
+Full evidence & 20,171 & 0.9679 & 0.0630 & 0.0235\\
+Full minus similarity block A & 20,171 & 0.9691 & 0.0618 & 0.0220\\
+Full minus mapping/drift block B & 20,171 & 0.9679 & 0.0632 & 0.0233\\
+Clean feature (A--C removed) & 20,171 & 0.9692 & 0.0623 & 0.0234\\
+\bottomrule
+\end{tabular}
+
+\vspace{6pt}
+\textbf{Panel C. Additional stress audits.}
+
+\vspace{2pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrr}
+\toprule
+Audit & Split & $N$ & Failure rate & AUROC & AUPRC & Brier & ECE\\
+\midrule
+Shuffled-similarity control & Grouped internal benchmark & 4,727 & 0.3755 & 0.8673 & -- & -- & --\\
+Method-held-out rank stream & Held-out method stream & -- & -- & 0.6427 & 0.4955 & 0.2444 & 0.1450\\
+Method-held-out detector & Held-out method stream & -- & -- & 0.9428 & 0.9025 & 0.1047 & 0.0802\\
+Temporal 2024 holdout & Chronological holdout & 752 & 0.4681 & 0.9123 & -- & -- & --\\
+Low-similarity holdout & Similarity stress & 528 & 0.8617 & 0.8325 & 0.9638 & 0.0980 & --\\
+Ligand--protein OOD holdout & Joint OOD stress & 495 & 0.8687 & 0.8503 & 0.9709 & 0.0923 & --\\
+\bottomrule
+\end{tabular}%
+}
+
+\vspace{2pt}
+\raggedright\footnotesize
+Blocks A--C are defined in Supplementary Methods. Neither block construction nor the ablation uses held-out RMSD or held-out near-native labels as input features.
+\end{table}

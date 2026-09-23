@@ -1,0 +1,21 @@
+\begin{table}[!ht]
+\centering
+\caption{Chronological temporal regime audit with planned-case denominators, parsed DiffDock outputs, and endpoint-consistent pose-oracle bounds. This cohort contains DiffDock s10/t20 outputs only and is not a heterogeneous-generator temporal audit. DiffDock was the only source family with a complete, identically parameterized candidate set across both planned blocks; no protocol-matched full-cohort candidate set for another family was available.}
+\label{tab:s_temporal}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+Temporal block & Planned & Parsed & Failed & Top-1 & Oracle & Top-1 rate & Oracle rate \\
+\midrule
+Block A & 144 & 144 & 0 & 44 & 50 & 30.6 & 34.7 \\
+Block B & 148 & 148 & 0 & 36 & 47 & 24.3 & 31.8 \\
+Combined & 292 & 292 & 0 & 80 & 97 & 27.4 & 33.2 \\
+\bottomrule
+\end{tabular}%
+}
+
+\vspace{2pt}
+\raggedright\footnotesize
+The combined denominator is 292 planned cases, all 292 parsed and none failed. The oracle is restricted to the available DiffDock temporal candidate pool.
+\end{table}

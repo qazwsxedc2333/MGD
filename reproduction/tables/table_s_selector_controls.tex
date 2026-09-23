@@ -1,0 +1,16 @@
+\begin{table}[!ht]
+\centering
+\caption{Full-denominator source-family orientation controls. These controls use a different analysis dataset from the validation-fixed PB-soft analysis in Table~S10/Fig.~4 and are not numerically comparable as the same selector protocol.}
+\label{tab:s_selector_controls}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Selector/control & $N$ & Parsed & Success & Median RMSD \\
+\midrule
+DiffDock-L top pose & 702 & 692 & 38.2\% & 3.45 \\
+Chai-1 top pose & 702 & 635 & 38.2\% & 2.87 \\
+Generator-prior-only control & 702 & 701 & 35.6\% & 3.96 \\
+HGB + validity-aware selection & 702 & 701 & 45.3\% & 2.63 \\
+\bottomrule
+\end{tabular}
+\end{table}

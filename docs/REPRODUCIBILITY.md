@@ -21,6 +21,11 @@ Expected outputs:
 - `outputs/reproduced/key_metrics.csv`
 - `outputs/reproduced/reproduction_summary.md`
 
+The manuscript-specific compact evidence package is available under
+`reproduction/`. See `reproduction/README.md` for the figure/table mapping,
+regeneration commands, and the boundary between shared derived results and the
+larger upstream model-output pools.
+
 ## What The Checks Cover
 
 - Unit tests for the reference-neighborhood similarity utility.

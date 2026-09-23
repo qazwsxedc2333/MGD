@@ -1,0 +1,18 @@
+\begin{table}[!ht]
+\centering
+\caption{Protein--ligand interaction-fingerprint recovery for selector-changed cases. Positive values indicate that the selected pose has higher native-like interaction recovery than the official top pose.}
+\label{tab:s_interaction_recovery}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+Case class & $N$ & $\Delta$ all-F1 & Median $\Delta$ all-F1 & $\Delta$ contact-F1 & $\Delta$ H-bond proxy F1 & $\Delta$ hydrophobic proxy F1 & Improved all-F1 \\
+\midrule
+Harmed & 1 & -0.184 & -0.184 & -0.182 & -0.571 & -0.152 & 0.0\% \\
+Rescued & 11 & 0.023 & 0.022 & 0.004 & 0.114 & 0.045 & 72.7\% \\
+Changed, neutral/unchanged & 53 & -0.019 & -0.004 & -0.004 & -0.018 & -0.033 & 45.3\% \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

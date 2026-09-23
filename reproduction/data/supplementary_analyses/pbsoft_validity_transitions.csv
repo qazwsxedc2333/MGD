@@ -1,0 +1,5 @@
+transition,n,fraction_of_702
+valid -> valid,199,0.28347578347578345
+valid -> invalid,0,0.0
+invalid -> valid,78,0.1111111111111111
+invalid -> invalid,425,0.6054131054131054

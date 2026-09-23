@@ -1,0 +1,27 @@
+\begin{table}[!ht]
+\centering
+\caption{Generator-group composition and full-denominator single-source orientation.}
+\label{tab:s_single_generator_orientation}
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lp{0.34\linewidth}rrp{0.21\linewidth}rrr}
+\toprule
+Source family & Included prespecified source rows/configurations & Configs & Records & Representative row & Parsed coverage & Top success & Family oracle \\
+\midrule
+Boltz-family & Boltz-1 full receptor r1/s20; Boltz-2 full receptor r1/s20; public Boltz full/SS, relaxed/unrelaxed, reps 1--3 where available & 14 & 6,218 & public Boltz-SS unrelaxed rep1 & 58.3\% & 31.9\% & 39.7\% \\
+Chai-family & Chai-1 full receptor s5/t200; public Chai relaxed/unrelaxed, reps 1--3 & 7 & 3,522 & Chai-1 full receptor s5/t200 & 90.5\% & 38.2\% & 44.4\% \\
+DiffDock-family & DiffDock-L default s10/t20; public DiffDock relaxed/unrelaxed, reps 1--3 & 7 & 3,190 & DiffDock-L default s10/t20 & 98.6\% & 38.2\% & 43.0\% \\
+Vina/Meeko & Vina/Meeko full; public Vina relaxed/unrelaxed, reps 1--3 & 7 & 2,048 & Vina/Meeko full & 98.7\% & 2.0\% & 4.6\% \\
+Protenix & Protenix base full receptor c1/s20/n1 & 1 & 702 & Protenix base full receptor c1/s20/n1 & 96.6\% & 0.0\% & 0.0\% \\
+NeuralPlexer & public NeuralPlexer relaxed/unrelaxed, reps 1--3 & 6 & 2,858 & public NeuralPlexer unrelaxed rep2 & 67.8\% & 12.5\% & 18.4\% \\
+DynamicBind & public DynamicBind relaxed/unrelaxed, rep -1 & 2 & 927 & public DynamicBind unrelaxed rep-1 & 66.0\% & 12.3\% & 13.0\% \\
+RFAA & public RFAA relaxed/unrelaxed, rep 1 & 2 & 706 & public RFAA unrelaxed rep1 & 50.3\% & 13.5\% & 14.7\% \\
+\bottomrule
+\end{tabular}
+}
+
+\vspace{2pt}
+\raggedright\footnotesize
+This table is provided only to orient the full 702-case denominator and to define the prespecified source families used by the exact-$K$ and $K$-capped analyses. The representative row is the strongest top-candidate row for that source family in the precomputed table; it is not used as an inferential comparator for the exact-$K$ matched analysis. Parsed coverage, top success, and family-oracle success are computed on the planned 702-case denominator. Family oracle indicates whether any parsed candidate from the same source family is near-native.
+\end{table}
